@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>おむつ単価くらべ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<meta name="theme-color" content="#BFE8D6">
+<meta name="apple-mobile-web-app-title" content="おむつ単価">
+<meta name="description" content="パンパース・メリーズ・ムーニー・グーン・マミーポコなどの紙おむつを楽天市場・Yahoo!ショッピング・Amazonから集め、送料込みの1枚あたり単価で毎日比較。店頭で使える単価計算機つき。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/* Layout: 1カラム。上に条件パネル（タイプ・サイズ）、店頭計算機（折りたたみ）、ブランド別ランキング */
+:root{
+  --bg:#EEF8F3; --surface:#FFFFFF; --ink:#16362B; --muted:#5A7469; --line:#D2E8DE;
+  --accent:#1F8A63; --accent-soft:#DDF3E9; --gold:#F2C14E; --gold-ink:#5A4300;
+  --silver:#C9D3D8; --bronze:#E2A77A; --warn:#9A5B00; --warn-soft:#FFF1D9; --btn-ink:#FFFFFF;
+  --f-display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Noto Sans JP",sans-serif;
+  --f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D1A15; --surface:#14261F; --ink:#E3F2EB; --muted:#93B0A3; --line:#24392F;
+  --accent:#6FD3A8; --accent-soft:#163428; --gold:#E7B93F; --gold-ink:#2B2000;
+  --silver:#6F8188; --bronze:#A8714A; --warn:#F2B866; --warn-soft:#3A2C14; --btn-ink:#0D1A15; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1A15; --surface:#14261F; --ink:#E3F2EB; --muted:#93B0A3; --line:#24392F;
+  --accent:#6FD3A8; --accent-soft:#163428; --gold:#E7B93F; --gold-ink:#2B2000;
+  --silver:#6F8188; --bronze:#A8714A; --warn:#F2B866; --warn-soft:#3A2C14; --btn-ink:#0D1A15; color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6}
+img{max-width:100%}
+[hidden]{display:none!important}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:16px}
+.pr{font-size:10px;color:var(--muted);letter-spacing:.02em}
+header{display:flex;flex-direction:column;gap:4px}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(28px,7vw,40px);line-height:1.2;margin:0;text-wrap:balance}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:0}
+.updated{font-size:13px;font-weight:700;color:var(--accent)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.label{font-size:12px;letter-spacing:.06em;color:var(--muted);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer;line-height:1.3}
+.chip small{display:block;font-size:10px;font-weight:500;opacity:.8}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--btn-ink);font-weight:700}
+.chip:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.daily{font-size:13px;color:var(--muted)}
+.list{display:flex;flex-direction:column;gap:12px;margin:0;padding:0;list-style:none}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.card.r1{border-color:var(--gold)}
+.top{display:grid;grid-template-columns:40px 64px 1fr auto;gap:12px;align-items:center}
+.rank{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:900;font-size:18px;background:var(--bg);color:var(--muted)}
+.r1 .rank{background:var(--gold);color:var(--gold-ink)}
+.r2 .rank{background:var(--silver);color:var(--ink)}
+.r3 .rank{background:var(--bronze);color:var(--ink)}
+.thumb{width:64px;height:64px;border-radius:10px;background:var(--bg);object-fit:contain;border:1px solid var(--line)}
+.info{min-width:0;display:flex;flex-direction:column;gap:2px}
+.brand{font-size:12px;color:var(--muted);font-weight:700}
+.name{font-weight:700;line-height:1.4}
+.badges{display:flex;flex-wrap:wrap;gap:4px}
+.badge{font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;background:var(--accent-soft);color:var(--accent)}
+.badge.ship{background:var(--warn-soft);color:var(--warn)}
+.price{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.unit{font-family:var(--f-display);font-weight:900;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.unit small{font-size:12px;font-weight:700;color:var(--muted);margin-left:2px}
+.month{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.best{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;border-top:1px dashed var(--line);padding-top:10px}
+.shopline{min-width:0;font-size:13px;color:var(--muted)}
+.shopline b{color:var(--ink)}
+.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:14px;background:var(--accent);color:var(--btn-ink);border-radius:10px;padding:8px 14px;white-space:nowrap;border:0;font-family:inherit;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--line)}
+details{font-size:13px}
+summary{cursor:pointer;color:var(--accent);font-weight:700}
+.others{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.others li{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:baseline;padding:6px 0;border-bottom:1px solid var(--line)}
+.others a{color:var(--ink);text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.others a:hover{text-decoration:underline}
+.others .v{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+.summary{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font-size:14px}
+.summary b{font-family:var(--f-display);font-size:20px;color:var(--accent);font-variant-numeric:tabular-nums}
+.msg{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center;color:var(--muted)}
+/* 店頭計算機 */
+.calc > summary{font-family:var(--f-display);font-size:17px;font-weight:900;color:var(--ink);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.calc > summary::-webkit-details-marker{display:none}
+.calc > summary::after{content:"開く";font-family:var(--f-body);font-size:12px;color:var(--accent);font-weight:700}
+.calc[open] > summary::after{content:"閉じる"}
+.calc-body{display:flex;flex-direction:column;gap:10px;margin-top:10px;font-size:14px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:grid;grid-template-columns:22px 1fr 1fr 0.7fr 86px;gap:6px;align-items:center;padding:8px;border-radius:10px;border:1px solid var(--line);background:var(--bg)}
+.row.win{border-color:var(--accent);background:var(--accent-soft)}
+.row .no{font-family:var(--f-display);font-weight:900;color:var(--muted);text-align:center}
+.row label{display:flex;flex-direction:column;font-size:10px;color:var(--muted);font-weight:700;gap:2px;min-width:0}
+.row input{font:inherit;font-size:16px;width:100%;min-width:0;padding:5px 7px;border-radius:7px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.row .res{text-align:right;font-variant-numeric:tabular-nums;line-height:1.25}
+.row .res b{font-family:var(--f-display);font-size:18px}
+.row .res span{display:block;font-size:10px;color:var(--muted)}
+.calc-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.verdict{font-weight:700}
+footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:14px}
+@media (max-width:480px){
+  .top{grid-template-columns:34px 52px 1fr}
+  .rank{width:34px;height:34px;font-size:16px}
+  .thumb{width:52px;height:52px}
+  .price{grid-column:1 / -1;flex-direction:row;align-items:baseline;justify-content:flex-end;gap:10px}
+  .row{grid-template-columns:18px 1fr 1fr 0.8fr;row-gap:4px}
+  .row .res{grid-column:2 / -1}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="pr">（当ページのリンクには広告が含まれています）</div>
+  <header>
+    <h1>おむつ<span>単価</span>くらべ</h1>
+    <p class="sub"><span id="sources">楽天市場</span>から集めて、送料込みの「1枚あたり」で毎日比較</p>
+    <div class="updated" id="updated">価格データを読み込み中…</div>
+  </header>
+
+  <section class="panel" aria-label="絞り込み">
+    <div class="label">タイプ</div>
+    <div class="chips" id="types"></div>
+    <div class="label">サイズ（体重はおおよその目安）</div>
+    <div class="chips" id="sizes"></div>
+    <div class="daily" id="daily"></div>
+  </section>
+
+  <details class="panel calc" id="calc">
+    <summary>店頭でくらべる 単価計算機</summary>
+    <div class="calc-body">
+      <div class="daily">値札の金額と枚数を入れると、1枚あたりを計算します。ポイント還元があれば％も入れてください。</div>
+      <div class="rows" id="rows"></div>
+      <div class="calc-actions">
+        <button class="btn ghost" type="button" id="addrow">＋ 商品を追加</button>
+        <div class="verdict" id="verdict"></div>
+      </div>
+      <div class="daily" id="netref"></div>
+    </div>
+  </details>
+
+  <div class="summary" id="summary"></div>
+  <ol class="list" id="list"></ol>
+  <div class="msg" id="msg" hidden></div>
+
+  <footer>
+    <div>Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</div>
+    <div>表示価格は上記の更新日時時点の各モールの価格で、変わる可能性があります。最新の価格・在庫は各ショップのページでご確認ください。</div>
+    <div>1枚あたり単価 ＝ 送料込み価格 ÷ 枚数。「ポイント込み」は表示ポイント倍率ぶんを差し引いた実質の目安です。</div>
+    <div>「送料目安込み」は送料別の商品に目安として<span id="shipest">800</span>円を足した価格です。実際の送料はお住まいの地域やショップにより異なります。</div>
+    <div>1ヶ月のおむつ代は、サイズごとの1日の使用枚数の目安 × 30日で計算した参考値です。体重の目安はブランドによって少し異なります。</div>
+  </footer>
+</div>
+
+<script>
+const TYPES = ["テープ","パンツ"];
+const SIZES = {
+  "テープ": ["新生児","S","M","L"],
+  "パンツ": ["M","L","ビッグ","ビッグより大きい"],
+};
+const SIZE_INFO = {   // 体重の目安と1日の使用枚数の目安
+  "新生児":{kg:"〜5kg",day:12}, "S":{kg:"4〜8kg",day:10}, "M":{kg:"6〜12kg",day:8},
+  "L":{kg:"9〜14kg",day:6}, "ビッグ":{kg:"12〜22kg",day:5}, "ビッグより大きい":{kg:"15kg〜",day:5},
+};
+let DATA = null, type = "テープ", size = "M";
+try{ type = localStorage.getItem("omutsu-type") || type; size = localStorage.getItem("omutsu-size") || size }catch(e){}
+if (!TYPES.includes(type)) type = "テープ";
+if (!SIZES[type].includes(size)) size = "M";
+
+const yen = n => Math.round(n).toLocaleString("ja-JP");
+const per = n => n.toFixed(1);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const perDay = () => SIZE_INFO[size].day;
+const monthCost = p => p * perDay() * 30;
+const label = p => p.name.includes(p.brand) ? p.name : `${p.brand} ${p.name}`;
+const save = (k,v) => { try{ localStorage.setItem(k,v) }catch(e){} };
+
+function chipRow(id, items, current, label, onPick){
+  const box = document.getElementById(id); box.innerHTML = "";
+  items.forEach(v=>{
+    const b = document.createElement("button");
+    b.className="chip"; b.type="button";
+    b.innerHTML = label(v);
+    b.setAttribute("aria-pressed", v===current);
+    b.onclick=()=>onPick(v);
+    box.appendChild(b);
+  });
+}
+
+function badges(o){
+  let h = o.postage_separate ? `<span class="badge ship">送料目安込み</span>` : `<span class="badge">送料込み</span>`;
+  if (o.point_rate > 1) h += `<span class="badge">ポイント${o.point_rate}倍・実質${per(o.per_sheet_after_points)}円</span>`;
+  return h;
+}
+
+function currentRows(){
+  if (!DATA) return [];
+  return DATA.products
+    .filter(p => p.offers && p.offers.length && p.type===type && p.size===size)
+    .sort((a,b) => a.offers[0].per_sheet - b.offers[0].per_sheet);
+}
+
+function render(){
+  chipRow("types", TYPES, type, v=>esc(v), v=>{
+    type=v; save("omutsu-type",v);
+    if (!SIZES[type].includes(size)) { size = "M"; save("omutsu-size",size); }
+    render();
+  });
+  chipRow("sizes", SIZES[type], size, v=>`${esc(v)}<small>${SIZE_INFO[v].kg}</small>`, v=>{ size=v; save("omutsu-size",v); render(); });
+  document.getElementById("daily").textContent = `1ヶ月のおむつ代は 1日約${perDay()}枚 × 30日 で計算`;
+
+  const list = document.getElementById("list"); list.innerHTML = "";
+  const rows = currentRows();
+  rows.forEach((p,i)=>{
+    const o = p.offers[0];
+    const li = document.createElement("li");
+    li.className = "card" + (i<3 ? " r"+(i+1) : "");
+    const others = p.offers.slice(1).map(x => `
+      <li><a href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.shop)}<span class="daily">（${esc(x.mall)}）</span><br><span class="daily">¥${yen(x.total)}・${x.sheets}枚${x.postage_separate?"（送料目安込み）":""}</span></a>
+      <span class="v">${per(x.per_sheet)}円</span></li>`).join("");
+    li.innerHTML = `
+      <div class="top">
+        <div class="rank" aria-label="${i+1}位">${i+1}</div>
+        ${o.image ? `<img class="thumb" src="${esc(o.image)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="thumb"></div>`}
+        <div class="info">
+          <div class="brand">${esc(p.maker)}・${esc(p.type)} ${esc(p.size)}</div>
+          <div class="name">${esc(label(p))}</div>
+          <div class="badges">${badges(o)}</div>
+        </div>
+        <div class="price">
+          <div class="unit">${per(o.per_sheet)}<small>円/枚</small></div>
+          <div class="month">1ヶ月 約¥${yen(monthCost(o.per_sheet))}</div>
+        </div>
+      </div>
+      <div class="best">
+        <div class="shopline">最安ショップ <b>${esc(o.shop)}</b>（${esc(o.mall)}）<br>¥${yen(o.total)}・${o.sheets}枚</div>
+        <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener sponsored">${esc(o.mall)}で見る</a>
+      </div>
+      ${others ? `<details><summary>ほかのショップ（${p.offers.length-1}件）</summary><ul class="others">${others}</ul></details>` : ""}`;
+    list.appendChild(li);
+  });
+
+  const s = document.getElementById("summary");
+  s.innerHTML = rows.length
+    ? `${esc(type)} ${esc(size)}でいちばんお得なのは<strong>${esc(label(rows[0]))}</strong><span>1ヶ月 約<b>¥${yen(monthCost(rows[0].offers[0].per_sheet))}</b></span>`
+    : "";
+  const msg = document.getElementById("msg");
+  msg.hidden = rows.length > 0 || !DATA;
+  msg.textContent = "この条件の価格はまだ集まっていません。";
+  calc();
+}
+
+/* ---------- 店頭計算機 ---------- */
+let calcCount = 2;
+function addRow(){
+  const n = document.querySelectorAll(".row").length + 1;
+  const d = document.createElement("div");
+  d.className = "row";
+  d.innerHTML = `<div class="no">${String.fromCharCode(64+n)}</div>
+    <label>価格（円）<input type="number" inputmode="numeric" min="0" class="p" placeholder="1980"></label>
+    <label>枚数<input type="number" inputmode="numeric" min="0" class="q" placeholder="58"></label>
+    <label>還元％<input type="number" inputmode="decimal" min="0" class="pt" placeholder="0"></label>
+    <div class="res"></div>`;
+  d.querySelectorAll("input").forEach(x => x.addEventListener("input", calc));
+  document.getElementById("rows").appendChild(d);
+}
+function calc(){
+  const rows = [...document.querySelectorAll(".row")];
+  const vals = rows.map(r=>{
+    const p = +r.querySelector(".p").value, q = +r.querySelector(".q").value, pt = +r.querySelector(".pt").value || 0;
+    return p>0 && q>0 ? p*(1-pt/100)/q : null;
+  });
+  const ok = vals.filter(v=>v!==null);
+  const min = ok.length ? Math.min(...ok) : null;
+  rows.forEach((r,i)=>{
+    const v = vals[i], res = r.querySelector(".res");
+    r.classList.toggle("win", ok.length>1 && v===min);
+    res.innerHTML = v===null ? `<span>1枚あたり</span>—` : `<span>1枚あたり</span><b>${v.toFixed(2)}</b>円`;
+  });
+  const verdict = document.getElementById("verdict");
+  if (ok.length > 1){
+    const i = vals.indexOf(min), max = Math.max(...ok);
+    verdict.textContent = `${String.fromCharCode(65+i)}がお得（1枚 ${(max-min).toFixed(2)}円差・1ヶ月で約${yen((max-min)*perDay()*30)}円）`;
+  } else verdict.textContent = "";
+  const best = currentRows()[0];
+  document.getElementById("netref").textContent = best
+    ? `参考：いまの通販最安（${type} ${size}）は ${label(best)} の 1枚 ${per(best.offers[0].per_sheet)}円`
+    : "";
+}
+document.getElementById("addrow").onclick = ()=>{ if (document.querySelectorAll(".row").length < 6){ addRow(); calc(); } };
+for (let i=0;i<calcCount;i++) addRow();
+
+function fmtUpdated(iso){
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return `${d.getMonth()+1}月${d.getDate()}日 ${d.getHours()}:${String(d.getMinutes()).padStart(2,"0")} 更新`;
+}
+
+fetch("data.json", {cache:"no-cache"})
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    DATA = d;
+    document.getElementById("updated").textContent = d.updated ? fmtUpdated(d.updated) : "価格データはまだありません（初回の自動取得待ち）";
+    if (d.shipping_estimate) document.getElementById("shipest").textContent = d.shipping_estimate;
+    if (d.sources && d.sources.length) document.getElementById("sources").textContent = d.sources.join("・");
+    render();
+  })
+  .catch(() => {
+    document.getElementById("updated").textContent = "価格データを読み込めませんでした";
+    const msg = document.getElementById("msg");
+    msg.hidden = false;
+    msg.textContent = "時間をおいて再読み込みしてください。下の計算機は使えます。";
+  });
+render();
+</script>
+</body>
+</html>
