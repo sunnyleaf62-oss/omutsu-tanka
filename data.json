@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T06:32+09:00",
+  "updated": "2026-10-18T06:41+09:00",
   "sources": [
     "楽天市場",
     "Yahoo!ショッピング",
@@ -15,21 +15,6 @@
       "type": "テープ",
       "size": "新生児",
       "offers": [
-        {
-          "mall": "楽天",
-          "shop": "サンドラッグe-shop",
-          "item_name": "P＆G パンパース さらさらケアテープ ウルトラジャンボ 新生児（5kgまで） 84枚 【4個セット】",
-          "price": 8580,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8580,
-          "sheets": 336,
-          "per_sheet": 25.54,
-          "point_rate": 1,
-          "per_sheet_after_points": 25.28,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyfo.kqv980d0.g00qvyfo.kqv993fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4987176334978x4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10173970%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202512_2/4987176334978.jpg?_ex=128x128"
-        },
         {
           "mall": "Yahoo!",
           "shop": "サンドラッグe-shop",
@@ -164,22 +149,37 @@
           "per_sheet_after_points": 28.68,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ttkso.kqv98da5.g00ttkso.kqv99851/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbnetshop39%2F4987176203335-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbnetshop39%2Fi%2F10005882%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bnetshop39/cabinet/shouhingazou/shouhingazou2-1/pansarasara_.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ビネットshop",
+          "item_name": "パンパース オムツ さらさらケア (5kgまで) 68枚×4袋【4個セット】ケース販売 送料無料 テープ 新生児サイズ まとめ買い",
+          "price": 7880,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7880,
+          "sheets": 272,
+          "per_sheet": 28.97,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.68,
+          "url": "https://store.shopping.yahoo.co.jp/bnet/4987176203335-4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/bnet_4987176203335-4"
         }
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 8,
+        "除外ワード": 9,
         "サイズ違い・複数": 52,
         "枚数が読めない": 3,
         "条件の言葉なし": 6,
         "安すぎて除外": 0,
-        "使えた件数": 60,
+        "使えた件数": 61,
         "malls": {
-          "楽天": 3,
-          "Yahoo!": 7
+          "Yahoo!": 8,
+          "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ee77996e-53b4-4783-bbe8-6cc8350e38d0]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3b93f9d2-af89-44f3-9cef-c00d9372810b]"
         }
       }
     },
@@ -343,20 +343,20 @@
         }
       ],
       "stats": {
-        "fetched": 140,
+        "fetched": 139,
         "除外ワード": 5,
         "サイズ違い・複数": 10,
         "条件の言葉なし": 40,
-        "タイプ違い": 9,
         "枚数が読めない": 4,
+        "タイプ違い": 8,
         "安すぎて除外": 1,
-        "使えた件数": 39,
+        "使えた件数": 40,
         "malls": {
           "Yahoo!": 9,
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 960b3aaa-1ab7-4b66-8cb9-7d35e8f932c2]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ebf451d0-4b8c-4ee6-9338-11404f25d512]"
         }
       }
     },
@@ -522,18 +522,18 @@
       "stats": {
         "fetched": 190,
         "除外ワード": 2,
-        "サイズ違い・複数": 32,
-        "枚数が読めない": 22,
+        "サイズ違い・複数": 31,
+        "枚数が読めない": 23,
         "条件の言葉なし": 29,
         "タイプ違い": 11,
         "安すぎて除外": 0,
-        "使えた件数": 62,
+        "使えた件数": 61,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5e8efadb-d608-48ec-8ca7-ff62de712841]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 34e7d0d4-7959-4d4e-b7b6-1335158404ff]"
         }
       }
     },
@@ -699,19 +699,19 @@
       "stats": {
         "fetched": 190,
         "除外ワード": 7,
-        "サイズ違い・複数": 29,
+        "サイズ違い・複数": 31,
         "条件の言葉なし": 8,
-        "枚数が読めない": 13,
+        "枚数が読めない": 12,
         "タイプ違い": 7,
         "単価が不自然": 2,
         "安すぎて除外": 1,
-        "使えた件数": 82,
+        "使えた件数": 79,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 23614c6a-58eb-4dfc-8dca-d8e1eeb4b67e]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 1fbfe1ee-2bc9-41a5-8392-5c5375fd2967]"
         }
       }
     },
@@ -877,18 +877,18 @@
       "stats": {
         "fetched": 179,
         "サイズ違い・複数": 10,
-        "除外ワード": 3,
+        "除外ワード": 4,
         "タイプ違い": 1,
-        "枚数が読めない": 4,
+        "枚数が読めない": 3,
         "条件の言葉なし": 5,
         "安すぎて除外": 0,
-        "使えた件数": 70,
+        "使えた件数": 69,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: b766113d-15c0-40af-87dc-6386b5a5902c]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5f724ee1-c50b-4823-8728-592a1d50a1e9]"
         }
       }
     },
@@ -1066,7 +1066,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: b14294fd-0eb0-4319-9345-db82a41eef49]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: d4d976cc-249b-4ac7-974a-60b0469e1de3]"
         }
       }
     },
@@ -1137,21 +1137,6 @@
           "per_sheet_after_points": 45.6,
           "url": "https://store.shopping.yahoo.co.jp/v-drug/0270030-4987176334824x3.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/v-drug_0270030-4987176334824x3"
-        },
-        {
-          "mall": "楽天",
-          "shop": "クスリのアオキ2号店楽天市場店",
-          "item_name": "パンパース　さらさらケアパンツ　メガジャンボ　ビッグ64枚×3個",
-          "price": 8845,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8845,
-          "sheets": 192,
-          "per_sheet": 46.07,
-          "point_rate": 1,
-          "per_sheet_after_points": 45.61,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ufwqo.kqv989ec.g00ufwqo.kqv998b9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkusuriaoki-r-2%2F60000000020516%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkusuriaoki-r-2%2Fi%2F10038007%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kusuriaoki-r-2/cabinet/pic2837/60000000020516_1.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -1227,20 +1212,35 @@
           "per_sheet_after_points": 46.96,
           "url": "https://store.shopping.yahoo.co.jp/tsuruha/10180535.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10180535"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりの福太郎",
+          "item_name": "《セット販売》 P&amp;G パンパース　さらさらケアパンツ　MJ　ビッグ　(64枚)×3個セット オムツ",
+          "price": 9108,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 9108,
+          "sheets": 192,
+          "per_sheet": 47.44,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.96,
+          "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10180535.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kusurinofukutaro_10180535"
         }
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 90,
+        "サイズ違い・複数": 91,
         "除外ワード": 4,
         "安すぎて除外": 0,
-        "使えた件数": 60,
+        "使えた件数": 59,
         "malls": {
-          "楽天": 5,
-          "Yahoo!": 5
+          "楽天": 4,
+          "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 49910d6a-573d-4201-981a-1cc271381bdd]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 086e47b1-8825-4df2-90bf-db3421af584e]"
         }
       }
     },
@@ -1405,19 +1405,19 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 32,
+        "サイズ違い・複数": 33,
         "除外ワード": 5,
         "単価が不自然": 11,
         "枚数が読めない": 2,
         "条件の言葉なし": 3,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 60,
         "malls": {
           "Yahoo!": 5,
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c956dbb5-7d5e-4c94-85a5-d11ccc5a9437]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 326ada08-ed33-4a73-9b78-2df0b53e56e7]"
         }
       }
     },
@@ -1582,20 +1582,20 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 33,
-        "除外ワード": 8,
+        "サイズ違い・複数": 35,
+        "除外ワード": 9,
         "タイプ違い": 3,
         "単価が不自然": 1,
         "枚数が読めない": 2,
         "条件の言葉なし": 3,
         "安すぎて除外": 0,
-        "使えた件数": 81,
+        "使えた件数": 78,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5d6ba776-f016-4484-b840-9743ed5206c8]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a991228c-a498-4f66-9502-71fb5ab86a4a]"
         }
       }
     },
@@ -1761,17 +1761,17 @@
       "stats": {
         "fetched": 183,
         "サイズ違い・複数": 10,
-        "除外ワード": 3,
+        "除外ワード": 2,
         "条件の言葉なし": 12,
         "枚数が読めない": 2,
         "安すぎて除外": 0,
-        "使えた件数": 87,
+        "使えた件数": 86,
         "malls": {
           "Yahoo!": 8,
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5a17142d-eca6-486b-a4ea-cfae12306870]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 8dac1e2c-b9f8-42e7-bcd7-430ae6cc234a]"
         }
       }
     },
@@ -1949,7 +1949,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 73fa893c-1afa-40a7-b292-60696e162e40]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 76d71225-bb93-4d72-8879-f883ca7576ba]"
         }
       }
     },
@@ -2127,7 +2127,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 8cae3000-e632-49e5-b4b6-8a1988d591ef]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 90a43591-25e1-406a-842f-ef571aa4104c]"
         }
       }
     },
@@ -2295,7 +2295,7 @@
         "サイズ違い・複数": 15,
         "除外ワード": 6,
         "タイプ違い": 4,
-        "枚数が読めない": 14,
+        "枚数が読めない": 13,
         "条件の言葉なし": 10,
         "安すぎて除外": 0,
         "使えた件数": 33,
@@ -2304,7 +2304,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: cf289114-7c48-455f-9d75-255fb978fcd5]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 259b14e2-7c08-4f31-ba2c-65e1b7821b19]"
         }
       }
     },
@@ -2481,7 +2481,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 63d86e43-accc-41d1-b7af-deb88f37d817]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 2ccc3a02-51af-44f8-886e-f714877ac2d8]"
         }
       }
     },
@@ -2653,13 +2653,13 @@
         "タイプ違い": 3,
         "条件の言葉なし": 4,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 60,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 9b807578-9ccd-4fc5-8506-45d0381141c7]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 75e279f3-fb7a-4b8e-a765-fdcd847d0a11]"
         }
       }
     },
@@ -2677,7 +2677,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 1602be0a-82e0-4cc8-9461-6f6cf20f3510]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ea94a242-879d-455e-9100-88dfd3268391]"
         }
       }
     },
@@ -2847,13 +2847,13 @@
         "枚数が読めない": 6,
         "除外ワード": 3,
         "安すぎて除外": 1,
-        "使えた件数": 46,
+        "使えた件数": 47,
         "malls": {
           "Yahoo!": 4,
           "楽天": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: e175575d-b6a0-433a-adad-261fd7f1a85d]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 4d852556-d872-4a3a-8e62-d119961b6b1e]"
         }
       }
     },
@@ -3030,7 +3030,7 @@
           "楽天": 7
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 00b9e819-4771-448b-ab6e-fdff97767396]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 7001df89-0193-4324-81a9-016d10ea041a]"
         }
       }
     },
@@ -3205,7 +3205,7 @@
           "楽天": 7
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 711a9bcb-82c5-4721-b8cf-97fcfe1dda6c]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a9c1fdc0-e007-4990-bfa8-ca648d5bc9f3]"
         }
       }
     },
@@ -3224,7 +3224,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: fd68643c-444d-4cae-b263-a666d2e475a6]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 09354981-c786-43df-be98-3d9b888cd078]"
         }
       }
     },
@@ -3278,7 +3278,7 @@
           "per_sheet": 31.72,
           "point_rate": 1,
           "per_sheet_after_points": 31.4,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65wo.kqv98de2.g00u65wo.kqv99e6f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4901301443502-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10010507%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65wo.kqv98de2.g00u65wo.kqv99e6f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4901301422057-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10009902%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3-2/cabinet/11021419/4901301443502-2set.jpg?_ex=128x128"
         },
         {
@@ -3399,7 +3399,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0da273d6-bf5b-4000-a0f5-ab4ced08db8e]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 38e65c23-3b64-4ce7-b2a2-21e385bde392]"
         }
       }
     },
@@ -3575,7 +3575,7 @@
           "Yahoo!": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 93410bb0-0430-4ec8-810c-1aeef0bbbb91]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 6c843330-1271-48e3-b159-89f3b55ff535]"
         }
       }
     },
@@ -3753,7 +3753,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 582debbe-75e5-4e30-8749-a468d951292b]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: d26a8a9f-c4dd-4fb4-8d3f-5d8b06fc0016]"
         }
       }
     },
@@ -3790,7 +3790,7 @@
           "Yahoo!": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0088a000-4258-467f-b527-4a91e953c946]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 2dff3912-8aff-494e-970e-d13901c893bd]"
         }
       }
     },
@@ -3950,7 +3950,7 @@
           "Yahoo!": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 9ef43f5d-d460-4547-9fcf-f739dfb55471]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 22c7e494-957a-4614-bd9e-23e5b509953a]"
         }
       }
     },
@@ -4020,7 +4020,7 @@
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: af27073b-32e1-4524-aa36-ae1ce116f71d]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 46c9c6ab-70de-4796-b094-e51738b1b5a9]"
         }
       }
     },
@@ -4038,7 +4038,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0c6ed69b-3513-43ff-9ffe-0a4cb64d5373]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ec671b6d-ce3e-4680-b923-108dcfea3f58]"
         }
       }
     },
@@ -4212,7 +4212,7 @@
           "楽天": 8
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 66ff1edc-1920-4c1a-93fd-af0f02720f63]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 293726b0-808b-4879-b28c-cbef61a352bb]"
         }
       }
     },
@@ -4230,7 +4230,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3e214080-b7b8-4f8d-9801-b5d07d62d438]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 127ded2b-263e-4aec-9ba5-43c9c2055f24]"
         }
       }
     },
@@ -4405,7 +4405,7 @@
           "Yahoo!": 9
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3eed4cb2-97c1-4fb6-9ce9-1e36f5e44f1d]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 8de644fa-42f2-4c2d-bfa8-a9acdf4540f2]"
         }
       }
     },
@@ -4570,10 +4570,10 @@
       ],
       "stats": {
         "fetched": 190,
-        "単価が不自然": 19,
-        "サイズ違い・複数": 35,
-        "条件の言葉なし": 53,
-        "除外ワード": 3,
+        "単価が不自然": 18,
+        "サイズ違い・複数": 36,
+        "条件の言葉なし": 52,
+        "除外ワード": 4,
         "タイプ違い": 2,
         "枚数が読めない": 4,
         "安すぎて除外": 0,
@@ -4583,7 +4583,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 903f6f8a-0aae-42a6-9435-f27324422707]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: fff42e0b-f9ab-4369-aed6-5a3ada62d3ba]"
         }
       }
     },
@@ -4759,7 +4759,7 @@
           "Yahoo!": 8
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a55150f9-79cf-4500-a9a9-3e8662484e2f]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 56dfe001-8a94-4452-b54c-c63626ddfc50]"
         }
       }
     },
@@ -4888,7 +4888,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 6b03d0d5-01d3-4810-8c05-52f3a6fd85e2]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: d4e114a7-ded2-468b-9cff-063a16662155]"
         }
       }
     },
@@ -4962,21 +4962,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "介護の三ツ矢天狗",
-          "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
-          "price": 1877,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 2677,
-          "sheets": 62,
-          "per_sheet": 43.18,
-          "point_rate": 1,
-          "per_sheet_after_points": 42.87,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rd92o.kqv9810c.g00rd92o.kqv99318/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyuzawakikaku%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyuzawakikaku%2Fi%2F10144834%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yuzawakikaku/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "NO1元気爽快",
           "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
           "price": 1877,
@@ -4989,6 +4974,21 @@
           "per_sheet_after_points": 42.87,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00u7v6o.kqv980b1.g00u7v6o.kqv99370/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgenki-sokai%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgenki-sokai%2Fi%2F10065944%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/genki-sokai/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "介護の三ツ矢天狗",
+          "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
+          "price": 1877,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 2677,
+          "sheets": 62,
+          "per_sheet": 43.18,
+          "point_rate": 1,
+          "per_sheet_after_points": 42.87,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rd92o.kqv9810c.g00rd92o.kqv99318/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyuzawakikaku%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyuzawakikaku%2Fi%2F10144834%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yuzawakikaku/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -5063,7 +5063,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c41ac111-ab83-4cad-9ead-d79f15743182]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c6902ecd-4bc0-462d-b3e0-9b4eb77abe81]"
         }
       }
     },
@@ -5209,7 +5209,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ffb81904-bfbf-4c9e-bff2-87fe643332c1]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 267fd5af-d5e6-461a-81ee-6131457ef72e]"
         }
       }
     },
@@ -5323,7 +5323,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 83bc0fd4-178c-4a70-bbd1-9bfcddb3f5ec]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 4e32ec61-b9f9-471f-a790-ce2268ae41c3]"
         }
       }
     },
@@ -5426,21 +5426,6 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/matinozakka_4902011109955-3"
         },
         {
-          "mall": "楽天",
-          "shop": "SUGAR TIME",
-          "item_name": "グーンプラス 肌快適設計 パンツ Mサイズ 58枚入り グーン グーンプラス おむつ パンツ 紙オムツ むれない もれない 吸収性 保湿 エリエール GOO.N 人気 ランキング おすすめ",
-          "price": 2530,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2530,
-          "sheets": 58,
-          "per_sheet": 43.62,
-          "point_rate": 1,
-          "per_sheet_after_points": 43.18,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00scoyo.kqv98dac.g00scoyo.kqv99cb5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsugartime%2Fkzder-23%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsugartime%2Fi%2F10125890%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sugartime/cabinet/kz/08354595/kzder-23.jpg?_ex=128x128"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "コンプモト ヤフー店",
           "item_name": "大王製紙 グーンプラス やわらかタッチ パンツ Mサイズ(6-12kg) 1パック(52枚) 取り寄せ商品",
@@ -5473,18 +5458,18 @@
       ],
       "stats": {
         "fetched": 85,
-        "サイズ違い・複数": 48,
+        "サイズ違い・複数": 49,
         "条件の言葉なし": 20,
         "単価が不自然": 2,
         "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 9,
+        "使えた件数": 8,
         "malls": {
           "Yahoo!": 7,
-          "楽天": 2
+          "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 619a5b29-0aa8-4a61-8b7a-805421a9626e]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a523046c-dddf-4860-a70b-ba2b4fda3f9a]"
         }
       }
     },
@@ -5660,7 +5645,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 4e5e0a77-3592-4628-b975-b4d198c1b273]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: b1557bb2-93cf-429a-8698-a457a48701b5]"
         }
       }
     },
@@ -5835,7 +5820,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 2d7eaea2-3e8a-4a1f-bb80-b9a1cf7aff35]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5bd5f558-964b-40bc-8e35-bb3b28c56931]"
         }
       }
     },
@@ -5887,7 +5872,7 @@
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: f379a981-dc43-4c56-91f1-b6aa9626c8a8]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: f25dee3e-e304-4449-83ef-4df964dd6139]"
         }
       }
     },
@@ -5904,7 +5889,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3dae84df-a52f-4967-a77c-b48a3005ac1f]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3dbe22b3-b813-4e0a-b622-cf77100eb41a]"
         }
       }
     },
@@ -5922,7 +5907,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 47294a8e-572b-4ebf-8ba6-5e58f032a442]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 7f491a1d-f869-448d-8de4-6ac8b6d6485e]"
         }
       }
     },
@@ -5941,7 +5926,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: de2bed51-b7ba-4c8b-b025-bcaece8a117d]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 70bc517e-4922-4b94-8fbc-68e6c1839f9f]"
         }
       }
     },
@@ -5977,7 +5962,7 @@
           "Yahoo!": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a361789d-55f0-4136-91a3-5625e4405dbc]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 53a13bb9-7569-4f31-9d54-d0706979820d]"
         }
       }
     },
@@ -6142,7 +6127,7 @@
       ],
       "stats": {
         "fetched": 166,
-        "除外ワード": 14,
+        "除外ワード": 13,
         "単価が不自然": 2,
         "枚数が読めない": 2,
         "条件の言葉なし": 12,
@@ -6154,7 +6139,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 4d50bf9c-dd98-4bde-93c6-21e8f349d416]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5653d2de-9c5e-46d7-8ebb-601a082adf35]"
         }
       }
     },
@@ -6325,13 +6310,13 @@
         "枚数が読めない": 1,
         "条件の言葉なし": 12,
         "安すぎて除外": 0,
-        "使えた件数": 71,
+        "使えた件数": 72,
         "malls": {
           "Yahoo!": 8,
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 1f89ba08-c8e7-4ab4-a1c0-ebb45136732a]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 1e05be7d-f944-4efa-98ac-d6196aefc5e3]"
         }
       }
     },
@@ -6497,18 +6482,18 @@
       "stats": {
         "fetched": 190,
         "除外ワード": 42,
-        "サイズ違い・複数": 48,
-        "単価が不自然": 10,
+        "サイズ違い・複数": 50,
+        "単価が不自然": 9,
         "条件の言葉なし": 5,
         "枚数が読めない": 2,
         "安すぎて除外": 0,
-        "使えた件数": 45,
+        "使えた件数": 46,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: fc073970-263a-4f55-bf2d-2a46d779be3b]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a1661a28-edee-49cf-bb70-170090d47a99]"
         }
       }
     },
@@ -6673,19 +6658,19 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 43,
-        "サイズ違い・複数": 5,
+        "除外ワード": 42,
+        "サイズ違い・複数": 7,
         "タイプ違い": 1,
         "条件の言葉なし": 6,
         "単価が不自然": 1,
         "安すぎて除外": 0,
-        "使えた件数": 78,
+        "使えた件数": 80,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 43551cff-eca9-45de-b11f-fdf0502ebe17]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: bc1092f6-69ae-4a66-a957-63e8c5af51df]"
         }
       }
     },
@@ -6702,7 +6687,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 03077085-c4c8-40b2-9d45-68e793f54f41]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5d68fbd7-d1aa-43de-8c9c-6b743e64f167]"
         }
       }
     },
@@ -6719,7 +6704,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c27e17b0-f6d7-4e0f-81f0-e93790dfb62a]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: df38139d-7888-46d9-adc6-76aba7408f4f]"
         }
       }
     },
@@ -6736,7 +6721,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5f97b572-ddce-4d0a-ac01-7e747b3914e4]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 05af8d9e-cd3d-49ea-8348-840266116968]"
         }
       }
     },
@@ -6753,7 +6738,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 4c7f005b-13f4-4f51-b3cc-6d3a24a1171c]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: f13513e9-46a4-40b7-8487-5fdbda22cd7a]"
         }
       }
     },
@@ -6770,7 +6755,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: f498b72f-1f80-4d14-82b5-ab281e494607]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c7bf915f-c7c3-4130-9c28-ecf9e2073afb]"
         }
       }
     },
@@ -6837,7 +6822,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 39083f17-79ea-46db-b41e-d0c1733e4d23]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: e4fcf80f-ae05-4087-a20b-83acc26adb4f]"
         }
       }
     },
@@ -6855,7 +6840,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a5976e26-a86b-41db-a018-6a661647eb8d]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 2c317a4e-df2b-4dc8-8b22-a968cb5f7a73]"
         }
       }
     },
@@ -6892,7 +6877,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a76d1fc4-e750-42c4-a1e7-dd554342022b]"
+          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 034e0fc3-35d4-44ce-9294-711ce714c6e2]"
         }
       }
     }
