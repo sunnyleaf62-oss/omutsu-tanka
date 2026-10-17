@@ -8,7 +8,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
-<meta name="theme-color" content="#BFE8D6">
+<meta name="theme-color" content="#FDD9A8">
 <meta name="apple-mobile-web-app-title" content="おむつ単価">
 <meta name="description" content="パンパース・メリーズ・ムーニー・グーン・マミーポコなどの紙おむつを楽天市場・Yahoo!ショッピング・Amazonから集め、送料込みの1枚あたり単価で毎日比較。店頭で使える単価計算機つき。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,21 +16,21 @@
 <style>
 /* Layout: 1カラム。上に条件パネル（タイプ・サイズ）、店頭計算機（折りたたみ）、ブランド別ランキング */
 :root{
-  --bg:#EEF8F3; --surface:#FFFFFF; --ink:#16362B; --muted:#5A7469; --line:#D2E8DE;
-  --accent:#1F8A63; --accent-soft:#DDF3E9; --gold:#F2C14E; --gold-ink:#5A4300;
-  --silver:#C9D3D8; --bronze:#E2A77A; --warn:#9A5B00; --warn-soft:#FFF1D9; --btn-ink:#FFFFFF;
+  --bg:#FFF5EC; --surface:#FFFFFF; --ink:#3D2414; --muted:#7A5A47; --line:#F2DCC8;
+  --accent:#C2541C; --accent-soft:#FDE6D4; --gold:#F2C14E; --gold-ink:#5A4300;
+  --silver:#D3CCC6; --bronze:#E2A77A; --warn:#2F6FA8; --warn-soft:#E3EFFA; --btn-ink:#FFFFFF;
   --f-display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Noto Sans JP",sans-serif;
   --f-body:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0D1A15; --surface:#14261F; --ink:#E3F2EB; --muted:#93B0A3; --line:#24392F;
-  --accent:#6FD3A8; --accent-soft:#163428; --gold:#E7B93F; --gold-ink:#2B2000;
-  --silver:#6F8188; --bronze:#A8714A; --warn:#F2B866; --warn-soft:#3A2C14; --btn-ink:#0D1A15; color-scheme:dark}}
+  --bg:#1C130D; --surface:#271B13; --ink:#F6E9DF; --muted:#BFA594; --line:#3D2B1F;
+  --accent:#FFA26B; --accent-soft:#3D2414; --gold:#E7B93F; --gold-ink:#2B2000;
+  --silver:#7D7068; --bronze:#A8714A; --warn:#8EC3EE; --warn-soft:#1F2E3D; --btn-ink:#1C130D; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0D1A15; --surface:#14261F; --ink:#E3F2EB; --muted:#93B0A3; --line:#24392F;
-  --accent:#6FD3A8; --accent-soft:#163428; --gold:#E7B93F; --gold-ink:#2B2000;
-  --silver:#6F8188; --bronze:#A8714A; --warn:#F2B866; --warn-soft:#3A2C14; --btn-ink:#0D1A15; color-scheme:dark}
+  --bg:#1C130D; --surface:#271B13; --ink:#F6E9DF; --muted:#BFA594; --line:#3D2B1F;
+  --accent:#FFA26B; --accent-soft:#3D2414; --gold:#E7B93F; --gold-ink:#2B2000;
+  --silver:#7D7068; --bronze:#A8714A; --warn:#8EC3EE; --warn-soft:#1F2E3D; --btn-ink:#1C130D; color-scheme:dark}
 *{box-sizing:border-box}
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6}
