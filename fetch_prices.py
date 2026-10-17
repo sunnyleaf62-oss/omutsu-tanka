@@ -290,36 +290,40 @@ def expand(catalog):
                 }
 
 
+SAMPLES = {}          # 除外した商品名の例（debug.json 用）
+
+
+def reject(stats, reason, name):
+    stats[reason] += 1
+    box = SAMPLES.setdefault(stats["_id"], {}).setdefault(reason, [])
+    if len(box) < 5 and name not in box:
+        box.append(name)
+    return None
+
+
 def to_offer(product, it, stats):
     name, norm = it["name"], low(it["name"])
     if not all(low(w) in norm for w in product["must"]):
-        stats["条件の言葉なし"] += 1
-        return None
+        return reject(stats, "条件の言葉なし", name)
     if product["must_any"] and not any(low(w) in norm for w in product["must_any"]):
-        stats["条件の言葉なし"] += 1
-        return None
+        return reject(stats, "条件の言葉なし", name)
     if any(low(w) in norm for w in product["ng"]):
-        stats["除外ワード"] += 1
-        return None
+        return reject(stats, "除外ワード", name)
     if not any(low(w) in norm for w in product["type_words"]) or \
             any(low(w) in norm for w in product["other_type_words"]):
-        stats["タイプ違い"] += 1
-        return None
+        return reject(stats, "タイプ違い", name)
     sizes = detect_sizes(name)
     if sizes != {product["size"]}:
-        stats["サイズ違い・複数"] += 1
-        return None
+        return reject(stats, "サイズ違い・複数", name)
     sheets = parse_sheets(name)
     if not sheets or not it["price"]:
-        stats["枚数が読めない"] += 1
-        return None
+        return reject(stats, "枚数が読めない", name)
 
     shipping = 0 if it["free_shipping"] else SHIPPING_ESTIMATE
     total = it["price"] + shipping
     per = total / sheets
     if not (PER_SHEET_RANGE[0] <= per <= PER_SHEET_RANGE[1]):
-        stats["単価が不自然"] += 1
-        return None
+        return reject(stats, "単価が不自然", name)
     pr = it["point_rate"]
     return {
         "mall": it["mall"], "shop": it["shop"], "item_name": name,
@@ -334,6 +338,7 @@ def to_offer(product, it, stats):
 
 def build(product, raw_items):
     stats = Counter(fetched=len(raw_items))
+    stats["_id"] = product["id"]
     offers = [o for o in (to_offer(product, it, stats) for it in raw_items) if o]
     if len(offers) >= 3:
         med = statistics.median(o["per_sheet"] for o in offers)
@@ -345,6 +350,7 @@ def build(product, raw_items):
         best.setdefault((o["mall"], o["shop"]), o)
     offers = sorted(best.values(), key=lambda o: o["per_sheet"])
     stats["使えた件数"] = len(offers)
+    del stats["_id"]
     return offers[:TOP_N], dict(stats)
 
 
@@ -401,7 +407,9 @@ def main():
            "shipping_estimate": SHIPPING_ESTIMATE, "products": result}
     with open(os.path.join(HERE, "data.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    print("data.json を書き出しました")
+    with open(os.path.join(HERE, "debug.json"), "w", encoding="utf-8") as f:
+        json.dump(SAMPLES, f, ensure_ascii=False, indent=1)
+    print("data.json と debug.json を書き出しました")
 
 
 if __name__ == "__main__":
