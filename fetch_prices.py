@@ -378,7 +378,8 @@ def build_deals(aff_id):
         link = rakuten_aff_link(d["url"], aff_id) if d.get("mall", "楽天") == "楽天" else d["url"]
         for v in d["variants"]:
             pay = v["price"] - d.get("coupon", 0) + (0 if d.get("free_shipping", True) else SHIPPING_ESTIMATE)
-            back = pay * (1 + d.get("point_back", 0)) / 100
+            pb_on = alive(d.get("point_until"))          # ポイントバックだけ先に終わることがある
+            back = pay * (1 + (d.get("point_back", 0) if pb_on else 0)) / 100
             out.append({
                 "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}",
                 "ref": (f"{d['line']}_{TYPE_SLUG.get(d['type'], '')}_{SIZE_SLUG.get(v['size'], '')}"
@@ -388,7 +389,7 @@ def build_deals(aff_id):
                 "price": v["price"], "coupon": d.get("coupon", 0), "pay": pay,
                 "per_sheet": round(pay / v["sheets"], 2),
                 "per_sheet_after_points": round((pay - back) / v["sheets"], 2),
-                "coupon_note": d.get("coupon_note", ""), "point_note": d.get("point_note", ""),
+                "coupon_note": d.get("coupon_note", ""), "point_note": d.get("point_note", "") if pb_on else "",
                 "until": d.get("until", ""), "checked": d.get("checked", ""), "url": link,
             })
     events = [e for e in src.get("events", []) if alive(e.get("end"))]
