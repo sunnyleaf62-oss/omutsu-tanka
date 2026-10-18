@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T07:06+09:00",
+  "updated": "2026-10-18T14:12+09:00",
   "sources": [
     "楽天市場",
     "Yahoo!ショッピング",
@@ -15,6 +15,21 @@
       "type": "テープ",
       "size": "新生児",
       "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "ひかりTVショッピングYahoo!店",
+          "item_name": "P&amp;G パンパース おむつ テープ さらさらケア ウルトラジャンボ 新生児(5kgまで) 328枚(82枚×4パック) 4987176207043",
+          "price": 7980,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7980,
+          "sheets": 328,
+          "per_sheet": 24.33,
+          "point_rate": 1,
+          "per_sheet_after_points": 24.09,
+          "url": "https://store.shopping.yahoo.co.jp/hikaritv/2010123521.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hikaritv_2010123521"
+        },
         {
           "mall": "楽天",
           "shop": "サンドラッグe-shop",
@@ -149,37 +164,22 @@
           "per_sheet_after_points": 28.48,
           "url": "https://store.shopping.yahoo.co.jp/hcvalor/vh-2162902925732.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/hcvalor_vh-2162902925732"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ビネットSHOP39店",
-          "item_name": "パンパース オムツ さらさらケア (5kgまで) 68枚×4袋【4個セット】ケース販売 送料無料 テープ 新生児サイズ まとめ買い",
-          "price": 7880,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7880,
-          "sheets": 272,
-          "per_sheet": 28.97,
-          "point_rate": 1,
-          "per_sheet_after_points": 28.68,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ttkso.kqv98da5.g00ttkso.kqv99851/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbnetshop39%2F4987176203335-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbnetshop39%2Fi%2F10005882%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bnetshop39/cabinet/shouhingazou/shouhingazou2-1/pansarasara_.jpg?_ex=128x128"
         }
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 10,
-        "サイズ違い・複数": 51,
+        "除外ワード": 9,
+        "サイズ違い・複数": 50,
         "枚数が読めない": 3,
         "条件の言葉なし": 6,
         "安すぎて除外": 0,
-        "使えた件数": 60,
+        "使えた件数": 62,
         "malls": {
-          "楽天": 3,
-          "Yahoo!": 7
+          "Yahoo!": 8,
+          "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c5b1e82a-7eb6-487d-8e11-e8fed9b03749]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 739f8be7-863e-4380-a6d4-156847a2140e]"
         }
       }
     },
@@ -343,12 +343,12 @@
         }
       ],
       "stats": {
-        "fetched": 139,
+        "fetched": 140,
         "除外ワード": 5,
         "サイズ違い・複数": 10,
         "条件の言葉なし": 40,
-        "枚数が読めない": 4,
-        "タイプ違い": 8,
+        "タイプ違い": 9,
+        "枚数が読めない": 3,
         "安すぎて除外": 1,
         "使えた件数": 40,
         "malls": {
@@ -356,7 +356,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 586dcd3a-0855-4a68-978b-792d8ac46c3d]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b2035009-63df-4708-956d-d8ae0d62a6f7]"
         }
       }
     },
@@ -412,21 +412,6 @@
           "per_sheet_after_points": 36.73,
           "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek09960/",
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_ek09960"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ベイシア楽天市場店",
-          "item_name": "P&G パンパース さらさらケア テープ Mサイズ オムツ 6-11kg(62枚入)×4個",
-          "price": 9520,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9520,
-          "sheets": 248,
-          "per_sheet": 38.39,
-          "point_rate": 1,
-          "per_sheet_after_points": 38.0,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4987176203281-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10178955%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/4987176203281-4_00.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -517,23 +502,38 @@
           "per_sheet_after_points": 40.11,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ty83o.kqv98a6f.g00ty83o.kqv996b9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsn-mart%2Fsn4926c32551%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsn-mart%2Fi%2F10103391%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sn-mart/cabinet/onesell083/sn4926c32551_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "通販できるみんなのお薬(みんなのお薬)",
+          "item_name": "パンパース さらさらケア テープ スーパージャンボ  Mサイズ 52枚入  10個セット",
+          "price": 21644,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 21644,
+          "sheets": 520,
+          "per_sheet": 41.62,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.21,
+          "url": "https://store.shopping.yahoo.co.jp/tsuhan-okusuri/1758956075-10-d.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758956075-10-d"
         }
       ],
       "stats": {
         "fetched": 190,
         "除外ワード": 2,
-        "サイズ違い・複数": 32,
-        "枚数が読めない": 23,
-        "条件の言葉なし": 29,
+        "サイズ違い・複数": 35,
+        "枚数が読めない": 24,
+        "条件の言葉なし": 27,
         "タイプ違い": 11,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 59,
         "malls": {
-          "Yahoo!": 6,
-          "楽天": 4
+          "Yahoo!": 7,
+          "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 455af7f7-a44b-408a-9e94-c8af6fe73d45]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: ee11c191-a4d5-4b6e-a321-e2ca804791d6]"
         }
       }
     },
@@ -681,9 +681,9 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/babytown_5000-pampers-4987176203304"
         },
         {
-          "mall": "楽天",
-          "shop": "ベイシア楽天市場店",
-          "item_name": "P&G パンパース さらさらケア テープ Lサイズ オムツ 9-14kg(54枚入)×4個",
+          "mall": "Yahoo!",
+          "shop": "ベイシア ヤフーショップ",
+          "item_name": "P&amp;G パンパース さらさらケア テープ Lサイズ オムツ 9-14kg(54枚入)×4個",
           "price": 9520,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -692,25 +692,25 @@
           "per_sheet": 44.07,
           "point_rate": 1,
           "per_sheet_after_points": 43.63,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4987176203267-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10178952%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/p_and_g/4987176203267-4_00.jpg?_ex=128x128"
+          "url": "https://store.shopping.yahoo.co.jp/beisia/4987176203267-4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4987176203267-4"
         }
       ],
       "stats": {
         "fetched": 190,
         "除外ワード": 11,
-        "サイズ違い・複数": 27,
+        "サイズ違い・複数": 29,
         "条件の言葉なし": 8,
-        "枚数が読めない": 11,
+        "枚数が読めない": 12,
         "タイプ違い": 7,
         "安すぎて除外": 1,
-        "使えた件数": 81,
+        "使えた件数": 80,
         "malls": {
-          "Yahoo!": 7,
-          "楽天": 3
+          "Yahoo!": 8,
+          "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0429d82d-bf5c-4fbd-a99d-354c45c97036]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f1a07287-ffce-4371-9560-259df12b88b5]"
         }
       }
     },
@@ -878,16 +878,16 @@
         "サイズ違い・複数": 10,
         "除外ワード": 3,
         "タイプ違い": 1,
-        "枚数が読めない": 2,
+        "枚数が読めない": 3,
         "条件の言葉なし": 5,
         "安すぎて除外": 0,
-        "使えた件数": 70,
+        "使えた件数": 71,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 736f293c-9f3c-4ee1-96c5-9b336837bedf]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 5f06c9d7-e637-4988-8575-a3c6301e9c76]"
         }
       }
     },
@@ -1059,13 +1059,13 @@
         "タイプ違い": 1,
         "枚数が読めない": 1,
         "安すぎて除外": 0,
-        "使えた件数": 99,
+        "使えた件数": 103,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a0606069-1b4d-4588-a94a-03077a33ac3a]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 0950e0ea-c679-4eb4-91d4-1c69014a7909]"
         }
       }
     },
@@ -1077,6 +1077,21 @@
       "type": "パンツ",
       "size": "ビッグ",
       "offers": [
+        {
+          "mall": "楽天",
+          "shop": "サンドラッグe-shop",
+          "item_name": "P＆G パンパース さらさらケアパンツ メガジャンボ ビッグ（12-22kg） 64枚 【3個セット】",
+          "price": 8580,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8580,
+          "sheets": 192,
+          "per_sheet": 44.69,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.24,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyfo.kqv980d0.g00qvyfo.kqv993fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4987176334824x3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10173961%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202512_2/4987176334824.jpg?_ex=128x128"
+        },
         {
           "mall": "Yahoo!",
           "shop": "サンドラッグe-shop",
@@ -1154,21 +1169,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "コジマ楽天市場店",
-          "item_name": "P＆G　(ケース販売) パンパース さらさらケア パンツ ウルトラジャンボ ビッグ(12-22kg) 46枚×4個",
-          "price": 8670,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8670,
-          "sheets": 184,
-          "per_sheet": 47.12,
-          "point_rate": 5,
-          "per_sheet_after_points": 44.76,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r8mvo.kqv98450.g00r8mvo.kqv992bc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4987176207135%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fr-kojima%2Fi%2F11446312%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/r-kojima/cabinet/n0000000947/4987176207135_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "TRYX3 2号店",
           "item_name": "P&G パンパース XLサイズ ビッグ パンツ XL 156枚 52枚x3セット 紙おむつ さらさらケアEX 12〜22kg 抜群の吸収力 ぱんぱーす 通気性ばっちり",
           "price": 7397,
@@ -1230,16 +1230,16 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 91,
+        "サイズ違い・複数": 94,
         "除外ワード": 4,
         "安すぎて除外": 0,
         "使えた件数": 59,
         "malls": {
-          "Yahoo!": 6,
-          "楽天": 4
+          "楽天": 4,
+          "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ab867b5f-edb8-4486-b486-4f1518825453]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 60e71358-32a1-4c74-9f77-c9805a84fc48]"
         }
       }
     },
@@ -1404,19 +1404,19 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 32,
+        "サイズ違い・複数": 33,
         "除外ワード": 5,
-        "単価が不自然": 11,
+        "単価が不自然": 14,
         "枚数が読めない": 2,
         "条件の言葉なし": 3,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 59,
         "malls": {
           "Yahoo!": 5,
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: cf584af7-f044-4cfd-a222-44e29d5ca932]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b7e318d7-c1ac-4928-bc6f-6ee9823d3e71]"
         }
       }
     },
@@ -1582,7 +1582,7 @@
       "stats": {
         "fetched": 190,
         "サイズ違い・複数": 34,
-        "除外ワード": 8,
+        "除外ワード": 7,
         "タイプ違い": 3,
         "単価が不自然": 1,
         "枚数が読めない": 2,
@@ -1594,7 +1594,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 123dd361-972b-4f4d-b124-e69303011e73]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2648fb13-7535-4928-ad78-739600cd7822]"
         }
       }
     },
@@ -1763,6 +1763,7 @@
         "除外ワード": 2,
         "条件の言葉なし": 12,
         "枚数が読めない": 2,
+        "タイプ違い": 1,
         "安すぎて除外": 0,
         "使えた件数": 86,
         "malls": {
@@ -1770,7 +1771,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 16228a2b-987e-46ed-b997-684de3338c60]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7928fb1b-6789-48bf-a0d4-191c4c5b0332]"
         }
       }
     },
@@ -1934,7 +1935,7 @@
         }
       ],
       "stats": {
-        "fetched": 148,
+        "fetched": 149,
         "サイズ違い・複数": 5,
         "単価が不自然": 3,
         "除外ワード": 4,
@@ -1948,7 +1949,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 80d110d1-edd8-4c0d-b5fb-16e4cd6a2fbb]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 1297bc41-2ec9-416f-bce8-6b5e207217b1]"
         }
       }
     },
@@ -2126,7 +2127,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: a78e290a-84fb-4677-b383-f622315b9fdc]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6866fb9c-67cd-4ffa-95c3-6a3af0496700]"
         }
       }
     },
@@ -2294,7 +2295,7 @@
         "サイズ違い・複数": 15,
         "除外ワード": 6,
         "タイプ違い": 4,
-        "枚数が読めない": 12,
+        "枚数が読めない": 13,
         "条件の言葉なし": 10,
         "安すぎて除外": 0,
         "使えた件数": 33,
@@ -2303,7 +2304,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 7430c0b2-3740-4c90-9366-c04fb2763ce5]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 69976e65-ede7-4e7b-a00d-91b14c7005cc]"
         }
       }
     },
@@ -2467,7 +2468,7 @@
         }
       ],
       "stats": {
-        "fetched": 162,
+        "fetched": 163,
         "サイズ違い・複数": 15,
         "枚数が読めない": 12,
         "タイプ違い": 3,
@@ -2480,7 +2481,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0eaf732e-eeb7-4a3b-a89b-76b625fc6a07]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 55fea93e-e932-4cc9-b1af-8de2157faaac]"
         }
       }
     },
@@ -2645,20 +2646,20 @@
       ],
       "stats": {
         "fetched": 190,
-        "枚数が読めない": 8,
+        "枚数が読めない": 7,
         "除外ワード": 10,
-        "サイズ違い・複数": 28,
-        "単価が不自然": 9,
+        "サイズ違い・複数": 30,
+        "単価が不自然": 10,
         "タイプ違い": 3,
         "条件の言葉なし": 4,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 60,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0a7ce321-8c49-42e6-a69c-4a4f006008c8]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 76445906-3a47-47d9-a542-ab8d02f6f71b]"
         }
       }
     },
@@ -2676,7 +2677,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3300d5c2-c72a-4bdb-b695-e9550817327b]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7c76015a-9132-4dd4-b754-c54741fa98b4]"
         }
       }
     },
@@ -2846,14 +2847,14 @@
         "除外ワード": 86,
         "枚数が読めない": 3,
         "条件の言葉なし": 2,
-        "安すぎて除外": 1,
+        "安すぎて除外": 0,
         "使えた件数": 68,
         "malls": {
           "楽天": 3,
           "Yahoo!": 7
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 42e148b4-24ce-4e4a-929f-398b0ef53217]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 40e00d77-77b8-4735-b684-6c9cca5e039b]"
         }
       }
     },
@@ -3002,35 +3003,35 @@
         },
         {
           "mall": "楽天",
-          "shop": "Homey Store 楽天市場店",
-          "item_name": "【ネット限定】【テープ Sサイズ】メリーズさら さらエアスルー (4~8kg)296枚 (74枚×4) ケース品",
-          "price": 8875,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8875,
+          "shop": "ぴっぴストア 楽天市場店",
+          "item_name": "メリーズ 【テープ Sサイズ】さらさらエアスルー (4~8kg)296枚 (74枚×4) [ケース品]",
+          "price": 8400,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 9200,
           "sheets": 296,
-          "per_sheet": 29.98,
+          "per_sheet": 31.08,
           "point_rate": 1,
-          "per_sheet_after_points": 29.68,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ua2zo.kqv983d7.g00ua2zo.kqv99236/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomeystore%2F20250404224734_19%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhomeystore%2Fi%2F10118500%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/homeystore/cabinet/r_2022100552/20250404224734_19_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 30.8,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u86do.kqv98d5b.g00u86do.kqv9912f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpippi-store%2F4srlpz7ju2svu3kc2eyh6gimvm%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpippi-store%2Fi%2F10232587%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/pippi-store/cabinet/12170565/26892683_0.jpg?_ex=128x128"
         }
       ],
       "stats": {
         "fetched": 190,
         "サイズ違い・複数": 5,
-        "枚数が読めない": 2,
+        "枚数が読めない": 3,
         "除外ワード": 40,
         "条件の言葉なし": 46,
         "タイプ違い": 2,
         "安すぎて除外": 0,
-        "使えた件数": 76,
+        "使えた件数": 80,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 7495437c-01c7-4eab-a993-1c258c1aef22]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: de549541-c817-4b78-adf0-48b12d0b5d85]"
         }
       }
     },
@@ -3119,6 +3120,21 @@
         },
         {
           "mall": "楽天",
+          "shop": "ツルハドラッグ",
+          "item_name": "《セット販売》　花王 メリーズ エアスルー テープ Mサイズ 6－11kg (52枚)×4個セット 男女共用 ベビー用紙おむつ テープタイプ　【送料無料】　【smtb-s】",
+          "price": 8140,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8140,
+          "sheets": 208,
+          "per_sheet": 39.13,
+          "point_rate": 1,
+          "per_sheet_after_points": 38.74,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rbnvo.kqv98054.g00rbnvo.kqv994b3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsuruha%2F10168304%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsuruha%2Fi%2F10102714%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tsuruha/cabinet/shouhin79/10168304.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
           "shop": "ドラッグストアウェルネス",
           "item_name": "《セット販売》　花王 メリーズ エアスルー テープ Mサイズ 6－11kg (52枚)×4個セット 男女共用 ベビー用紙おむつ テープタイプ　【送料無料】　【smtb-s】",
           "price": 8140,
@@ -3176,38 +3192,23 @@
           "per_sheet_after_points": 38.74,
           "url": "https://store.shopping.yahoo.co.jp/tsuruha/10168304.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10168304"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "ぱーそなるたのめーる",
-          "item_name": "花王　メリーズ　ずっと肌さらエアスルー　テープタイプ　Ｍサイズ　１セット（２０８枚：５２枚×４パック）",
-          "price": 8184,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8184,
-          "sheets": 208,
-          "per_sheet": 39.35,
-          "point_rate": 1,
-          "per_sheet_after_points": 38.95,
-          "url": "https://store.shopping.yahoo.co.jp/tanomail/9602629.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tanomail_9602629"
         }
       ],
       "stats": {
         "fetched": 190,
         "サイズ違い・複数": 8,
-        "除外ワード": 54,
+        "除外ワード": 52,
         "枚数が読めない": 2,
-        "タイプ違い": 2,
-        "条件の言葉なし": 39,
+        "条件の言葉なし": 40,
+        "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 67,
+        "使えた件数": 69,
         "malls": {
-          "Yahoo!": 8,
-          "楽天": 2
+          "Yahoo!": 7,
+          "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 564d87cf-141c-4f08-8390-3ae4b298bdb8]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 31de3c7c-5367-47af-ae23-d69ff356e4a8]"
         }
       }
     },
@@ -3227,7 +3228,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c5c28e92-8b4e-4146-be28-06753651635c]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 28ef127f-b9bc-4219-804e-2bcc5a1e3786]"
         }
       }
     },
@@ -3271,21 +3272,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "TRYX3 2号店",
-          "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
-          "price": 11800,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 11800,
-          "sheets": 372,
-          "per_sheet": 31.72,
-          "point_rate": 1,
-          "per_sheet_after_points": 31.4,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65wo.kqv98de2.g00u65wo.kqv99e6f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4901301443502-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10010507%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3-2/cabinet/11021419/4901301443502-2set.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "TRYX3楽天市場店",
           "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
           "price": 11800,
@@ -3298,6 +3284,21 @@
           "per_sheet_after_points": 31.4,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00psjvo.kqv98c84.g00psjvo.kqv99bcd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4901301422057-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10035550%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/11147956/11147958/4901301443502-2set.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "TRYX3 2号店",
+          "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
+          "price": 11800,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 11800,
+          "sheets": 372,
+          "per_sheet": 31.72,
+          "point_rate": 1,
+          "per_sheet_after_points": 31.4,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65wo.kqv98de2.g00u65wo.kqv99e6f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4901301422057-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10009902%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3-2/cabinet/11021419/4901301443502-2set.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -3392,19 +3393,19 @@
       ],
       "stats": {
         "fetched": 167,
-        "サイズ違い・複数": 27,
-        "除外ワード": 43,
+        "サイズ違い・複数": 28,
         "枚数が読めない": 1,
+        "除外ワード": 45,
         "タイプ違い": 2,
-        "条件の言葉なし": 17,
+        "条件の言葉なし": 16,
         "安すぎて除外": 1,
-        "使えた件数": 50,
+        "使えた件数": 49,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 73246594-7bb8-4ee0-a2e6-37220d5bdd55]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: af5133a8-1616-49d9-bb5a-e08233db9d29]"
         }
       }
     },
@@ -3580,7 +3581,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 97790eb5-ff6f-4362-966c-34ba0960a9f9]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 3a76d0eb-09fb-44b4-906b-f1da36933cd6]"
         }
       }
     },
@@ -3745,19 +3746,19 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 57,
+        "サイズ違い・複数": 62,
         "除外ワード": 31,
-        "枚数が読めない": 2,
-        "単価が不自然": 11,
+        "単価が不自然": 9,
         "条件の言葉なし": 5,
+        "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 60,
         "malls": {
           "Yahoo!": 4,
           "楽天": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 331ee8ef-7dad-4740-bf36-c7357316858f]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 01e40d51-fd68-4d92-8496-01f1814b6e13]"
         }
       }
     },
@@ -3934,7 +3935,7 @@
           "Yahoo!": 10
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ee19d9ec-925c-4f0f-86ea-caff56f8cd6c]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 56f78595-ce4e-4762-9e7e-de5e8f1a06b7]"
         }
       }
     },
@@ -3942,7 +3943,7 @@
       "id": "moony_tape_nb",
       "maker": "ユニ・チャーム",
       "brand": "ムーニー",
-      "name": "エアフィット",
+      "name": "ムーニー",
       "type": "テープ",
       "size": "新生児",
       "offers": [
@@ -4022,21 +4023,6 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011134714-01494"
         },
         {
-          "mall": "楽天",
-          "shop": "bouro楽天市場店",
-          "item_name": "ムーニー マシュマロ肌ごこち 新生児用 テープタイプ 76枚 お誕生〜5kgまで",
-          "price": 1880,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1880,
-          "sheets": 76,
-          "per_sheet": 24.74,
-          "point_rate": 1,
-          "per_sheet_after_points": 24.49,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00urw5o.kqv98766.g00urw5o.kqv99fd7/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbouro%2F20250912195302_223%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbouro%2Fi%2F10029060%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bouro/cabinet/r_2025091213/20250912195302_223_1.jpg?_ex=128x128"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "LOHACO by アスクル",
           "item_name": "ムーニー マシュマロ肌ごこち モレ安心 おむつ テープ 新生児（お誕生〜5kg）1セット（76枚×4パック）ユニ・チャーム",
@@ -4095,21 +4081,37 @@
           "per_sheet_after_points": 25.04,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqh2o.kqv988a5.g00uqh2o.kqv999eb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkoda-shop%2F20250923042657_218%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkoda-shop%2Fi%2F10066648%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/koda-shop/cabinet/r_2025060948/20250923042657_218_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "ムーニー マシュマロ肌ごこち モレ安心 新生児 お誕生〜3000g 紙おむつ テープ  (  64枚×3個 )/ ムーニー ( おむつ トイレ ケアグッズ オムツ )",
+          "price": 4884,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4884,
+          "sheets": 192,
+          "per_sheet": 25.44,
+          "point_rate": 1,
+          "per_sheet_after_points": 25.18,
+          "url": "https://store.shopping.yahoo.co.jp/netbaby/a62615xxx.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_a62615xxx"
         }
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 29,
+        "除外ワード": 28,
         "タイプ違い": 3,
         "枚数が読めない": 6,
+        "サイズ違い・複数": 1,
         "安すぎて除外": 0,
-        "使えた件数": 74,
+        "使えた件数": 77,
         "malls": {
-          "Yahoo!": 6,
-          "楽天": 4
+          "Yahoo!": 7,
+          "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3f0cc4fc-910c-4576-af8c-7ad3ffaae85d]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 1b896f83-d7b8-405c-9415-62ac2eff67d5]"
         }
       }
     },
@@ -4117,7 +4119,7 @@
       "id": "moony_tape_s",
       "maker": "ユニ・チャーム",
       "brand": "ムーニー",
-      "name": "エアフィット",
+      "name": "ムーニー",
       "type": "テープ",
       "size": "S",
       "offers": [
@@ -4242,21 +4244,6 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/one-for-all/cabinet/r_2026041306/20260413225831_235_1.jpg?_ex=128x128"
         },
         {
-          "mall": "楽天",
-          "shop": "Reve2018",
-          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
-          "price": 1922,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1922,
-          "sheets": 70,
-          "per_sheet": 27.46,
-          "point_rate": 1,
-          "per_sheet_after_points": 27.18,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00utcqo.kqv98a63.g00utcqo.kqv991dc/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freve2018%2F20260310170836_234%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Freve2018%2Fi%2F10025323%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/reve2018/cabinet/r_2026030903/20260310170836_234_1.jpg?_ex=128x128"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "ラクラクストア",
           "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
@@ -4270,22 +4257,37 @@
           "per_sheet_after_points": 27.3,
           "url": "https://store.shopping.yahoo.co.jp/rakuraku222/1768035796-10.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/rakuraku222_1768035796-10"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "Y&Ks",
+          "item_name": "テープ Sサイズ ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
+          "price": 1938,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1938,
+          "sheets": 70,
+          "per_sheet": 27.69,
+          "point_rate": 1,
+          "per_sheet_after_points": 27.41,
+          "url": "https://store.shopping.yahoo.co.jp/y-ks/20241205230138-00210.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/y-ks_20241205230138-00210"
         }
       ],
       "stats": {
         "fetched": 190,
         "除外ワード": 17,
         "タイプ違い": 3,
-        "条件の言葉なし": 52,
+        "条件の言葉なし": 54,
         "サイズ違い・複数": 1,
         "安すぎて除外": 1,
-        "使えた件数": 71,
+        "使えた件数": 69,
         "malls": {
-          "Yahoo!": 3,
-          "楽天": 7
+          "Yahoo!": 4,
+          "楽天": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 2353078e-0195-49d4-a69c-f6475ea794df]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 25171caf-2427-4622-91ad-a5b9357dadb6]"
         }
       }
     },
@@ -4293,7 +4295,7 @@
       "id": "moony_tape_m",
       "maker": "ユニ・チャーム",
       "brand": "ムーニー",
-      "name": "エアフィット",
+      "name": "ムーニー",
       "type": "テープ",
       "size": "M",
       "offers": [
@@ -4452,16 +4454,17 @@
         "fetched": 190,
         "除外ワード": 20,
         "タイプ違い": 1,
-        "サイズ違い・複数": 31,
+        "サイズ違い・複数": 30,
+        "単価が不自然": 1,
         "条件の言葉なし": 59,
         "安すぎて除外": 0,
-        "使えた件数": 50,
+        "使えた件数": 51,
         "malls": {
           "楽天": 8,
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 60397cc4-2a3c-4a22-a461-61eed4b91560]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4a7cef6e-c48c-4d8a-bf41-a2dc5332b15f]"
         }
       }
     },
@@ -4469,7 +4472,7 @@
       "id": "moony_tape_l",
       "maker": "ユニ・チャーム",
       "brand": "ムーニー",
-      "name": "エアフィット",
+      "name": "ムーニー",
       "type": "テープ",
       "size": "L",
       "offers": [
@@ -4487,6 +4490,21 @@
           "per_sheet_after_points": 40.06,
           "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ahk8488/",
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_ahk8488"
+        },
+        {
+          "mall": "楽天",
+          "shop": "かがやきECOショップ",
+          "item_name": "【4個セット】ムーニー マシュマロ肌ごこち モレ安心 Lサイズ 9kg〜14kg 紙おむつ テープタイプ 48枚 ベビーおむつ オムツ ベビー用品 赤ちゃん 育児 消耗品",
+          "price": 7200,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 8000,
+          "sheets": 192,
+          "per_sheet": 41.67,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.29,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqjbo.kqv98318.g00uqjbo.kqv99601/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagayaki-ecoshop%2Fn4903111049271-cs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkagayaki-ecoshop%2Fi%2F10004636%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kagayaki-ecoshop/cabinet/13454918/imgrc0111192223.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -4547,21 +4565,6 @@
           "per_sheet_after_points": 51.82,
           "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758977215-2-e.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/minoku-value_1758977215-2-e"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "ケンコーライフ ヤフー店",
-          "item_name": "(送料無料・まとめ買い×4個セット)ユニ・チャーム ムーニー マシュマロ肌ごこち モレ安心 テープ Lサイズ 48枚 おむつ こども用 紙おむつ",
-          "price": 10174,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 10174,
-          "sheets": 192,
-          "per_sheet": 52.99,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.46,
-          "url": "https://store.shopping.yahoo.co.jp/kenkoo-life/101-x004-4903111049271.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kenkoo-life_101-x004-4903111049271"
         },
         {
           "mall": "Yahoo!",
@@ -4628,563 +4631,1256 @@
         "fetched": 183,
         "除外ワード": 17,
         "タイプ違い": 1,
-        "サイズ違い・複数": 44,
-        "単価が不自然": 1,
-        "条件の言葉なし": 65,
+        "サイズ違い・複数": 40,
+        "単価が不自然": 2,
+        "条件の言葉なし": 66,
         "安すぎて除外": 1,
-        "使えた件数": 29,
+        "使えた件数": 30,
+        "malls": {
+          "Yahoo!": 6,
+          "楽天": 4
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: bb906b3c-b349-456f-bace-69783a9ff674]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_ase_pants_m",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "汗スッキリ",
+      "type": "パンツ",
+      "size": "M",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 M 6〜12kg 紙おむつ パンツ ( 48枚×3個 )/ ムーニーマン汗スッキリ",
+          "price": 5190,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5190,
+          "sheets": 144,
+          "per_sheet": 36.04,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.68,
+          "url": "https://store.shopping.yahoo.co.jp/netbaby/4903111127740.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111127740"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用M 48枚×3 ユニ・チャーム公式ショップ",
+          "price": 5313,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5313,
+          "sheets": 144,
+          "per_sheet": 36.9,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.53,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/101045.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_101045"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニーマン おむつ パンツ M（6kg〜12kg）1セット（48枚×3パック）汗スッキリ 男女共用 ユニ・チャーム",
+          "price": 5690,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5690,
+          "sheets": 144,
+          "per_sheet": 39.51,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.12,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/xn20718/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_xn20718"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "斉藤工芸",
+          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ Mサイズ 男女共用 (6~12kg)144枚(48枚×3)ケース品 オムツ",
+          "price": 5742,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5742,
+          "sheets": 144,
+          "per_sheet": 39.88,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.48,
+          "url": "https://store.shopping.yahoo.co.jp/seikatu-zakka/20260619101720-00172.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00172"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 M 48枚×3 [ 公式ショップ ] ユニ・チャーム公式 ベビー 赤ちゃん おむつ パンツタイプ Mサイズ 6〜12kg 夏 汗吸いとるシート 抗菌 まとめ買い ケース販売 ユニチャーム【公式ショップ】",
+          "price": 5313,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 6113,
+          "sheets": 144,
+          "per_sheet": 42.45,
+          "point_rate": 1,
+          "per_sheet_after_points": 42.08,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F101045%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10002339%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/sukkiri/101045.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "アールストリート",
+          "item_name": "あせもの一因からお肌を守る! ムーニーマン 汗スッキリ パンツオムツ Mサイズ 男女共用 6~12kg 144枚 [ケース品]",
+          "price": 6118,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6118,
+          "sheets": 144,
+          "per_sheet": 42.49,
+          "point_rate": 1,
+          "per_sheet_after_points": 42.06,
+          "url": "https://store.shopping.yahoo.co.jp/r-street/rst1091ef46b2.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/r-street_rst1091ef46b2"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "MRHストア",
+          "item_name": "パンツ Mサイズムーニーマン 汗スッキリ 男女共用 オムツ(6~12kg)144枚(48枚×3)ケース品",
+          "price": 6361,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6361,
+          "sheets": 144,
+          "per_sheet": 44.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.73,
+          "url": "https://store.shopping.yahoo.co.jp/mrh-store/20250907175749-00819.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/mrh-store_20250907175749-00819"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "hinaharu",
+          "item_name": "パンツ Mサイズムーニーマン 汗スッキリ 男女共用 オムツ(6~12kg)144枚(48枚×3)ケース品",
+          "price": 6361,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6361,
+          "sheets": 144,
+          "per_sheet": 44.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.73,
+          "url": "https://store.shopping.yahoo.co.jp/hinaharu/20241006214554-00881.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hinaharu_20241006214554-00881"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "Y&Ks",
+          "item_name": "パンツ Mサイズムーニーマン 汗スッキリ 男女共用 オムツ(6~12kg)144枚(48枚×3)ケース品",
+          "price": 6361,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6361,
+          "sheets": 144,
+          "per_sheet": 44.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.73,
+          "url": "https://store.shopping.yahoo.co.jp/y-ks/20241205230138-00114.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/y-ks_20241205230138-00114"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ナフコオンラインストア",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用M 48枚",
+          "price": 2180,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 2180,
+          "sheets": 48,
+          "per_sheet": 45.42,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.96,
+          "url": "https://store.shopping.yahoo.co.jp/nafco-online/n23626706.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/nafco-online_n23626706"
+        }
+      ],
+      "stats": {
+        "fetched": 56,
+        "サイズ違い・複数": 2,
+        "安すぎて除外": 0,
+        "使えた件数": 42,
+        "malls": {
+          "Yahoo!": 9,
+          "楽天": 1
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 16c13f19-df4f-4440-bbe2-a685baa478e9]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_ase_pants_l",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "汗スッキリ",
+      "type": "パンツ",
+      "size": "L",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー 汗スッキリ L 男女共用 オムツ パンツ型ベビー用紙オムツ ムーニーマン 9〜14kg 40枚×4 ユニ・チャーム公式ショップ",
+          "price": 7084,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7084,
+          "sheets": 160,
+          "per_sheet": 44.27,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.83,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/101046.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_101046"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 L 9〜14kg 紙おむつ パンツ ( 40枚×4個 )/ ムーニーマン汗スッキリ",
+          "price": 7452,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7452,
+          "sheets": 160,
+          "per_sheet": 46.58,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.11,
+          "url": "https://store.shopping.yahoo.co.jp/netbaby/4903111128198.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111128198"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニーマン おむつ パンツ L（9kg〜14kg）1セット（40枚×4パック）汗スッキリ 男女共用 ユニ・チャーム",
+          "price": 7550,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7550,
+          "sheets": 160,
+          "per_sheet": 47.19,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.72,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/xn20723/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_xn20723"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "斉藤工芸",
+          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ Lサイズ 男女共用 (9~14kg)160枚(40枚×4)ケース品 オムツ",
+          "price": 7576,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7576,
+          "sheets": 160,
+          "per_sheet": 47.35,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.88,
+          "url": "https://store.shopping.yahoo.co.jp/seikatu-zakka/20260619101720-00124.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00124"
+        },
+        {
+          "mall": "楽天",
+          "shop": "【ライフケアエキスパート】BLOOM",
+          "item_name": "【ケース販売】ムーニーマン 汗スッキリ パンツ Lサイズ 男女共用 (9~14kg) 160枚 (40枚×4個)",
+          "price": 6880,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7680,
+          "sheets": 160,
+          "per_sheet": 48.0,
+          "point_rate": 1,
+          "per_sheet_after_points": 47.57,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tx2ro.kqv982b1.g00tx2ro.kqv99a2a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farkstyle%2F4019-00023411%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Farkstyle%2Fi%2F10074629%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/arkstyle/cabinet/13427632/13435987/imgrc0147322884.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "サンドラッグe-shop",
+          "item_name": "ユニ・チャーム ムーニーマン 汗スッキリ 男女共用L 40枚   【4個セット】",
+          "price": 7720,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7720,
+          "sheets": 160,
+          "per_sheet": 48.25,
+          "point_rate": 1,
+          "per_sheet_after_points": 47.77,
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4903111127986x4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4903111127986x4"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ Lサイズ 1〜3歳頃 9〜14kg 【ムーニーマン 汗スッキリ 男女共用 L 40枚×4袋 】パンツ型ベビー用紙オムツ 汗99％吸収 ユニ・チャーム公式ショップ大きめ Lサイズ 吸収スピードアップ かわいいデザイン 全面通気 ポリエステル 夏におすすめ レーヨン不織布",
+          "price": 7084,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7884,
+          "sheets": 160,
+          "per_sheet": 49.27,
+          "point_rate": 1,
+          "per_sheet_after_points": 48.83,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F101046%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10002326%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/sukkiri/101046.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "あかるストア",
+          "item_name": "おむつ内温度マイナス2度 ムーニーマン 汗スッキリ パンツ Lサイズ 男女共用 9~14kg160枚40枚×4ケース品 オムツ",
+          "price": 8166,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8166,
+          "sheets": 160,
+          "per_sheet": 51.04,
+          "point_rate": 1,
+          "per_sheet_after_points": 50.53,
+          "url": "https://store.shopping.yahoo.co.jp/akarustore/ujr9156fee8df.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/akarustore_ujr9156fee8df"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "春かぜ千里 日用良品",
+          "item_name": "（1ケース販売）「ムーニーマン　汗スッキリ男女共用Ｌ　４０枚」　4個の詰合せ",
+          "price": 8440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8440,
+          "sheets": 160,
+          "per_sheet": 52.75,
+          "point_rate": 1,
+          "per_sheet_after_points": 52.22,
+          "url": "https://store.shopping.yahoo.co.jp/wakeari/case4903111127986.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111127986"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Care-Life 楽天市場店",
+          "item_name": "ムーニーマン 汗スッキリ パンツ Lサイズ 40枚×4パック 男女共用 160枚 ユニ・チャーム moony おむつ オムツ 紙おむつ ベビー 大容量 ケース販売 9〜14kg",
+          "price": 8680,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8680,
+          "sheets": 160,
+          "per_sheet": 54.25,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.71,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00un1do.kqv98869.g00un1do.kqv9925a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffragrance-fukuyama%2F4903111127986%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffragrance-fukuyama%2Fi%2F10000512%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fragrance-fukuyama/cabinet/be57e3d34ca.jpg?_ex=128x128"
+        }
+      ],
+      "stats": {
+        "fetched": 68,
+        "サイズ違い・複数": 1,
+        "安すぎて除外": 0,
+        "使えた件数": 47,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 9d5fc24a-5217-423e-baa3-57429a46e699]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 814f9fc7-bddd-4ea8-a828-514b65c40e2b]"
         }
       }
     },
     {
-      "id": "moony_pants_m",
+      "id": "moonyman_ase_pants_big",
       "maker": "ユニ・チャーム",
-      "brand": "ムーニー",
-      "name": "エアフィット",
-      "type": "パンツ",
-      "size": "M",
-      "offers": [],
-      "stats": {
-        "fetched": 15,
-        "条件の言葉なし": 15,
-        "使えた件数": 0,
-        "malls": {},
-        "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 0f52c489-746f-4a33-8db9-c19d0443a799]"
-        }
-      }
-    },
-    {
-      "id": "moony_pants_l",
-      "maker": "ユニ・チャーム",
-      "brand": "ムーニー",
-      "name": "エアフィット",
-      "type": "パンツ",
-      "size": "L",
-      "offers": [
-        {
-          "mall": "楽天",
-          "shop": "SUGAR TIME",
-          "item_name": "【在庫処分】 【2個セット】 おむつ ムーニーマン エアフィット パンツ 男の子用 Lサイズ 44枚入り×2セット オムツ パンツタイプ 紙おむつ 紙オムツ 赤ちゃん ユニチャーム",
-          "price": 4522,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 4522,
-          "sheets": 88,
-          "per_sheet": 51.39,
-          "point_rate": 1,
-          "per_sheet_after_points": 50.87,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00scoyo.kqv98dac.g00scoyo.kqv99cb5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsugartime%2Fkzyno-30%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsugartime%2Fi%2F10113686%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sugartime/cabinet/kz/yunic/kzyno/kzyno-29-0.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "SUGARTIME",
-          "item_name": "2個セット  おむつ ムーニーマン エアフィット パンツ 男の子用 Lサイズ 44枚入り×2セット オムツ パンツタイプ 紙おむつ 紙オムツ",
-          "price": 4522,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 4522,
-          "sheets": 88,
-          "per_sheet": 51.39,
-          "point_rate": 1,
-          "per_sheet_after_points": 50.87,
-          "url": "https://store.shopping.yahoo.co.jp/lamp/kzyno-30.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/lamp_kzyno-30"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "通販できるみんなのお薬(みんなのお薬)",
-          "item_name": "ムーニーマン エアフィット パンツ 男の子用  44枚 (Lサイズ)  6個セット",
-          "price": 13630,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 13630,
-          "sheets": 264,
-          "per_sheet": 51.63,
-          "point_rate": 1,
-          "per_sheet_after_points": 51.11,
-          "url": "https://store.shopping.yahoo.co.jp/tsuhan-okusuri/1758930352-6-d.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758930352-6-d"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "創快健美",
-          "item_name": "◆4個セットムーニーマンエアフィット パンツ 女の子用(Lサイズ×44枚入)[ムーニーマン]*1ケース",
-          "price": 9289,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9289,
-          "sheets": 176,
-          "per_sheet": 52.78,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.25,
-          "url": "https://store.shopping.yahoo.co.jp/skkb/hok-4903111206438-4.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/skkb_hok-4903111206438-4"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "リコメン堂",
-          "item_name": "4個セット ユニ・チャーム ムーニーマンエアフィット女の子L44枚まとめ買い まとめ売り セット販売 セット 業務用 備蓄 代引不可",
-          "price": 9359,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9359,
-          "sheets": 176,
-          "per_sheet": 53.18,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.64,
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/ho-40849-004.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/recommendo_ho-40849-004"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "リコメン堂インテリア館",
-          "item_name": "4個セット ユニ・チャーム ムーニーマンエアフィット男の子L44枚まとめ買い まとめ売り セット販売 セット 業務用 備蓄 代引不可",
-          "price": 9359,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9359,
-          "sheets": 176,
-          "per_sheet": 53.18,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.64,
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/ho-40848-004.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rcmdin_ho-40848-004"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "みんなのお薬バリュープライス(みんなのお薬)",
-          "item_name": "ムーニーマン エアフィット パンツ 男の子用  44枚 (Lサイズ) 2個セット",
-          "price": 3968,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 4768,
-          "sheets": 88,
-          "per_sheet": 54.18,
-          "point_rate": 1,
-          "per_sheet_after_points": 53.73,
-          "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758930352-2-e.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/minoku-value_1758930352-2-e"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "ベスト電器Yahoo!店",
-          "item_name": "ユニ・チャーム ムーニーマン エアフィット 男の子 L 44枚【4個セット販売】",
-          "price": 9592,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9592,
-          "sheets": 176,
-          "per_sheet": 54.5,
-          "point_rate": 1,
-          "per_sheet_after_points": 53.95,
-          "url": "https://store.shopping.yahoo.co.jp/best-denki/2873419019.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/best-denki_2873419019"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "ヤマダデンキ Yahoo!店",
-          "item_name": "ユニ・チャーム ムーニーマン エアフィット 女の子 L 44枚【4個セット販売】",
-          "price": 9592,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9592,
-          "sheets": 176,
-          "per_sheet": 54.5,
-          "point_rate": 1,
-          "per_sheet_after_points": 53.95,
-          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/2873420015.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/yamada-denki_2873420015"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "キムラヤYahoo!店",
-          "item_name": "ユニ・チャーム ムーニーマン エアフィット 女の子 L 44枚【4個セット販売】",
-          "price": 9592,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9592,
-          "sheets": 176,
-          "per_sheet": 54.5,
-          "point_rate": 1,
-          "per_sheet_after_points": 53.95,
-          "url": "https://store.shopping.yahoo.co.jp/kimuraya-select/2873420015.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kimuraya-select_2873420015"
-        }
-      ],
-      "stats": {
-        "fetched": 112,
-        "除外ワード": 9,
-        "条件の言葉なし": 19,
-        "安すぎて除外": 0,
-        "使えた件数": 33,
-        "malls": {
-          "楽天": 1,
-          "Yahoo!": 9
-        },
-        "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: d5d49d10-52a4-456c-a95c-d70076e9a1c9]"
-        }
-      }
-    },
-    {
-      "id": "moony_pants_big",
-      "maker": "ユニ・チャーム",
-      "brand": "ムーニー",
-      "name": "エアフィット",
+      "brand": "ムーニーマン",
+      "name": "汗スッキリ",
       "type": "パンツ",
       "size": "ビッグ",
       "offers": [
         {
-          "mall": "楽天",
-          "shop": "デライーガ",
-          "item_name": "48枚×2袋セット ムーニーマンエアフィット 男の子用 パンツ ビッグ 48枚 2F-X",
-          "price": 4480,
+          "mall": "Yahoo!",
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 ビッグ 12〜22kg 紙おむつ パンツ ( 36枚×4個 )/ ムーニーマン汗スッキリ",
+          "price": 6921,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 4480,
-          "sheets": 96,
-          "per_sheet": 46.67,
+          "total": 6921,
+          "sheets": 144,
+          "per_sheet": 48.06,
           "point_rate": 1,
-          "per_sheet_after_points": 46.2,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tx2bo.kqv985be.g00tx2bo.kqv99301/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fderaega%2F0638-013371%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fderaega%2Fi%2F10003723%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/deraega/cabinet/amayahoo/07951592/0638-013371.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "SUGAR TIME",
-          "item_name": "【在庫処分】 【2個セット】 おむつ ムーニーマン エアフィット パンツ 女の子用 ビッグサイズ 38枚入り×2セット オムツ パンツタイプ 紙おむつ 紙オムツ 赤ちゃん ユニチャーム",
-          "price": 4268,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 4268,
-          "sheets": 76,
-          "per_sheet": 56.16,
-          "point_rate": 1,
-          "per_sheet_after_points": 55.6,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00scoyo.kqv98dac.g00scoyo.kqv99cb5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsugartime%2Fkzyno-39%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsugartime%2Fi%2F10113705%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sugartime/cabinet/kz/yunic/kzyno/kzyno-38-0.jpg?_ex=128x128"
+          "per_sheet_after_points": 47.58,
+          "url": "https://store.shopping.yahoo.co.jp/netbaby/4903111128440.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111128440"
         },
         {
           "mall": "Yahoo!",
-          "shop": "リコメン堂インテリア館",
-          "item_name": "4個セット ユニ・チャーム ムーニーマンエアフィット女の子ビッグ38枚まとめ買い まとめ売り セット販売 セット 業務用 備蓄 代引不可",
-          "price": 8674,
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー 汗スッキリ ビッグ 男女共用 オムツ パンツ型ベビー用紙オムツ ムーニーマン 12〜22kg 36枚×4 ユニ・チャーム公式ショップ",
+          "price": 7084,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8674,
-          "sheets": 152,
-          "per_sheet": 57.07,
+          "total": 7084,
+          "sheets": 144,
+          "per_sheet": 49.19,
           "point_rate": 1,
-          "per_sheet_after_points": 56.5,
-          "url": "https://store.shopping.yahoo.co.jp/rcmdin/ho-40851-004.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rcmdin_ho-40851-004"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "リコメン堂",
-          "item_name": "4個セット ユニ・チャーム ムーニーマンエアフィット女の子ビッグ38枚まとめ買い まとめ売り セット販売 セット 業務用 備蓄 代引不可",
-          "price": 8674,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8674,
-          "sheets": 152,
-          "per_sheet": 57.07,
-          "point_rate": 1,
-          "per_sheet_after_points": 56.5,
-          "url": "https://store.shopping.yahoo.co.jp/recommendo/ho-40851-004.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/recommendo_ho-40851-004"
+          "per_sheet_after_points": 48.7,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/101047.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_101047"
         },
         {
           "mall": "楽天",
-          "shop": "ベイシア楽天市場店",
-          "item_name": "【ポイント5倍！10/2 20:00-10/31迄】ユニ・チャーム ムーニーマン エアフィット 男の子 ビッグ 38枚×4個パック まとめ買い | ムーニーマン エアフィット 男の子 ビッグ おむつ パンツ 紙おむつ ベビー 赤ちゃん まとめ買い 大容量 旅行",
-          "price": 8760,
+          "shop": "アップショップ",
+          "item_name": "※在庫限り【★ケース販売4袋・送料無料】ムーニーマン 汗スッキリ 男女共用 ビッグ 12〜22kg 紙おむつ パンツ(36枚入)×4袋",
+          "price": 7300,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8760,
-          "sheets": 152,
-          "per_sheet": 57.63,
-          "point_rate": 5,
-          "per_sheet_after_points": 54.75,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4903111207671%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10040188%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/toryusha/toryusha1/4903111207671.jpg?_ex=128x128"
+          "total": 7300,
+          "sheets": 144,
+          "per_sheet": 50.69,
+          "point_rate": 1,
+          "per_sheet_after_points": 50.19,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8wjo.kqv9880e.g00u8wjo.kqv99e12/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fup-shop%2Fomutu-186%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fup-shop%2Fi%2F10001466%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/up-shop/cabinet/imgrc0189227579.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
-          "shop": "ベイシア ヤフーショップ",
-          "item_name": "【ポイント5倍！10/2 20:00-10/31迄】ユニ・チャーム ムーニーマン エアフィット 男の子 ビッグ 38枚×4個パック まとめ買い |  ムーニーマン エアフィット 男の",
-          "price": 8760,
+          "shop": "斉藤工芸",
+          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ ビッグサイズ 男女共用 (12~22kg)144枚(36枚×4)ケース品 オム",
+          "price": 7620,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8760,
-          "sheets": 152,
-          "per_sheet": 57.63,
+          "total": 7620,
+          "sheets": 144,
+          "per_sheet": 52.92,
           "point_rate": 1,
-          "per_sheet_after_points": 57.06,
-          "url": "https://store.shopping.yahoo.co.jp/beisia/4903111207671.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4903111207671"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "創快健美",
-          "item_name": "◆4個セットムーニーマンエアフィット パンツ 女の子用(ビッグサイズ×38枚入)[ムーニーマン]*1ケース",
-          "price": 9709,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9709,
-          "sheets": 152,
-          "per_sheet": 63.88,
-          "point_rate": 1,
-          "per_sheet_after_points": 63.24,
-          "url": "https://store.shopping.yahoo.co.jp/skkb/hok-4903111208098-4.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/skkb_hok-4903111208098-4"
+          "per_sheet_after_points": 52.39,
+          "url": "https://store.shopping.yahoo.co.jp/seikatu-zakka/20260619101720-00126.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00126"
         },
         {
           "mall": "楽天",
-          "shop": "アット通販",
-          "item_name": "ユニ・チャーム ムーニーマンエアフィット男の子用ビッグ38枚【ムーニー】※メーカー都合によりパッケージ、デザインが変更となる場合がございます",
-          "price": 1628,
+          "shop": "【ライフケアエキスパート】BLOOM",
+          "item_name": "【ケース販売】あせもの一因からお肌を守る! ムーニーマン 汗スッキリ パンツ ビッグサイズ 男女共用 (12~22kg) 36枚×4個(144枚)",
+          "price": 6880,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 2428,
-          "sheets": 38,
-          "per_sheet": 63.89,
+          "total": 7680,
+          "sheets": 144,
+          "per_sheet": 53.33,
           "point_rate": 1,
-          "per_sheet_after_points": 63.47,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qkwxo.kqv98737.g00qkwxo.kqv9936e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-tsuhan%2F10066637%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-tsuhan%2Fi%2F10039144%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-tsuhan/cabinet/thu2/thu0075609523.jpg?_ex=128x128"
+          "per_sheet_after_points": 52.86,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tx2ro.kqv982b1.g00tx2ro.kqv99a2a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farkstyle%2F4019-000234-8%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Farkstyle%2Fi%2F10074617%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/arkstyle/cabinet/13427632/imgrc0147266151.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "サンドラッグe-shop",
+          "item_name": "ユニ・チャーム ムーニーマン 汗スッキリ 男女共用ビッグ 36枚 【4個セット】",
+          "price": 7720,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7720,
+          "sheets": 144,
+          "per_sheet": 53.61,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.08,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyfo.kqv980d0.g00qvyfo.kqv993fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4903111128327x4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10177692%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202602_4/4903111128327.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
-          "shop": "鈴木物産",
-          "item_name": "パンツ ビッグサイズムーニーマン女の子 エアフィット (12~17kg)38枚",
-          "price": 2441,
+          "shop": "サンドラッグe-shop",
+          "item_name": "ユニ・チャーム ムーニーマン 汗スッキリ 男女共用ビッグ 36枚   【4個セット】",
+          "price": 7720,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2441,
-          "sheets": 38,
-          "per_sheet": 64.24,
+          "total": 7720,
+          "sheets": 144,
+          "per_sheet": 53.61,
           "point_rate": 1,
-          "per_sheet_after_points": 63.59,
-          "url": "https://store.shopping.yahoo.co.jp/kenzusutor/20251227000325-01434.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kenzusutor_20251227000325-01434"
+          "per_sheet_after_points": 53.08,
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4903111128327x4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4903111128327x4"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "北村商会",
-          "item_name": "パンツ ビッグサイズムーニーマン女の子 エアフィット (12~17kg)38枚",
-          "price": 2441,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2441,
-          "sheets": 38,
-          "per_sheet": 64.24,
+          "mall": "楽天",
+          "shop": "楽天24 ベビー館",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 ビッグ 12〜22kg 紙おむつ パンツ(36枚×4個)【ムーニーマン汗スッキリ】",
+          "price": 6921,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7721,
+          "sheets": 144,
+          "per_sheet": 53.62,
           "point_rate": 1,
-          "per_sheet_after_points": 63.59,
-          "url": "https://store.shopping.yahoo.co.jp/oimus725/20251228150737-00178.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/oimus725_20251228150737-00178"
+          "per_sheet_after_points": 53.14,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd4o.kqv98fd3.g00pzd4o.kqv994da/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F4903111128440%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10044894%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/440/4903111128440.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "楽天24",
+          "item_name": "ムーニーマン 汗スッキリ 男女共用 ビッグ 12〜22kg 紙おむつ パンツ(36枚×4個)【ムーニーマン汗スッキリ】",
+          "price": 6921,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7721,
+          "sheets": 144,
+          "per_sheet": 53.62,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.14,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r136o.kqv98146.g00r136o.kqv9939f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4903111128440%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11264743%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/440/4903111128440.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moonyパンツ ビッグサイズ 12〜22kg【ムーニーマン 汗スッキリ 男女共用ビッグ 36枚×4袋】 パンツ型ベビー用紙オムツ 汗99％吸収 ユニ・チャーム公式ショップ スッキリ男女共用ビッグ かわいいデザイン XL ビッグサイズ 吸収スピードがアップ 全面通気 お肌いつもさらさら",
+          "price": 7084,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7884,
+          "sheets": 144,
+          "per_sheet": 54.75,
+          "point_rate": 1,
+          "per_sheet_after_points": 54.26,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F101047%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10002331%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/sukkiri/101047.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 190,
-        "除外ワード": 9,
-        "サイズ違い・複数": 35,
-        "条件の言葉なし": 52,
-        "単価が不自然": 14,
-        "タイプ違い": 2,
+        "fetched": 95,
+        "サイズ違い・複数": 1,
         "枚数が読めない": 4,
-        "安すぎて除外": 0,
-        "使えた件数": 38,
+        "安すぎて除外": 1,
+        "使えた件数": 63,
         "malls": {
-          "楽天": 4,
-          "Yahoo!": 6
+          "Yahoo!": 4,
+          "楽天": 6
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 96413162-93f1-4db9-b4b6-63779d7e7648]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6113d784-21e7-4886-9972-2de9c3003deb]"
         }
       }
     },
     {
-      "id": "moony_pants_xbig",
+      "id": "moonyman_ase_pants_xbig",
       "maker": "ユニ・チャーム",
-      "brand": "ムーニー",
-      "name": "エアフィット",
+      "brand": "ムーニーマン",
+      "name": "汗スッキリ",
+      "type": "パンツ",
+      "size": "ビッグより大きい",
+      "offers": [],
+      "stats": {
+        "fetched": 0,
+        "使えた件数": 0,
+        "malls": {},
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6dc2750a-6de7-48e8-8b86-4c33fcb79ac8]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_mashmallow_pants_m",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "マシュマロ肌ごこち",
+      "type": "パンツ",
+      "size": "M",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "爽快ドラッグ",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 M たっち 6kg〜12kg 紙おむつ パンツ ( 52枚入*3袋セット )/ ムーニーマン",
+          "price": 5161,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5161,
+          "sheets": 156,
+          "per_sheet": 33.08,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.75,
+          "url": "https://store.shopping.yahoo.co.jp/soukai/566546.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_566546"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 M たっち パンツ型ベビー用紙オムツ ムーニーマン  6kg〜12kg 52枚×3袋 ユニ・チャーム公式ショップ",
+          "price": 5313,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5313,
+          "sheets": 156,
+          "per_sheet": 34.06,
+          "point_rate": 1,
+          "per_sheet_after_points": 33.72,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/100652.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100652"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ たっち Mサイズ（6〜12kg）1セット（52枚×3） 男女共用ユニ・チャーム",
+          "price": 5600,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5600,
+          "sheets": 156,
+          "per_sheet": 35.9,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.54,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/p648079/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p648079"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ Mサイズ たっち 生後3ヵ月〜1歳頃 【ムーニーマンマシュマロ肌ごこちモレ安心Mたっち 52枚×3袋】6kg〜12kg パンツ型ベビー用紙オムツ マシュマロフィット ゆるうんちポケット モレ安心 ユニ・チャーム公式ショップ ムーニーマン たっち すっぽりハイウエスト",
+          "price": 5313,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 6113,
+          "sheets": 156,
+          "per_sheet": 39.19,
+          "point_rate": 1,
+          "per_sheet_after_points": 38.85,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F100652%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10001866%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/100652.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "hoshi to mori shop",
+          "item_name": "【パンツ Mたっち】 ムーニーマン マシュマロ肌ごこち モレ安心 Mたっち おむつ (6~12kg)204枚(68枚×3) [ケース品] 【Am",
+          "price": 8514,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8514,
+          "sheets": 204,
+          "per_sheet": 41.74,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.32,
+          "url": "https://store.shopping.yahoo.co.jp/hoshitomori/hoshimori3bc31eb0fb.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hoshitomori_hoshimori3bc31eb0fb"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "あずきぱれっと",
+          "item_name": "【パンツ Mたっち】 ムーニーマン マシュマロ肌ごこち モレ安心 Mたっち オムツ 6~12kg 204枚",
+          "price": 8538,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8538,
+          "sheets": 204,
+          "per_sheet": 41.85,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.43,
+          "url": "https://store.shopping.yahoo.co.jp/azukipalette/edbhlrpk24ymmp4jdl37nvnl3u.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/azukipalette_edbhlrpk24ymmp4jdl37nvnl3u"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Care-Life 楽天市場店",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心パンツ たっち Mサイズ 52枚×3個セット",
+          "price": 6580,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6580,
+          "sheets": 156,
+          "per_sheet": 42.18,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.76,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00un1do.kqv98869.g00un1do.kqv9925a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffragrance-fukuyama%2F4903111152360%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffragrance-fukuyama%2Fi%2F10000334%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fragrance-fukuyama/cabinet/compass1737292380.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "春かぜ千里 日用良品",
+          "item_name": "（1ケース販売）「ムーニーマン　マシュマロ肌ごこちＭたっち　５２枚」　3個の詰合せ",
+          "price": 6612,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6612,
+          "sheets": 156,
+          "per_sheet": 42.38,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.96,
+          "url": "https://store.shopping.yahoo.co.jp/wakeari/case4903111152360.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111152360"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりのレデイハートショップ",
+          "item_name": "ムーニーマン　マシュマロ肌ごこち　モレ安心　パンツ　M　52枚×3個",
+          "price": 6996,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6996,
+          "sheets": 156,
+          "per_sheet": 44.85,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.4,
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4903111152360.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop_4903111152360"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ウエルシア楽天市場支店",
+          "item_name": "ユニ・チャーム　ム−ニ−マン　マシュマロ肌ごこちモレ安心　Mサイズ　たっち　52枚×3個セット",
+          "price": 6215,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7015,
+          "sheets": 156,
+          "per_sheet": 44.97,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.57,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r452o.kqv98fde.g00r452o.kqv99a4e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fehac%2F4903111152360-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fehac%2Fi%2F10199319%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ehac/cabinet/gazo92/4903111152360.jpg?_ex=128x128"
+        }
+      ],
+      "stats": {
+        "fetched": 67,
+        "除外ワード": 1,
+        "条件の言葉なし": 20,
+        "枚数が読めない": 5,
+        "サイズ違い・複数": 1,
+        "安すぎて除外": 0,
+        "使えた件数": 34,
+        "malls": {
+          "Yahoo!": 7,
+          "楽天": 3
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 15cf2357-cf33-41f4-b0d2-7fd426da51d5]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_mashmallow_pants_l",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "マシュマロ肌ごこち",
+      "type": "パンツ",
+      "size": "L",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "爽快ドラッグ",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 女の子Ｌ 9kg〜14kg  紙おむつ パンツ ( Lサイズ*44枚入*4袋セット )/ ムーニーマン",
+          "price": 6881,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6881,
+          "sheets": 176,
+          "per_sheet": 39.1,
+          "point_rate": 1,
+          "per_sheet_after_points": 38.71,
+          "url": "https://store.shopping.yahoo.co.jp/soukai/24114.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_24114"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 L 女の子 パンツ型ベビー用紙オムツ ムーニーマン 9kg〜14kg 44枚×4 ユニ・チャーム公式ショップ",
+          "price": 7084,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7084,
+          "sheets": 176,
+          "per_sheet": 40.25,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.85,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/100656.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100656"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ L（9kg〜14kg）1ケース（44枚入×4）男の子用 ユニ・チャーム",
+          "price": 7470,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7470,
+          "sheets": 176,
+          "per_sheet": 42.44,
+          "point_rate": 1,
+          "per_sheet_after_points": 42.02,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/p236259/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p236259"
+        },
+        {
+          "mall": "楽天",
+          "shop": "かがやきECOショップ",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ 44枚入 × 4袋セット 赤ちゃんのおむつ 子供おむつ 子供のオムツ パンツ型 ベビー用 紙オムツ Lサイズのおむつ",
+          "price": 7083,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7883,
+          "sheets": 176,
+          "per_sheet": 44.79,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.39,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqjbo.kqv98318.g00uqjbo.kqv99601/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagayaki-ecoshop%2Fn4903111206438-cs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkagayaki-ecoshop%2Fi%2F10000328%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kagayaki-ecoshop/cabinet/13454918/imgrc0111179741.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ Lサイズ 1〜3歳頃 【ムーニーマン マシュマロ肌ごこちモレ安心 女の子 L 44枚×4袋】9kg〜14kg パンツ型ベビー用紙オムツ マシュマロフィット ハイウエスト モレ安心 ユニ・チャーム公式ショップ お肌にあんしん 女の子用 Lサイズ やわらか弱酸性シート",
+          "price": 7084,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7884,
+          "sheets": 176,
+          "per_sheet": 44.8,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.39,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F100656%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10001870%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/100656.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "アールストリート",
+          "item_name": "パンツ L ムーニーマン マシュマロ肌ごこち モレ安心 男の子 Lサイズ おむつ (9~14kg)88枚 (44枚×2)",
+          "price": 4102,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4102,
+          "sheets": 88,
+          "per_sheet": 46.61,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.15,
+          "url": "https://store.shopping.yahoo.co.jp/r-street/rst6bb1bb2c59.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/r-street_rst6bb1bb2c59"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "堂本商事",
+          "item_name": "パンツ L ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ おむつ(9~14kg)208枚(52枚×4) ケース品 Amazo",
+          "price": 9747,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 9747,
+          "sheets": 208,
+          "per_sheet": 46.86,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.39,
+          "url": "https://store.shopping.yahoo.co.jp/brisk-online/20251011134714-01486.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011134714-01486"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "セイムスオンラインYahoo!店",
+          "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心女の子パンツL 44枚×4パック(1ケース)(PP)",
+          "price": 8316,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8316,
+          "sheets": 176,
+          "per_sheet": 47.25,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.78,
+          "url": "https://store.shopping.yahoo.co.jp/fujiyaku/4903111206438-4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/fujiyaku_4903111206438-4"
+        },
+        {
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ おむつ(9~14kg)208枚(52枚×4) [ケース品]",
+          "price": 9920,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 9920,
+          "sheets": 208,
+          "per_sheet": 47.69,
+          "point_rate": 1,
+          "per_sheet_after_points": 47.22,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9uo.kqv98e8b.g00uq9uo.kqv9984d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton264c11f54f13%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025130%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton264c11f54f13_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "春かぜ千里 日用良品",
+          "item_name": "（1ケース販売）「ムーニーマン　マシュマロ肌ごこち女の子Ｌ　４４枚」　4個の詰合せ",
+          "price": 8440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8440,
+          "sheets": 176,
+          "per_sheet": 47.95,
+          "point_rate": 1,
+          "per_sheet_after_points": 47.48,
+          "url": "https://store.shopping.yahoo.co.jp/wakeari/case4903111206438.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111206438"
+        }
+      ],
+      "stats": {
+        "fetched": 147,
+        "除外ワード": 2,
+        "枚数が読めない": 2,
+        "条件の言葉なし": 5,
+        "安すぎて除外": 0,
+        "使えた件数": 52,
+        "malls": {
+          "Yahoo!": 7,
+          "楽天": 3
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fc187327-e6d8-400c-8d3b-cfedf37b1848]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_mashmallow_pants_big",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "マシュマロ肌ごこち",
+      "type": "パンツ",
+      "size": "ビッグ",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "爽快ドラッグ",
+          "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心 男の子 ビッグ 12kg〜22kg 紙おむつ パンツ (  ビッグサイズ*38枚入×4個セット )/ ムーニーマン",
+          "price": 6881,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6881,
+          "sheets": 152,
+          "per_sheet": 45.27,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.82,
+          "url": "https://store.shopping.yahoo.co.jp/soukai/24115.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_24115"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 ビッグ 女の子 パンツ型ベビー用紙オムツ ムーニーマン 12kg〜22kg 38枚×4 ユニ・チャーム公式ショップ",
+          "price": 7084,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7084,
+          "sheets": 152,
+          "per_sheet": 46.61,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.14,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/100660.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100660"
+        },
+        {
+          "mall": "楽天",
+          "shop": "アップショップ",
+          "item_name": "【★ケース販売4 袋・送料無料】ムーニーマン マシュマロ肌ごこち　女の子ビッグ 38枚×4袋",
+          "price": 7400,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7400,
+          "sheets": 152,
+          "per_sheet": 48.68,
+          "point_rate": 1,
+          "per_sheet_after_points": 48.2,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8wjo.kqv9880e.g00u8wjo.kqv99e12/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fup-shop%2Fomutu-182%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fup-shop%2Fi%2F10001416%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/up-shop/cabinet/imgrc0183018611.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグ（12〜22kg） 1ケース（38枚入×4パック）女の子用ユニ・チャーム",
+          "price": 7470,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7470,
+          "sheets": 152,
+          "per_sheet": 49.14,
+          "point_rate": 1,
+          "per_sheet_after_points": 48.65,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/p236264/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p236264"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "鈴木物産",
+          "item_name": "パンツ BIG ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグサイズ おむつ (12~22kg)76枚 (38枚×2)",
+          "price": 3848,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 3848,
+          "sheets": 76,
+          "per_sheet": 50.63,
+          "point_rate": 1,
+          "per_sheet_after_points": 50.13,
+          "url": "https://store.shopping.yahoo.co.jp/kenzusutor/20260624145403-01985.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kenzusutor_20260624145403-01985"
+        },
+        {
+          "mall": "楽天",
+          "shop": "かがやきECOショップ",
+          "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心 男の子 パンツタイプ ビッグサイズ 38枚 【4個セット】",
+          "price": 7083,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7883,
+          "sheets": 152,
+          "per_sheet": 51.86,
+          "point_rate": 1,
+          "per_sheet_after_points": 51.4,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqjbo.kqv98318.g00uqjbo.kqv99601/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagayaki-ecoshop%2Fn4903111207671-cs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkagayaki-ecoshop%2Fi%2F10001995%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kagayaki-ecoshop/cabinet/12373966/n4903111207671-cs.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moonyパンツ ビッグサイズ 12kg〜22kg 【ムーニーマンマシュマロ肌ごこちモレ安心男の子ビッグ 38枚×4袋 】パンツ型ベビー用紙オムツ マシュマロフィット ハイウエスト ユニ・チャーム公式ショップ 一晩中モレ安心 お肌にあんしん XL 最大12時間吸収 全面通気シート",
+          "price": 7084,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7884,
+          "sheets": 152,
+          "per_sheet": 51.87,
+          "point_rate": 1,
+          "per_sheet_after_points": 51.4,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q215o.kqv98f01.g00q215o.kqv99b0f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F100658%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10001872%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/100658.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Care-Life 楽天市場店",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 女の子パンツ ビッグ 38枚×4袋",
+          "price": 7980,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7980,
+          "sheets": 152,
+          "per_sheet": 52.5,
+          "point_rate": 1,
+          "per_sheet_after_points": 51.98,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00un1do.kqv98869.g00un1do.kqv9925a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffragrance-fukuyama%2F4903111208098%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffragrance-fukuyama%2Fi%2F10000339%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fragrance-fukuyama/cabinet/compass1737376968.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "NIRVANA shop",
+          "item_name": "【パンツ BIG】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 ビッグサイズ おむつ (12~22kg)76枚 (38枚×2)",
+          "price": 4076,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4076,
+          "sheets": 76,
+          "per_sheet": 53.63,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.1,
+          "url": "https://store.shopping.yahoo.co.jp/nirvanashop/s-b07ph9z7yy-20260329.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/nirvanashop_s-b07ph9z7yy-20260329"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "堂本商事",
+          "item_name": "パンツ BIG ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグサイズ おむつ (12~22kg)76枚 (38枚×2)",
+          "price": 4088,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4088,
+          "sheets": 76,
+          "per_sheet": 53.79,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.25,
+          "url": "https://store.shopping.yahoo.co.jp/brisk-online/20251115153357-00019.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251115153357-00019"
+        }
+      ],
+      "stats": {
+        "fetched": 190,
+        "除外ワード": 11,
+        "サイズ違い・複数": 71,
+        "枚数が読めない": 2,
+        "安すぎて除外": 0,
+        "使えた件数": 38,
+        "malls": {
+          "Yahoo!": 6,
+          "楽天": 4
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fdba32a1-e15f-440d-a25f-b53273696f00]"
+        }
+      }
+    },
+    {
+      "id": "moonyman_mashmallow_pants_xbig",
+      "maker": "ユニ・チャーム",
+      "brand": "ムーニーマン",
+      "name": "マシュマロ肌ごこち",
       "type": "パンツ",
       "size": "ビッグより大きい",
       "offers": [
         {
           "mall": "楽天",
-          "shop": "デライーガ",
-          "item_name": "34枚×2袋セット パンツ ビッグより大きいサイズ ムーニーマン男の子 エアフィット (13~28kg)34枚 2F-OKU",
-          "price": 5480,
+          "shop": "アット通販west",
+          "item_name": "【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心女の子ビッグ大 26枚　※メーカー都合によりパッケージ、デザインが変更となる場合がございます",
+          "price": 4884,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 5480,
-          "sheets": 68,
-          "per_sheet": 80.59,
+          "total": 4884,
+          "sheets": 78,
+          "per_sheet": 62.62,
           "point_rate": 1,
-          "per_sheet_after_points": 79.78,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tx2bo.kqv985be.g00tx2bo.kqv99301/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fderaega%2F0638-013368%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fderaega%2Fi%2F10003720%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/deraega/cabinet/amayahoo/07951592/0638-013368.jpg?_ex=128x128"
+          "per_sheet_after_points": 61.99,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uo86o.kqv98314.g00uo86o.kqv990dd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-tsuhan-west%2F1017-4903111211654-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-tsuhan-west%2Fi%2F10000294%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-tsuhan-west/cabinet/1654.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
           "shop": "斉藤工芸",
-          "item_name": "パンツ ビッグより大きいサイズムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2142,
+          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
+          "price": 7329,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2142,
-          "sheets": 26,
-          "per_sheet": 82.38,
+          "total": 7329,
+          "sheets": 114,
+          "per_sheet": 64.29,
           "point_rate": 1,
-          "per_sheet_after_points": 81.56,
-          "url": "https://store.shopping.yahoo.co.jp/seikatu-zakka/20260619101720-00497.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00497"
+          "per_sheet_after_points": 63.65,
+          "url": "https://store.shopping.yahoo.co.jp/seikatu-zakka/20260619101720-00101.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00101"
         },
         {
           "mall": "Yahoo!",
-          "shop": "鈴木物産",
-          "item_name": "パンツ ビッグより大きいサイズムーニーマン女の子 エアフィット (13~25kg)26枚",
-          "price": 2161,
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 ビッグより大きい 女の子 パンツ型ベビー用紙オムツ ムーニーマン 13kg〜28kg 26枚×3 ユニ・チャーム公式",
+          "price": 5313,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2161,
-          "sheets": 26,
-          "per_sheet": 83.12,
-          "point_rate": 1,
-          "per_sheet_after_points": 82.28,
-          "url": "https://store.shopping.yahoo.co.jp/kenzusutor/20251228150818-02025.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kenzusutor_20251228150818-02025"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "北村商会",
-          "item_name": "パンツ ビッグより大きいサイズムーニーマン女の子 エアフィット (13~25kg)26枚",
-          "price": 2161,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2161,
-          "sheets": 26,
-          "per_sheet": 83.12,
-          "point_rate": 1,
-          "per_sheet_after_points": 82.28,
-          "url": "https://store.shopping.yahoo.co.jp/oimus725/20251229062646-01333.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/oimus725_20251229062646-01333"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "みんなのお薬バリュープライス(みんなのお薬)",
-          "item_name": "ムーニーマン エアフィット ビッグより大きいサイズ 26枚 (女の子用) 3個セット",
-          "price": 5902,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 6702,
+          "total": 5313,
           "sheets": 78,
-          "per_sheet": 85.92,
+          "per_sheet": 68.12,
           "point_rate": 1,
-          "per_sheet_after_points": 85.17,
-          "url": "https://store.shopping.yahoo.co.jp/minoku-value/1758933285-3-e.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/minoku-value_1758933285-3-e"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "NIRVANA shop",
-          "item_name": "【パンツ ビッグより大きいサイズ】ムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2283,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2283,
-          "sheets": 26,
-          "per_sheet": 87.81,
-          "point_rate": 1,
-          "per_sheet_after_points": 86.93,
-          "url": "https://store.shopping.yahoo.co.jp/nirvanashop/s-b000qs5jum-20260329.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/nirvanashop_s-b000qs5jum-20260329"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "堂本商事",
-          "item_name": "パンツ ビッグより大きいサイズムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2296,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2296,
-          "sheets": 26,
-          "per_sheet": 88.31,
-          "point_rate": 1,
-          "per_sheet_after_points": 87.42,
-          "url": "https://store.shopping.yahoo.co.jp/brisk-online/20251018043900-00319.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251018043900-00319"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "黄色いハチ",
-          "item_name": "【パンツ ビッグより大きいサイズ】ムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2339,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2339,
-          "sheets": 26,
-          "per_sheet": 89.96,
-          "point_rate": 1,
-          "per_sheet_after_points": 89.06,
-          "url": "https://store.shopping.yahoo.co.jp/kiiroihachi/yahoo20250605-b000qs5jum.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kiiroihachi_yahoo20250605-b000qs5jum"
+          "per_sheet_after_points": 67.43,
+          "url": "https://store.shopping.yahoo.co.jp/unicharm-yp/100664.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100664"
         },
         {
           "mall": "Yahoo!",
           "shop": "上田生活",
-          "item_name": "パンツ ビッグより大きいサイズムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2340,
+          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)38枚",
+          "price": 2617,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2340,
-          "sheets": 26,
-          "per_sheet": 90.0,
+          "total": 2617,
+          "sheets": 38,
+          "per_sheet": 68.87,
           "point_rate": 1,
-          "per_sheet_after_points": 89.1,
-          "url": "https://store.shopping.yahoo.co.jp/worldglobal/20250329024436-00104.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/worldglobal_20250329024436-00104"
+          "per_sheet_after_points": 68.18,
+          "url": "https://store.shopping.yahoo.co.jp/worldglobal/20250906021321-00010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/worldglobal_20250906021321-00010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "堂本商事",
+          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
+          "price": 7928,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7928,
+          "sheets": 114,
+          "per_sheet": 69.54,
+          "point_rate": 1,
+          "per_sheet_after_points": 68.85,
+          "url": "https://store.shopping.yahoo.co.jp/brisk-online/20251011130727-03012.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011130727-03012"
         },
         {
           "mall": "楽天",
-          "shop": "NATURE STOCK",
-          "item_name": "【パンツ ビッグより大きいサイズ】ムーニーマン女の子 エアフィット (13~25kg) 白 26枚",
-          "price": 2397,
+          "shop": "actonlineshop",
+          "item_name": "【パンツ BIG大】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
+          "price": 8070,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2397,
-          "sheets": 26,
-          "per_sheet": 92.19,
+          "total": 8070,
+          "sheets": 114,
+          "per_sheet": 70.79,
           "point_rate": 1,
-          "per_sheet_after_points": 91.27,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uw8wo.kqv98d7b.g00uw8wo.kqv991a3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnaturestock%2Faj48013c44e030ed%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnaturestock%2Fi%2F10019521%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/naturestock/cabinet/onesell039/aj48013c44e030ed_0.jpg?_ex=128x128"
+          "per_sheet_after_points": 70.08,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9uo.kqv98e8b.g00uq9uo.kqv9984d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton26122a087435%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10054237%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell043/acton26122a087435_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグより大きい（13〜28kg）1ケース（26枚入×3パック）女の子用",
+          "price": 5600,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5600,
+          "sheets": 78,
+          "per_sheet": 71.79,
+          "point_rate": 1,
+          "per_sheet_after_points": 71.08,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/p247669/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p247669"
+        },
+        {
+          "mall": "楽天",
+          "shop": "アット通販",
+          "item_name": "【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心女の子ビッグ大 26枚",
+          "price": 4884,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5684,
+          "sheets": 78,
+          "per_sheet": 72.87,
+          "point_rate": 1,
+          "per_sheet_after_points": 72.25,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qkwxo.kqv98737.g00qkwxo.kqv9936e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-tsuhan%2F1017-4903111211654-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-tsuhan%2Fi%2F10053038%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-tsuhan/cabinet/uni/4903111211654_03.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "hoshi to mori shop",
+          "item_name": "【パンツ BIG大】 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
+          "price": 8307,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8307,
+          "sheets": 114,
+          "per_sheet": 72.87,
+          "point_rate": 1,
+          "per_sheet_after_points": 72.14,
+          "url": "https://store.shopping.yahoo.co.jp/hoshitomori/hoshimori8ea699c261.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hoshitomori_hoshimori8ea699c261"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "キリン堂通販SHOPヤフー店",
+          "item_name": "送料無料 ケース販売 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 ビッグより大きい (13〜28kg) 26枚 ×3個",
+          "price": 5771,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5771,
+          "sheets": 78,
+          "per_sheet": 73.99,
+          "point_rate": 1,
+          "per_sheet_after_points": 73.25,
+          "url": "https://store.shopping.yahoo.co.jp/kirindo/4903111211654.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kirindo_4903111211654"
         }
       ],
       "stats": {
-        "fetched": 76,
-        "条件の言葉なし": 21,
-        "単価が不自然": 18,
-        "除外ワード": 4,
-        "サイズ違い・複数": 1,
+        "fetched": 159,
+        "除外ワード": 10,
+        "単価が不自然": 40,
+        "サイズ違い・複数": 20,
+        "条件の言葉なし": 2,
         "安すぎて除外": 0,
-        "使えた件数": 21,
+        "使えた件数": 37,
         "malls": {
-          "楽天": 2,
-          "Yahoo!": 8
+          "楽天": 3,
+          "Yahoo!": 7
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 8f27c1ac-6ea8-4a68-af83-bc91e7f87f3f]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b6490aae-4de9-481e-ae95-b0037586a815]"
         }
       }
     },
@@ -5269,7 +5965,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 85f7ab37-74ed-4511-b163-2d5a5651ae4c]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: a1345283-3041-46bb-824b-bab75451728d]"
         }
       }
     },
@@ -5403,48 +6099,48 @@
         },
         {
           "mall": "楽天",
-          "shop": "ユナイテッドショップ",
-          "item_name": "【テープ Sサイズ】 グーンプラス 敏感肌にやわらかタッチ おむつ (4~8kg) 58枚 (ディズニーデザイン)",
-          "price": 2000,
+          "shop": "ciel-sora",
+          "item_name": "グーンプラス テープ 敏感肌設計 Sサイズ70枚",
+          "price": 2600,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 2800,
-          "sheets": 58,
-          "per_sheet": 48.28,
+          "total": 3400,
+          "sheets": 70,
+          "per_sheet": 48.57,
           "point_rate": 1,
-          "per_sheet_after_points": 47.93,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00urlyo.kqv981cc.g00urlyo.kqv999d8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funited-shop01%2Fbswuoppzukn67qnomw7a43b6bm%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funited-shop01%2Fi%2F10168385%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/united-shop01/cabinet/12722048/35545817_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 48.2,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00usr5o.kqv98e69.g00usr5o.kqv99f03/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fciel-sora%2Flbn7c4qftr6j3qigrgmh453xpa%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fciel-sora%2Fi%2F10169090%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ciel-sora/cabinet/13158008/34378437_1.jpg?_ex=128x128"
         },
         {
-          "mall": "楽天",
-          "shop": "シオカゼ商店",
-          "item_name": "【テープ Sサイズ】 グーンプラス 敏感肌にやわらかタッチ おむつ (4~8kg) 58枚 (ディズニーデザイン)",
-          "price": 2000,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 2800,
-          "sheets": 58,
-          "per_sheet": 48.28,
+          "mall": "Yahoo!",
+          "shop": "アールストリート",
+          "item_name": "テープ 生まれてすぐの赤ちゃんグーンプラス 敏感肌設計 3S (1.8~3ｋｇ) 36枚",
+          "price": 2270,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 2270,
+          "sheets": 36,
+          "per_sheet": 63.06,
           "point_rate": 1,
-          "per_sheet_after_points": 47.93,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00unb1o.kqv98851.g00unb1o.kqv9981b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomichi-store%2Fzua5uxpyehqsrqvw7mjtm6wjz4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomichi-store%2Fi%2F10308593%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/omichi-store/cabinet/13109801/34180122_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 62.43,
+          "url": "https://store.shopping.yahoo.co.jp/r-street/rst397a032884.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/r-street_rst397a032884"
         }
       ],
       "stats": {
-        "fetched": 83,
+        "fetched": 80,
         "サイズ違い・複数": 40,
         "除外ワード": 3,
         "条件の言葉なし": 25,
         "安すぎて除外": 0,
-        "使えた件数": 14,
+        "使えた件数": 11,
         "malls": {
-          "楽天": 7,
-          "Yahoo!": 3
+          "楽天": 6,
+          "Yahoo!": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: ba18a731-ddd7-4eec-bfec-542171c89a8e]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4fac84d7-40de-427e-ab6c-bfc161ff145a]"
         }
       }
     },
@@ -5590,7 +6286,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 5e84953a-5b7e-4be0-b039-47b58a40cbd9]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 3f936240-45d7-431a-bbcd-0e19eac0f8d4]"
         }
       }
     },
@@ -5704,7 +6400,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 3e4b09ca-cbe5-4b75-b413-4f9ddec3adad]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f4d1a748-9c9b-4ab5-b807-ee6eb38a01b8]"
         }
       }
     },
@@ -5854,7 +6550,7 @@
       ],
       "stats": {
         "fetched": 85,
-        "サイズ違い・複数": 48,
+        "サイズ違い・複数": 47,
         "条件の言葉なし": 20,
         "単価が不自然": 2,
         "タイプ違い": 1,
@@ -5865,7 +6561,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: fbd284a9-0682-4942-88e3-6e8abbba114e]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6b4056dc-4c08-40d1-9562-0006cd5e6493]"
         }
       }
     },
@@ -6041,7 +6737,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 83f2af8c-73c8-4466-bc2c-c378201fb82f]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2223b40b-48f1-4531-9005-979e3969cbe2]"
         }
       }
     },
@@ -6216,7 +6912,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: c19b50fd-eeca-4b8f-8053-d508ecd1b9d5]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: bf407459-231c-437a-b889-0606f208bb34]"
         }
       }
     },
@@ -6268,7 +6964,7 @@
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 8f9e525b-61dd-491a-b850-228181dc3f0a]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fc48913a-c8c9-41ad-b1c6-72ce834e1305]"
         }
       }
     },
@@ -6433,19 +7129,19 @@
       ],
       "stats": {
         "fetched": 166,
-        "除外ワード": 16,
+        "除外ワード": 15,
         "単価が不自然": 1,
-        "枚数が読めない": 2,
+        "枚数が読めない": 3,
         "条件の言葉なし": 12,
         "サイズ違い・複数": 1,
         "安すぎて除外": 0,
-        "使えた件数": 63,
+        "使えた件数": 64,
         "malls": {
           "Yahoo!": 8,
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: b4c1b6e9-62a4-474d-9ea9-ad117112b957]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 25db67f4-7328-453c-88c4-859fb622be5c]"
         }
       }
     },
@@ -6610,10 +7306,10 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 27,
+        "除外ワード": 26,
         "サイズ違い・複数": 16,
         "枚数が読めない": 1,
-        "条件の言葉なし": 12,
+        "条件の言葉なし": 11,
         "安すぎて除外": 0,
         "使えた件数": 71,
         "malls": {
@@ -6621,7 +7317,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 6010dc8a-6b56-46fa-948d-19f1c5e36c99]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 165f3c39-57a4-463e-9392-ef3de05337cf]"
         }
       }
     },
@@ -6786,19 +7482,18 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 44,
-        "サイズ違い・複数": 47,
+        "除外ワード": 45,
+        "サイズ違い・複数": 57,
         "単価が不自然": 8,
         "条件の言葉なし": 5,
-        "枚数が読めない": 2,
         "安すぎて除外": 0,
-        "使えた件数": 45,
+        "使えた件数": 43,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 421e8f1c-5773-447c-9dce-19a1020c4182]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 89038514-cec2-4c7e-8e6a-6370ec4b96d2]"
         }
       }
     },
@@ -6963,19 +7658,19 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 43,
-        "サイズ違い・複数": 6,
+        "除外ワード": 42,
+        "サイズ違い・複数": 5,
         "タイプ違い": 1,
-        "条件の言葉なし": 6,
         "単価が不自然": 1,
+        "条件の言葉なし": 4,
         "安すぎて除外": 0,
-        "使えた件数": 79,
+        "使えた件数": 83,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Access denied for the requested operation - AssociateNotEligible; Your account does not currently meet the eligibility requirements. [request id: 82bf2ab5-3130-439f-9cf5-42b7b6d36484]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f4ac1be7-8213-4677-91ed-84c1613deb43]"
         }
       }
     }
