@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T14:12+09:00",
+  "updated": "2026-10-18T14:27+09:00",
   "sources": [
     "楽天市場",
     "Yahoo!ショッピング",
@@ -168,18 +168,18 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 9,
+        "除外ワード": 10,
         "サイズ違い・複数": 50,
         "枚数が読めない": 3,
         "条件の言葉なし": 6,
         "安すぎて除外": 0,
-        "使えた件数": 62,
+        "使えた件数": 61,
         "malls": {
           "Yahoo!": 8,
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 739f8be7-863e-4380-a6d4-156847a2140e]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: d8f0de31-270e-41a0-8823-5a5917626b6d]"
         }
       }
     },
@@ -356,7 +356,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b2035009-63df-4708-956d-d8ae0d62a6f7]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 3013cac9-3659-4720-a213-88021b3de0cf]"
         }
       }
     },
@@ -522,18 +522,18 @@
       "stats": {
         "fetched": 190,
         "除外ワード": 2,
-        "サイズ違い・複数": 35,
+        "サイズ違い・複数": 34,
         "枚数が読めない": 24,
         "条件の言葉なし": 27,
         "タイプ違い": 11,
         "安すぎて除外": 0,
-        "使えた件数": 59,
+        "使えた件数": 60,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: ee11c191-a4d5-4b6e-a321-e2ca804791d6]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 5a2656bf-d611-4a05-bb64-70ec6bbd15e7]"
         }
       }
     },
@@ -699,7 +699,7 @@
       "stats": {
         "fetched": 190,
         "除外ワード": 11,
-        "サイズ違い・複数": 29,
+        "サイズ違い・複数": 28,
         "条件の言葉なし": 8,
         "枚数が読めない": 12,
         "タイプ違い": 7,
@@ -710,7 +710,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f1a07287-ffce-4371-9560-259df12b88b5]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: dec93645-eafa-4f01-9a65-6fabd2cef5e1]"
         }
       }
     },
@@ -878,7 +878,7 @@
         "サイズ違い・複数": 10,
         "除外ワード": 3,
         "タイプ違い": 1,
-        "枚数が読めない": 3,
+        "枚数が読めない": 4,
         "条件の言葉なし": 5,
         "安すぎて除外": 0,
         "使えた件数": 71,
@@ -887,7 +887,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 5f06c9d7-e637-4988-8575-a3c6301e9c76]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7d99c427-8903-49a3-a1fa-89d87fa8f696]"
         }
       }
     },
@@ -1059,13 +1059,13 @@
         "タイプ違い": 1,
         "枚数が読めない": 1,
         "安すぎて除外": 0,
-        "使えた件数": 103,
+        "使えた件数": 102,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 0950e0ea-c679-4eb4-91d4-1c69014a7909]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 5b842a22-d0ee-42da-b244-6d8bbc57feb0]"
         }
       }
     },
@@ -1239,7 +1239,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 60e71358-32a1-4c74-9f77-c9805a84fc48]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fd7f820a-c960-49bb-8e2a-a7dc4267313d]"
         }
       }
     },
@@ -1416,7 +1416,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b7e318d7-c1ac-4928-bc6f-6ee9823d3e71]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 19373381-73ce-4960-9edf-35d213ab4074]"
         }
       }
     },
@@ -1581,20 +1581,20 @@
       ],
       "stats": {
         "fetched": 190,
-        "サイズ違い・複数": 34,
-        "除外ワード": 7,
+        "サイズ違い・複数": 33,
+        "除外ワード": 8,
         "タイプ違い": 3,
         "単価が不自然": 1,
         "枚数が読めない": 2,
         "条件の言葉なし": 3,
         "安すぎて除外": 0,
-        "使えた件数": 80,
+        "使えた件数": 82,
         "malls": {
           "Yahoo!": 7,
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2648fb13-7535-4928-ad78-739600cd7822]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: e00a725d-12f9-4eb2-bf88-ef73761a0c41]"
         }
       }
     },
@@ -1765,13 +1765,13 @@
         "枚数が読めない": 2,
         "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 86,
+        "使えた件数": 85,
         "malls": {
           "Yahoo!": 8,
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7928fb1b-6789-48bf-a0d4-191c4c5b0332]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: cc832a61-8541-4bfe-943f-b94ef2421623]"
         }
       }
     },
@@ -1949,7 +1949,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 1297bc41-2ec9-416f-bce8-6b5e207217b1]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 640bfd71-e0e9-48de-8256-7e8661b042f5]"
         }
       }
     },
@@ -2127,7 +2127,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6866fb9c-67cd-4ffa-95c3-6a3af0496700]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: e5472dc5-a935-4327-bea5-6aff16ae4677]"
         }
       }
     },
@@ -2304,7 +2304,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 69976e65-ede7-4e7b-a00d-91b14c7005cc]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6558c933-bc8a-453e-80ac-e4422780ebd1]"
         }
       }
     },
@@ -2481,7 +2481,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 55fea93e-e932-4cc9-b1af-8de2157faaac]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 56045a6a-f1d5-48da-9ffe-663653a0c3f1]"
         }
       }
     },
@@ -2646,7 +2646,7 @@
       ],
       "stats": {
         "fetched": 190,
-        "枚数が読めない": 7,
+        "枚数が読めない": 9,
         "除外ワード": 10,
         "サイズ違い・複数": 30,
         "単価が不自然": 10,
@@ -2659,7 +2659,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 76445906-3a47-47d9-a542-ab8d02f6f71b]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: ea66818a-4c7a-47a3-8cac-bfe6ae7560d3]"
         }
       }
     },
@@ -2677,7 +2677,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7c76015a-9132-4dd4-b754-c54741fa98b4]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: a9c41c76-dfd8-40e6-a0b2-3722f750386d]"
         }
       }
     },
@@ -2848,13 +2848,13 @@
         "枚数が読めない": 3,
         "条件の言葉なし": 2,
         "安すぎて除外": 0,
-        "使えた件数": 68,
+        "使えた件数": 67,
         "malls": {
           "楽天": 3,
           "Yahoo!": 7
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 40e00d77-77b8-4735-b684-6c9cca5e039b]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: ad391245-8214-4418-b7e5-b3d30c82044d]"
         }
       }
     },
@@ -3025,13 +3025,13 @@
         "条件の言葉なし": 46,
         "タイプ違い": 2,
         "安すぎて除外": 0,
-        "使えた件数": 80,
+        "使えた件数": 81,
         "malls": {
           "楽天": 4,
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: de549541-c817-4b78-adf0-48b12d0b5d85]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: a65099ea-f7a2-4968-947e-c74ac639b1eb]"
         }
       }
     },
@@ -3208,7 +3208,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 31de3c7c-5367-47af-ae23-d69ff356e4a8]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2116b07a-5f05-44e8-bc4b-ad7d5c1b2f22]"
         }
       }
     },
@@ -3228,7 +3228,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 28ef127f-b9bc-4219-804e-2bcc5a1e3786]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 8960cd4e-c539-4b81-a63a-a4633f0c10f8]"
         }
       }
     },
@@ -3395,7 +3395,7 @@
         "fetched": 167,
         "サイズ違い・複数": 28,
         "枚数が読めない": 1,
-        "除外ワード": 45,
+        "除外ワード": 44,
         "タイプ違い": 2,
         "条件の言葉なし": 16,
         "安すぎて除外": 1,
@@ -3405,7 +3405,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: af5133a8-1616-49d9-bb5a-e08233db9d29]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 1c523a32-5c8a-44ea-a47c-4b5f2cebb829]"
         }
       }
     },
@@ -3581,7 +3581,7 @@
           "Yahoo!": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 3a76d0eb-09fb-44b4-906b-f1da36933cd6]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2dc8bc9e-c753-49cc-a07c-56ecd7f717c2]"
         }
       }
     },
@@ -3758,7 +3758,7 @@
           "楽天": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 01e40d51-fd68-4d92-8496-01f1814b6e13]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 401166a4-7fa1-4d62-9f12-f8395a4f2a54]"
         }
       }
     },
@@ -3935,7 +3935,7 @@
           "Yahoo!": 10
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 56f78595-ce4e-4762-9e7e-de5e8f1a06b7]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 18dd4499-55b0-4bce-9270-8f23dc3f983f]"
         }
       }
     },
@@ -4111,7 +4111,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 1b896f83-d7b8-405c-9415-62ac2eff67d5]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2ac48979-8ba9-404f-8000-c01b3ce89408]"
         }
       }
     },
@@ -4287,7 +4287,7 @@
           "楽天": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 25171caf-2427-4622-91ad-a5b9357dadb6]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 66738c85-af2d-41aa-9b3f-69239f6655d6]"
         }
       }
     },
@@ -4391,21 +4391,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "koda shop",
-          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
-          "price": 1969,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1969,
-          "sheets": 54,
-          "per_sheet": 36.46,
-          "point_rate": 1,
-          "per_sheet_after_points": 36.1,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqh2o.kqv988a5.g00uqh2o.kqv999eb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkoda-shop%2F20260812100907_218%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkoda-shop%2Fi%2F10112318%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/koda-shop/cabinet/r_2025062820/20260812100907_218_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "ユニ・チャームダイレクトショップ",
           "item_name": "【ケース】ムーニー マシュマロ肌ごこちモレ安心 Mサイズ 54枚×4 [ 公式ショップ ] ユニ・チャーム公式 紙おむつ テープタイプ ベビー 赤ちゃん まとめ買い ユニチャーム【公式ショップ】",
           "price": 7084,
@@ -4421,21 +4406,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "SNマート 楽天市場店",
-          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
-          "price": 1973,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1973,
-          "sheets": 54,
-          "per_sheet": 36.54,
-          "point_rate": 1,
-          "per_sheet_after_points": 36.17,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ty83o.kqv98a6f.g00ty83o.kqv996b9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsn-mart%2Fsn0065ccbb23%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsn-mart%2Fi%2F10103359%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sn-mart/cabinet/onesell083/sn0065ccbb23_0.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "生活雑貨 めも",
           "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
           "price": 2014,
@@ -4448,23 +4418,53 @@
           "per_sheet_after_points": 36.92,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz27o.kqv98e8c.g00tz27o.kqv99e8c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikatsuzakkamemo%2F20260524221542_117%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikatsuzakkamemo%2Fi%2F10012486%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seikatsuzakkamemo/cabinet/r_1617591069/20260524221542_117_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "スイートミューズ",
+          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
+          "price": 2020,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 2020,
+          "sheets": 54,
+          "per_sheet": 37.41,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.03,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tgfro.kqv986e8.g00tgfro.kqv99c2d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsweetshopegami%2F20260717115254_236%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsweetshopegami%2Fi%2F10034307%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sweetshopegami/cabinet/r_2026071323/20260717115254_236_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "LOVEYOURS 楽天市場店",
+          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
+          "price": 2020,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 2020,
+          "sheets": 54,
+          "per_sheet": 37.41,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.03,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upo6o.kqv98a43.g00upo6o.kqv99586/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Floveyours%2F20260718033022_212%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Floveyours%2Fi%2F10098424%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/loveyours/cabinet/r_2025032908/20260718033022_212_1.jpg?_ex=128x128"
         }
       ],
       "stats": {
         "fetched": 190,
         "除外ワード": 20,
         "タイプ違い": 1,
-        "サイズ違い・複数": 30,
-        "単価が不自然": 1,
+        "サイズ違い・複数": 32,
+        "単価が不自然": 2,
         "条件の言葉なし": 59,
         "安すぎて除外": 0,
-        "使えた件数": 51,
+        "使えた件数": 48,
         "malls": {
           "楽天": 8,
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4a7cef6e-c48c-4d8a-bf41-a2dc5332b15f]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4cbd159d-aec9-4946-846f-ac0c5fb9c4f3]"
         }
       }
     },
@@ -4631,7 +4631,7 @@
         "fetched": 183,
         "除外ワード": 17,
         "タイプ違い": 1,
-        "サイズ違い・複数": 40,
+        "サイズ違い・複数": 42,
         "単価が不自然": 2,
         "条件の言葉なし": 66,
         "安すぎて除外": 1,
@@ -4641,7 +4641,7 @@
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: bb906b3c-b349-456f-bace-69783a9ff674]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 9d6985b1-63c1-40cd-b709-e54457069469]"
         }
       }
     },
@@ -4814,7 +4814,7 @@
           "楽天": 1
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 16c13f19-df4f-4440-bbe2-a685baa478e9]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: a79b70a8-1a10-406d-a9fa-6725381803c3]"
         }
       }
     },
@@ -4987,7 +4987,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 814f9fc7-bddd-4ea8-a828-514b65c40e2b]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: e19ecf39-31cb-42cb-8611-d0663ef33d6e]"
         }
       }
     },
@@ -5161,7 +5161,7 @@
           "楽天": 6
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6113d784-21e7-4886-9972-2de9c3003deb]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 76c764be-3179-4537-b449-db92db7ad470]"
         }
       }
     },
@@ -5178,7 +5178,7 @@
         "使えた件数": 0,
         "malls": {},
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6dc2750a-6de7-48e8-8b86-4c33fcb79ac8]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 407ec161-2b1c-4e4c-aec5-5c80b467cc86]"
         }
       }
     },
@@ -5354,7 +5354,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 15cf2357-cf33-41f4-b0d2-7fd426da51d5]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: ba1475aa-587f-45b7-88a8-0769f6e6ddae]"
         }
       }
     },
@@ -5529,7 +5529,7 @@
           "楽天": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fc187327-e6d8-400c-8d3b-cfedf37b1848]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 63c86fb8-573a-42ff-bcf2-ad91e904dc95]"
         }
       }
     },
@@ -5704,7 +5704,7 @@
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fdba32a1-e15f-440d-a25f-b53273696f00]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b52fb2da-deec-423d-84c5-ad77829f305a]"
         }
       }
     },
@@ -5870,7 +5870,7 @@
       "stats": {
         "fetched": 159,
         "除外ワード": 10,
-        "単価が不自然": 40,
+        "単価が不自然": 41,
         "サイズ違い・複数": 20,
         "条件の言葉なし": 2,
         "安すぎて除外": 0,
@@ -5880,7 +5880,7 @@
           "Yahoo!": 7
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: b6490aae-4de9-481e-ae95-b0037586a815]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 86fc8a17-53da-4331-bef2-ceeb6ffcf998]"
         }
       }
     },
@@ -5965,7 +5965,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: a1345283-3041-46bb-824b-bab75451728d]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4803796d-2d42-4fdc-89ce-65227990327e]"
         }
       }
     },
@@ -6140,7 +6140,7 @@
           "Yahoo!": 4
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 4fac84d7-40de-427e-ab6c-bfc161ff145a]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 67cb20ec-7a71-493e-b9bd-5b86dc47de12]"
         }
       }
     },
@@ -6286,7 +6286,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 3f936240-45d7-431a-bbcd-0e19eac0f8d4]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6c0cfa01-8567-4ed6-b579-665923803ccd]"
         }
       }
     },
@@ -6400,7 +6400,7 @@
           "Yahoo!": 3
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f4d1a748-9c9b-4ab5-b807-ee6eb38a01b8]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 7f715b42-6e7e-4c4b-9b0e-799d13bb0401]"
         }
       }
     },
@@ -6561,7 +6561,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 6b4056dc-4c08-40d1-9562-0006cd5e6493]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 5e8f7f7f-384d-42d1-aa44-254628599915]"
         }
       }
     },
@@ -6737,7 +6737,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 2223b40b-48f1-4531-9005-979e3969cbe2]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 9e60b4de-b69b-47a4-8557-9b985ce2f50e]"
         }
       }
     },
@@ -6912,7 +6912,7 @@
           "楽天": 5
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: bf407459-231c-437a-b889-0606f208bb34]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 0195579e-c723-4f48-95af-86d5f43aab0d]"
         }
       }
     },
@@ -6964,7 +6964,711 @@
           "Yahoo!": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: fc48913a-c8c9-41ad-b1c6-72ce834e1305]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: afb148fb-099f-4933-8bcf-20d69fff9e3d]"
+        }
+      }
+    },
+    {
+      "id": "goon_gungun_pants_m",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "size": "M",
+      "offers": [
+        {
+          "mall": "楽天",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "【お取寄せ品】 大王製紙　グーン　ぐんぐん吸収パンツ　Mサイズ（6−12kg）　1セット（198枚：66枚×3パック） 【送料無料】",
+          "price": 4860,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4860,
+          "sheets": 198,
+          "per_sheet": 24.55,
+          "point_rate": 1,
+          "per_sheet_after_points": 24.3,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpdqo.kqv98082.g00qpdqo.kqv993ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fp-tano%2F962-0104%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fp-tano%2Fi%2F10646443%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/p-tano/cabinet/shohin900_09/962-0104.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　Ｍサイズ（６−１２ｋｇ）　１セット（１９８枚：６６枚×３パック）（お取寄せ品)",
+          "price": 4860,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4860,
+          "sheets": 198,
+          "per_sheet": 24.55,
+          "point_rate": 1,
+          "per_sheet_after_points": 24.3,
+          "url": "https://store.shopping.yahoo.co.jp/tanomail/9620104.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tanomail_9620104"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "サンドラッグe-shop",
+          "item_name": "大王製紙 グーン ぐんぐん吸収パンツ M 66枚   【3個セット】",
+          "price": 5090,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5090,
+          "sheets": 198,
+          "per_sheet": 25.71,
+          "point_rate": 1,
+          "per_sheet_after_points": 25.45,
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4902011109269x3.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4902011109269x3"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ベイシア楽天市場店",
+          "item_name": "【ポイント5倍！10/1 12:00-10/31迄】大王製紙 グーンぐんぐん吸収パンツ M66枚 3個 | グーン 紙おむつ パンツ Mサイズ ベビーオムツ オムツ まとめ買い パンツタイプ M 66枚 3個 子育て",
+          "price": 5340,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5340,
+          "sheets": 198,
+          "per_sheet": 26.97,
+          "point_rate": 5,
+          "per_sheet_after_points": 25.62,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4902011109269-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10186918%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/ast/4902011109269-3_00.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "SHOP YPP ヤフー店",
+          "item_name": "グーン ぐんぐん吸収パンツ Mサイズ おむつ 6~12kg 64枚×3個 計192枚 ディズニーデザイン",
+          "price": 5180,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5180,
+          "sheets": 192,
+          "per_sheet": 26.98,
+          "point_rate": 1,
+          "per_sheet_after_points": 26.71,
+          "url": "https://store.shopping.yahoo.co.jp/shop-ypp/3799-005791.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/shop-ypp_3799-005791"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "グーン おむつ パンツ Mサイズ（6〜12kg）1セット（66枚入×3パック）ぐんぐん吸収パンツ 男女共用 大王製紙",
+          "price": 5440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5440,
+          "sheets": 198,
+          "per_sheet": 27.47,
+          "point_rate": 1,
+          "per_sheet_after_points": 27.2,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/ek22098/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_ek22098"
+        },
+        {
+          "mall": "楽天",
+          "shop": "SHOP YPP 楽天市場店",
+          "item_name": "グーン ぐんぐん吸収パンツ Mサイズ おむつ 6~12kg 64枚×3個 計192枚 ディズニーデザイン",
+          "price": 4680,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5480,
+          "sheets": 192,
+          "per_sheet": 28.54,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.3,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uci6o.kqv9865a.g00uci6o.kqv998a4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopypp%2F3799-005791%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopypp%2Fi%2F10003706%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/shopypp/cabinet/amayahoo/12698233/3799-005791.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ツルハドラッグ",
+          "item_name": "《セット販売》　大王製紙 エリエール グーン ぐんぐん吸収パンツ Mサイズ (66枚)×3個セット 6kg-12kg ベビー紙おむつ パンツタイプ オムツ",
+          "price": 4855,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5655,
+          "sheets": 198,
+          "per_sheet": 28.56,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.32,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rbnvo.kqv98054.g00rbnvo.kqv994b3/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsuruha%2F10171153%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsuruha%2Fi%2F10105566%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tsuruha/cabinet/shouhin82/10171153.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ドラッグストアウェルネス",
+          "item_name": "《セット販売》　大王製紙 エリエール グーン ぐんぐん吸収パンツ Mサイズ (66枚)×3個セット 6kg-12kg ベビー紙おむつ パンツタイプ オムツ",
+          "price": 4855,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5655,
+          "sheets": 198,
+          "per_sheet": 28.56,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.32,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pp25o.kqv986bf.g00pp25o.kqv995c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwellness-web%2F10171153%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwellness-web%2Fi%2F10161709%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/wellness-web/cabinet/shouhin82/10171153.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "くすりの福太郎 楽天市場店",
+          "item_name": "《セット販売》　大王製紙 エリエール グーン ぐんぐん吸収パンツ Mサイズ (66枚)×3個セット 6kg-12kg ベビー紙おむつ パンツタイプ オムツ",
+          "price": 4855,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5655,
+          "sheets": 198,
+          "per_sheet": 28.56,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.32,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rw7po.kqv98b0a.g00rw7po.kqv99370/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkusurinofukutaro%2F10171153%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkusurinofukutaro%2Fi%2F10097630%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kusurinofukutaro/cabinet/shouhin82/10171153.jpg?_ex=128x128"
+        }
+      ],
+      "stats": {
+        "fetched": 190,
+        "サイズ違い・複数": 13,
+        "単価が不自然": 30,
+        "条件の言葉なし": 1,
+        "除外ワード": 1,
+        "安すぎて除外": 1,
+        "使えた件数": 71,
+        "malls": {
+          "楽天": 6,
+          "Yahoo!": 4
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 8381e949-881a-4f0a-b663-049ca383d2f6]"
+        }
+      }
+    },
+    {
+      "id": "goon_gungun_pants_l",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "size": "L",
+      "offers": [
+        {
+          "mall": "楽天",
+          "shop": "サンドラッグe-shop",
+          "item_name": "大王製紙 グーンぐんぐん吸収パンツ超たっぷりLサイズ 72枚 【3個セット】",
+          "price": 6300,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6300,
+          "sheets": 216,
+          "per_sheet": 29.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.88,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyfo.kqv980d0.g00qvyfo.kqv993fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4902011116564x3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10136676%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202512_1/4902011116564.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "サンドラッグe-shop",
+          "item_name": "大王製紙 グーンぐんぐん吸収パンツ超たっぷりLサイズ 72枚   【3個セット】",
+          "price": 6300,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6300,
+          "sheets": 216,
+          "per_sheet": 29.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.88,
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4902011116564x3.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4902011116564x3"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "SHOP YPP ヤフー店",
+          "item_name": "グーン ぐんぐん吸収パンツ Lサイズ おむつ 9~14kg 58枚×3個 計174枚 ディズニーデザイン",
+          "price": 5380,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5380,
+          "sheets": 174,
+          "per_sheet": 30.92,
+          "point_rate": 1,
+          "per_sheet_after_points": 30.61,
+          "url": "https://store.shopping.yahoo.co.jp/shop-ypp/3799-005788.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/shop-ypp_3799-005788"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりのレデイハートショップ",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　L　72枚×3個",
+          "price": 6714,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6714,
+          "sheets": 216,
+          "per_sheet": 31.08,
+          "point_rate": 1,
+          "per_sheet_after_points": 30.77,
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4902011116564.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop_4902011116564"
+        },
+        {
+          "mall": "楽天",
+          "shop": "はやとく商店",
+          "item_name": "【オープン記念セール】 グーン ぐんぐん吸収パンツ Lサイズ おむつ 58枚×3個 計174枚 (9~14kg) ディズニーデザイン",
+          "price": 4680,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5480,
+          "sheets": 174,
+          "per_sheet": 31.49,
+          "point_rate": 1,
+          "per_sheet_after_points": 31.23,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uvhvo.kqv98ddc.g00uvhvo.kqv999ef/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhayatokushoten%2F4279-000041%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhayatokushoten%2Fi%2F10000057%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hayatokushoten/cabinet/amayahoo/13214593/4279-000041.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "グーン おむつ パンツ L（9〜14kg） 1セット（56枚入×3パック） 男女共用 ぐんぐん吸収パンツ 大容量セット 大王製紙",
+          "price": 5440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5440,
+          "sheets": 168,
+          "per_sheet": 32.38,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.06,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/u175570/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u175570"
+        },
+        {
+          "mall": "楽天",
+          "shop": "SHOP YPP 楽天市場店",
+          "item_name": "グーン ぐんぐん吸収パンツ Lサイズ おむつ 9~14kg 58枚×3個 計174枚 ディズニーデザイン",
+          "price": 4880,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5680,
+          "sheets": 174,
+          "per_sheet": 32.64,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.36,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uci6o.kqv9865a.g00uci6o.kqv998a4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopypp%2F3799-005788%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fshopypp%2Fi%2F10003703%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/shopypp/cabinet/amayahoo/12698233/3799-005788.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　Lサイズ（9−14kg）　1セット（168枚：56枚×3パック） 【送料無料】",
+          "price": 5544,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5544,
+          "sheets": 168,
+          "per_sheet": 33.0,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.67,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpdqo.kqv98082.g00qpdqo.kqv993ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fp-tano%2F962-0111%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fp-tano%2Fi%2F10646452%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/p-tano/cabinet/shohin900_07/962-0111.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　Ｌサイズ（９−１４ｋｇ）　１セット（１６８枚：５６枚×３パック）（お取寄せ品)",
+          "price": 5544,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5544,
+          "sheets": 168,
+          "per_sheet": 33.0,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.67,
+          "url": "https://store.shopping.yahoo.co.jp/tanomail/9620111.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tanomail_9620111"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ベイシア ヤフーショップ",
+          "item_name": "【ポイント5倍！10/1 12:00-10/31迄】大王製紙 グーンぐんぐん吸収パンツ プリンセスデザイン L44枚×3個",
+          "price": 4365,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4365,
+          "sheets": 132,
+          "per_sheet": 33.07,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.74,
+          "url": "https://store.shopping.yahoo.co.jp/beisia/4902011114621-3.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4902011114621-3"
+        }
+      ],
+      "stats": {
+        "fetched": 190,
+        "サイズ違い・複数": 14,
+        "除外ワード": 3,
+        "枚数が読めない": 11,
+        "条件の言葉なし": 1,
+        "安すぎて除外": 0,
+        "使えた件数": 82,
+        "malls": {
+          "楽天": 4,
+          "Yahoo!": 6
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 215dbc1b-92fc-4a37-ae5b-725409441c5c]"
+        }
+      }
+    },
+    {
+      "id": "goon_gungun_pants_big",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "size": "ビッグ",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "SHOP YPP ヤフー店",
+          "item_name": "グーン ぐんぐん吸収パンツ BIGサイズ おむつ 12~22kg 52枚×3個 計156枚 ディズニーデザイン",
+          "price": 5380,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5380,
+          "sheets": 156,
+          "per_sheet": 34.49,
+          "point_rate": 1,
+          "per_sheet_after_points": 34.14,
+          "url": "https://store.shopping.yahoo.co.jp/shop-ypp/3799-005790.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/shop-ypp_3799-005790"
+        },
+        {
+          "mall": "楽天",
+          "shop": "くすりのレデイハートショップ",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
+          "price": 6714,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6714,
+          "sheets": 192,
+          "per_sheet": 34.97,
+          "point_rate": 1,
+          "per_sheet_after_points": 34.62,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qob6o.kqv98cc2.g00qob6o.kqv991d9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fladydrug%2F4902011116571%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fladydrug%2Fi%2F10363732%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ladydrug/cabinet/pic2769/4902011116571_2.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりのレデイハートショップ",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
+          "price": 6714,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6714,
+          "sheets": 192,
+          "per_sheet": 34.97,
+          "point_rate": 1,
+          "per_sheet_after_points": 34.62,
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop/4902011116571.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop_4902011116571"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "グーン おむつ パンツ BIG（12〜22kg） 1セット（50枚入×3パック） 男女共用 ぐんぐん吸収パンツ 大容量セット 大王製紙",
+          "price": 5440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5440,
+          "sheets": 150,
+          "per_sheet": 36.27,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.9,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/u175569/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u175569"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　BIGサイズ（12−22kg）　1セット（150枚：50枚×3パック） 【送料無料】",
+          "price": 5544,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5544,
+          "sheets": 150,
+          "per_sheet": 36.96,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.59,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpdqo.kqv98082.g00qpdqo.kqv993ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fp-tano%2F962-0128%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fp-tano%2Fi%2F10646449%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/p-tano/cabinet/shohin900_05/962-0128.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ツルハドラッグ ヤフー店",
+          "item_name": "《ケース》　大王製紙 エリエール グーンぐんぐん吸収パンツ BIGサイズ (50枚)×3個 ベビー 紙おむつ パンツタイプ グーン",
+          "price": 5636,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5636,
+          "sheets": 150,
+          "per_sheet": 37.57,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.2,
+          "url": "https://store.shopping.yahoo.co.jp/tsuruha/10147142.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10147142"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ドラッグストアウェルネス",
+          "item_name": "《ケース》　大王製紙 エリエール グーンぐんぐん吸収パンツ BIGサイズ (50枚)×3個 ベビー 紙おむつ パンツタイプ グーン",
+          "price": 5636,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5636,
+          "sheets": 150,
+          "per_sheet": 37.57,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.2,
+          "url": "https://store.shopping.yahoo.co.jp/wellness-web/10147142.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/wellness-web_10147142"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりの福太郎",
+          "item_name": "《ケース》　大王製紙 エリエール グーンぐんぐん吸収パンツ BIGサイズ (50枚)×3個 ベビー 紙おむつ パンツタイプ グーン",
+          "price": 5636,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5636,
+          "sheets": 150,
+          "per_sheet": 37.57,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.2,
+          "url": "https://store.shopping.yahoo.co.jp/kusurinofukutaro/10147142.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kusurinofukutaro_10147142"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりのレデイハートショップplus",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
+          "price": 7236,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7236,
+          "sheets": 192,
+          "per_sheet": 37.69,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.31,
+          "url": "https://store.shopping.yahoo.co.jp/ladydrugheartshop-pl/4902011116571.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop-pl_4902011116571"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ベイシア楽天市場店",
+          "item_name": "【ポイント5倍！10/1 12:00-10/31迄】大王製紙 グーン ぐんぐん吸収パンツ ディズニープリンセスデザイン BIG 38枚×3個",
+          "price": 4365,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4365,
+          "sheets": 114,
+          "per_sheet": 38.29,
+          "point_rate": 5,
+          "per_sheet_after_points": 36.38,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4902011114638-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10161592%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/image298/4902011114638-3_1.jpg?_ex=128x128"
+        }
+      ],
+      "stats": {
+        "fetched": 190,
+        "サイズ違い・複数": 77,
+        "除外ワード": 12,
+        "条件の言葉なし": 3,
+        "枚数が読めない": 1,
+        "安すぎて除外": 0,
+        "使えた件数": 57,
+        "malls": {
+          "Yahoo!": 7,
+          "楽天": 3
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 79030e7f-bd08-44d9-ac29-1bf35918c48f]"
+        }
+      }
+    },
+    {
+      "id": "goon_gungun_pants_xbig",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "size": "ビッグより大きい",
+      "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "サンドラッグe-shop",
+          "item_name": "大王製紙 グーンぐんぐん吸収パンツ　ＢＩＧ大　男女共用 34枚   【3個セット】",
+          "price": 5090,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5090,
+          "sheets": 102,
+          "per_sheet": 49.9,
+          "point_rate": 1,
+          "per_sheet_after_points": 49.4,
+          "url": "https://store.shopping.yahoo.co.jp/sundrugec/4902011842913x3.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4902011842913x3"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "グーン おむつ パンツBIGより大きい（13〜25kg）1セット（34枚入×3パック）男女共用 ぐんぐん吸収パンツ大容量セット大王製紙",
+          "price": 5440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5440,
+          "sheets": 102,
+          "per_sheet": 53.33,
+          "point_rate": 1,
+          "per_sheet_after_points": 52.8,
+          "url": "https://lohaco.yahoo.co.jp/store/h-lohaco/item/u175572/",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u175572"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ぱーそなるたのめーる",
+          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　BIGより大きいサイズ（13−28kg）　1セット（102枚：34枚×3パック） 【送料無料】",
+          "price": 5544,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5544,
+          "sheets": 102,
+          "per_sheet": 54.35,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.81,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpdqo.kqv98082.g00qpdqo.kqv993ab/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fp-tano%2F962-0135%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fp-tano%2Fi%2F10646417%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/p-tano/cabinet/shohin900_05/962-0135.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ヤマダデンキ Yahoo!店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/yamada-denki/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/yamada-denki_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ベスト電器Yahoo!店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/best-denki/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/best-denki_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ベストテック ヤフー店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/best-tecc/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/best-tecc_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "キムラヤテック ヤフー店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/e-wellness/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/e-wellness_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "キムラヤYahoo!店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/kimuraya-select/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kimuraya-select_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ツクモYahoo!店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://store.shopping.yahoo.co.jp/tsukumo-y2/2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsukumo-y2_2873269010"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ベイシア楽天市場店",
+          "item_name": "【ポイント5倍！10/1 12:00-10/31迄】大王製紙 グーンぐんぐん吸収パンツ BIGより大きい 34枚×3個 | グーン 紙おむつ パンツ BIGより大きいサイズ ベビーオムツ オムツ まとめ買い パンツタイプ 34枚 3個",
+          "price": 5940,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5940,
+          "sheets": 102,
+          "per_sheet": 58.24,
+          "point_rate": 5,
+          "per_sheet_after_points": 55.32,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vmo.kqv9828a.g00s0vmo.kqv99ed0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4902011842913-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10161583%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/ast/4902011842913-3_00.jpg?_ex=128x128"
+        }
+      ],
+      "stats": {
+        "fetched": 190,
+        "サイズ違い・複数": 20,
+        "条件の言葉なし": 74,
+        "単価が不自然": 5,
+        "除外ワード": 4,
+        "安すぎて除外": 0,
+        "使えた件数": 56,
+        "malls": {
+          "Yahoo!": 8,
+          "楽天": 2
+        },
+        "errors": {
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 26c4c169-a418-4ae4-8655-9b1affa8e9fc]"
         }
       }
     },
@@ -7141,7 +7845,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 25db67f4-7328-453c-88c4-859fb622be5c]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: d9a2aec0-ead8-4422-b7fb-01580b114e8e]"
         }
       }
     },
@@ -7317,7 +8021,7 @@
           "楽天": 2
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 165f3c39-57a4-463e-9392-ef3de05337cf]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 972f5ac0-fd45-4ff9-a013-921a72b81066]"
         }
       }
     },
@@ -7482,18 +8186,18 @@
       ],
       "stats": {
         "fetched": 190,
-        "除外ワード": 45,
-        "サイズ違い・複数": 57,
+        "除外ワード": 46,
+        "サイズ違い・複数": 58,
         "単価が不自然": 8,
         "条件の言葉なし": 5,
         "安すぎて除外": 0,
-        "使えた件数": 43,
+        "使えた件数": 42,
         "malls": {
           "Yahoo!": 6,
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 89038514-cec2-4c7e-8e6a-6370ec4b96d2]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 75c16aaf-79c2-45d5-9b91-184a704a3b22]"
         }
       }
     },
@@ -7670,7 +8374,7 @@
           "楽天": 4
         },
         "errors": {
-          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: f4ac1be7-8213-4677-91ed-84c1613deb43]"
+          "Amazon": "Rate limit exceeded, try increasing throttling - Request rate limit exceeded. Learn more: https://affiliate-program.amazon.com/creatorsapi/docs/en-us/concepts/api-rates [request id: 46d5e1c3-b4e7-41b2-ae76-c8063672be31]"
         }
       }
     }
@@ -7678,6 +8382,7 @@
   "deals": [
     {
       "id": "netbaby-404272-m",
+      "bulk_note": "",
       "ref": "mamypoko_pants_m",
       "maker": "ユニ・チャーム",
       "brand": "マミーポコ",
@@ -7700,7 +8405,32 @@
       "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F"
     },
     {
+      "id": "netbaby-404196-m",
+      "bulk_note": "2セットまとめ買い（10,000円以上）なら1,500円OFFクーポンで¥9,990・396枚＝1枚25.2円",
+      "ref": "goon_gungun_pants_m",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "M",
+      "label": "ディズニー 66枚×3個",
+      "sheets": 198,
+      "price": 5745,
+      "coupon": 700,
+      "pay": 5045,
+      "per_sheet": 25.48,
+      "per_sheet_after_points": 17.58,
+      "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+      "point_note": "スーパーDEAL 30%ポイントバック 10/23 9:59まで",
+      "until": "2026-11-02T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F"
+    },
+    {
       "id": "netbaby-404272-l",
+      "bulk_note": "",
       "ref": "mamypoko_pants_l",
       "maker": "ユニ・チャーム",
       "brand": "マミーポコ",
@@ -7724,6 +8454,7 @@
     },
     {
       "id": "netbaby-404272-big",
+      "bulk_note": "",
       "ref": "mamypoko_pants_big",
       "maker": "ユニ・チャーム",
       "brand": "マミーポコ",
@@ -7746,7 +8477,32 @@
       "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F"
     },
     {
+      "id": "netbaby-404196-l",
+      "bulk_note": "2セットまとめ買い（10,000円以上）なら1,500円OFFクーポンで¥9,990・336枚＝1枚29.7円",
+      "ref": "goon_gungun_pants_l",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "L",
+      "label": "ディズニー 56枚×3個",
+      "sheets": 168,
+      "price": 5745,
+      "coupon": 700,
+      "pay": 5045,
+      "per_sheet": 30.03,
+      "per_sheet_after_points": 20.72,
+      "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+      "point_note": "スーパーDEAL 30%ポイントバック 10/23 9:59まで",
+      "until": "2026-11-02T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F"
+    },
+    {
       "id": "netbaby-404313-m",
+      "bulk_note": "",
       "ref": "pampers_sarasara_pants_m",
       "maker": "P&G",
       "brand": "パンパース",
@@ -7769,7 +8525,32 @@
       "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F"
     },
     {
+      "id": "netbaby-404196-big",
+      "bulk_note": "2セットまとめ買い（10,000円以上）なら1,500円OFFクーポンで¥9,990・300枚＝1枚33.3円",
+      "ref": "goon_gungun_pants_big",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "ビッグ",
+      "label": "ディズニー 50枚×3個",
+      "sheets": 150,
+      "price": 5745,
+      "coupon": 700,
+      "pay": 5045,
+      "per_sheet": 33.63,
+      "per_sheet_after_points": 23.21,
+      "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+      "point_note": "スーパーDEAL 30%ポイントバック 10/23 9:59まで",
+      "until": "2026-11-02T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F"
+    },
+    {
       "id": "netbaby-404313-l",
+      "bulk_note": "",
       "ref": "pampers_sarasara_pants_l",
       "maker": "P&G",
       "brand": "パンパース",
@@ -7793,6 +8574,7 @@
     },
     {
       "id": "netbaby-404313-big",
+      "bulk_note": "",
       "ref": "pampers_sarasara_pants_big",
       "maker": "P&G",
       "brand": "パンパース",
@@ -7815,7 +8597,32 @@
       "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404313%2F"
     },
     {
+      "id": "netbaby-404196-xbig",
+      "bulk_note": "2セットまとめ買い（10,000円以上）なら1,500円OFFクーポンで¥9,990・204枚＝1枚49.0円",
+      "ref": "goon_gungun_pants_xbig",
+      "maker": "大王製紙",
+      "brand": "グーン",
+      "name": "ぐんぐん吸収パンツ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "ビッグより大きい",
+      "label": "ディズニー 34枚×3個",
+      "sheets": 102,
+      "price": 5745,
+      "coupon": 700,
+      "pay": 5045,
+      "per_sheet": 49.46,
+      "per_sheet_after_points": 34.13,
+      "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+      "point_note": "スーパーDEAL 30%ポイントバック 10/23 9:59まで",
+      "until": "2026-11-02T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404196%2F"
+    },
+    {
       "id": "netbaby-404313-xbig",
+      "bulk_note": "",
       "ref": "pampers_sarasara_pants_xbig",
       "maker": "P&G",
       "brand": "パンパース",
