@@ -91,6 +91,51 @@
     }
    ],
    "point_until": "2026-10-27T09:59+09:00"
+  },
+  {
+   "id": "netbaby-404196",
+   "line": "goon_gungun",
+   "maker": "大王製紙",
+   "brand": "グーン",
+   "name": "ぐんぐん吸収パンツ",
+   "type": "パンツ",
+   "mall": "楽天",
+   "shop": "楽天24 ベビー館",
+   "url": "https://item.rakuten.co.jp/netbaby/404196/",
+   "free_shipping": true,
+   "coupon": 700,
+   "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+   "point_back": 30,
+   "point_note": "スーパーDEAL 30%ポイントバック 10/23 9:59まで",
+   "point_until": "2026-10-23T09:59+09:00",
+   "until": "2026-11-02T09:59+09:00",
+   "checked": "2026-10-18",
+   "variants": [
+    {
+     "size": "M",
+     "label": "ディズニー 66枚×3個",
+     "sheets": 198,
+     "price": 5745
+    },
+    {
+     "size": "L",
+     "label": "ディズニー 56枚×3個",
+     "sheets": 168,
+     "price": 5745
+    },
+    {
+     "size": "ビッグ",
+     "label": "ディズニー 50枚×3個",
+     "sheets": 150,
+     "price": 5745
+    },
+    {
+     "size": "ビッグより大きい",
+     "label": "ディズニー 34枚×3個",
+     "sheets": 102,
+     "price": 5745
+    }
+   ]
   }
  ],
  "shop_coupons": [
