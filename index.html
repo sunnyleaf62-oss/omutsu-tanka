@@ -249,12 +249,18 @@ function renderEvents(){
     `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span></div>`).join("");
 }
 
-function renderDeals(autoBest){
+function renderDeals(){
   const deals = currentDeals();
   document.getElementById("dealsec").hidden = !deals.length;
   document.getElementById("deals").innerHTML = deals.map(d => {
-    const diff = autoBest ? autoBest - d.per_sheet : 0;
-    return `<li class="card deal">
+    const ref = (DATA.products || []).find(p => p.id === d.ref && p.offers && p.offers.length);
+    let cmp = "";
+    if (ref){
+      const r = ref.offers[0];
+      if (d.per_sheet < r.per_sheet - 0.05) cmp = `同じ商品の通販最安より1枚${per(r.per_sheet - d.per_sheet)}円安い`;
+      else if (d.per_sheet_after_points < r.per_sheet_after_points - 0.05) cmp = `ポイント込みなら同じ商品の通販最安より1枚${per(r.per_sheet_after_points - d.per_sheet_after_points)}円お得`;
+    }
+  return `<li class="card deal">
       <div class="top">
         <div class="rank" aria-hidden="true">🎟️</div>
         <div class="thumb" style="display:grid;place-items:center;font-size:12px;color:var(--muted)">${esc(d.size)}</div>
@@ -266,7 +272,7 @@ function renderDeals(autoBest){
         <div class="price">
           <div class="unit">${per(d.per_sheet)}<small>円/枚</small></div>
           <div class="month">1ヶ月 約¥${yen(monthCost(d.per_sheet))}</div>
-          ${diff > 0.05 ? `<div class="cmp">通販最安より1枚${per(diff)}円お得</div>` : ""}
+          ${cmp ? `<div class="cmp">${cmp}</div>` : ""}
         </div>
       </div>
       <div class="best">
@@ -319,7 +325,7 @@ function render(){
   });
 
   renderEvents();
-  renderDeals(rows.length ? rows[0].offers[0].per_sheet : null);
+  renderDeals();
   const s = document.getElementById("summary");
   s.innerHTML = rows.length
     ? `${esc(type)} ${esc(size)}でいちばんお得なのは<strong>${esc(label(rows[0]))}</strong><span>1ヶ月 約<b>¥${yen(monthCost(rows[0].offers[0].per_sheet))}</b></span>`
