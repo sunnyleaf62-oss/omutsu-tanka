@@ -108,6 +108,7 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .event{background:var(--fill);color:var(--btn-ink);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
 .event b{font-family:var(--f-display);font-size:16px}
 .event span{font-size:13px}
+.evbtn{align-self:flex-start;margin-top:6px;background:var(--surface);color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;border-radius:10px;padding:7px 14px}
 .sec{font-family:var(--f-display);font-weight:900;font-size:19px;margin:6px 0 0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
 .sec small{font-family:var(--f-body);font-size:12px;font-weight:500;color:var(--muted)}
 .deal{border:2px solid var(--fill)}
@@ -264,7 +265,7 @@ function renderEvents(){
   const now = Date.now();
   const ev = (DATA?.events || []).filter(e => !e.shop_coupon && (!e.start || new Date(e.start) <= now) && (!e.end || new Date(e.end) > now));
   document.getElementById("events").innerHTML = ev.map(e =>
-    `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span></div>`).join("");
+    `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span>${e.url ? `<a class="evbtn" href="${esc(e.url)}" target="_blank" rel="noopener sponsored">${esc(e.link_label || "エントリーページへ")} →</a>` : ""}</div>`).join("");
 }
 
 function renderDeals(){
@@ -297,6 +298,7 @@ function renderDeals(){
         <div class="shopline"><b>${esc(d.shop)}</b>（${esc(d.mall)}）<br>¥${yen(d.price)} − クーポン${yen(d.coupon)}円 ＝ ¥${yen(d.pay)}・${d.sheets}枚</div>
         <a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${esc(d.mall)}で見る</a>
       </div>
+      ${d.bulk_note ? `<div class="cmp" style="text-align:left">💡 ${esc(d.bulk_note)}</div>` : ""}
       <div class="dealnote">${[d.coupon_note, d.point_note].filter(Boolean).map(esc).join("<br>")}${d.until ? `<br>掲載期限 ${fmtDate(d.until)}` : ""}${d.checked ? `・${esc(d.checked.slice(5).replace("-","/"))}確認` : ""}</div>
     </li>`;
   }).join("");

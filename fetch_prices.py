@@ -386,8 +386,18 @@ def build_deals(aff_id):
             pay = v["price"] - d.get("coupon", 0) + (0 if d.get("free_shipping", True) else SHIPPING_ESTIMATE)
             pb_on = alive(d.get("point_until"))          # ポイントバックだけ先に終わることがある
             back = pay * (1 + (d.get("point_back", 0) if pb_on else 0)) / 100
+            bulk_note = ""
+            bc = d.get("bulk_coupon")                   # 例: 10,000円以上で1,500円OFF
+            if bc and alive(bc.get("until")):
+                qty = -(-bc["min_price"] // v["price"])
+                bpay = v["price"] * qty - bc["amount"]
+                bper = bpay / (v["sheets"] * qty)
+                if bper < pay / v["sheets"] - 0.05:
+                    bulk_note = (f"{qty}セットまとめ買い（{bc['min_price']:,}円以上）なら{bc['amount']:,}円OFFクーポンで"
+                                 f"¥{bpay:,}・{v['sheets'] * qty}枚＝1枚{bper:.1f}円")
             out.append({
                 "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}",
+                "bulk_note": bulk_note,
                 "ref": (f"{d['line']}_{TYPE_SLUG.get(d['type'], '')}_{SIZE_SLUG.get(v['size'], '')}"
                         if d.get("line") else ""),
                 **{k: d[k] for k in ("maker", "brand", "name", "type", "mall", "shop")},
@@ -398,7 +408,8 @@ def build_deals(aff_id):
                 "coupon_note": d.get("coupon_note", ""), "point_note": d.get("point_note", "") if pb_on else "",
                 "until": d.get("until", ""), "checked": d.get("checked", ""), "url": link,
             })
-    events = [e for e in src.get("events", []) if alive(e.get("end"))]
+    events = [{**e, "url": rakuten_aff_link(e["url"], aff_id)} if e.get("url") else e
+              for e in src.get("events", []) if alive(e.get("end"))]
     events += [{"shop_coupon": sc} for sc in src.get("shop_coupons", []) if alive(sc.get("until"))]
     return sorted(out, key=lambda o: o["per_sheet"]), events
 
