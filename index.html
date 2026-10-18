@@ -116,7 +116,9 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .sprice{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
 .sprice .u{font-family:var(--f-display);font-weight:900;font-size:19px;line-height:1;white-space:nowrap;font-variant-numeric:tabular-nums}
 .sprice .u small{font-size:10px;color:var(--muted);font-weight:700;margin-left:1px}
-.btn.sm{font-size:12px;padding:5px 10px;border-radius:8px}
+.tlink{font-size:12px;font-weight:700;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.tlink::after{content:" ›"}
+.tlink:hover{opacity:.8}
 .more>summary{font-size:13px;margin-top:2px}
 .more .shops{margin-top:8px}
 .cnotes{font-size:11px;color:var(--muted)}
@@ -153,7 +155,10 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .evimg img{display:block;width:100%;height:auto}
 .evimg:active{transform:translateY(1px)}
 .evnote{font-size:11px;color:var(--muted);margin-top:3px;text-align:center;line-height:1.4}
-.xpromo{display:block;border-radius:18px;overflow:hidden;margin-top:8px}
+.sister{margin-top:8px}
+.sister-h{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;margin:0 2px 8px}
+.sister-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.xpromo{display:block;border-radius:12px;overflow:hidden}
 .xpromo img{display:block;width:100%;height:auto}
 .xpromo:active{transform:translateY(1px)}
 a.event{text-decoration:none;box-shadow:0 2px 0 rgba(0,0,0,.08)}
@@ -223,12 +228,17 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
   </section>
   <div class="msg" id="msg" hidden></div>
 
+  <section class="sister" aria-label="姉妹サイト">
+    <div class="sister-h">姉妹サイトはこちら</div>
+    <div class="sister-row">
   <a class="xpromo" href="https://sunnyleaf62-oss.github.io/milk-tanka/">
     <img src="img/milk-banner.webp" alt="ミルク単価くらべ：楽天・Yahoo!・Amazonから集めて送料込みの100mlあたりで毎日比較。今すぐ最安値をチェック" width="1200" height="450" loading="lazy">
   </a>
   <a class="xpromo" href="https://sunnyleaf62-oss.github.io/mama-note/">
     <img src="img/mamanote-banner.webp" alt="ママノート：妊娠中の記録と準備を、ひとつに。アプリを開く" width="1200" height="450" loading="lazy">
   </a>
+    </div>
+  </section>
 
   <footer>
     <div>Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</div>
@@ -314,7 +324,7 @@ function applyShopCoupons(){
       const sc = scs.find(c => o.mall === "楽天" && o.shop.startsWith(c.shop_prefix) && o.price >= (c.min_price || 0));
       if (!sc) return;
       const pay = o.total - sc.amount;
-      o.coupon = sc.amount; o.coupon_note = sc.note;
+      o.total = pay; o.coupon = sc.amount; o.coupon_note = sc.note;
       o.per_sheet = pay / o.sheets;
       o.per_sheet_after_points = (pay - (o.price - sc.amount) * o.point_rate / 100) / o.sheets;
     });
@@ -400,7 +410,7 @@ function render(){
       <div class="badges">${x.coupon ? `<span class="badge coupon">${yen(x.coupon)}円OFFクーポン込み</span>` : ""}${x.postage_separate ? `<span class="badge ship">送料目安込み</span>` : `<span class="badge">送料込み</span>`}${x.deal && x.point_note ? `<span class="badge">ポイントバック込み 実質${per(x.per_sheet_after_points)}円</span>` : (x.point_rate > 1 ? `<span class="badge">ポイント${x.point_rate}倍</span>` : "")}</div>
       ${x.bulk_note ? `<div class="sdet">💡 ${esc(x.bulk_note)}</div>` : ""}</div>
     <div class="sprice"><span class="u">${per(x.per_sheet)}<small>円/枚</small></span>
-      <a class="btn sm" href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.mall)}で見る</a></div>
+      <a class="tlink" href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.mall)}で見る</a></div>
   </li>`;
 
   list.innerHTML = prods.map(({p, rows}) => {
