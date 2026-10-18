@@ -325,6 +325,9 @@ def to_offer(product, it, stats):
     if not sheets or not it["price"]:
         return reject(stats, "枚数が読めない", name)
 
+    # 楽天24（ベビー館など）はAPI上「送料別」でも実際は送料無料のため、目安送料を足さない
+    if it["mall"] == "楽天" and it["shop"].startswith("楽天24") and it["price"] >= 1000:
+        it = {**it, "free_shipping": True}
     shipping = 0 if it["free_shipping"] else SHIPPING_ESTIMATE
     total = it["price"] + shipping
     per = total / sheets
