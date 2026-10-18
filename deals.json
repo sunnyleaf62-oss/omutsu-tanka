@@ -158,50 +158,6 @@
     "min_price": 10000,
     "until": "2026-11-02T09:59+09:00"
    }
-  },
-  {
-   "id": "netbaby-404201",
-   "line": "merries_first",
-   "maker": "花王",
-   "brand": "メリーズ",
-   "name": "ファーストプレミアム",
-   "type": "テープ",
-   "mall": "楽天",
-   "shop": "楽天24 ベビー館",
-   "url": "https://item.rakuten.co.jp/netbaby/404201/",
-   "free_shipping": true,
-   "coupon": 700,
-   "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
-   "point_back": 30,
-   "point_note": "スーパーDEAL 30%ポイントバック 10/27 9:59まで",
-   "point_until": "2026-10-27T09:59+09:00",
-   "until": "2026-11-02T09:59+09:00",
-   "checked": "2026-10-18",
-   "bulk_coupon": {
-    "amount": 1500,
-    "min_price": 10000,
-    "until": "2026-11-02T09:59+09:00"
-   },
-   "variants": [
-    {
-     "size": "新生児",
-     "label": "60枚×4個",
-     "sheets": 240,
-     "price": 6985
-    },
-    {
-     "size": "S",
-     "label": "54枚×4個",
-     "sheets": 216,
-     "price": 6985
-    },
-    {
-     "size": "M",
-     "label": "48枚×4個",
-     "sheets": 192,
-     "price": 6985
-    }
-   ]
   }
  ],
  "shop_coupons": [
