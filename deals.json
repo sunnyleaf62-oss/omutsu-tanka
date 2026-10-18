@@ -8,7 +8,8 @@
    "url": "https://event.rakuten.co.jp/baby/192campaign/",
    "link_label": "育児の日にエントリーする",
    "image": "img/192-banner.jpg",
-   "note": "買い物の前にエントリーが必要です（楽天24 ベビー館など対象ショップ限定）"
+   "note": "買い物の前にエントリーが必要です（楽天24 ベビー館など対象ショップ限定）",
+   "short": "要エントリー"
   },
   {
    "start": "2026-10-16T00:00+09:00",
@@ -19,7 +20,8 @@
    "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
    "image": "img/prime-banner.jpg",
    "w": 1200,
-   "h": 552
+   "h": 552,
+   "short": "Amazon"
   }
  ],
  "deals": [
