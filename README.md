@@ -8,6 +8,8 @@
 - `fetch_prices.py`：楽天・Yahoo!・Amazonから価格を取ってくる本体
 - `products.json`：比較するおむつの一覧（ブランド × テープ/パンツ × サイズ）
 - `.github/workflows/update.yml`：GitHubで毎朝 6:13 に自動実行する設定
+- `deals.json`：手動で登録するクーポン・セール情報とお知らせ（更新すると数分で反映）
+- `.github/workflows/deals.yml`：deals.json の反映と期限切れの削除（毎日0:05にも実行）
 - `index.html`：サイト本体
 
 ## 必要な値（ミルク単価くらべと同じキーが使えます）

@@ -354,6 +354,56 @@ def build(product, raw_items):
     return offers[:TOP_N], dict(stats)
 
 
+# ================= 手動のお得情報（deals.json） =================
+def rakuten_aff_link(url, aff_id):
+    if not aff_id or "rakuten.co.jp" not in url:
+        return url
+    q = urllib.parse.quote(url, safe="")
+    return f"https://hb.afl.rakuten.co.jp/hgc/{aff_id}/?pc={q}&m={q}"
+
+
+def build_deals(aff_id):
+    """deals.json を読み、期限切れを除いて、サイズごとのクーポン後1枚単価を計算する"""
+    path = os.path.join(HERE, "deals.json")
+    if not os.path.exists(path):
+        return [], []
+    with open(path, encoding="utf-8") as f:
+        src = json.load(f)
+    now = datetime.now(JST)
+    alive = lambda iso: not iso or datetime.fromisoformat(iso) > now
+    out = []
+    for d in src.get("deals", []):
+        if not alive(d.get("until")):
+            continue
+        link = rakuten_aff_link(d["url"], aff_id) if d.get("mall", "楽天") == "楽天" else d["url"]
+        for v in d["variants"]:
+            pay = v["price"] - d.get("coupon", 0) + (0 if d.get("free_shipping", True) else SHIPPING_ESTIMATE)
+            back = pay * (1 + d.get("point_back", 0)) / 100
+            out.append({
+                "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}",
+                **{k: d[k] for k in ("maker", "brand", "name", "type", "mall", "shop")},
+                "size": v["size"], "label": v.get("label", ""), "sheets": v["sheets"],
+                "price": v["price"], "coupon": d.get("coupon", 0), "pay": pay,
+                "per_sheet": round(pay / v["sheets"], 2),
+                "per_sheet_after_points": round((pay - back) / v["sheets"], 2),
+                "coupon_note": d.get("coupon_note", ""), "point_note": d.get("point_note", ""),
+                "until": d.get("until", ""), "checked": d.get("checked", ""), "url": link,
+            })
+    events = [e for e in src.get("events", []) if alive(e.get("end"))]
+    return sorted(out, key=lambda o: o["per_sheet"]), events
+
+
+def deals_only():
+    """価格は取り直さず、data.json のお得情報だけを差し替える"""
+    path = os.path.join(HERE, "data.json")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    data["deals"], data["events"] = build_deals(env("RAKUTEN_AFFILIATE_ID"))
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"お得情報 {len(data['deals'])}件・お知らせ {len(data['events'])}件を反映しました")
+
+
 def test_names(names):
     for n in names:
         print(f"{n}\n  サイズ: {sorted(detect_sizes(n))}  枚数: {parse_sheets(n)}")
@@ -362,6 +412,8 @@ def test_names(names):
 def main():
     if len(sys.argv) > 2 and sys.argv[1] == "--test":
         return test_names(sys.argv[2:])
+    if len(sys.argv) > 1 and sys.argv[1] == "--deals-only":
+        return deals_only()
 
     rk = {"app_id": env("RAKUTEN_APP_ID"), "access_key": env("RAKUTEN_ACCESS_KEY"),
           "aff_id": env("RAKUTEN_AFFILIATE_ID"), "referer": env("RAKUTEN_REFERER")}
@@ -405,6 +457,7 @@ def main():
            "sources": [m for m, on in (("楽天市場", use_rakuten), ("Yahoo!ショッピング", use_yahoo),
                                        ("Amazon", use_amazon)) if on],
            "shipping_estimate": SHIPPING_ESTIMATE, "products": result}
+    out["deals"], out["events"] = build_deals(rk["aff_id"])
     with open(os.path.join(HERE, "data.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     with open(os.path.join(HERE, "debug.json"), "w", encoding="utf-8") as f:

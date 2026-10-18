@@ -105,6 +105,19 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .row .res span{display:block;font-size:10px;color:var(--muted)}
 .calc-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
 .verdict{font-weight:700}
+.event{background:var(--fill);color:var(--btn-ink);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.event b{font-family:var(--f-display);font-size:16px}
+.event span{font-size:13px}
+.sec{font-family:var(--f-display);font-weight:900;font-size:19px;margin:6px 0 0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.sec small{font-family:var(--f-body);font-size:12px;font-weight:500;color:var(--muted)}
+.deal{border:2px solid var(--fill)}
+.deal .rank{background:var(--fill);color:var(--btn-ink);font-size:20px}
+.badge.coupon{background:var(--fill);color:var(--btn-ink)}
+.dealnote{font-size:12px;color:var(--muted);line-height:1.5}
+.cmp{font-size:12px;font-weight:700;color:var(--accent)}
+.unit{white-space:nowrap}
+.price{flex-wrap:wrap}
+.deal .cmp{flex-basis:100%;text-align:right}
 footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:14px}
 @media (max-width:480px){
   .top{grid-template-columns:34px 52px 1fr}
@@ -125,6 +138,8 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
     <p class="sub"><span id="sources">楽天市場</span>から集めて、送料込みの「1枚あたり」で毎日比較</p>
     <div class="updated" id="updated">価格データを読み込み中…</div>
   </header>
+
+  <div id="events"></div>
 
   <section class="panel" aria-label="絞り込み">
     <div class="label">タイプ</div>
@@ -147,6 +162,12 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
     </div>
   </details>
 
+  <section id="dealsec" hidden>
+    <h2 class="sec">🎟️ クーポン・セール情報<small>実際に確認したお得な出品・クーポン適用後の単価</small></h2>
+    <ol class="list" id="deals"></ol>
+  </section>
+
+  <h2 class="sec">通販の最安ランキング<small>毎朝自動で更新</small></h2>
   <div class="summary" id="summary"></div>
   <ol class="list" id="list"></ol>
   <div class="msg" id="msg" hidden></div>
@@ -154,6 +175,7 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
   <footer>
     <div>Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</div>
     <div>表示価格は上記の更新日時時点の各モールの価格で、変わる可能性があります。最新の価格・在庫は各ショップのページでご確認ください。</div>
+    <div>「クーポン・セール情報」は確認日時点の内容です。クーポンは先着・枚数限定のことがあり、商品ページで取得してから購入してください。ポイントバックは上限や条件があります。</div>
     <div>1枚あたり単価 ＝ 送料込み価格 ÷ 枚数。「ポイント込み」は表示ポイント倍率ぶんを差し引いた実質の目安です。</div>
     <div>「送料目安込み」は送料別の商品に目安として<span id="shipest">800</span>円を足した価格です。実際の送料はお住まいの地域やショップにより異なります。</div>
     <div>1ヶ月のおむつ代は、サイズごとの1日の使用枚数の目安 × 30日で計算した参考値です。体重の目安はブランドによって少し異なります。</div>
@@ -208,6 +230,54 @@ function currentRows(){
     .sort((a,b) => a.offers[0].per_sheet - b.offers[0].per_sheet);
 }
 
+function fmtDate(iso){
+  const d = new Date(iso);
+  return isNaN(d) ? iso : `${d.getMonth()+1}/${d.getDate()} ${d.getHours()}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+
+function currentDeals(){
+  const now = Date.now();
+  return (DATA?.deals || [])
+    .filter(d => d.type===type && d.size===size && (!d.until || new Date(d.until) > now))
+    .sort((a,b) => a.per_sheet - b.per_sheet);
+}
+
+function renderEvents(){
+  const now = Date.now();
+  const ev = (DATA?.events || []).filter(e => (!e.start || new Date(e.start) <= now) && (!e.end || new Date(e.end) > now));
+  document.getElementById("events").innerHTML = ev.map(e =>
+    `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span></div>`).join("");
+}
+
+function renderDeals(autoBest){
+  const deals = currentDeals();
+  document.getElementById("dealsec").hidden = !deals.length;
+  document.getElementById("deals").innerHTML = deals.map(d => {
+    const diff = autoBest ? autoBest - d.per_sheet : 0;
+    return `<li class="card deal">
+      <div class="top">
+        <div class="rank" aria-hidden="true">🎟️</div>
+        <div class="thumb" style="display:grid;place-items:center;font-size:12px;color:var(--muted)">${esc(d.size)}</div>
+        <div class="info">
+          <div class="brand">${esc(d.maker)}・${esc(d.type)} ${esc(d.size)}（${esc(d.label)}）</div>
+          <div class="name">${esc(label(d))}</div>
+          <div class="badges">${d.coupon ? `<span class="badge coupon">${yen(d.coupon)}円OFFクーポン</span>` : ""}${d.point_note ? `<span class="badge">ポイントバックあり・実質${per(d.per_sheet_after_points)}円</span>` : ""}</div>
+        </div>
+        <div class="price">
+          <div class="unit">${per(d.per_sheet)}<small>円/枚</small></div>
+          <div class="month">1ヶ月 約¥${yen(monthCost(d.per_sheet))}</div>
+          ${diff > 0.05 ? `<div class="cmp">通販最安より1枚${per(diff)}円お得</div>` : ""}
+        </div>
+      </div>
+      <div class="best">
+        <div class="shopline"><b>${esc(d.shop)}</b>（${esc(d.mall)}）<br>¥${yen(d.price)} − クーポン${yen(d.coupon)}円 ＝ ¥${yen(d.pay)}・${d.sheets}枚</div>
+        <a class="btn" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${esc(d.mall)}で見る</a>
+      </div>
+      <div class="dealnote">${[d.coupon_note, d.point_note].filter(Boolean).map(esc).join("<br>")}${d.until ? `<br>掲載期限 ${fmtDate(d.until)}` : ""}${d.checked ? `・${esc(d.checked.slice(5).replace("-","/"))}確認` : ""}</div>
+    </li>`;
+  }).join("");
+}
+
 function render(){
   chipRow("types", TYPES, type, v=>esc(v), v=>{
     type=v; save("omutsu-type",v);
@@ -248,6 +318,8 @@ function render(){
     list.appendChild(li);
   });
 
+  renderEvents();
+  renderDeals(rows.length ? rows[0].offers[0].per_sheet : null);
   const s = document.getElementById("summary");
   s.innerHTML = rows.length
     ? `${esc(type)} ${esc(size)}でいちばんお得なのは<strong>${esc(label(rows[0]))}</strong><span>1ヶ月 約<b>¥${yen(monthCost(rows[0].offers[0].per_sheet))}</b></span>`
