@@ -135,7 +135,12 @@
      "sheets": 102,
      "price": 5745
     }
-   ]
+   ],
+   "bulk_coupon": {
+    "amount": 1500,
+    "min_price": 10000,
+    "until": "2026-11-02T09:59+09:00"
+   }
   }
  ],
  "shop_coupons": [
