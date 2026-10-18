@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "13 21 * * *"   # 毎日 日本時間 6:13
   workflow_dispatch:         # 手動実行ボタン
+  push:
+    branches: [main]
+    paths: [products.json, fetch_prices.py]   # 商品一覧や読み取り方を変えたらすぐ取り直す
 
 concurrency:
   group: data-json

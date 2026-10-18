@@ -71,7 +71,12 @@ def nfkc(s):
 
 
 def low(s):
-    return nfkc(s).lower()
+    return kana_bar(nfkc(s)).lower()
+
+
+def kana_bar(t):
+    """「ム-ニ-マン」のようにカタカナの間のハイフンを長音「ー」にそろえる"""
+    return re.sub(r"(?<=[ァ-ヴ])[-‐‑–—―−ｰ](?=[ァ-ヴ]|$|\s)", "ー", t)
 
 
 # ================= 楽天 =================
@@ -225,7 +230,7 @@ def amazon_items(keyword, cfg):
 NOT_LETTER_BEFORE = r"(?<![A-Za-z])"
 NOT_LETTER_AFTER = r"(?![A-Za-z])"
 SIZE_PATTERNS = {
-    "ビッグより大きい": r"ビッグより大き|BIGより大き|ビッグよりおおき|XXL",
+    "ビッグより大きい": r"ビッグより大き|BIGより大き|ビッグよりおおき|ビッグ大|BIG大|XXL",
     "ビッグ": r"ビッグ(?!より)|BIG(?!より)|" + NOT_LETTER_BEFORE + "XL" + NOT_LETTER_AFTER,
     "L": NOT_LETTER_BEFORE + "L" + NOT_LETTER_AFTER,
     "M": NOT_LETTER_BEFORE + "M" + NOT_LETTER_AFTER,
@@ -249,6 +254,7 @@ def detect_sizes(name):
 def parse_sheets(name):
     """商品名から合計枚数を読む。「232枚(58枚×4)」「58枚×4パック」「64枚 3個セット」など"""
     t = nfkc(name)
+    t = re.sub(r"(\d{1,4})\s*(?:マイ|P)(?![A-Za-z])", r"\1枚", t)   # 「38マイ」「26P」
     vals = [int(x) for x in re.findall(r"(\d{1,4})\s*枚", t)]
     vals = [v for v in vals if 2 <= v <= 1500]
     if not vals:
@@ -393,6 +399,7 @@ def build_deals(aff_id):
                 "until": d.get("until", ""), "checked": d.get("checked", ""), "url": link,
             })
     events = [e for e in src.get("events", []) if alive(e.get("end"))]
+    events += [{"shop_coupon": sc} for sc in src.get("shop_coupons", []) if alive(sc.get("until"))]
     return sorted(out, key=lambda o: o["per_sheet"]), events
 
 
