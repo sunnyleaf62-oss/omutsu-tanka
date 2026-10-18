@@ -219,6 +219,7 @@ function chipRow(id, items, current, label, onPick){
 
 function badges(o){
   let h = o.postage_separate ? `<span class="badge ship">送料目安込み</span>` : `<span class="badge">送料込み</span>`;
+  if (o.coupon) h += `<span class="badge coupon">${yen(o.coupon)}円OFFクーポン込み</span>`;
   if (o.point_rate > 1) h += `<span class="badge">ポイント${o.point_rate}倍・実質${per(o.per_sheet_after_points)}円</span>`;
   return h;
 }
@@ -242,9 +243,26 @@ function currentDeals(){
     .sort((a,b) => a.per_sheet - b.per_sheet);
 }
 
+function applyShopCoupons(){
+  const now = Date.now();
+  const scs = (DATA.events || []).filter(e => e.shop_coupon && new Date(e.shop_coupon.until) > now).map(e => e.shop_coupon);
+  if (!scs.length) return;
+  (DATA.products || []).forEach(p => {
+    (p.offers || []).forEach(o => {
+      const sc = scs.find(c => o.mall === "楽天" && o.shop.startsWith(c.shop_prefix) && o.price >= (c.min_price || 0));
+      if (!sc) return;
+      const pay = o.total - sc.amount;
+      o.coupon = sc.amount; o.coupon_note = sc.note;
+      o.per_sheet = pay / o.sheets;
+      o.per_sheet_after_points = (pay - (o.price - sc.amount) * o.point_rate / 100) / o.sheets;
+    });
+    if (p.offers) p.offers.sort((a,b) => a.per_sheet - b.per_sheet);
+  });
+}
+
 function renderEvents(){
   const now = Date.now();
-  const ev = (DATA?.events || []).filter(e => (!e.start || new Date(e.start) <= now) && (!e.end || new Date(e.end) > now));
+  const ev = (DATA?.events || []).filter(e => !e.shop_coupon && (!e.start || new Date(e.start) <= now) && (!e.end || new Date(e.end) > now));
   document.getElementById("events").innerHTML = ev.map(e =>
     `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span></div>`).join("");
 }
@@ -300,7 +318,7 @@ function render(){
     const li = document.createElement("li");
     li.className = "card" + (i<3 ? " r"+(i+1) : "");
     const others = p.offers.slice(1).map(x => `
-      <li><a href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.shop)}<span class="daily">（${esc(x.mall)}）</span><br><span class="daily">¥${yen(x.total)}・${x.sheets}枚${x.postage_separate?"（送料目安込み）":""}</span></a>
+      <li><a href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.shop)}<span class="daily">（${esc(x.mall)}）</span><br><span class="daily">¥${yen(x.total)}・${x.sheets}枚${x.postage_separate?"（送料目安込み）":""}${x.coupon?`・クーポン${yen(x.coupon)}円引き`:""}</span></a>
       <span class="v">${per(x.per_sheet)}円</span></li>`).join("");
     li.innerHTML = `
       <div class="top">
@@ -317,7 +335,7 @@ function render(){
         </div>
       </div>
       <div class="best">
-        <div class="shopline">最安ショップ <b>${esc(o.shop)}</b>（${esc(o.mall)}）<br>¥${yen(o.total)}・${o.sheets}枚</div>
+        <div class="shopline">最安ショップ <b>${esc(o.shop)}</b>（${esc(o.mall)}）<br>¥${yen(o.total)}${o.coupon ? ` − クーポン${yen(o.coupon)}円` : ""}・${o.sheets}枚${o.coupon ? `<br><span class="dealnote">${esc(o.coupon_note)}</span>` : ""}</div>
         <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener sponsored">${esc(o.mall)}で見る</a>
       </div>
       ${others ? `<details><summary>ほかのショップ（${p.offers.length-1}件）</summary><ul class="others">${others}</ul></details>` : ""}`;
@@ -386,6 +404,7 @@ fetch("data.json", {cache:"no-cache"})
   .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {
     DATA = d;
+    applyShopCoupons();
     document.getElementById("updated").textContent = d.updated ? fmtUpdated(d.updated) : "価格データはまだありません（初回の自動取得待ち）";
     if (d.shipping_estimate) document.getElementById("shipest").textContent = d.shipping_estimate;
     if (d.sources && d.sources.length) document.getElementById("sources").textContent = d.sources.join("・");
