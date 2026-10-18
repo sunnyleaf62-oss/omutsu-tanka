@@ -107,7 +107,12 @@
      "price": 9379
     }
    ],
-   "point_until": "2026-10-27T09:59+09:00"
+   "point_until": "2026-10-27T09:59+09:00",
+   "bulk_coupon": {
+    "amount": 1500,
+    "min_price": 10000,
+    "until": "2026-11-02T09:59+09:00"
+   }
   },
   {
    "id": "netbaby-404196",
@@ -158,6 +163,43 @@
     "min_price": 10000,
     "until": "2026-11-02T09:59+09:00"
    }
+  },
+  {
+   "id": "amazon-prime-pampers-pants",
+   "line": "pampers_sarasara",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "さらさらケア",
+   "type": "パンツ",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%B3%E3%83%91%E3%83%BC%E3%82%B9%20%E3%81%95%E3%82%89%E3%81%95%E3%82%89%E3%82%B1%E3%82%A2%20%E3%83%91%E3%83%B3%E3%83%84&tag=omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "variants": [
+    {
+     "size": "M",
+     "label": "はいはい/たっち 248枚",
+     "sheets": 248,
+     "price": 6544
+    },
+    {
+     "size": "L",
+     "label": "224枚",
+     "sheets": 224,
+     "price": 6624
+    },
+    {
+     "size": "ビッグ",
+     "label": "184枚",
+     "sheets": 184,
+     "price": 6624
+    }
+   ]
   }
  ],
  "shop_coupons": [
