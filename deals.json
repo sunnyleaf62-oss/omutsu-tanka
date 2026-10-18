@@ -25,9 +25,69 @@
    "until": "2026-10-27T09:59+09:00",
    "checked": "2026-10-18",
    "variants": [
-    {"size": "M", "label": "80枚×3個", "sheets": 240, "price": 5935},
-    {"size": "L", "label": "64枚×3個", "sheets": 192, "price": 5721},
-    {"size": "ビッグ", "label": "56枚×3個", "sheets": 168, "price": 5721}
+    {
+     "size": "M",
+     "label": "80枚×3個",
+     "sheets": 240,
+     "price": 5935
+    },
+    {
+     "size": "L",
+     "label": "64枚×3個",
+     "sheets": 192,
+     "price": 5721
+    },
+    {
+     "size": "ビッグ",
+     "label": "56枚×3個",
+     "sheets": 168,
+     "price": 5721
+    }
+   ],
+   "line": "mamypoko"
+  },
+  {
+   "id": "netbaby-404313",
+   "line": "pampers_sarasara",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "さらさらケア",
+   "type": "パンツ",
+   "mall": "楽天",
+   "shop": "楽天24 ベビー館",
+   "url": "https://item.rakuten.co.jp/netbaby/404313/",
+   "free_shipping": true,
+   "coupon": 700,
+   "coupon_note": "700円OFFクーポン（商品ページで取得）",
+   "point_back": 20,
+   "point_note": "スーパーDEAL 20%ポイントバック 10/27 9:59まで",
+   "until": "2026-10-27T09:59+09:00",
+   "checked": "2026-10-18",
+   "variants": [
+    {
+     "size": "M",
+     "label": "大容量 88枚×3個（はいはい・たっち）",
+     "sheets": 264,
+     "price": 9379
+    },
+    {
+     "size": "L",
+     "label": "大容量 76枚×3個",
+     "sheets": 228,
+     "price": 9379
+    },
+    {
+     "size": "ビッグ",
+     "label": "大容量 64枚×3個",
+     "sheets": 192,
+     "price": 9379
+    },
+    {
+     "size": "ビッグより大きい",
+     "label": "大容量 46枚×3個",
+     "sheets": 138,
+     "price": 9379
+    }
    ]
   }
  ]

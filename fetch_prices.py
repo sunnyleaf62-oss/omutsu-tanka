@@ -381,6 +381,8 @@ def build_deals(aff_id):
             back = pay * (1 + d.get("point_back", 0)) / 100
             out.append({
                 "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}",
+                "ref": (f"{d['line']}_{TYPE_SLUG.get(d['type'], '')}_{SIZE_SLUG.get(v['size'], '')}"
+                        if d.get("line") else ""),
                 **{k: d[k] for k in ("maker", "brand", "name", "type", "mall", "shop")},
                 "size": v["size"], "label": v.get("label", ""), "sheets": v["sheets"],
                 "price": v["price"], "coupon": d.get("coupon", 0), "pay": pay,
