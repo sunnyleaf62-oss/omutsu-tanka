@@ -362,6 +362,9 @@ def build(product, raw_items):
 
 # ================= 手動のお得情報（deals.json） =================
 def rakuten_aff_link(url, aff_id):
+    if "hb.afl.rakuten.co.jp" in url:                # すでにアフィリエイトリンク
+        return url
+    url = re.sub(r"[?&]scid=[^&#]*", "", url)        # アプリの共有用パラメータを外す
     if not aff_id or "rakuten.co.jp" not in url:
         return url
     q = urllib.parse.quote(url, safe="")
