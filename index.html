@@ -101,6 +101,30 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .others .v{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
 .summary{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;font-size:14px}
 .summary b{font-family:var(--f-display);font-size:20px;color:var(--accent);font-variant-numeric:tabular-nums}
+.prod{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.phead{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:center}
+.phead .thumb{width:56px;height:56px}
+.shops{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.srow{display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.srow.top1{border-color:var(--gold);background:var(--surface)}
+.srow .sr{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:900;font-size:13px;background:var(--surface);color:var(--muted)}
+.srow.top1 .sr{background:var(--gold);color:var(--gold-ink)}
+.sinfo{min-width:0;font-size:13px;line-height:1.45}
+.sinfo b{font-size:14px;overflow-wrap:anywhere}
+.sinfo .sdet{color:var(--muted);font-size:12px}
+.sinfo .badges{margin-top:3px}
+.sprice{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.sprice .u{font-family:var(--f-display);font-weight:900;font-size:19px;line-height:1;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sprice .u small{font-size:10px;color:var(--muted);font-weight:700;margin-left:1px}
+.btn.sm{font-size:12px;padding:5px 10px;border-radius:8px}
+.more>summary{font-size:13px;margin-top:2px}
+.more .shops{margin-top:8px}
+.cnotes{font-size:11px;color:var(--muted)}
+.cmp{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.cmp button{all:unset;cursor:pointer;display:grid;grid-template-columns:1fr auto;gap:8px;width:100%;box-sizing:border-box;padding:8px 2px;border-bottom:1px solid var(--line);font-size:13px}
+.cmp button:focus-visible{outline:2px solid var(--accent)}
+.cmp .v{font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.cmp .mk{color:var(--muted);font-size:11px;margin-right:6px}
 .msg{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center;color:var(--muted)}
 /* 店頭計算機 */
 .calc > summary{font-family:var(--f-display);font-size:17px;font-weight:900;color:var(--ink);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:8px}
@@ -192,14 +216,11 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
     </div>
   </details>
 
-  <section id="dealsec" hidden>
-    <h2 class="sec">🎟️ クーポン・セール情報<small>実際に確認したお得な出品・クーポン適用後の単価</small></h2>
-    <ol class="list" id="deals"></ol>
+  <div id="list"></div>
+  <section class="panel others-all" id="cmpbox" hidden>
+    <div class="label">ほかのメーカーの最安（タップで切り替え）</div>
+    <ul class="cmp" id="cmp"></ul>
   </section>
-
-  <h2 class="sec">通販の最安ランキング<small>毎朝自動で更新</small></h2>
-  <div class="summary" id="summary"></div>
-  <ol class="list" id="list"></ol>
   <div class="msg" id="msg" hidden></div>
 
   <a class="xpromo" href="https://sunnyleaf62-oss.github.io/milk-tanka/">
@@ -229,10 +250,10 @@ const SIZE_INFO = {   // 体重の目安と1日の使用枚数の目安
   "新生児":{kg:"〜5kg",day:12}, "S":{kg:"4〜8kg",day:10}, "M":{kg:"6〜12kg",day:8},
   "L":{kg:"9〜14kg",day:6}, "ビッグ":{kg:"12〜22kg",day:5}, "ビッグより大きい":{kg:"15kg〜",day:5},
 };
-let DATA = null, type = "テープ", size = "M", brand = "すべて";
+let DATA = null, type = "テープ", size = "M", brand = "パンパース";
 const BRANDS = ["パンパース","メリーズ","ムーニー","グーン","マミーポコ"];
 const brandOf = p => p.brand.startsWith("ムーニー") ? "ムーニー" : p.brand;
-const brandOk = p => brand === "すべて" || brandOf(p) === brand;
+const brandOk = p => brandOf(p) === brand;
 try{ brand = localStorage.getItem("omutsu-brand") || brand }catch(e){}
 try{ type = localStorage.getItem("omutsu-type") || type; size = localStorage.getItem("omutsu-size") || size }catch(e){}
 if (!TYPES.includes(type)) type = "テープ";
@@ -355,51 +376,57 @@ function render(){
     render();
   });
   const have = new Set((DATA?.products || []).filter(p => p.type===type && p.offers && p.offers.length).map(brandOf));
-  const brands = ["すべて", ...BRANDS.filter(b => !DATA || have.has(b))];
-  if (!brands.includes(brand)) brand = "すべて";
+  const brands = BRANDS.filter(b => !DATA || have.has(b));
+  if (!brands.includes(brand)) brand = brands[0] || "パンパース";
   chipRow("brands", brands, brand, v=>esc(v), v=>{ brand=v; save("omutsu-brand",v); render(); });
   chipRow("sizes", SIZES[type], size, v=>`${esc(v)}<small>${SIZE_INFO[v].kg}</small>`, v=>{ size=v; save("omutsu-size",v); render(); });
   document.getElementById("daily").textContent = `1ヶ月のおむつ代は 1日約${perDay()}枚 × 30日 で計算`;
 
-  const list = document.getElementById("list"); list.innerHTML = "";
-  const rows = currentRows();
-  rows.forEach((p,i)=>{
-    const o = p.offers[0];
-    const li = document.createElement("li");
-    li.className = "card" + (i<3 ? " r"+(i+1) : "");
-    const others = p.offers.slice(1).map(x => `
-      <li><a href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.shop)}<span class="daily">（${esc(x.mall)}）</span><br><span class="daily">¥${yen(x.total)}・${x.sheets}枚${x.postage_separate?"（送料目安込み）":""}${x.coupon?`・クーポン${yen(x.coupon)}円引き`:""}</span></a>
-      <span class="v">${per(x.per_sheet)}円</span></li>`).join("");
-    li.innerHTML = `
-      <div class="top">
-        <div class="rank" aria-label="${i+1}位">${i+1}</div>
-        ${o.image ? `<img class="thumb" src="${esc(o.image)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="thumb"></div>`}
-        <div class="info">
-          <div class="brand">${esc(p.maker)}・${esc(p.type)} ${esc(p.size)}</div>
-          <div class="name">${esc(label(p))}</div>
-          <div class="badges">${badges(o)}</div>
-        </div>
-        <div class="price">
-          <div class="unit">${per(o.per_sheet)}<small>円/枚</small></div>
-          <div class="month">1ヶ月 約¥${yen(monthCost(o.per_sheet))}</div>
-        </div>
-      </div>
-      <div class="best">
-        <div class="shopline">最安ショップ <b>${esc(o.shop)}</b>（${esc(o.mall)}）<br>¥${yen(o.total)}${o.coupon ? ` − クーポン${yen(o.coupon)}円` : ""}・${o.sheets}枚${o.coupon ? `<br><span class="dealnote">${esc(o.coupon_note)}</span>` : ""}</div>
-        <a class="btn" href="${esc(o.url)}" target="_blank" rel="noopener sponsored">${esc(o.mall)}で見る</a>
-      </div>
-      ${others ? `<details><summary>ほかのショップ（${p.offers.length-1}件）</summary><ul class="others">${others}</ul></details>` : ""}`;
-    list.appendChild(li);
-  });
-
   renderEvents();
-  renderDeals();
-  const s = document.getElementById("summary");
-  s.innerHTML = rows.length
-    ? `${esc(type)} ${esc(size)}でいちばんお得なのは<strong>${esc(label(rows[0]))}</strong><span>1ヶ月 約<b>¥${yen(monthCost(rows[0].offers[0].per_sheet))}</b></span>`
-    : "";
+  const list = document.getElementById("list"); list.innerHTML = "";
+  if (!DATA) { calc(); return; }
+  const now = Date.now();
+  const dealRows = (DATA.deals || []).filter(d => d.type===type && d.size===size && (!d.until || new Date(d.until) > now))
+    .map(d => ({...d, total:d.pay, deal:true}));
+  const inScope = p => p.type===type && p.size===size;
+  const rowsOf = p => [...(p.offers||[]), ...dealRows.filter(d => d.ref===p.id)].sort((a,b)=>a.per_sheet-b.per_sheet);
+  const prods = DATA.products.filter(p => inScope(p) && brandOk(p)).map(p => ({p, rows: rowsOf(p)}))
+    .filter(x => x.rows.length).sort((a,b) => a.rows[0].per_sheet - b.rows[0].per_sheet);
+
+  const shopRow = (x,i) => `<li class="srow${i===0?" top1":""}">
+    <span class="sr">${i+1}</span>
+    <div class="sinfo"><b>${esc(x.shop)}</b> <span class="daily">${esc(x.mall)}</span>
+      <div class="sdet">${x.deal ? `${esc(x.label)}・` : ""}¥${yen(x.total)}${x.coupon?`（クーポン${yen(x.coupon)}円引き後）`:""}・${x.sheets}枚</div>
+      <div class="badges">${x.coupon ? `<span class="badge coupon">${yen(x.coupon)}円OFFクーポン込み</span>` : ""}${x.postage_separate ? `<span class="badge ship">送料目安込み</span>` : `<span class="badge">送料込み</span>`}${x.deal && x.point_note ? `<span class="badge">ポイントバック込み 実質${per(x.per_sheet_after_points)}円</span>` : (x.point_rate > 1 ? `<span class="badge">ポイント${x.point_rate}倍</span>` : "")}</div>
+      ${x.bulk_note ? `<div class="sdet">💡 ${esc(x.bulk_note)}</div>` : ""}</div>
+    <div class="sprice"><span class="u">${per(x.per_sheet)}<small>円/枚</small></span>
+      <a class="btn sm" href="${esc(x.url)}" target="_blank" rel="noopener sponsored">${esc(x.mall)}で見る</a></div>
+  </li>`;
+
+  list.innerHTML = prods.map(({p, rows}) => {
+    const o = rows[0], img = (p.offers||[]).find(x=>x.image)?.image, top = rows.slice(0,5), rest = rows.slice(5);
+    const notes = [...new Set(rows.filter(x=>x.coupon).map(x=>x.coupon_note).concat(rows.filter(x=>x.deal&&x.point_note).map(x=>x.point_note)))];
+    return `<section class="prod">
+      <div class="phead">
+        ${img ? `<img class="thumb" src="${esc(img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="thumb"></div>`}
+        <div class="info"><div class="brand">${esc(p.maker)}・${esc(p.type)} ${esc(p.size)}</div><div class="name">${esc(label(p))}</div></div>
+        <div class="price"><div class="unit">${per(o.per_sheet)}<small>円/枚〜</small></div><div class="month">1ヶ月 約¥${yen(monthCost(o.per_sheet))}</div></div>
+      </div>
+      <ol class="shops">${top.map(shopRow).join("")}</ol>
+      ${rest.length ? `<details class="more"><summary>ほかのショップ（${rest.length}件）</summary><ol class="shops">${rest.map((x,i)=>shopRow(x,i+5)).join("")}</ol></details>` : ""}
+      ${notes.length ? `<div class="cnotes">${notes.map(esc).join("<br>")}</div>` : ""}
+    </section>`;
+  }).join("");
+
+  const others = DATA.products.filter(p => inScope(p) && !brandOk(p)).map(p => ({p, rows: rowsOf(p)})).filter(x=>x.rows.length)
+    .sort((a,b)=>a.rows[0].per_sheet-b.rows[0].per_sheet);
+  document.getElementById("cmpbox").hidden = !others.length;
+  const cmp = document.getElementById("cmp");
+  cmp.innerHTML = others.map(({p,rows}) => `<li><button type="button" data-b="${esc(brandOf(p))}"><span><span class="mk">${esc(brandOf(p))}</span>${esc(label(p))}</span><span class="v">${per(rows[0].per_sheet)}円〜</span></button></li>`).join("");
+  cmp.querySelectorAll("button").forEach(b => b.onclick = () => { brand = b.dataset.b; save("omutsu-brand",brand); render(); document.getElementById("brands").scrollIntoView({behavior:"smooth",block:"center"}); });
+
   const msg = document.getElementById("msg");
-  msg.hidden = rows.length > 0 || !DATA;
+  msg.hidden = prods.length > 0;
   msg.textContent = "この条件の価格はまだ集まっていません。";
   calc();
 }
@@ -438,7 +465,7 @@ function calc(){
   } else verdict.textContent = "";
   const best = currentRows()[0];
   document.getElementById("netref").textContent = best
-    ? `参考：いまの通販最安（${type} ${size}）は ${label(best)} の 1枚 ${per(best.offers[0].per_sheet)}円`
+    ? `参考：${esc(brand)}（${type} ${size}）の通販最安は ${label(best)} の 1枚 ${per(best.offers[0].per_sheet)}円`
     : "";
 }
 document.getElementById("addrow").onclick = ()=>{ if (document.querySelectorAll(".row").length < 6){ addRow(); calc(); } };
