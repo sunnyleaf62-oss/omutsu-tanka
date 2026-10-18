@@ -6979,5 +6979,81 @@
         }
       }
     }
+  ],
+  "deals": [
+    {
+      "id": "netbaby-404272-m",
+      "maker": "ユニ・チャーム",
+      "brand": "マミーポコ",
+      "name": "マミーポコ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "M",
+      "label": "80枚×3個",
+      "sheets": 240,
+      "price": 5935,
+      "coupon": 700,
+      "pay": 5235,
+      "per_sheet": 21.81,
+      "per_sheet_after_points": 17.23,
+      "coupon_note": "700円OFFクーポン（商品ページで取得）",
+      "point_note": "スーパーDEAL 20%ポイントバック 10/27 9:59まで",
+      "until": "2026-10-27T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F"
+    },
+    {
+      "id": "netbaby-404272-l",
+      "maker": "ユニ・チャーム",
+      "brand": "マミーポコ",
+      "name": "マミーポコ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "L",
+      "label": "64枚×3個",
+      "sheets": 192,
+      "price": 5721,
+      "coupon": 700,
+      "pay": 5021,
+      "per_sheet": 26.15,
+      "per_sheet_after_points": 20.66,
+      "coupon_note": "700円OFFクーポン（商品ページで取得）",
+      "point_note": "スーパーDEAL 20%ポイントバック 10/27 9:59まで",
+      "until": "2026-10-27T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F"
+    },
+    {
+      "id": "netbaby-404272-big",
+      "maker": "ユニ・チャーム",
+      "brand": "マミーポコ",
+      "name": "マミーポコ",
+      "type": "パンツ",
+      "mall": "楽天",
+      "shop": "楽天24 ベビー館",
+      "size": "ビッグ",
+      "label": "56枚×3個",
+      "sheets": 168,
+      "price": 5721,
+      "coupon": 700,
+      "pay": 5021,
+      "per_sheet": 29.89,
+      "per_sheet_after_points": 23.61,
+      "coupon_note": "700円OFFクーポン（商品ページで取得）",
+      "point_note": "スーパーDEAL 20%ポイントバック 10/27 9:59まで",
+      "until": "2026-10-27T09:59+09:00",
+      "checked": "2026-10-18",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/589314bc.bddfa8b8.589314bd.ed2be359/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F404272%2F"
+    }
+  ],
+  "events": [
+    {
+      "start": "2026-10-18T10:00+09:00",
+      "end": "2026-10-21T09:59+09:00",
+      "title": "楽天「育児の日」開催中",
+      "text": "エントリーでベビー用品のポイントアップ（楽天24 ベビー館など対象ショップ限定）。買い物の前にエントリーを忘れずに。"
+    }
   ]
 }
