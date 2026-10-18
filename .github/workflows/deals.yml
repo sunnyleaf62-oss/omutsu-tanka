@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # 予約待ちの間に増えた変更も含めた最新から始める
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -32,6 +34,9 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data.json
+          # 途中で他の変更が入っていても、data.json を文字単位で混ぜずに今回の結果で置き換える
+          git fetch origin main
+          git reset --soft origin/main
+          git add data.json
           git diff --cached --quiet || git commit -m "お得情報を反映"
-          git pull --rebase -X theirs origin main
-          git push
+          git push origin HEAD:main
