@@ -122,6 +122,7 @@ summary{cursor:pointer;color:var(--accent);font-weight:700}
 .event{background:var(--fill);color:var(--btn-ink);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
 .event b{font-family:var(--f-display);font-size:16px}
 .event span{font-size:13px}
+.events{display:flex;flex-direction:column;gap:12px}
 .evimg{display:block;border-radius:18px;overflow:hidden;box-shadow:0 2px 0 rgba(0,0,0,.08)}
 .evimg img{display:block;width:100%;height:auto}
 .evimg:active{transform:translateY(1px)}
@@ -164,7 +165,7 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
     <div class="updated" id="updated">価格データを読み込み中…</div>
   </header>
 
-  <div id="events"></div>
+  <div id="events" class="events"></div>
 
   <section class="panel" aria-label="絞り込み">
     <div class="label">タイプ</div>
@@ -297,7 +298,7 @@ function renderEvents(){
   const ev = (DATA?.events || []).filter(e => !e.shop_coupon && (!e.start || new Date(e.start) <= now) && (!e.end || new Date(e.end) > now));
   document.getElementById("events").innerHTML = ev.map(e =>
     e.image && e.url
-      ? `<a class="evimg" href="${esc(e.url)}" target="_blank" rel="noopener sponsored"><img src="${esc(e.image)}" alt="${esc(e.title)}：${esc(e.text)}" width="1200" height="450"></a><div class="evnote">${e.end ? `${fmtDate(e.end)}まで・` : ""}${esc(e.note || "")}</div>`
+      ? `<a class="evimg" href="${esc(e.url)}" target="_blank" rel="noopener sponsored"><img src="${esc(e.image)}" alt="${esc(e.title)}：${esc(e.text)}" width="${e.w||1200}" height="${e.h||450}"></a><div class="evnote">${e.end ? `${fmtDate(e.end)}まで・` : ""}${esc(e.note || "")}</div>`
       : e.url
       ? `<a class="event" href="${esc(e.url)}" target="_blank" rel="noopener sponsored"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span><span class="evbtn">${esc(e.link_label || "エントリーページへ")} →</span></a>`
       : `<div class="event"><b>${esc(e.title)}</b><span>${esc(e.text)}${e.end ? `（${fmtDate(e.end)}まで）` : ""}</span></div>`).join("");
