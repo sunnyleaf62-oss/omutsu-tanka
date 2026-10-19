@@ -327,6 +327,33 @@
      "url": "https://link.amazon/B05R5pCHW"
     }
    ]
+  },
+  {
+   "id": "amazon-goon-yuru-nb",
+   "line": "goon_yuru",
+   "maker": "大王製紙",
+   "brand": "グーン",
+   "name": "ゆるうんちモレ0へ",
+   "type": "テープ",
+   "mall": "Amazon",
+   "shop": "Amazon",
+   "url": "https://link.amazon/B0dIaXAB6",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 176,
+   "coupon_note": "Amazonクーポン：商品ページの「クーポン」にチェックを入れると適用（なくなり次第終了の場合あり）",
+   "point_note": "",
+   "until": "2026-10-22T23:59+09:00",
+   "checked": "2026-10-19",
+   "variants": [
+    {
+     "size": "新生児",
+     "label": "64枚",
+     "sheets": 64,
+     "price": 1760,
+     "url": "https://link.amazon/B0dIaXAB6"
+    }
+   ]
   }
  ],
  "shop_coupons": [
