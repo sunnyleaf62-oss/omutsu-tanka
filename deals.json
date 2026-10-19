@@ -300,6 +300,33 @@
      "asin": "B0FMRG9ZF1"
     }
    ]
+  },
+  {
+   "id": "amazon-prime-merries-first-tape",
+   "line": "merries_first",
+   "maker": "花王",
+   "brand": "メリーズ",
+   "name": "ファーストプレミアム",
+   "type": "テープ",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "variants": [
+    {
+     "size": "S",
+     "label": "54枚×4個（216枚）",
+     "sheets": 216,
+     "price": 5184,
+     "url": "https://link.amazon/B05R5pCHW"
+    }
+   ]
   }
  ],
  "shop_coupons": [
