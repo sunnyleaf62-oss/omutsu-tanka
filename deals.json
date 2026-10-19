@@ -381,6 +381,33 @@
      "url": "https://link.amazon/B01eyTiV0"
     }
    ]
+  },
+  {
+   "id": "amazon-merries-tape-s",
+   "line": "merries",
+   "maker": "花王",
+   "brand": "メリーズ",
+   "name": "さらさらエアスルー",
+   "type": "テープ",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://link.amazon/B0eAlJfgN",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "variants": [
+    {
+     "size": "S",
+     "label": "ずっと肌さら 大容量74枚",
+     "sheets": 74,
+     "price": 1668,
+     "url": "https://link.amazon/B0eAlJfgN"
+    }
+   ]
   }
  ],
  "shop_coupons": [
