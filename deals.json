@@ -183,9 +183,17 @@
    "variants": [
     {
      "size": "M",
-     "label": "はいはい/たっち 248枚",
+     "label": "はいはい 248枚",
      "sheets": 248,
-     "price": 6544
+     "price": 6544,
+     "asin": "B0H7HYM3SF"
+    },
+    {
+     "size": "M",
+     "label": "たっち 248枚",
+     "sheets": 248,
+     "price": 6544,
+     "asin": "B0H7HY4CN1"
     },
     {
      "size": "L",
@@ -198,7 +206,8 @@
      "size": "ビッグ",
      "label": "184枚",
      "sheets": 184,
-     "price": 6624
+     "price": 6624,
+     "asin": "B0H7J49KB5"
     }
    ],
    "tag": "omutsu-tanka-22"
