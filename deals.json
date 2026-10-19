@@ -332,6 +332,20 @@
      "sheets": 60,
      "price": 1380,
      "url": "https://link.amazon/B05uy3F54"
+    },
+    {
+     "size": "新生児",
+     "label": "60枚×4個（240枚）",
+     "sheets": 240,
+     "price": 5184,
+     "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20%E3%83%86%E3%83%BC%E3%83%97%20%E6%96%B0%E7%94%9F%E5%85%90%20240%E6%9E%9A&tag=omutsu-tanka-22"
+    },
+    {
+     "size": "M",
+     "label": "48枚",
+     "sheets": 48,
+     "price": 1380,
+     "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20%E3%83%86%E3%83%BC%E3%83%97%20M%2048%E6%9E%9A&tag=omutsu-tanka-22"
     }
    ]
   },
@@ -420,6 +434,34 @@
      "sheets": 164,
      "price": 3127,
      "url": "https://link.amazon/B05JFxXDl"
+    }
+   ]
+  },
+  {
+   "id": "amazon-merries-first-pants-m",
+   "line": "merries_first",
+   "maker": "花王",
+   "brand": "メリーズ",
+   "name": "ファーストプレミアム",
+   "type": "パンツ",
+   "mall": "Amazon",
+   "shop": "Amazon",
+   "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%91%E3%83%B3%E3%83%84%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20M%2046%E6%9E%9A&tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_back": 15,
+   "point_note": "Amazonポイント16%還元（276pt・商品ページで要確認）",
+   "point_until": "2026-10-19T23:59+09:00",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "variants": [
+    {
+     "size": "M",
+     "label": "46枚",
+     "sheets": 46,
+     "price": 1726
     }
    ]
   }
