@@ -413,7 +413,7 @@ def build_deals(aff_id):
                 "per_sheet_after_points": round((pay - back) / v["sheets"], 2),
                 "coupon_note": d.get("coupon_note", ""), "point_note": d.get("point_note", "") if pb_on else "",
                 "until": d.get("until", ""), "checked": d.get("checked", ""),
-                "url": (f"https://www.amazon.co.jp/dp/{v['asin']}?tag={d['tag']}" if v.get("asin") else link),
+                "url": v.get("url") or (f"https://www.amazon.co.jp/dp/{v['asin']}?tag={d['tag']}" if v.get("asin") else link),
             })
     events = [{**e, "url": rakuten_aff_link(e["url"], aff_id)} if e.get("url") else e
               for e in src.get("events", []) if alive(e.get("end"))]
