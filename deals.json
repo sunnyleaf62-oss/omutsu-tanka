@@ -363,21 +363,21 @@
    "name": "ゆるうんちモレ0へ",
    "type": "テープ",
    "mall": "Amazon",
-   "shop": "Amazon（定期おトク便）",
+   "shop": "Amazon",
    "url": "https://link.amazon/B01eyTiV0",
    "tag": "omutsu-tanka-22",
    "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "定期おトク便の価格です（通常購入は6,846円）。初回のあと、いつでも解約・スキップできます",
+   "coupon": 685,
+   "coupon_note": "Amazonクーポン685円OFF（1回限りの購入・10/30まで／商品ページでクーポンを適用）。定期おトク便でも同じ6,161円です",
    "point_note": "",
-   "until": "2026-11-19T23:59+09:00",
+   "until": "2026-10-30T23:59+09:00",
    "checked": "2026-10-19",
    "variants": [
     {
      "size": "新生児",
      "label": "ケース 64枚×4個（256枚）",
      "sheets": 256,
-     "price": 6161,
+     "price": 6846,
      "url": "https://link.amazon/B01eyTiV0"
     }
    ]
