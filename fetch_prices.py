@@ -402,7 +402,7 @@ def build_deals(aff_id):
                     bulk_note = (f"{qty}セットまとめ買い（{bc['min_price']:,}円以上）なら{bc['amount']:,}円OFFクーポンで"
                                  f"¥{bpay:,}・{v['sheets'] * qty}枚＝1枚{bper:.1f}円")
             out.append({
-                "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}" + (f"-{v['asin']}" if v.get("asin") else ""),
+                "id": f"{d['id']}-{SIZE_SLUG.get(v['size'], v['size'])}",
                 "bulk_note": bulk_note,
                 "ref": (f"{d['line']}_{TYPE_SLUG.get(d['type'], '')}_{SIZE_SLUG.get(v['size'], '')}"
                         if d.get("line") else ""),
