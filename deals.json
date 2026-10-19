@@ -183,9 +183,17 @@
    "variants": [
     {
      "size": "M",
-     "label": "はいはい/たっち 248枚",
+     "label": "はいはい 248枚",
      "sheets": 248,
-     "price": 6544
+     "price": 6544,
+     "asin": "B0H7HYM3SF"
+    },
+    {
+     "size": "M",
+     "label": "たっち 248枚",
+     "sheets": 248,
+     "price": 6544,
+     "asin": "B0H7HY4CN1"
     },
     {
      "size": "L",
@@ -198,10 +206,93 @@
      "size": "ビッグ",
      "label": "184枚",
      "sheets": 184,
-     "price": 6624
+     "price": 6624,
+     "asin": "B0H7J49KB5"
     }
    ],
    "tag": "omutsu-tanka-22"
+  },
+  {
+   "line": "pampers_hada",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "肌へのいちばん",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "id": "amazon-prime-hada-pants",
+   "type": "パンツ",
+   "variants": [
+    {
+     "size": "M",
+     "label": "たっち 180枚",
+     "sheets": 180,
+     "price": 5824,
+     "asin": "B0FMRDM8WP"
+    },
+    {
+     "size": "M",
+     "label": "はいはい 60枚",
+     "sheets": 60,
+     "price": 2064,
+     "asin": "B0FMRD2HPH"
+    },
+    {
+     "size": "L",
+     "label": "144枚",
+     "sheets": 144,
+     "price": 5984,
+     "asin": "B0FMRFM7HQ"
+    },
+    {
+     "size": "ビッグ",
+     "label": "138枚",
+     "sheets": 138,
+     "price": 5984,
+     "asin": "B0FMRCB8S7"
+    }
+   ]
+  },
+  {
+   "line": "pampers_hada",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "肌へのいちばん",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "id": "amazon-prime-hada-tape",
+   "type": "テープ",
+   "variants": [
+    {
+     "size": "S",
+     "label": "はじめての肌へのいちばん 210枚",
+     "sheets": 210,
+     "price": 5824,
+     "asin": "B0FMQYPKXV"
+    },
+    {
+     "size": "M",
+     "label": "180枚",
+     "sheets": 180,
+     "price": 5824,
+     "asin": "B0FMRG9ZF1"
+    }
+   ]
   }
  ],
  "shop_coupons": [

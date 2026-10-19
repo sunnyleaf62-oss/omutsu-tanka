@@ -48,8 +48,10 @@ jobs:
           git config user.email "actions@github.com"
           git add data.json debug.json
           # 途中で他の変更が入っていても、data.json を文字単位で混ぜずに今回の結果で置き換える
+          cp data.json /tmp/data.json; [ -f debug.json ] && cp debug.json /tmp/debug.json || true
           git fetch origin main
-          git reset --soft origin/main
+          git reset --hard origin/main   # 途中で入った他のファイルの変更を消さないよう、最新に合わせてから結果だけ載せる
+          cp /tmp/data.json data.json; [ -f /tmp/debug.json ] && cp /tmp/debug.json debug.json || true
           git add data.json debug.json
           git diff --cached --quiet || git commit -m "価格を更新"
           git push origin HEAD:main
