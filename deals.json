@@ -211,6 +211,67 @@
     }
    ],
    "tag": "omutsu-tanka-22"
+  },
+  {
+   "line": "pampers_hada",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "肌へのいちばん",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "id": "amazon-prime-hada-pants",
+   "type": "パンツ",
+   "variants": [
+    {
+     "size": "M",
+     "label": "たっち 180枚",
+     "sheets": 180,
+     "price": 5824,
+     "asin": "B0FMRDM8WP"
+    },
+    {
+     "size": "M",
+     "label": "はいはい 60枚",
+     "sheets": 60,
+     "price": 2064,
+     "asin": "B0FMRD2HPH"
+    }
+   ]
+  },
+  {
+   "line": "pampers_hada",
+   "maker": "P&G",
+   "brand": "パンパース",
+   "name": "肌へのいちばん",
+   "mall": "Amazon",
+   "shop": "Amazon（プライム感謝祭）",
+   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
+   "tag": "omutsu-tanka-22",
+   "free_shipping": true,
+   "coupon": 0,
+   "coupon_note": "",
+   "point_note": "",
+   "until": "2026-10-19T23:59+09:00",
+   "checked": "2026-10-19",
+   "id": "amazon-prime-hada-tape",
+   "type": "テープ",
+   "variants": [
+    {
+     "size": "S",
+     "label": "はじめての肌へのいちばん 210枚",
+     "sheets": 210,
+     "price": 5824,
+     "asin": "B0FMQYPKXV"
+    }
+   ]
   }
  ],
  "shop_coupons": [
