@@ -279,6 +279,13 @@
    "type": "テープ",
    "variants": [
     {
+     "size": "新生児",
+     "label": "228枚",
+     "sheets": 228,
+     "price": 5824,
+     "url": "https://link.amazon/B0dsb4pIJ"
+    },
+    {
      "size": "S",
      "label": "はじめての肌へのいちばん 210枚",
      "sheets": 210,
