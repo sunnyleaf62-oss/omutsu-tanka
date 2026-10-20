@@ -165,191 +165,6 @@
    }
   },
   {
-   "id": "amazon-prime-pampers-pants",
-   "line": "pampers_sarasara",
-   "maker": "P&G",
-   "brand": "パンパース",
-   "name": "さらさらケア",
-   "type": "パンツ",
-   "mall": "Amazon",
-   "shop": "Amazon（プライム感謝祭）",
-   "url": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%B3%E3%83%91%E3%83%BC%E3%82%B9%20%E3%81%95%E3%82%89%E3%81%95%E3%82%89%E3%82%B1%E3%82%A2%20%E3%83%91%E3%83%B3%E3%83%84&tag=omutsu-tanka-22",
-   "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_note": "",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
-   "variants": [
-    {
-     "size": "M",
-     "label": "はいはい 248枚",
-     "sheets": 248,
-     "price": 6544,
-     "asin": "B0H7HYM3SF"
-    },
-    {
-     "size": "M",
-     "label": "たっち 248枚",
-     "sheets": 248,
-     "price": 6544,
-     "asin": "B0H7HY4CN1"
-    },
-    {
-     "size": "L",
-     "label": "224枚",
-     "sheets": 224,
-     "price": 6624,
-     "asin": "B0FM86D3CL"
-    },
-    {
-     "size": "ビッグ",
-     "label": "184枚",
-     "sheets": 184,
-     "price": 6624,
-     "asin": "B0H7J49KB5"
-    }
-   ],
-   "tag": "omutsu-tanka-22"
-  },
-  {
-   "line": "pampers_hada",
-   "maker": "P&G",
-   "brand": "パンパース",
-   "name": "肌へのいちばん",
-   "mall": "Amazon",
-   "shop": "Amazon（プライム感謝祭）",
-   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
-   "tag": "omutsu-tanka-22",
-   "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_note": "",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
-   "id": "amazon-prime-hada-pants",
-   "type": "パンツ",
-   "variants": [
-    {
-     "size": "M",
-     "label": "たっち 180枚",
-     "sheets": 180,
-     "price": 5824,
-     "asin": "B0FMRDM8WP"
-    },
-    {
-     "size": "M",
-     "label": "はいはい 60枚",
-     "sheets": 60,
-     "price": 2064,
-     "asin": "B0FMRD2HPH"
-    },
-    {
-     "size": "L",
-     "label": "144枚",
-     "sheets": 144,
-     "price": 5984,
-     "asin": "B0FMRFM7HQ"
-    },
-    {
-     "size": "ビッグ",
-     "label": "138枚",
-     "sheets": 138,
-     "price": 5984,
-     "asin": "B0FMRCB8S7"
-    }
-   ]
-  },
-  {
-   "line": "pampers_hada",
-   "maker": "P&G",
-   "brand": "パンパース",
-   "name": "肌へのいちばん",
-   "mall": "Amazon",
-   "shop": "Amazon（プライム感謝祭）",
-   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
-   "tag": "omutsu-tanka-22",
-   "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_note": "",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
-   "id": "amazon-prime-hada-tape",
-   "type": "テープ",
-   "variants": [
-    {
-     "size": "新生児",
-     "label": "228枚",
-     "sheets": 228,
-     "price": 5824,
-     "url": "https://link.amazon/B0dsb4pIJ"
-    },
-    {
-     "size": "S",
-     "label": "はじめての肌へのいちばん 210枚",
-     "sheets": 210,
-     "price": 5824,
-     "asin": "B0FMQYPKXV"
-    },
-    {
-     "size": "M",
-     "label": "180枚",
-     "sheets": 180,
-     "price": 5824,
-     "asin": "B0FMRG9ZF1"
-    }
-   ]
-  },
-  {
-   "id": "amazon-prime-merries-first-tape",
-   "line": "merries_first",
-   "maker": "花王",
-   "brand": "メリーズ",
-   "name": "ファーストプレミアム",
-   "type": "テープ",
-   "mall": "Amazon",
-   "shop": "Amazon（プライム感謝祭）",
-   "url": "https://www.amazon.co.jp/primeappreciation?tag=omutsu-tanka-22",
-   "tag": "omutsu-tanka-22",
-   "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_note": "",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
-   "variants": [
-    {
-     "size": "S",
-     "label": "54枚×4個（216枚）",
-     "sheets": 216,
-     "price": 5184,
-     "url": "https://link.amazon/B05R5pCHW"
-    },
-    {
-     "size": "新生児",
-     "label": "60枚",
-     "sheets": 60,
-     "price": 1380,
-     "url": "https://link.amazon/B05uy3F54"
-    },
-    {
-     "size": "新生児",
-     "label": "60枚×4個（240枚）",
-     "sheets": 240,
-     "price": 5184,
-     "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20%E3%83%86%E3%83%BC%E3%83%97%20%E6%96%B0%E7%94%9F%E5%85%90%20240%E6%9E%9A&tag=omutsu-tanka-22"
-    },
-    {
-     "size": "M",
-     "label": "48枚",
-     "sheets": 48,
-     "price": 1380,
-     "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20%E3%83%86%E3%83%BC%E3%83%97%20M%2048%E6%9E%9A&tag=omutsu-tanka-22"
-    }
-   ]
-  },
-  {
    "id": "amazon-goon-yuru-nb",
    "line": "goon_yuru",
    "maker": "大王製紙",
@@ -404,64 +219,46 @@
    ]
   },
   {
-   "id": "amazon-merries-tape-s",
-   "line": "merries",
-   "maker": "花王",
-   "brand": "メリーズ",
-   "name": "さらさらエアスルー",
-   "type": "テープ",
-   "mall": "Amazon",
-   "shop": "Amazon（プライム感謝祭）",
-   "url": "https://link.amazon/B0eAlJfgN",
-   "tag": "omutsu-tanka-22",
-   "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_note": "",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
-   "variants": [
-    {
-     "size": "S",
-     "label": "ずっと肌さら 大容量74枚",
-     "sheets": 74,
-     "price": 1668,
-     "url": "https://link.amazon/B0eAlJfgN"
-    },
-    {
-     "size": "新生児",
-     "label": "ずっと肌さら 164枚",
-     "sheets": 164,
-     "price": 3127,
-     "url": "https://link.amazon/B05JFxXDl"
-    }
-   ]
-  },
-  {
-   "id": "amazon-merries-first-pants-m",
+   "id": "netbaby-404201",
    "line": "merries_first",
    "maker": "花王",
    "brand": "メリーズ",
    "name": "ファーストプレミアム",
-   "type": "パンツ",
-   "mall": "Amazon",
-   "shop": "Amazon",
-   "url": "https://www.amazon.co.jp/s?k=%E3%83%A1%E3%83%AA%E3%83%BC%E3%82%BA%E3%83%91%E3%83%B3%E3%83%84%20%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%20M%2046%E6%9E%9A&tag=omutsu-tanka-22",
-   "tag": "omutsu-tanka-22",
+   "type": "テープ",
+   "mall": "楽天",
+   "shop": "楽天24 ベビー館",
+   "url": "https://item.rakuten.co.jp/netbaby/404201/",
    "free_shipping": true,
-   "coupon": 0,
-   "coupon_note": "",
-   "point_back": 15,
-   "point_note": "Amazonポイント16%還元（276pt・商品ページで要確認）",
-   "point_until": "2026-10-19T23:59+09:00",
-   "until": "2026-10-19T23:59+09:00",
-   "checked": "2026-10-19",
+   "coupon": 700,
+   "coupon_note": "700円OFFクーポン：楽天24グループで使える・1,000円以上・1回の注文に1枚・1人3回まで・他のクーポンと併用不可・11/2 9:59まで（商品ページで取得）",
+   "point_back": 30,
+   "point_note": "スーパーDEAL 30%ポイントバック 10/27 9:59まで",
+   "point_until": "2026-10-27T09:59+09:00",
+   "until": "2026-11-02T09:59+09:00",
+   "checked": "2026-10-18",
+   "bulk_coupon": {
+    "amount": 1500,
+    "min_price": 10000,
+    "until": "2026-11-02T09:59+09:00"
+   },
    "variants": [
     {
+     "size": "新生児",
+     "label": "60枚×4個",
+     "sheets": 240,
+     "price": 6985
+    },
+    {
+     "size": "S",
+     "label": "54枚×4個",
+     "sheets": 216,
+     "price": 6985
+    },
+    {
      "size": "M",
-     "label": "46枚",
-     "sheets": 46,
-     "price": 1726
+     "label": "48枚×4個",
+     "sheets": 192,
+     "price": 6985
     }
    ]
   }
