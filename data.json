@@ -10329,17 +10329,6 @@
   ],
   "events": [
     {
-      "start": "2026-10-18T10:00+09:00",
-      "end": "2026-10-21T09:59+09:00",
-      "title": "楽天「育児の日」開催中",
-      "text": "エントリーでベビー用品のポイントアップ（楽天24 ベビー館など対象ショップ限定）。買い物の前にエントリーを忘れずに。",
-      "url": "https://hb.afl.rakuten.co.jp/hgc/14e4414a.24ecf1e4.14e4414b.56d12a00/?pc=https%3A%2F%2Fevent.rakuten.co.jp%2Fbaby%2F192campaign%2F&m=https%3A%2F%2Fevent.rakuten.co.jp%2Fbaby%2F192campaign%2F",
-      "link_label": "育児の日にエントリーする",
-      "image": "img/192-banner.jpg",
-      "note": "買い物の前にエントリーが必要です（楽天24 ベビー館など対象ショップ限定）",
-      "short": "要エントリー"
-    },
-    {
       "shop_coupon": {
         "shop_prefix": "楽天24",
         "amount": 700,
