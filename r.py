@@ -33,10 +33,11 @@ for item,kw in Q.items():
   for page in (1,2):
     try:
       d=call({"applicationId":os.environ["RAKUTEN_APP_ID"],"accessKey":os.environ["RAKUTEN_ACCESS_KEY"],"keyword":kw,"NGKeyword":"中古 福袋","sort":"-reviewCount","availability":1,"hits":30,"page":page,"format":"json","formatVersion":2})
-    except Exception as e: print(item,e); break
-    for it in d.get("Items") or []:
+    except Exception as e: out.setdefault("_err",{})[item]=str(e)[:300]; break
+    if page==1: out.setdefault("_dbg",{})[item]=list(d)[:8]
+    for it in d.get("Items") or d.get("items") or []:
       it=it.get("Item",it)
-      rows.append({"name":it["itemName"][:90],"price":it["itemPrice"],"avg":float(it.get("reviewAverage") or 0),"n":int(it.get("reviewCount") or 0),"shop":it["shopName"],"url":it["itemUrl"]})
+      rows.append({"name":it["itemName"][:90],"price":it["itemPrice"],"avg":float(it.get("reviewAverage") or 0),"img":((it.get("mediumImageUrls") or [""])[0] if not isinstance((it.get("mediumImageUrls") or [""])[0],dict) else it["mediumImageUrls"][0].get("imageUrl","")),"n":int(it.get("reviewCount") or 0),"shop":it["shopName"],"url":it["itemUrl"]})
     time.sleep(1.1)
   out[item]={"kw":kw,"rows":rows}; print(item,len(rows))
 json.dump(out,open("out.json","w"),ensure_ascii=False)
