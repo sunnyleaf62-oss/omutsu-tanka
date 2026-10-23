@@ -18,7 +18,7 @@ Q={
 "母子手帳ケース":"母子手帳ケース","マタニティショーツ":"マタニティショーツ","ハーフトップ（ワイヤーなし）":"マタニティブラ ノンワイヤー",
 "マタニティウエア":"マタニティ ワンピース","マタニティパンツ":"マタニティパンツ","マタニティ用レギンス・タイツ・パンスト":"マタニティ レギンス",
 "吸水ケアシート":"吸水ケア 尿もれ","ママの靴下":"着圧ソックス 妊婦"}
-H={"Referer":os.environ["RAKUTEN_REFERER"],"Origin":os.environ["RAKUTEN_REFERER"].rstrip("/"),"User-Agent":"Mozilla/5.0"}
+H={"Referer":os.environ["RAKUTEN_REFERER"].strip(),"Origin":os.environ["RAKUTEN_REFERER"].strip().rstrip("/"),"User-Agent":"Mozilla/5.0"}
 def call(p):
   for v in ["20260701","20220601"]:
     u="https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/"+v+"?"+urllib.parse.urlencode(p)
@@ -32,7 +32,7 @@ for item,kw in Q.items():
   rows=[]
   for page in (1,2):
     try:
-      d=call({"applicationId":os.environ["RAKUTEN_APP_ID"],"accessKey":os.environ["RAKUTEN_ACCESS_KEY"],"keyword":kw,"NGKeyword":"中古 福袋","sort":"-reviewCount","availability":1,"hits":30,"page":page,"format":"json","formatVersion":2})
+      d=call({"applicationId":os.environ["RAKUTEN_APP_ID"].strip(),"accessKey":os.environ["RAKUTEN_ACCESS_KEY"].strip(),"keyword":kw,"NGKeyword":"中古 福袋","sort":"-reviewCount","availability":1,"hits":30,"page":page,"format":"json","formatVersion":2})
     except Exception as e: out.setdefault("_err",{})[item]=str(e)[:300]; break
     if page==1: out.setdefault("_dbg",{})[item]=list(d)[:8]
     for it in d.get("Items") or d.get("items") or []:
