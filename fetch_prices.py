@@ -53,6 +53,20 @@ SIZE_SLUG = {"新生児": "nb", "S": "s", "M": "m", "L": "l", "ビッグ": "big"
 TYPE_SLUG = {"テープ": "tape", "パンツ": "pants"}
 
 
+
+RAKUTEN_RTLINK = "_RTLink150941"   # 楽天アフィリエイトの計測ID（omutsu-tanka）
+
+
+def add_rtlink(obj):
+    """楽天のアフィリエイトリンクに計測IDを付ける（成果をサイトごとに分けて見るため）"""
+    if isinstance(obj, dict):
+        return {k: add_rtlink(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [add_rtlink(v) for v in obj]
+    if isinstance(obj, str) and "hb.afl.rakuten.co.jp/" in obj and "_RTLink" not in obj:
+        return re.sub(r"(hb\.afl\.rakuten\.co\.jp/(?:hgc|ichiba)/[^/?]+/)\?", r"\g<1>" + RAKUTEN_RTLINK + "?", obj, count=1)
+    return obj
+
 def env(name, required=False):
     v = os.environ.get(name, "").strip()
     if required and not v:
@@ -428,7 +442,7 @@ def deals_only():
         data = json.load(f)
     data["deals"], data["events"] = build_deals(env("RAKUTEN_AFFILIATE_ID"))
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(add_rtlink(data), f, ensure_ascii=False, indent=2)
     print(f"お得情報 {len(data['deals'])}件・お知らせ {len(data['events'])}件を反映しました")
 
 
@@ -487,7 +501,7 @@ def main():
            "shipping_estimate": SHIPPING_ESTIMATE, "products": result}
     out["deals"], out["events"] = build_deals(rk["aff_id"])
     with open(os.path.join(HERE, "data.json"), "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+        json.dump(add_rtlink(out), f, ensure_ascii=False, indent=2)
     with open(os.path.join(HERE, "debug.json"), "w", encoding="utf-8") as f:
         json.dump(SAMPLES, f, ensure_ascii=False, indent=1)
     print("data.json と debug.json を書き出しました")
