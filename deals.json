@@ -1,6 +1,18 @@
 {
  "events": [
   {
+   "start": "2026-10-31T10:00+09:00",
+   "end": "2026-11-01T23:59+09:00",
+   "hide_end": true,
+   "title": "Yahoo!ショッピング ピジョン公式ストア セール",
+   "text": "最大54%OFF・ポイント最大15倍。哺乳びん・除菌器・おしりふきなど",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpigeon-shop%2Fa5bba1bca5.html",
+   "image": "img/pigeon-banner.webp",
+   "w": 1200,
+   "h": 450,
+   "short": "PR・終了日はストアで確認"
+  },
+  {
    "start": "2026-10-18T10:00+09:00",
    "end": "2026-10-21T09:59+09:00",
    "title": "楽天「育児の日」開催中",
