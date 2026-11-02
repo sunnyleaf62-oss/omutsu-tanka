@@ -42,6 +42,9 @@
 - ミルク単価くらべのリポジトリにある `calendar.json` / `calendar.js` を読んで表示している（`../milk-tanka/...`）。日程の更新は milk-tanka 側で行う。
 - このサイトのIDは index.html の `<section id="okcal" data-amazon-tag="omutsu-tanka-22" data-rakuten-rt="_RTLink150941">` で渡している。
 
+## すぐに価格を取り直したいとき
+- `refresh.txt` の中身（日時）を書き換えて push すると、価格の更新がすぐ動く（GitHubの予約実行は1〜3時間遅れることがある）。
+
 ## 気をつけること
 - 自動更新（Actions）が data.json を書き込むので、push の前に必ず `git pull --rebase` する。
 - コミットのメールアドレスは必ず `sunnyleaf62-oss@users.noreply.github.com` を使う（`git -c user.name="sunnyleaf62-oss" -c user.email="sunnyleaf62-oss@users.noreply.github.com" commit ...`）。個人のメールアドレスは公開の履歴に残るので使わない。GitHubの設定で、個人のメールが入った push は「GH007」エラーで止まる。
