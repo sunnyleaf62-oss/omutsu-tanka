@@ -197,6 +197,7 @@ footer{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:
   </header>
 
   <div id="events" class="events"></div>
+  <section id="okcal" aria-label="お得な日カレンダー" data-src="../milk-tanka/calendar.json" data-amazon-tag="omutsu-tanka-22" data-rakuten-rt="_RTLink150941"></section>
 
   <section class="panel" aria-label="絞り込み">
     <div class="label">タイプ</div>
@@ -505,5 +506,6 @@ fetch("data.json", {cache:"no-cache"})
   });
 render();
 </script>
+<script src="../milk-tanka/calendar.js" defer></script>
 </body>
 </html>

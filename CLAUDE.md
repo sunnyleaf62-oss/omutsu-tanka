@@ -38,6 +38,10 @@
 - 商品名の読み取りは `python fetch_prices.py --test "商品名"` で試せる。
 - 読み違いを見つけたら、data.json / debug.json の除外理由を見て、must / ng か fetch_prices.py の読み取りを直す。
 
+## お得な日カレンダー
+- ミルク単価くらべのリポジトリにある `calendar.json` / `calendar.js` を読んで表示している（`../milk-tanka/...`）。日程の更新は milk-tanka 側で行う。
+- このサイトのIDは index.html の `<section id="okcal" data-amazon-tag="omutsu-tanka-22" data-rakuten-rt="_RTLink150941">` で渡している。
+
 ## 気をつけること
 - 自動更新（Actions）が data.json を書き込むので、push の前に必ず `git pull --rebase` する。
 - コミットのメールアドレスは必ず `sunnyleaf62-oss@users.noreply.github.com` を使う（`git -c user.name="sunnyleaf62-oss" -c user.email="sunnyleaf62-oss@users.noreply.github.com" commit ...`）。個人のメールアドレスは公開の履歴に残るので使わない。GitHubの設定で、個人のメールが入った push は「GH007」エラーで止まる。
