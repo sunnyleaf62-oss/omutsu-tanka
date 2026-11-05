@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T10:31+09:00",
+  "updated": "2026-11-05T10:38+09:00",
   "sources": [
     "楽天市場",
     "Yahoo!ショッピング",
@@ -167,14 +167,14 @@
         }
       ],
       "stats": {
-        "fetched": 217,
+        "fetched": 216,
         "除外ワード": 4,
         "サイズ違い・複数": 40,
         "枚数が読めない": 3,
-        "条件の言葉なし": 25,
-        "タイプ違い": 3,
+        "条件の言葉なし": 24,
+        "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 79,
+        "使えた件数": 80,
         "malls": {
           "楽天": 2,
           "Yahoo!": 7,
@@ -204,21 +204,6 @@
           "per_sheet_after_points": 25.87,
           "url": "https://www.amazon.co.jp/dp/B0H7J562YD?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
           "image": "https://m.media-amazon.com/images/I/51CPTCS24wL._SL160_.jpg"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "LOHACO by アスクル",
-          "item_name": "パンパース おむつ テープ Sサイズ（4〜8kg）1セット（84枚入×4パック）さらさらケア P＆G 【NEW】",
-          "price": 9200,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9200,
-          "sheets": 336,
-          "per_sheet": 27.38,
-          "point_rate": 1,
-          "per_sheet_after_points": 27.11,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fanu1880%2F",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_anu1880"
         },
         {
           "mall": "Yahoo!",
@@ -312,18 +297,18 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "通販できるみんなのお薬(みんなのお薬)",
-          "item_name": "パンパース さらさらケア テープ Sサイズ ウルトラジャンボ 84枚入  3個セット",
-          "price": 7716,
+          "shop": "LOHACO by アスクル",
+          "item_name": "パンパース おむつ テープ Sサイズ（4〜8kg）1セット（66枚入×4パック）さらさらケア P＆G",
+          "price": 8100,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7716,
-          "sheets": 252,
-          "per_sheet": 30.62,
+          "total": 8100,
+          "sheets": 264,
+          "per_sheet": 30.68,
           "point_rate": 1,
-          "per_sheet_after_points": 30.31,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758977229-3-d.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758977229-3-d"
+          "per_sheet_after_points": 30.38,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fjwn1031%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_jwn1031"
         },
         {
           "mall": "Yahoo!",
@@ -339,17 +324,32 @@
           "per_sheet_after_points": 31.05,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetbaby%2F4987176404367.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4987176404367"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "爽快ドラッグ",
+          "item_name": "パンパース オムツ さらさらケア テープ S 4-8kg ( 66枚×4個入 )/ パンパース",
+          "price": 8279,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8279,
+          "sheets": 264,
+          "per_sheet": 31.36,
+          "point_rate": 1,
+          "per_sheet_after_points": 31.05,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F4987176404367.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_4987176404367"
         }
       ],
       "stats": {
-        "fetched": 195,
-        "除外ワード": 5,
-        "サイズ違い・複数": 11,
+        "fetched": 197,
+        "除外ワード": 6,
+        "サイズ違い・複数": 9,
         "条件の言葉なし": 45,
-        "枚数が読めない": 5,
-        "タイプ違い": 2,
+        "タイプ違い": 6,
+        "枚数が読めない": 4,
         "安すぎて除外": 1,
-        "使えた件数": 63,
+        "使えた件数": 64,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 9
@@ -367,32 +367,17 @@
         {
           "mall": "Amazon",
           "shop": "Amazon.co.jp",
-          "item_name": "【テープ Mサイズ】パンパース オムツ さらさらケア (6-11kg) 264枚 (66枚×4パック) [ケース品]【Amazon.co.jp限定】",
-          "price": 8983,
+          "item_name": "【テープ Mサイズ】パンパース オムツ さらさらケア (6-11kg) 248枚 (62枚×4パック) [ケース品]【Amazon.co.jp限定】",
+          "price": 8780,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8983,
-          "sheets": 264,
-          "per_sheet": 34.03,
-          "point_rate": 1,
-          "per_sheet_after_points": 33.69,
-          "url": "https://www.amazon.co.jp/dp/B0FM8814P8?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41p9JfFnnmL._SL160_.jpg"
-        },
-        {
-          "mall": "楽天",
-          "shop": "楽天24 ベビー館",
-          "item_name": "パンパース テープ オムツ さらさらケア Mサイズ 6〜11kg(62枚入×4個セット)【パンパース】",
-          "price": 9156,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9156,
+          "total": 8780,
           "sheets": 248,
-          "per_sheet": 36.92,
+          "per_sheet": 35.4,
           "point_rate": 1,
-          "per_sheet_after_points": 36.55,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd45.soi16d62.g00pzd45.soi17a32/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F4987176207012%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10042692%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/012/4987176207012.jpg?_ex=128x128"
+          "per_sheet_after_points": 35.05,
+          "url": "https://www.amazon.co.jp/dp/B0H7HY73VV?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/411bIQFpfZL._SL160_.jpg"
         },
         {
           "mall": "Yahoo!",
@@ -408,21 +393,6 @@
           "per_sheet_after_points": 36.65,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbabytown%2F5000-pampers-4987176203328.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/babytown_5000-pampers-4987176203328"
-        },
-        {
-          "mall": "楽天",
-          "shop": "生活便利創庫スーパーキッド",
-          "item_name": "パンパース さらさらケア テープ Mサイズ スーパージャンボ(52枚入)×3袋 紙おむつ オムツ 男女共用 赤ちゃん 送料無料 ☆10【4504】",
-          "price": 5944,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5944,
-          "sheets": 156,
-          "per_sheet": 38.1,
-          "point_rate": 1,
-          "per_sheet_after_points": 37.72,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qhso5.soi16f9b.g00qhso5.soi1762e/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperkid%2F4987176203328-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsuperkid%2Fi%2F10022849%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/superkid/cabinet/04424974/imgrc0145143748.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -513,21 +483,51 @@
           "per_sheet_after_points": 39.01,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuruha%2F10187813.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10187813"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "itsumo mart",
+          "item_name": "パンパースさらさらケア テープ スーパージャンボ M52枚(6-11kg) 2袋 104枚 赤ちゃん 子供 紙おむつ セット",
+          "price": 3379,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 4179,
+          "sheets": 104,
+          "per_sheet": 40.18,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.86,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fitsumomart%2F1-pp-134325-2.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/itsumomart_1-pp-134325-2"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "パンパース おむつ テープ Mサイズ（6〜11kg）1セット（50枚入×4パック）さらさらケア P＆G",
+          "price": 8100,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8100,
+          "sheets": 200,
+          "per_sheet": 40.5,
+          "point_rate": 1,
+          "per_sheet_after_points": 40.09,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fjwn1009%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_jwn1009"
         }
       ],
       "stats": {
-        "fetched": 210,
-        "除外ワード": 3,
-        "サイズ違い・複数": 6,
-        "枚数が読めない": 17,
-        "条件の言葉なし": 47,
-        "タイプ違い": 9,
+        "fetched": 206,
+        "除外ワード": 2,
+        "サイズ違い・複数": 8,
+        "枚数が読めない": 18,
+        "条件の言葉なし": 44,
+        "タイプ違い": 10,
         "安すぎて除外": 1,
-        "使えた件数": 72,
+        "使えた件数": 68,
         "malls": {
           "Amazon": 1,
-          "楽天": 3,
-          "Yahoo!": 6
+          "Yahoo!": 8,
+          "楽天": 1
         }
       }
     },
@@ -539,21 +539,6 @@
       "type": "テープ",
       "size": "L",
       "offers": [
-        {
-          "mall": "Yahoo!",
-          "shop": "上田生活",
-          "item_name": "テープ Lサイズパンパース オムツ さらさらケア (9~14kg) 54枚",
-          "price": 2160,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2160,
-          "sheets": 54,
-          "per_sheet": 40.0,
-          "point_rate": 1,
-          "per_sheet_after_points": 39.6,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldglobal%2F20250318012057-00056.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/worldglobal_20250318012057-00056"
-        },
         {
           "mall": "Amazon",
           "shop": "M.A.Y factory",
@@ -615,6 +600,21 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/babytown_5000-pampers-4987176203304"
         },
         {
+          "mall": "Yahoo!",
+          "shop": "itsumo mart",
+          "item_name": "パンパースさらさらケア テープ スーパージャンボ L44枚(9-14kg) 2袋 88枚 赤ちゃん 子供 紙おむつ セット",
+          "price": 3072,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 3872,
+          "sheets": 88,
+          "per_sheet": 44.0,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.65,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fitsumomart%2F1-pp-134318-2.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/itsumomart_1-pp-134318-2"
+        },
+        {
           "mall": "楽天",
           "shop": "ベイシア楽天市場店",
           "item_name": "P&G パンパース さらさらケア テープ Lサイズ オムツ 9-14kg(54枚入)×4個",
@@ -660,21 +660,6 @@
           "image": "https://m.media-amazon.com/images/I/41LQVkW-VpL._SL160_.jpg"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "itsumo mart",
-          "item_name": "パンパースさらさらケア テープ スーパージャンボ L44枚(9-14kg) 2袋 88枚 赤ちゃん 子供 紙おむつ セット",
-          "price": 3201,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 4001,
-          "sheets": 88,
-          "per_sheet": 45.47,
-          "point_rate": 1,
-          "per_sheet_after_points": 45.1,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fitsumomart%2F1-pp-134318-2.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/itsumomart_1-pp-134318-2"
-        },
-        {
           "mall": "楽天",
           "shop": "アイリスオーヤマ公式 楽天市場店",
           "item_name": "紙おむつ ベビー用品 テープ式【4個セット】パンパースさらさらケア テープ / ウルトラジャンボ L 54枚（9-14kg） もれ・ムレ0 Lサイズ しまじろうデザイン 通気性 Pampers まとめ買い P&G【iris_dl03】",
@@ -688,21 +673,36 @@
           "per_sheet_after_points": 45.74,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00t3zt5.soi162ea.g00t3zt5.soi17789/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F7263194%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Firisplaza-r%2Fi%2F10155046%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/irisplaza-r/cabinet/tasya108/7263194-y.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "楽天24",
+          "item_name": "パンパース テープ オムツ さらさらケア Lサイズ 9〜14kg(54枚入×4個セット)【パンパース】",
+          "price": 10071,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 10071,
+          "sheets": 216,
+          "per_sheet": 46.62,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.16,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1365.soi16fd6.g00r1365.soi17349/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4987176207029%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11229490%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/029/4987176207029.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 210,
-        "除外ワード": 3,
-        "サイズ違い・複数": 36,
-        "条件の言葉なし": 11,
+        "fetched": 211,
+        "除外ワード": 6,
+        "サイズ違い・複数": 40,
+        "条件の言葉なし": 14,
         "枚数が読めない": 10,
-        "タイプ違い": 11,
+        "タイプ違い": 10,
         "安すぎて除外": 1,
-        "使えた件数": 73,
+        "使えた件数": 68,
         "malls": {
-          "Yahoo!": 5,
           "Amazon": 2,
-          "楽天": 3
+          "楽天": 4,
+          "Yahoo!": 4
         }
       }
     },
@@ -761,21 +761,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "ツルハドラッグ ヤフー店",
-          "item_name": "《セット販売》 P&amp;G パンパース　さらさらケアパンツ　MJ　M　たっち　(88枚)×3個セット オムツ",
-          "price": 8580,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8580,
-          "sheets": 264,
-          "per_sheet": 32.5,
-          "point_rate": 1,
-          "per_sheet_after_points": 32.18,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuruha%2F10180531.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10180531"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "ドラッグストアウェルネス",
           "item_name": "《セット販売》 P&amp;G パンパース　さらさらケアパンツ　MJ　M　たっち　(88枚)×3個セット オムツ",
           "price": 8580,
@@ -788,6 +773,21 @@
           "per_sheet_after_points": 32.18,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwellness-web%2F10180531.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/wellness-web_10180531"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ツルハドラッグ ヤフー店",
+          "item_name": "《セット販売》 P&amp;G パンパース　さらさらケアパンツ　MJ　M　たっち　(88枚)×3個セット オムツ",
+          "price": 8580,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8580,
+          "sheets": 264,
+          "per_sheet": 32.5,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.18,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuruha%2F10180531.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10180531"
         },
         {
           "mall": "Yahoo!",
@@ -867,12 +867,12 @@
       ],
       "stats": {
         "fetched": 216,
-        "サイズ違い・複数": 10,
-        "タイプ違い": 3,
-        "枚数が読めない": 6,
-        "条件の言葉なし": 20,
+        "サイズ違い・複数": 8,
+        "タイプ違い": 4,
+        "枚数が読めない": 7,
+        "条件の言葉なし": 22,
         "安すぎて除外": 0,
-        "使えた件数": 65,
+        "使えた件数": 63,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 6,
@@ -905,21 +905,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "TRYX3楽天市場店",
-          "item_name": "【180枚×2個セット！】パンパース Lサイズ パンツ L 360枚 紙おむつ さらさらケアEX 9〜14kg 抜群の吸収力 ぱんぱーす 通気性ばっちり P&G 超特大 2個 セット",
-          "price": 13300,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 13300,
-          "sheets": 360,
-          "per_sheet": 36.94,
-          "point_rate": 1,
-          "per_sheet_after_points": 36.58,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00psjv5.soi16a7e.g00psjv5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4987176386304-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10037324%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/11147956/12526520/4987176386304-2set.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "TRYX3 2号店",
           "item_name": "【180枚×2個セット！】P&G パンパース Lサイズ パンツ L 360枚 紙おむつ さらさらケアEX 9〜14kg 抜群の吸収力 ぱんぱーす 通気性ばっちり 超特大 2個 セット",
           "price": 13300,
@@ -932,6 +917,21 @@
           "per_sheet_after_points": 36.58,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65w5.soi16e33.g00u65w5.soi17ded/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4987176386304-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10011548%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3-2/cabinet/12383927/4987176386304-2set.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "TRYX3楽天市場店",
+          "item_name": "【180枚×2個セット！】パンパース Lサイズ パンツ L 360枚 紙おむつ さらさらケアEX 9〜14kg 抜群の吸収力 ぱんぱーす 通気性ばっちり P&G 超特大 2個 セット",
+          "price": 13300,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 13300,
+          "sheets": 360,
+          "per_sheet": 36.94,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.58,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00psjv5.soi16a7e.g00psjv5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4987176386304-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10037324%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/11147956/12526520/4987176386304-2set.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -979,21 +979,6 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_ek09914"
         },
         {
-          "mall": "楽天",
-          "shop": "OSDマーケット",
-          "item_name": "パンパース さらさらケアEX パンツ Lサイズ 180枚 60枚×3パック 9〜14kg 男女共用 紙おむつ オムツ 大容量 超特大パック まとめ買い P&G",
-          "price": 6980,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 6980,
-          "sheets": 180,
-          "per_sheet": 38.78,
-          "point_rate": 1,
-          "per_sheet_after_points": 38.39,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00usdz5.soi165cb.g00usdz5.soi17b7f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fosdmarket%2Fpampers-sarasara-ex-l-180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fosdmarket%2Fi%2F10001577%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/osdmarket/cabinet/pampersl180/pampers-0.jpg?_ex=128x128"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "Vドラッグヤフー店",
           "item_name": "パンパース　さらさらケアパンツ メガジャンボ L(9-14kg) 76枚×3個セット/ベビー　オムツ",
@@ -1037,22 +1022,37 @@
           "per_sheet_after_points": 39.49,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00prvm5.soi16def.g00prvm5.soi17385/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwich%2Fp-pantsl180%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwich%2Fi%2F10025846%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/wich/cabinet/gazou68/p-pantsl180-1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ツルハドラッグ ヤフー店",
+          "item_name": "《セット販売》 P&amp;G パンパース　さらさらケアパンツ　MJ　L　(76枚)×3個セット オムツ",
+          "price": 9108,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 9108,
+          "sheets": 228,
+          "per_sheet": 39.95,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.55,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuruha%2F10180539.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuruha_10180539"
         }
       ],
       "stats": {
         "fetched": 218,
-        "サイズ違い・複数": 20,
+        "サイズ違い・複数": 19,
         "除外ワード": 1,
-        "枚数が読めない": 2,
-        "タイプ違い": 6,
-        "条件の言葉なし": 17,
+        "枚数が読めない": 3,
+        "タイプ違い": 7,
+        "条件の言葉なし": 19,
         "単価が不自然": 1,
         "安すぎて除外": 0,
-        "使えた件数": 101,
+        "使えた件数": 98,
         "malls": {
           "Amazon": 1,
-          "楽天": 4,
-          "Yahoo!": 5
+          "楽天": 3,
+          "Yahoo!": 6
         }
       }
     },
@@ -1216,12 +1216,12 @@
         }
       ],
       "stats": {
-        "fetched": 214,
-        "サイズ違い・複数": 112,
+        "fetched": 215,
+        "サイズ違い・複数": 105,
         "単価が不自然": 2,
-        "条件の言葉なし": 10,
+        "条件の言葉なし": 11,
         "安すぎて除外": 0,
-        "使えた件数": 55,
+        "使えた件数": 58,
         "malls": {
           "Amazon": 1,
           "楽天": 1,
@@ -1256,14 +1256,14 @@
           "mall": "Amazon",
           "shop": "Amazon.co.jp",
           "item_name": "【パンツ ビッグより大きいサイズ】パンパース オムツ さらさらケア (15-28kg) 138枚 (46枚×3パック) [ケース品]",
-          "price": 8657,
+          "price": 8659,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8657,
+          "total": 8659,
           "sheets": 138,
-          "per_sheet": 62.73,
+          "per_sheet": 62.75,
           "point_rate": 1,
-          "per_sheet_after_points": 62.1,
+          "per_sheet_after_points": 62.12,
           "url": "https://www.amazon.co.jp/dp/B0H7J43S9T?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
           "image": "https://m.media-amazon.com/images/I/41ovIp+ek9L._SL160_.jpg"
         },
@@ -1358,48 +1358,49 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/v-drug/cabinet/1205/4987176304827.jpg?_ex=128x128"
         },
         {
-          "mall": "楽天",
-          "shop": "ベイシア楽天市場店",
-          "item_name": "P&Gパンパースさらさらケアパンツスパージャンボ ビッグより大きい 26枚×4個",
-          "price": 7436,
+          "mall": "Yahoo!",
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "パンパース パンツ さらさらケア オムツ ビッグより大きいサイズ ( 46枚×3個入 )/ パンパース",
+          "price": 9780,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7436,
-          "sheets": 104,
-          "per_sheet": 71.5,
+          "total": 9780,
+          "sheets": 138,
+          "per_sheet": 70.87,
           "point_rate": 1,
-          "per_sheet_after_points": 70.78,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vm5.soi1619c.g00s0vm5.soi17165/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4987176334800-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10175436%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/sugito/sugito3/4987176334800-4_00.jpg?_ex=128x128"
+          "per_sheet_after_points": 70.16,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetbaby%2F4987176310675.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4987176310675"
         },
         {
           "mall": "Yahoo!",
-          "shop": "ベイシア ヤフーショップ",
-          "item_name": "P&amp;Gパンパースさらさらケアパンツスパージャンボ ビッグより大きい 26枚×4個",
-          "price": 7436,
+          "shop": "爽快ドラッグ",
+          "item_name": "パンパース パンツ さらさらケア オムツ ビッグより大きいサイズ ( 46枚×3個入 )/ パンパース",
+          "price": 9780,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7436,
-          "sheets": 104,
-          "per_sheet": 71.5,
+          "total": 9780,
+          "sheets": 138,
+          "per_sheet": 70.87,
           "point_rate": 1,
-          "per_sheet_after_points": 70.78,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4987176334800-4.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4987176334800-4"
+          "per_sheet_after_points": 70.16,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F4987176310675.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_4987176310675"
         }
       ],
       "stats": {
-        "fetched": 209,
-        "サイズ違い・複数": 45,
-        "単価が不自然": 15,
+        "fetched": 212,
+        "サイズ違い・複数": 39,
+        "単価が不自然": 17,
         "枚数が読めない": 2,
-        "条件の言葉なし": 11,
+        "条件の言葉なし": 13,
+        "除外ワード": 1,
         "安すぎて除外": 0,
-        "使えた件数": 56,
+        "使えた件数": 57,
         "malls": {
-          "Yahoo!": 4,
+          "Yahoo!": 5,
           "Amazon": 1,
-          "楽天": 5
+          "楽天": 4
         }
       }
     },
@@ -1564,14 +1565,14 @@
       ],
       "stats": {
         "fetched": 220,
-        "サイズ違い・複数": 39,
+        "サイズ違い・複数": 38,
         "除外ワード": 6,
         "タイプ違い": 3,
         "単価が不自然": 1,
         "枚数が読めない": 2,
-        "条件の言葉なし": 13,
+        "条件の言葉なし": 14,
         "安すぎて除外": 0,
-        "使えた件数": 92,
+        "使えた件数": 95,
         "malls": {
           "Yahoo!": 6,
           "楽天": 3,
@@ -1679,21 +1680,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "楽天24",
-          "item_name": "パンパース オムツ はじめての肌へのいちばん テープ Sサイズ 4-8kg(84枚×3個入)【パンパース 肌へのいちばん】",
-          "price": 8652,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8652,
-          "sheets": 252,
-          "per_sheet": 34.33,
-          "point_rate": 1,
-          "per_sheet_after_points": 33.99,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1365.soi16fd6.g00r1365.soi17349/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4987176377982%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11419450%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/982/4987176377982.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "楽天24 ベビー館",
           "item_name": "パンパース オムツ はじめての肌へのいちばん テープ Sサイズ 4-8kg(84枚×3個入)【パンパース 肌へのいちばん】",
           "price": 8652,
@@ -1706,6 +1692,21 @@
           "per_sheet_after_points": 33.99,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd45.soi16d62.g00pzd45.soi17a32/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F4987176377982%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10054775%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/982/4987176377982.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "楽天24",
+          "item_name": "パンパース オムツ はじめての肌へのいちばん テープ Sサイズ 4-8kg(84枚×3個入)【パンパース 肌へのいちばん】",
+          "price": 8652,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8652,
+          "sheets": 252,
+          "per_sheet": 34.33,
+          "point_rate": 1,
+          "per_sheet_after_points": 33.99,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1365.soi16fd6.g00r1365.soi17349/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4987176377982%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11419450%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/982/4987176377982.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -1739,14 +1740,14 @@
         }
       ],
       "stats": {
-        "fetched": 208,
-        "サイズ違い・複数": 13,
+        "fetched": 210,
+        "サイズ違い・複数": 12,
         "除外ワード": 5,
-        "条件の言葉なし": 29,
+        "条件の言葉なし": 28,
         "枚数が読めない": 6,
-        "タイプ違い": 1,
+        "タイプ違い": 2,
         "安すぎて除外": 0,
-        "使えた件数": 88,
+        "使えた件数": 90,
         "malls": {
           "Yahoo!": 5,
           "Amazon": 1,
@@ -1914,15 +1915,15 @@
         }
       ],
       "stats": {
-        "fetched": 179,
-        "サイズ違い・複数": 6,
+        "fetched": 181,
+        "サイズ違い・複数": 7,
         "単価が不自然": 3,
-        "除外ワード": 6,
-        "枚数が読めない": 13,
-        "条件の言葉なし": 38,
-        "タイプ違い": 9,
-        "安すぎて除外": 0,
-        "使えた件数": 57,
+        "除外ワード": 9,
+        "枚数が読めない": 11,
+        "条件の言葉なし": 37,
+        "タイプ違い": 8,
+        "安すぎて除外": 1,
+        "使えた件数": 55,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 8,
@@ -2090,15 +2091,15 @@
         }
       ],
       "stats": {
-        "fetched": 137,
-        "サイズ違い・複数": 19,
+        "fetched": 132,
+        "サイズ違い・複数": 15,
         "枚数が読めない": 3,
         "単価が不自然": 2,
-        "条件の言葉なし": 14,
+        "条件の言葉なし": 18,
         "除外ワード": 11,
         "タイプ違い": 6,
         "安すぎて除外": 0,
-        "使えた件数": 47,
+        "使えた件数": 46,
         "malls": {
           "Yahoo!": 8,
           "楽天": 1,
@@ -2266,15 +2267,15 @@
         }
       ],
       "stats": {
-        "fetched": 172,
+        "fetched": 171,
         "サイズ違い・複数": 15,
-        "単価が不自然": 4,
         "除外ワード": 10,
-        "タイプ違い": 11,
+        "単価が不自然": 4,
+        "タイプ違い": 10,
         "枚数が読めない": 12,
-        "条件の言葉なし": 11,
+        "条件の言葉なし": 12,
         "安すぎて除外": 0,
-        "使えた件数": 43,
+        "使えた件数": 42,
         "malls": {
           "Yahoo!": 7,
           "Amazon": 1,
@@ -2442,15 +2443,15 @@
         }
       ],
       "stats": {
-        "fetched": 200,
-        "サイズ違い・複数": 17,
+        "fetched": 206,
+        "サイズ違い・複数": 16,
         "枚数が読めない": 13,
         "タイプ違い": 8,
-        "単価が不自然": 16,
-        "条件の言葉なし": 19,
+        "単価が不自然": 19,
         "除外ワード": 2,
+        "条件の言葉なし": 21,
         "安すぎて除外": 0,
-        "使えた件数": 57,
+        "使えた件数": 58,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 8,
@@ -2618,15 +2619,15 @@
         }
       ],
       "stats": {
-        "fetched": 219,
+        "fetched": 218,
         "除外ワード": 10,
         "サイズ違い・複数": 32,
         "タイプ違い": 3,
+        "単価が不自然": 8,
         "枚数が読めない": 5,
-        "単価が不自然": 6,
-        "条件の言葉なし": 21,
+        "条件の言葉なし": 19,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 62,
         "malls": {
           "楽天": 4,
           "Amazon": 1,
@@ -2643,8 +2644,8 @@
       "size": "ビッグより大きい",
       "offers": [],
       "stats": {
-        "fetched": 33,
-        "サイズ違い・複数": 6,
+        "fetched": 31,
+        "サイズ違い・複数": 4,
         "条件の言葉なし": 26,
         "タイプ違い": 1,
         "使えた件数": 0,
@@ -2720,19 +2721,34 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4901301437693x4"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "春かぜ千里 日用良品",
-          "item_name": "（1ケース販売）「メリーズ　エアスルー　テープ　新生児用５０００ｇまで　６８枚入り」　4個の詰合せ",
-          "price": 7272,
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "メリーズ Merries 【テープ 新生児用】 オムツ さらさらエアスルー (お誕生~5000g) 164枚 (82枚×2) [ケース品] 【.",
+          "price": 4234,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7272,
-          "sheets": 272,
-          "per_sheet": 26.74,
+          "total": 4234,
+          "sheets": 164,
+          "per_sheet": 25.82,
           "point_rate": 1,
-          "per_sheet_after_points": 26.47,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwakeari%2Fcase4901301437693.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4901301437693"
+          "per_sheet_after_points": 25.56,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton26ee8dc69da4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025108%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton26ee8dc69da4_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "kichibei",
+          "item_name": "【テープ 新生児用】メリーズ オムツ さらさらエアスルー (お誕生~5000g) 164枚 (82枚×2) [ケース品]",
+          "price": 4236,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 4236,
+          "sheets": 164,
+          "per_sheet": 25.83,
+          "point_rate": 1,
+          "per_sheet_after_points": 25.57,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3aj5.soi16d7b.g00u3aj5.soi17f87/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkichibei0318%2Fkichibee553be44844%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkichibei0318%2Fi%2F10061170%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kichibei0318/cabinet/onesell026/kichibee553be44844.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -2750,19 +2766,19 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4901301437891"
         },
         {
-          "mall": "楽天",
-          "shop": "actonlineshop",
-          "item_name": "メリーズ Merries 【テープ 新生児用】 オムツ さらさらエアスルー (お誕生~5000g) 164枚 (82枚×2) [ケース品] 【.",
-          "price": 4578,
+          "mall": "Yahoo!",
+          "shop": "雑貨屋MelloMellow",
+          "item_name": "【テープ 新生児用】メリーズ オムツ さらさらエアスルー (お誕生~5000g) 164枚 (82枚×2) [ケース品]",
+          "price": 4452,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 4578,
+          "total": 4452,
           "sheets": 164,
-          "per_sheet": 27.91,
+          "per_sheet": 27.15,
           "point_rate": 1,
-          "per_sheet_after_points": 27.64,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton26ee8dc69da4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025108%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton26ee8dc69da4_0.jpg?_ex=128x128"
+          "per_sheet_after_points": 26.87,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fotogizakka%2Fnodc4d5f21d2.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/otogizakka_nodc4d5f21d2"
         },
         {
           "mall": "楽天",
@@ -2778,21 +2794,6 @@
           "per_sheet_after_points": 28.13,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ut4q5.soi169be.g00ut4q5.soi17f2b/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgameskshop%2F20251201045630_220%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgameskshop%2Fi%2F10032280%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/gameskshop/cabinet/r_2025120102/20251201045630_220_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "kichibei",
-          "item_name": "【テープ 新生児用】メリーズ オムツ さらさらエアスルー (お誕生~5000g) 164枚 (82枚×2) [ケース品]",
-          "price": 4666,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 4666,
-          "sheets": 164,
-          "per_sheet": 28.45,
-          "point_rate": 1,
-          "per_sheet_after_points": 28.17,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3aj5.soi16d7b.g00u3aj5.soi17f87/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkichibei0318%2Fkichibee553be44844%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkichibei0318%2Fi%2F10061170%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kichibei0318/cabinet/onesell026/kichibee553be44844.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -2811,12 +2812,12 @@
         }
       ],
       "stats": {
-        "fetched": 217,
-        "サイズ違い・複数": 19,
+        "fetched": 219,
+        "サイズ違い・複数": 20,
         "タイプ違い": 4,
         "除外ワード": 92,
         "枚数が読めない": 3,
-        "条件の言葉なし": 21,
+        "条件の言葉なし": 22,
         "安すぎて除外": 1,
         "使えた件数": 65,
         "malls": {
@@ -2895,6 +2896,21 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/motherlyloveshop/cabinet/11898705/11898730/imgrc0091012112.jpg?_ex=128x128"
         },
         {
+          "mall": "楽天",
+          "shop": "kichibei",
+          "item_name": "【テープ Sサイズ】メリーズさらさらエアスルー (4~8kg)296枚 (74枚×4) [ケース品]",
+          "price": 8232,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8232,
+          "sheets": 296,
+          "per_sheet": 27.81,
+          "point_rate": 1,
+          "per_sheet_after_points": 27.53,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3aj5.soi16d7b.g00u3aj5.soi17f87/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkichibei0318%2Fkichibee3d596ede53%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkichibei0318%2Fi%2F10097461%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kichibei0318/cabinet/onesell078/kichibee3d596ede53.jpg?_ex=128x128"
+        },
+        {
           "mall": "Yahoo!",
           "shop": "ベイシア ヤフーショップ",
           "item_name": "花王 メリーズ エアスルー テープ Sサイズ 62枚×4個入(体重4〜8kg) 紙おむつ | 赤ちゃん 紙おむつ テープ メリーズ Sサイズ エアスルー 大容量 まとめ買い 出産",
@@ -2908,6 +2924,21 @@
           "per_sheet_after_points": 27.62,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4901301437709x4.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/beisia_4901301437709x4"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "雑貨屋MelloMellow",
+          "item_name": "【テープ Sサイズ】メリーズさらさらエアスルー (4~8kg)296枚 (74枚×4) [ケース品]",
+          "price": 8637,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8637,
+          "sheets": 296,
+          "per_sheet": 29.18,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.89,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fotogizakka%2Fnoc813641637.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/otogizakka_noc813641637"
         },
         {
           "mall": "Yahoo!",
@@ -2941,21 +2972,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "kichibei",
-          "item_name": "【テープ Sサイズ】メリーズさらさらエアスルー (4~8kg)296枚 (74枚×4) [ケース品]",
-          "price": 8816,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8816,
-          "sheets": 296,
-          "per_sheet": 29.78,
-          "point_rate": 1,
-          "per_sheet_after_points": 29.49,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3aj5.soi16d7b.g00u3aj5.soi17f87/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkichibei0318%2Fkichibee3d596ede53%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkichibei0318%2Fi%2F10097461%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kichibei0318/cabinet/onesell078/kichibee3d596ede53.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "Homey Store 楽天市場店",
           "item_name": "【ネット限定】【テープ Sサイズ】メリーズさら さらエアスルー (4~8kg)296枚 (74枚×4) ケース品",
           "price": 8875,
@@ -2968,32 +2984,17 @@
           "per_sheet_after_points": 29.68,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ua2z5.soi16984.g00ua2z5.soi1764e/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomeystore%2F20250404224734_19%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhomeystore%2Fi%2F10118500%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/homeystore/cabinet/r_2022100552/20250404224734_19_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "雑貨屋MelloMellow",
-          "item_name": "【テープ Sサイズ】メリーズさらさらエアスルー (4~8kg)296枚 (74枚×4) [ケース品]",
-          "price": 9160,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9160,
-          "sheets": 296,
-          "per_sheet": 30.95,
-          "point_rate": 1,
-          "per_sheet_after_points": 30.64,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fotogizakka%2Fnoc813641637.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/otogizakka_noc813641637"
         }
       ],
       "stats": {
-        "fetched": 219,
+        "fetched": 218,
         "サイズ違い・複数": 7,
-        "枚数が読めない": 2,
+        "枚数が読めない": 3,
         "除外ワード": 39,
-        "条件の言葉なし": 75,
-        "タイプ違い": 6,
+        "タイプ違い": 5,
+        "条件の言葉なし": 71,
         "安すぎて除外": 1,
-        "使えた件数": 72,
+        "使えた件数": 75,
         "malls": {
           "Amazon": 2,
           "楽天": 4,
@@ -3012,17 +3013,17 @@
         {
           "mall": "Amazon",
           "shop": "Amazon.co.jp",
-          "item_name": "【Amazon.co.jp限定】【テープ Mサイズ】メリーズさらさらエアスルー (6~11kg)62枚",
-          "price": 1843,
+          "item_name": "メリーズ 【テープ Mサイズ】さらさらエアスルー (6~11kg)248枚 (62枚×4) [ケース品] 【Amazon.co.jp限定】",
+          "price": 7884,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 1843,
-          "sheets": 62,
-          "per_sheet": 29.73,
+          "total": 7884,
+          "sheets": 248,
+          "per_sheet": 31.79,
           "point_rate": 1,
-          "per_sheet_after_points": 29.43,
-          "url": "https://www.amazon.co.jp/dp/B0DJPBZ5JR?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41gTs16Hn0L._SL160_.jpg"
+          "per_sheet_after_points": 31.47,
+          "url": "https://www.amazon.co.jp/dp/B0CXDZ5MNR?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/51soih1EpmL._SL160_.jpg"
         },
         {
           "mall": "Yahoo!",
@@ -3086,6 +3087,21 @@
         },
         {
           "mall": "楽天",
+          "shop": "kichibei",
+          "item_name": "【テープ Mサイズ】メリーズさらさらエアスルー (6~11kg)248枚 (62枚×4) [ケース品]",
+          "price": 9462,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 9462,
+          "sheets": 248,
+          "per_sheet": 38.15,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.77,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u3aj5.soi16d7b.g00u3aj5.soi17f87/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkichibei0318%2Fkichibee60c9650dbd%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkichibei0318%2Fi%2F10096234%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kichibei0318/cabinet/onesell075/kichibee60c9650dbd.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
           "shop": "楽天24",
           "item_name": "メリーズ エアスルー テープ Mサイズ 梱販売用(52枚×4個入)【メリーズ】",
           "price": 8110,
@@ -3098,21 +3114,6 @@
           "per_sheet_after_points": 38.6,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00r1365.soi16fd6.g00r1365.soi17349/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901301437914%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11267223%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/914/4901301437914.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ツルハドラッグ",
-          "item_name": "《セット販売》　花王 メリーズ エアスルー テープ Mサイズ 6－11kg (52枚)×4個セット 男女共用 ベビー用紙おむつ テープタイプ　【送料無料】　【smtb-s】",
-          "price": 8140,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8140,
-          "sheets": 208,
-          "per_sheet": 39.13,
-          "point_rate": 1,
-          "per_sheet_after_points": 38.74,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00rbnv5.soi16a0f.g00rbnv5.soi17d84/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsuruha%2F10168304%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsuruha%2Fi%2F10102714%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tsuruha/cabinet/shouhin79/10168304.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -3145,34 +3146,34 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/wellness-web_10168304"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "ナチュラルベビー Natural Baby",
-          "item_name": "メリーズ エアスルー テープ Mサイズ 208枚 52枚×4袋 テープタイプ 花王 Merries 紙おむつ 紙オムツ さらさらエアスルー",
-          "price": 8280,
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "【テープ Mサイズ】メリーズさらさらエアスルー (6~11kg)62枚",
+          "price": 2432,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 8280,
-          "sheets": 208,
-          "per_sheet": 39.81,
+          "total": 2432,
+          "sheets": 62,
+          "per_sheet": 39.23,
           "point_rate": 1,
-          "per_sheet_after_points": 39.41,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnatural-living%2Fu943349.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/natural-living_u943349"
+          "per_sheet_after_points": 38.83,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton260edf3bde8c%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025149%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton260edf3bde8c_0.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 216,
+        "fetched": 218,
         "サイズ違い・複数": 10,
-        "除外ワード": 51,
-        "枚数が読めない": 2,
-        "条件の言葉なし": 72,
+        "除外ワード": 54,
+        "枚数が読めない": 1,
         "タイプ違い": 4,
-        "安すぎて除外": 0,
+        "条件の言葉なし": 72,
+        "安すぎて除外": 2,
         "使えた件数": 58,
         "malls": {
           "Amazon": 1,
-          "Yahoo!": 5,
-          "楽天": 4
+          "Yahoo!": 4,
+          "楽天": 5
         }
       }
     },
@@ -3186,9 +3187,9 @@
       "offers": [],
       "stats": {
         "fetched": 129,
-        "除外ワード": 10,
+        "除外ワード": 9,
         "条件の言葉なし": 108,
-        "タイプ違い": 10,
+        "タイプ違い": 11,
         "サイズ違い・複数": 1,
         "使えた件数": 0,
         "malls": {}
@@ -3279,21 +3280,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "TRYX3楽天市場店",
-          "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
-          "price": 12179,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 12179,
-          "sheets": 372,
-          "per_sheet": 32.74,
-          "point_rate": 1,
-          "per_sheet_after_points": 32.41,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00psjv5.soi16a7e.g00psjv5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4901301422057-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10035550%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/11147956/11147958/4901301443502-2set.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "TRYX3 2号店",
           "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
           "price": 12179,
@@ -3306,6 +3292,21 @@
           "per_sheet_after_points": 32.41,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00u65w5.soi16e33.g00u65w5.soi17ded/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4901301443502-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3-2%2Fi%2F10010507%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3-2/cabinet/11021419/4901301443502-2set.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "TRYX3楽天市場店",
+          "item_name": "【お買得！186枚×2個セット】メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー メリーズパンツ 6〜11kg Merries メリーズパンツM",
+          "price": 12179,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 12179,
+          "sheets": 372,
+          "per_sheet": 32.74,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.41,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00psjv5.soi16a7e.g00psjv5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4901301422057-2%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftry3%2Fi%2F10035550%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/try3/cabinet/11147956/11147958/4901301443502-2set.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -3339,29 +3340,29 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "トライスリー",
-          "item_name": "186枚×2個セット メリーズ パンツ Mサイズ 372枚 62枚x6セット 紙おむつ 素肌さらさらエアスルー 6〜11kg  Merries メリーズパンツM",
-          "price": 12498,
+          "shop": "LOHACO by アスクル",
+          "item_name": "メリーズ おむつ パンツ Ｍサイズ（6〜12kg）1セット（1パック（62枚入）×3） エアスルー 男女共用 花王",
+          "price": 6250,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 12498,
-          "sheets": 372,
+          "total": 6250,
+          "sheets": 186,
           "per_sheet": 33.6,
           "point_rate": 1,
-          "per_sheet_after_points": 33.26,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftry3%2F4901301443502-2.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/try3_4901301443502-2"
+          "per_sheet_after_points": 33.27,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Frx51982%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_rx51982"
         }
       ],
       "stats": {
-        "fetched": 198,
-        "サイズ違い・複数": 30,
-        "除外ワード": 47,
+        "fetched": 200,
+        "サイズ違い・複数": 32,
         "枚数が読めない": 1,
+        "除外ワード": 47,
         "タイプ違い": 4,
         "条件の言葉なし": 35,
         "安すぎて除外": 1,
-        "使えた件数": 50,
+        "使えた件数": 51,
         "malls": {
           "Amazon": 1,
           "楽天": 4,
@@ -3531,11 +3532,11 @@
       "stats": {
         "fetched": 202,
         "除外ワード": 35,
-        "サイズ違い・複数": 43,
+        "サイズ違い・複数": 44,
         "単価が不自然": 1,
-        "条件の言葉なし": 22,
+        "条件の言葉なし": 18,
         "安すぎて除外": 0,
-        "使えた件数": 56,
+        "使えた件数": 58,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 5,
@@ -3657,6 +3658,21 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/gotochi/cabinet/biiino/item/main-image/20260830175234_1.jpg?_ex=128x128"
         },
         {
+          "mall": "Amazon",
+          "shop": "491 House Machida Online／町田ワイン",
+          "item_name": "メリーズ パンツ 素肌さらさらエアスルー ビッグ (12-22kg) 144枚 (48枚x3パック) XL",
+          "price": 5940,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 6740,
+          "sheets": 144,
+          "per_sheet": 46.81,
+          "point_rate": 1,
+          "per_sheet_after_points": 46.39,
+          "url": "https://www.amazon.co.jp/dp/B0C4XVB3D1?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/51peXk4y13L._SL160_.jpg"
+        },
+        {
           "mall": "楽天",
           "shop": "PrimeSellerJapan 楽天市場店",
           "item_name": "メリーズ パンツ さらさらエアスルー ビッグサイズ 144枚（24枚×6パック）体重目安12-22kg 送料無料 コストコ 通販 配送T",
@@ -3685,35 +3701,21 @@
           "per_sheet_after_points": 47.99,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00syww5.soi164c3.g00syww5.soi17f23/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpaladineer%2F10002748%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpaladineer%2Fi%2F10002748%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/paladineer/cabinet/08856552/imgrc0091145576.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "WhiteLeaf ホワイトリーフ",
-          "item_name": "★即納★【COSTCO】コストコ通販【Merries】メリーズ　パンツ　さらさらエアスルー　ビッグサイズ　144枚（24枚×6パック）おむつ",
-          "price": 6199,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 6999,
-          "sheets": 144,
-          "per_sheet": 48.6,
-          "point_rate": 1,
-          "per_sheet_after_points": 48.17,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q9u15.soi16bb2.g00q9u15.soi17a63/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwhiteleaf%2Fcostoco_merries-b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwhiteleaf%2Fi%2F10008903%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/whiteleaf/cabinet/08766852/08895266/09921554/merriesbig.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 217,
-        "サイズ違い・複数": 73,
+        "fetched": 216,
+        "サイズ違い・複数": 68,
         "除外ワード": 35,
         "単価が不自然": 11,
-        "条件の言葉なし": 12,
+        "条件の言葉なし": 13,
         "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 59,
+        "使えた件数": 62,
         "malls": {
           "Yahoo!": 4,
-          "楽天": 6
+          "楽天": 5,
+          "Amazon": 1
         }
       }
     },
@@ -3880,12 +3882,12 @@
         "fetched": 159,
         "サイズ違い・複数": 39,
         "単価が不自然": 36,
-        "条件の言葉なし": 17,
+        "条件の言葉なし": 19,
         "タイプ違い": 1,
-        "除外ワード": 6,
+        "除外ワード": 5,
         "枚数が読めない": 1,
         "安すぎて除外": 0,
-        "使えた件数": 37,
+        "使えた件数": 36,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 9
@@ -3900,66 +3902,6 @@
       "type": "テープ",
       "size": "新生児",
       "offers": [
-        {
-          "mall": "Yahoo!",
-          "shop": "上田生活",
-          "item_name": "テープ 新生児サイズ メリーズ ファーストプレミアム (お誕生~3000g) 40枚 2倍やわらかカシミヤタッチ",
-          "price": 1012,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1012,
-          "sheets": 40,
-          "per_sheet": 25.3,
-          "point_rate": 1,
-          "per_sheet_after_points": 25.05,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldglobal%2F20250318012057-00048.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/worldglobal_20250318012057-00048"
-        },
-        {
-          "mall": "Amazon",
-          "shop": "Amazon.co.jp",
-          "item_name": "メリーズ 【テープ 新生児サイズ】 ファーストプレミアム (お誕生~5000g) 2倍やわらかカシミヤタッチ ホワイト 20枚 (× 5)",
-          "price": 2535,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2535,
-          "sheets": 100,
-          "per_sheet": 25.35,
-          "point_rate": 1,
-          "per_sheet_after_points": 25.1,
-          "url": "https://www.amazon.co.jp/dp/B0GTYPZWBF?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41cqhXAUS1L._SL160_.jpg"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ベイシア楽天市場店",
-          "item_name": "花王 メリーズファーストプレミアム新生児用5000g 60枚×4パック | メリーズ ファーストプレミアム 新生児 オムツ テープ式 紙おむつ 赤ちゃん 出産準備 まとめ買い 大容量 ギフト プレゼント 内祝い",
-          "price": 6200,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 6200,
-          "sheets": 240,
-          "per_sheet": 25.83,
-          "point_rate": 1,
-          "per_sheet_after_points": 25.57,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00s0vm5.soi1619c.g00s0vm5.soi17165/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisia%2F4901301448378-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbeisia%2Fi%2F10152578%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/beisia/cabinet/sugito/sugito1/4901301448378-4.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "Merries テープ 新生児サイズ メリーズ ファーストプレミアム (お誕生~3000g) 40枚 2倍やわらかカシミヤタッチ",
-          "price": 1099,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1099,
-          "sheets": 40,
-          "per_sheet": 27.48,
-          "point_rate": 1,
-          "per_sheet_after_points": 27.2,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00157.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00157"
-        },
         {
           "mall": "Yahoo!",
           "shop": "セイムスオンラインYahoo!店",
@@ -3989,6 +3931,21 @@
           "per_sheet_after_points": 27.97,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fu216485%2F",
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u216485"
+        },
+        {
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "メリーズ 【テープ 新生児サイズ】 ファーストプレミアム (お誕生~新生児用5000g)240枚 (60枚×4) [ケース品]",
+          "price": 7060,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7060,
+          "sheets": 240,
+          "per_sheet": 29.42,
+          "point_rate": 1,
+          "per_sheet_after_points": 29.12,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton2680501cbb08%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025134%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton2680501cbb08_0.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -4049,21 +4006,65 @@
           "per_sheet_after_points": 30.32,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F94867.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/soukai_94867"
+        },
+        {
+          "mall": "楽天",
+          "shop": "楽天24 ベビー館",
+          "item_name": "メリーズ おむつ テープ ファーストプレミアム 新生児用3000gまで 梱販売用( 40枚×6個)【メリーズ ファーストプレミアム】[オムツ 紙おむつ 紙オムツ ファーストプレミアム]",
+          "price": 7408,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7408,
+          "sheets": 240,
+          "per_sheet": 30.87,
+          "point_rate": 1,
+          "per_sheet_after_points": 30.56,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pzd45.soi16d62.g00pzd45.soi17a32/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnetbaby%2F4901301389091%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnetbaby%2Fi%2F10028007%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/091/4901301389091.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "MONAKA-STORE",
+          "item_name": "Merries 【テープ 新生児サイズ】 メリーズ ファーストプレミアム (お誕生~3000g) 40枚 2倍やわらかカシミヤタッチ",
+          "price": 1239,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1239,
+          "sheets": 40,
+          "per_sheet": 30.98,
+          "point_rate": 1,
+          "per_sheet_after_points": 30.67,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmonaka-store%2Fs-b08jyjrgct-20261102.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/monaka-store_s-b08jyjrgct-20261102"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ケン丸SHOP",
+          "item_name": "【テープ 新生児サイズ】 メリーズ ファーストプレミアム (お誕生~3000g) 40枚 2倍やわらかカシミヤタッチ",
+          "price": 1269,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1269,
+          "sheets": 40,
+          "per_sheet": 31.73,
+          "point_rate": 1,
+          "per_sheet_after_points": 31.41,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fyafuu-tosa%2Fs-b08jyjrgct-20241211.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/yafuu-tosa_s-b08jyjrgct-20241211"
         }
       ],
       "stats": {
-        "fetched": 206,
-        "除外ワード": 4,
+        "fetched": 193,
+        "除外ワード": 5,
         "タイプ違い": 21,
         "サイズ違い・複数": 9,
-        "単価が不自然": 3,
-        "条件の言葉なし": 18,
-        "安すぎて除外": 5,
-        "使えた件数": 95,
+        "単価が不自然": 2,
+        "条件の言葉なし": 16,
+        "安すぎて除外": 9,
+        "使えた件数": 89,
         "malls": {
           "Yahoo!": 7,
-          "Amazon": 1,
-          "楽天": 2
+          "楽天": 3
         }
       }
     },
@@ -4107,21 +4108,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "メリーズ テープ Sサイズ ファーストプレミアム(4~8kg) 216枚 (54枚×4) ケース品",
-          "price": 7128,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7128,
-          "sheets": 216,
-          "per_sheet": 33.0,
-          "point_rate": 1,
-          "per_sheet_after_points": 32.67,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00179.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00179"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "セイムスオンラインYahoo!店",
           "item_name": "メリーズ ファーストプレミアム Ｓサイズ テープタイプ 54枚×4パック (1ケース)　花王 爆買",
           "price": 7260,
@@ -4137,100 +4123,115 @@
         },
         {
           "mall": "楽天",
-          "shop": "actonlineshop",
+          "shop": "ぴっぴストア 楽天市場店",
           "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品]",
-          "price": 7848,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7848,
-          "sheets": 216,
-          "per_sheet": 36.33,
-          "point_rate": 1,
-          "per_sheet_after_points": 35.97,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton260d15442d67%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025155%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton260d15442d67_0.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "セイムスオンライン楽天市場店",
-          "item_name": "メリーズ ファーストプレミアム Sサイズ テープタイプ 54枚×4パック (1ケース)　花王",
-          "price": 7260,
+          "price": 7000,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 8060,
+          "total": 7800,
           "sheets": 216,
-          "per_sheet": 37.31,
-          "point_rate": 5,
-          "per_sheet_after_points": 35.63,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ry2g5.soi16942.g00ry2g5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseims-r%2F4901301448385-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseims-r%2Fi%2F10087196%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seims-r/cabinet/image23/4901301448385-4.jpg?_ex=128x128"
+          "per_sheet": 36.11,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.79,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u86d5.soi164ac.g00u86d5.soi17dec/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpippi-store%2F7633fez36tfd57gdrsj7yyy7ku%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpippi-store%2Fi%2F10795720%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/pippi-store/cabinet/12170060/37316409_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
-          "shop": "T-富士薬品",
-          "item_name": "メリーズ ファーストプレミアム Sサイズ テープタイプ 54枚×4パック (1ケース)　花王",
-          "price": 7260,
+          "shop": "ユナイテッドショップ",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品]",
+          "price": 7000,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 8060,
+          "total": 7800,
           "sheets": 216,
-          "per_sheet": 37.31,
-          "point_rate": 5,
-          "per_sheet_after_points": 35.63,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00r0nu5.soi16c31.g00r0nu5.soi1717d/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffujiyaku%2F4901301448385-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffujiyaku%2Fi%2F10037375%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fujiyaku/cabinet/item34/4901301448385-4.jpg?_ex=128x128"
+          "per_sheet": 36.11,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.79,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00urly5.soi16ecd.g00urly5.soi17ed6/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funited-shop01%2Fsn5yevltl7lvm4zz7unbgnt3f4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funited-shop01%2Fi%2F10561867%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/united-shop01/cabinet/13742231/37356464_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "Cocomo Market",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品] 【】",
+          "price": 7879,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7879,
+          "sheets": 216,
+          "per_sheet": 36.48,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.11,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjun-shoten%2Fesarireriaxfw7vezl2cbzvos4.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/jun-shoten_esarireriaxfw7vezl2cbzvos4"
         },
         {
           "mall": "楽天",
-          "shop": "Natures shop online 楽天市場店",
-          "item_name": "【テープ Sサイズ】メリーズ ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品]",
-          "price": 8280,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8280,
+          "shop": "フローイングgt",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品] 【】",
+          "price": 7179,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7979,
           "sheets": 216,
-          "per_sheet": 38.33,
+          "per_sheet": 36.94,
           "point_rate": 1,
-          "per_sheet_after_points": 37.95,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u8865.soi16192.g00u8865.soi17bb9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fonly-one-store%2F999927613ee070%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fonly-one-store%2Fi%2F10001544%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/only-one-store/cabinet/imgrc0113846498.jpg?_ex=128x128"
+          "per_sheet_after_points": 36.61,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9o5.soi16a8d.g00uq9o5.soi17e41/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fflowing2%2Fzusapsa5ezkkdgg5dldgasxpye%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fflowing2%2Fi%2F10182476%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/flowing2/cabinet/11729146/7478491_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
-          "shop": "S4Gオンラインショップ",
-          "item_name": "【テープ Sサイズ】メリーズ ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品]",
-          "price": 8436,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8436,
+          "shop": "オールインストア",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品] 【】",
+          "price": 7179,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7979,
           "sheets": 216,
-          "per_sheet": 39.06,
+          "per_sheet": 36.94,
           "point_rate": 1,
-          "per_sheet_after_points": 38.66,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tsrc5.soi16370.g00tsrc5.soi177e0/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fs4gshop%2F20250522230728_95%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fs4gshop%2Fi%2F10049885%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/s4gshop/cabinet/r_2024092815/20250522230728_95_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 36.61,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upn55.soi166da.g00upn55.soi172d6/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fallinstore%2Fsmx52mxxodne4ou35o4ormjjwq%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fallinstore%2Fi%2F10183057%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/allinstore/cabinet/11888192/7477375_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
-          "shop": "生活雑貨 めも",
-          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品] 【Amazon.co.jp限定】",
-          "price": 8441,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8441,
+          "shop": "ジョーマーケット",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品] 【】",
+          "price": 7179,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7979,
           "sheets": 216,
-          "per_sheet": 39.08,
+          "per_sheet": 36.94,
           "point_rate": 1,
-          "per_sheet_after_points": 38.69,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz275.soi16907.g00tz275.soi17891/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikatsuzakkamemo%2F20260524220637_117%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikatsuzakkamemo%2Fi%2F10012481%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seikatsuzakkamemo/cabinet/r_1617591069/20260524220637_117_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 36.61,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ux2r5.soi16ce9.g00ux2r5.soi1734d/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsunmarket-ago%2Fnsib37uexljpx2jjis5ydsbp5q%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsunmarket-ago%2Fi%2F10068326%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sunmarket-ago/cabinet/13634132/7477706_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "シオカゼ商店",
+          "item_name": "メリーズ 【テープ Sサイズ】 ファーストプレミアム(4~8kg) 216枚 (54枚×4) [ケース品]",
+          "price": 7200,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 8000,
+          "sheets": 216,
+          "per_sheet": 37.04,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.7,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00unb15.soi1650e.g00unb15.soi17127/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomichi-store%2Fpfozrcmlqseikai2zgtoe3s2oi%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomichi-store%2Fi%2F10640376%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/omichi-store/cabinet/13710943/37325046_1.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 147,
+        "fetched": 140,
         "単価が不自然": 2,
-        "タイプ違い": 18,
-        "サイズ違い・複数": 26,
+        "タイプ違い": 17,
+        "サイズ違い・複数": 22,
         "条件の言葉なし": 48,
         "除外ワード": 2,
         "安すぎて除外": 0,
@@ -4250,6 +4251,21 @@
       "type": "テープ",
       "size": "M",
       "offers": [
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "メリーズ おむつ テープ M（6〜11kg） 1セット（48枚入×4パック） ファーストプレミアム 花王",
+          "price": 6260,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6260,
+          "sheets": 192,
+          "per_sheet": 32.6,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.28,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fu216487%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u216487"
+        },
         {
           "mall": "楽天",
           "shop": "コジマ楽天市場店",
@@ -4335,10 +4351,10 @@
           "total": 7260,
           "sheets": 192,
           "per_sheet": 37.81,
-          "point_rate": 10,
-          "per_sheet_after_points": 34.03,
+          "point_rate": 20,
+          "per_sheet_after_points": 30.25,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ry2g5.soi16942.g00ry2g5.soi177f9/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseims-r%2F4901301388032-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseims-r%2Fi%2F10066266%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seims-r/cabinet/image23/4901301388032-4.jpg?_ex=128x128"
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seims-r/cabinet/camp01/11926172/12460849/4901301388032-4_20.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -4350,10 +4366,10 @@
           "total": 7260,
           "sheets": 192,
           "per_sheet": 37.81,
-          "point_rate": 10,
-          "per_sheet_after_points": 34.03,
+          "point_rate": 20,
+          "per_sheet_after_points": 30.25,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00r0nu5.soi16c31.g00r0nu5.soi1717d/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffujiyaku%2F4901301388032-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffujiyaku%2Fi%2F10014618%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fujiyaku/cabinet/item34/4901301388032-4.jpg?_ex=128x128"
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fujiyaku/cabinet/newsletter/contents/12461667/4901301388032-4_20.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -4384,35 +4400,20 @@
           "per_sheet_after_points": 37.43,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnatural-living%2Fu626063.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/natural-living_u626063"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ナチュラルベビー Natural Baby",
-          "item_name": "メリーズ テープ ファーストプレミアム Mサイズ 6kg ～ 11kg 192枚 48枚×4袋 テープ 花王 Merries 紙おむつ 紙オムツ プレミアム カシミヤタッチ ふんわり さらさら 送料無料",
-          "price": 6800,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 7600,
-          "sheets": 192,
-          "per_sheet": 39.58,
-          "point_rate": 1,
-          "per_sheet_after_points": 39.23,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qcnf5.soi16ad9.g00qcnf5.soi177ae/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnatural-living%2Fu626063%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnatural-living%2Fi%2F10036144%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/natural-living/cabinet/spr/2/2/223222164489.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 133,
-        "条件の言葉なし": 41,
+        "fetched": 131,
+        "条件の言葉なし": 43,
         "タイプ違い": 18,
         "枚数が読めない": 1,
         "サイズ違い・複数": 8,
-        "除外ワード": 1,
+        "除外ワード": 2,
         "安すぎて除外": 0,
-        "使えた件数": 42,
+        "使えた件数": 38,
         "malls": {
-          "楽天": 5,
-          "Yahoo!": 3,
+          "Yahoo!": 4,
+          "楽天": 4,
           "Amazon": 2
         }
       }
@@ -4426,11 +4427,10 @@
       "size": "L",
       "offers": [],
       "stats": {
-        "fetched": 30,
+        "fetched": 26,
         "タイプ違い": 12,
-        "条件の言葉なし": 9,
-        "除外ワード": 2,
-        "サイズ違い・複数": 7,
+        "条件の言葉なし": 8,
+        "サイズ違い・複数": 6,
         "使えた件数": 0,
         "malls": {}
       }
@@ -4520,6 +4520,21 @@
         },
         {
           "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "メリーズ おむつ パンツ Mサイズ（6~12kg）1セット（46枚×4パック）ファーストプレミアム 花王",
+          "price": 7122,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7122,
+          "sheets": 184,
+          "per_sheet": 38.71,
+          "point_rate": 1,
+          "per_sheet_after_points": 38.32,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fau51038%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_au51038"
+        },
+        {
+          "mall": "Yahoo!",
           "shop": "セイムスオンラインYahoo!店",
           "item_name": "メリーズ ファーストプレミアムパンツ Mサイズ 46枚×4パック(1ケース)　花王 爆買",
           "price": 7260,
@@ -4532,21 +4547,6 @@
           "per_sheet_after_points": 39.06,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiyaku%2F4901301396549-4.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/fujiyaku_4901301396549-4"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "LOHACO by アスクル",
-          "item_name": "メリーズ おむつ パンツ Mサイズ（6~12kg）1セット（46枚×3パック）ファーストプレミアム 花王",
-          "price": 5453,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5453,
-          "sheets": 138,
-          "per_sheet": 39.51,
-          "point_rate": 1,
-          "per_sheet_after_points": 39.12,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fwa08139%2F",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_wa08139"
         },
         {
           "mall": "Yahoo!",
@@ -4580,29 +4580,29 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "メリーズ パンツ Mサイズファーストプレミアム(6~11kg) 184枚(46枚×4パック) ケース品「繊細な肌に5ッ星のやさしさを」 Am",
-          "price": 7602,
+          "shop": "爽快ドラッグ",
+          "item_name": "メリーズ おむつ パンツ ファーストプレミアム Mサイズ ( 46枚入*4袋セット )/ メリーズ ファーストプレミアム",
+          "price": 7738,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7602,
+          "total": 7738,
           "sheets": 184,
-          "per_sheet": 41.32,
+          "per_sheet": 42.05,
           "point_rate": 1,
-          "per_sheet_after_points": 40.9,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00110.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00110"
+          "per_sheet_after_points": 41.63,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F523141.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_523141"
         }
       ],
       "stats": {
-        "fetched": 137,
+        "fetched": 133,
         "サイズ違い・複数": 26,
-        "タイプ違い": 12,
+        "タイプ違い": 11,
         "単価が不自然": 4,
-        "条件の言葉なし": 25,
-        "除外ワード": 5,
+        "条件の言葉なし": 26,
+        "除外ワード": 4,
         "安すぎて除外": 0,
-        "使えた件数": 51,
+        "使えた件数": 48,
         "malls": {
           "Yahoo!": 9,
           "Amazon": 1
@@ -4754,30 +4754,30 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "パンツ Lサイズメリーズ ファーストプレミアム(9~14kg) 144枚(36枚×4パック) ケース品「繊細な肌",
-          "price": 7602,
+          "shop": "爽快ドラッグ",
+          "item_name": "メリーズ おむつ パンツ ファーストプレミアム Lサイズ ( 36枚入*4袋セット )/ メリーズ ファーストプレミアム",
+          "price": 7738,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 7602,
+          "total": 7738,
           "sheets": 144,
-          "per_sheet": 52.79,
+          "per_sheet": 53.74,
           "point_rate": 1,
-          "per_sheet_after_points": 52.26,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00109.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00109"
+          "per_sheet_after_points": 53.2,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F523142.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_523142"
         }
       ],
       "stats": {
         "fetched": 111,
-        "サイズ違い・複数": 27,
+        "サイズ違い・複数": 26,
         "単価が不自然": 2,
         "枚数が読めない": 2,
-        "タイプ違い": 3,
-        "除外ワード": 4,
+        "タイプ違い": 5,
+        "除外ワード": 5,
         "条件の言葉なし": 14,
         "安すぎて除外": 0,
-        "使えた件数": 45,
+        "使えた件数": 44,
         "malls": {
           "Yahoo!": 8,
           "Amazon": 1,
@@ -4794,21 +4794,6 @@
       "size": "ビッグ",
       "offers": [
         {
-          "mall": "Amazon",
-          "shop": "Amazon.co.jp",
-          "item_name": "【パンツ ビッグサイズ】メリーズ ファーストプレミアム(12~22kg) 32枚 2倍やわらかカシミヤタッチ",
-          "price": 1546,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1546,
-          "sheets": 32,
-          "per_sheet": 48.31,
-          "point_rate": 1,
-          "per_sheet_after_points": 47.83,
-          "url": "https://www.amazon.co.jp/dp/B09ZX23Y94?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/31barS5ID9L._SL160_.jpg"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "サンドラッグe-shop",
           "item_name": "花王 メリーズ ファーストプレミアム パンツ BIGサイズ  32枚   【4個セット】",
@@ -4822,6 +4807,21 @@
           "per_sheet_after_points": 50.43,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsundrugec%2F4901301396563x4.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4901301396563x4"
+        },
+        {
+          "mall": "Amazon",
+          "shop": "Amazon.co.jp",
+          "item_name": "【Amazon.co.jp限定】【パンツ ビッグサイズ】メリーズ ファーストプレミアム(12~22kg)32枚「繊細な肌に５ッ星のやさしさを」",
+          "price": 1637,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1637,
+          "sheets": 32,
+          "per_sheet": 51.16,
+          "point_rate": 1,
+          "per_sheet_after_points": 50.64,
+          "url": "https://www.amazon.co.jp/dp/B0D4Q8V51B?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/41EwjUv-n9L._SL160_.jpg"
         },
         {
           "mall": "Yahoo!",
@@ -4915,21 +4915,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "パンツ ビッグサイズメリーズ ファーストプレミアム(12~22kg)128枚(32枚×4パック) ケース品「繊細",
-          "price": 7602,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7602,
-          "sheets": 128,
-          "per_sheet": 59.39,
-          "point_rate": 1,
-          "per_sheet_after_points": 58.8,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00130.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00130"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "NetBabyWorld(ネットベビー)",
           "item_name": "メリーズ おむつ パンツ ファーストプレミアム ビッグサイズ ( 32枚入*4袋セット )/ メリーズ ファーストプレミアム",
           "price": 7738,
@@ -4942,21 +4927,36 @@
           "per_sheet_after_points": 59.85,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetbaby%2F523143.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_523143"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "爽快ドラッグ",
+          "item_name": "メリーズ おむつ パンツ ファーストプレミアム ビッグサイズ ( 32枚入*4袋セット )/ メリーズ ファーストプレミアム",
+          "price": 7738,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7738,
+          "sheets": 128,
+          "per_sheet": 60.45,
+          "point_rate": 1,
+          "per_sheet_after_points": 59.85,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F523143.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_523143"
         }
       ],
       "stats": {
-        "fetched": 101,
+        "fetched": 95,
         "サイズ違い・複数": 20,
         "単価が不自然": 3,
         "枚数が読めない": 2,
-        "タイプ違い": 8,
+        "タイプ違い": 7,
         "除外ワード": 2,
-        "条件の言葉なし": 13,
+        "条件の言葉なし": 15,
         "安すぎて除外": 0,
-        "使えた件数": 37,
+        "使えた件数": 34,
         "malls": {
-          "Amazon": 1,
-          "Yahoo!": 9
+          "Yahoo!": 9,
+          "Amazon": 1
         }
       }
     },
@@ -4971,17 +4971,17 @@
         {
           "mall": "Amazon",
           "shop": "Amazon.co.jp",
-          "item_name": "【テープ 新生児サイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ お誕生~5000gまで 304枚(76枚×4) [ケース品] | ゆるうんちストッパーでモレ０へ、マシュマロフィット設計でお肌もモレも安心、無添加弱酸性シート、安心の吸収力、おむつ、オムツ、おむつ新生児、オムツ新生児",
-          "price": 6926,
+          "item_name": "【テープ 新生児サイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ お誕生~5000gまで 76枚 | ゆるうんちストッパーでモレ０へ、マシュマロフィット設計でお肌もモレも安心、無添加弱酸性シート、安心の吸収力、おむつ、オムツ、おむつ新生児、オムツ新生児",
+          "price": 1656,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 6926,
-          "sheets": 304,
-          "per_sheet": 22.78,
+          "total": 1656,
+          "sheets": 76,
+          "per_sheet": 21.79,
           "point_rate": 1,
-          "per_sheet_after_points": 22.56,
-          "url": "https://www.amazon.co.jp/dp/B0CBC1DQ69?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41mvae2iyEL._SL160_.jpg"
+          "per_sheet_after_points": 21.57,
+          "url": "https://www.amazon.co.jp/dp/B0BL39VYWW?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/41-TWDlzyRL._SL160_.jpg"
         },
         {
           "mall": "Yahoo!",
@@ -5044,19 +5044,19 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/183/22183.jpg?_ex=128x128"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "堂本商事",
-          "item_name": "テープ 新生児サイズムーニー マシュマロ肌ごこち モレ安心 オムツ（お誕生~5000gまで）76枚",
-          "price": 1838,
+          "mall": "楽天",
+          "shop": "bouro楽天市場店",
+          "item_name": "ムーニー マシュマロ肌ごこち 新生児用 テープタイプ 76枚 お誕生〜5kgまで",
+          "price": 1880,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 1838,
+          "total": 1880,
           "sheets": 76,
-          "per_sheet": 24.18,
+          "per_sheet": 24.74,
           "point_rate": 1,
-          "per_sheet_after_points": 23.94,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbrisk-online%2F20251011134714-01494.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011134714-01494"
+          "per_sheet_after_points": 24.49,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00urw55.soi164f5.g00urw55.soi177ae/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbouro%2F20250912195302_223%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fbouro%2Fi%2F10029060%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/bouro/cabinet/r_2025091213/20250912195302_223_1.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -5121,17 +5121,17 @@
       ],
       "stats": {
         "fetched": 219,
-        "除外ワード": 26,
-        "タイプ違い": 3,
-        "枚数が読めない": 8,
+        "除外ワード": 24,
+        "タイプ違い": 4,
+        "枚数が読めない": 7,
         "サイズ違い・複数": 2,
         "条件の言葉なし": 15,
-        "安すぎて除外": 1,
-        "使えた件数": 76,
+        "安すぎて除外": 0,
+        "使えた件数": 75,
         "malls": {
           "Amazon": 1,
-          "Yahoo!": 4,
-          "楽天": 5
+          "Yahoo!": 3,
+          "楽天": 6
         }
       }
     },
@@ -5146,17 +5146,17 @@
         {
           "mall": "Amazon",
           "shop": "Amazon.co.jp",
-          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ 4~8kg 280枚(70枚×4) [ケース品] | ゆるうんちストッパーでモレ０へ、マシュマロフィット設計でお肌もモレも安心、無添加弱酸性シート、安心の吸収力、おむつ、オムツ、おむつs、オムツs",
-          "price": 6925,
+          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ S サイズ 4~8kg 70枚 | ゆるうんちストッパーでモレ０へ、マシュマロフィット設計でお肌もモレも安心、無添加弱酸性シート、安心の吸収力、おむつ、オムツ、おむつs、オムツs",
+          "price": 1618,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 6925,
-          "sheets": 280,
-          "per_sheet": 24.73,
+          "total": 1618,
+          "sheets": 70,
+          "per_sheet": 23.11,
           "point_rate": 1,
-          "per_sheet_after_points": 24.48,
-          "url": "https://www.amazon.co.jp/dp/B0CBC1DD9X?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41MvzdzotEL._SL160_.jpg"
+          "per_sheet_after_points": 22.88,
+          "url": "https://www.amazon.co.jp/dp/B0BL3BG2RV?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/41Cy+UscQIL._SL160_.jpg"
         },
         {
           "mall": "Yahoo!",
@@ -5205,36 +5205,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "テッセラクトRK楽天市場店",
-          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
-          "price": 1853,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1853,
-          "sheets": 70,
-          "per_sheet": 26.47,
-          "point_rate": 1,
-          "per_sheet_after_points": 26.21,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uwi45.soi1622b.g00uwi45.soi17c42/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftesseractrk%2F20260724030429_241%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftesseractrk%2Fi%2F10025484%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tesseractrk/cabinet/r_2026071453/20260724030429_241_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "暮らしショップ楽天市場店",
-          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
-          "price": 1899,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1899,
-          "sheets": 70,
-          "per_sheet": 27.13,
-          "point_rate": 1,
-          "per_sheet_after_points": 26.86,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uwu65.soi16be0.g00uwu65.soi17294/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-marc%2F20260630052337_242%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkurashi-marc%2Fi%2F10009035%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-marc/cabinet/r_2026063017/20260630052337_242_1.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "川山商店 楽天市場店",
           "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
           "price": 1922,
@@ -5250,58 +5220,88 @@
         },
         {
           "mall": "楽天",
-          "shop": "ちいさなしあわせストア",
+          "shop": "テッセラクトRK楽天市場店",
           "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
-          "price": 1922,
+          "price": 1941,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 1922,
+          "total": 1941,
           "sheets": 70,
-          "per_sheet": 27.46,
+          "per_sheet": 27.73,
           "point_rate": 1,
-          "per_sheet_after_points": 27.18,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uw1x5.soi16bee.g00uw1x5.soi1778b/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fchiisana--shiawase%2F20260711083509_41%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fchiisana--shiawase%2Fi%2F10005318%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/chiisana--shiawase/cabinet/r_2026071056/20260711083509_41_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 27.45,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uwi45.soi1622b.g00uwi45.soi17c42/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftesseractrk%2F20260724030429_241%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftesseractrk%2Fi%2F10025484%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/tesseractrk/cabinet/r_2026071453/20260724030429_241_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
-          "shop": "Reve2018",
+          "shop": "ラサンタ",
           "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
-          "price": 1922,
+          "price": 1950,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 1922,
+          "total": 1950,
           "sheets": 70,
-          "per_sheet": 27.46,
+          "per_sheet": 27.86,
           "point_rate": 1,
-          "per_sheet_after_points": 27.18,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00utcq5.soi16962.g00utcq5.soi1782c/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Freve2018%2F20260310170836_234%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Freve2018%2Fi%2F10025323%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/reve2018/cabinet/r_2026030903/20260310170836_234_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 27.58,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz095.soi165af.g00tz095.soi17cc4/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flasanta-lease%2Fslld88fd10545%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Flasanta-lease%2Fi%2F10090688%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/lasanta-lease/cabinet/onesell247/slld88fd10545.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
-          "shop": "セレクトショップ大吉",
-          "item_name": "ムーニー 紙オムツ テープ Sサイズ【4袋セット】マシュマロ肌ごこち 70枚×4袋 4～8kg ユニ・チャーム まとめ買い",
-          "price": 6920,
+          "shop": "ユニ・チャームダイレクトショップ",
+          "item_name": "moony テープ Sサイズ 生後5〜9ヶ月頃 【ムーニー マシュマロ肌ごこちモレ安心 S 70枚×4袋 】4kg〜8kg テープ型ベビー用紙オムツ 低刺激 フィットギャザー 弱酸性シート ユニ・チャーム公式ショップ マシュマロフィット設計 テープタイプ 安心吸収力 ゆるうんちストッパー",
+          "price": 7084,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 7720,
+          "total": 7884,
           "sheets": 280,
-          "per_sheet": 27.57,
+          "per_sheet": 28.16,
           "point_rate": 1,
-          "per_sheet_after_points": 27.32,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uwbx5.soi16601.g00uwbx5.soi17beb/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaikichi0713%2Fmny-tape%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdaikichi0713%2Fi%2F10000000%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/daikichi0713/cabinet/imgrc0132255856.jpg?_ex=128x128"
+          "per_sheet_after_points": 27.9,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00q2155.soi160b4.g00q2155.soi17f63/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F100642%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10001856%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moony/100642.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Rafinagift楽天市場店",
+          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）280枚（70枚×4） [ケース品] 送料無料",
+          "price": 7944,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7944,
+          "sheets": 280,
+          "per_sheet": 28.37,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.09,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq6j5.soi16c17.g00uq6j5.soi17d34/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frafinagift%2Fha9279bb3316%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frafinagift%2Fi%2F10008628%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rafinagift/cabinet/onesell043/ha9279bb3316_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "暮らしショップ楽天市場店",
+          "item_name": "【テープ Sサイズ】 ムーニー マシュマロ肌ごこち モレ安心 オムツ（4~8kg）70枚",
+          "price": 1988,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1988,
+          "sheets": 70,
+          "per_sheet": 28.4,
+          "point_rate": 1,
+          "per_sheet_after_points": 28.12,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uwu65.soi16be0.g00uwu65.soi17294/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkurashi-marc%2F20260630052337_242%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkurashi-marc%2Fi%2F10009035%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kurashi-marc/cabinet/r_2026063017/20260630052337_242_1.jpg?_ex=128x128"
         }
       ],
       "stats": {
         "fetched": 219,
-        "除外ワード": 23,
+        "除外ワード": 24,
         "タイプ違い": 3,
         "条件の言葉なし": 78,
-        "サイズ違い・複数": 2,
-        "安すぎて除外": 3,
-        "使えた件数": 68,
+        "サイズ違い・複数": 3,
+        "安すぎて除外": 1,
+        "使えた件数": 70,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 1,
@@ -5317,6 +5317,21 @@
       "type": "テープ",
       "size": "M",
       "offers": [
+        {
+          "mall": "Amazon",
+          "shop": "Amazon.co.jp",
+          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ M サイズ 6~11kg 54枚 | ゆるうんちストッパーでモレ０へ、マシュマロフィット設計でお肌もモレも安心、無添加弱酸性シート、最大12時間吸収、おむつ、オムツ、おむつm、オムツm",
+          "price": 1656,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 1656,
+          "sheets": 54,
+          "per_sheet": 30.67,
+          "point_rate": 1,
+          "per_sheet_after_points": 30.36,
+          "url": "https://www.amazon.co.jp/dp/B0FTMMP6RY?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/41h7c1DTzxL._SL160_.jpg"
+        },
         {
           "mall": "楽天",
           "shop": "AKデイリーセレクト",
@@ -5350,7 +5365,7 @@
         {
           "mall": "楽天",
           "shop": "ユニソロ 日用品 楽天市場店",
-          "item_name": "【11/4(水) 20時～4時間限定★最大700円OFF クーポン】【テープ Mサイズ× 8パックセット】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚入 432枚（54枚×8パック）",
+          "item_name": "【11/5(木)限定★P5倍＆100円OFFクーポン】【テープ Mサイズ× 8パックセット】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚入 432枚（54枚×8パック）",
           "price": 14400,
           "postage_separate": true,
           "shipping_estimate": 800,
@@ -5378,34 +5393,19 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111689613"
         },
         {
-          "mall": "Amazon",
-          "shop": "Amazon.co.jp",
-          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ 6~11kg 108枚(54枚×2) [ケース品]",
-          "price": 3828,
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニー マシュマロ肌ごこち モレ安心 おむつ テープ Ｍサイズ（6kg〜11kg）1セット（54枚入×4パック）ユニ・チャーム",
+          "price": 7770,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 3828,
-          "sheets": 108,
-          "per_sheet": 35.44,
+          "total": 7770,
+          "sheets": 216,
+          "per_sheet": 35.97,
           "point_rate": 1,
-          "per_sheet_after_points": 35.09,
-          "url": "https://www.amazon.co.jp/dp/B0FVMD7CVM?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/514m8qOGz5L._SL160_.jpg"
-        },
-        {
-          "mall": "楽天",
-          "shop": "NATURE STOCK",
-          "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
-          "price": 1964,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1964,
-          "sheets": 54,
-          "per_sheet": 36.37,
-          "point_rate": 1,
-          "per_sheet_after_points": 36.01,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uw8w5.soi1682d.g00uw8w5.soi1750b/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnaturestock%2Faj48017789d8eec1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnaturestock%2Fi%2F10010351%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/naturestock/cabinet/onesell009/aj48017789d8eec1_0.jpg?_ex=128x128"
+          "per_sheet_after_points": 35.61,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fahk8560%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_ahk8560"
         },
         {
           "mall": "楽天",
@@ -5424,18 +5424,18 @@
         },
         {
           "mall": "楽天",
-          "shop": "LOVEYOURS 楽天市場店",
+          "shop": "スイートミューズ",
           "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
-          "price": 1971,
+          "price": 1974,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 1971,
+          "total": 1974,
           "sheets": 54,
-          "per_sheet": 36.5,
+          "per_sheet": 36.56,
           "point_rate": 1,
-          "per_sheet_after_points": 36.13,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00upo65.soi16b4a.g00upo65.soi1715f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Floveyours%2F20260718033022_212%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Floveyours%2Fi%2F10098424%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/loveyours/cabinet/r_2025032908/20260718033022_212_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 36.19,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tgfr5.soi16ba0.g00tgfr5.soi17b4f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsweetshopegami%2F20260717115254_236%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsweetshopegami%2Fi%2F10034307%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sweetshopegami/cabinet/r_2026071323/20260717115254_236_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -5454,33 +5454,33 @@
         },
         {
           "mall": "楽天",
-          "shop": "生活雑貨 めも",
+          "shop": "Mori Base",
           "item_name": "【テープ Mサイズ】ムーニー マシュマロ肌ごこち モレ安心 オムツ（6~11kg）54枚",
-          "price": 2014,
+          "price": 2091,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 2014,
+          "total": 2091,
           "sheets": 54,
-          "per_sheet": 37.3,
+          "per_sheet": 38.72,
           "point_rate": 1,
-          "per_sheet_after_points": 36.92,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00tz275.soi16907.g00tz275.soi17891/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseikatsuzakkamemo%2F20260524221542_117%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fseikatsuzakkamemo%2Fi%2F10012486%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/seikatsuzakkamemo/cabinet/r_1617591069/20260524221542_117_1.jpg?_ex=128x128"
+          "per_sheet_after_points": 38.34,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sk0n5.soi16cd6.g00sk0n5.soi17513/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackknife%2Faj4737858db01484%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fjackknife%2Fi%2F10005012%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/jackknife/cabinet/onesell004/aj4737858db01484_0.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 217,
-        "除外ワード": 28,
+        "fetched": 218,
+        "除外ワード": 29,
         "タイプ違い": 1,
-        "単価が不自然": 3,
-        "サイズ違い・複数": 36,
-        "条件の言葉なし": 80,
-        "安すぎて除外": 1,
-        "使えた件数": 44,
+        "単価が不自然": 1,
+        "サイズ違い・複数": 35,
+        "条件の言葉なし": 77,
+        "安すぎて除外": 0,
+        "使えた件数": 48,
         "malls": {
-          "楽天": 8,
-          "Yahoo!": 1,
-          "Amazon": 1
+          "Amazon": 1,
+          "楽天": 7,
+          "Yahoo!": 2
         }
       }
     },
@@ -5492,21 +5492,6 @@
       "type": "テープ",
       "size": "L",
       "offers": [
-        {
-          "mall": "Yahoo!",
-          "shop": "NetBabyWorld(ネットベビー)",
-          "item_name": "ムーニー マシュマロ肌ごこち モレ安心 L 9kg〜14kg 紙おむつ テープ ( 48枚×4袋入 )/ ムーニー",
-          "price": 6921,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 6921,
-          "sheets": 192,
-          "per_sheet": 36.05,
-          "point_rate": 1,
-          "per_sheet_after_points": 35.69,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetbaby%2F4903111147571.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111147571"
-        },
         {
           "mall": "Yahoo!",
           "shop": "LOHACO by アスクル",
@@ -5541,14 +5526,14 @@
           "mall": "Yahoo!",
           "shop": "通販できるみんなのお薬(みんなのお薬)",
           "item_name": "ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9〜14kg 48枚入  10個セット",
-          "price": 23242,
+          "price": 22614,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 23242,
+          "total": 22614,
           "sheets": 480,
-          "per_sheet": 48.42,
+          "per_sheet": 47.11,
           "point_rate": 1,
-          "per_sheet_after_points": 47.94,
+          "per_sheet_after_points": 46.64,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758977215-10-d.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758977215-10-d"
         },
@@ -5569,21 +5554,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "日用品・生活雑貨の店 カットコ",
-          "item_name": "(送料無料・まとめ買い×4個セット)ユニ・チャーム ムーニー マシュマロ肌ごこち モレ安心 テープ Lサイズ 48枚 おむつ こども用 紙おむつ",
-          "price": 10006,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 10006,
-          "sheets": 192,
-          "per_sheet": 52.11,
-          "point_rate": 1,
-          "per_sheet_after_points": 51.59,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fatlife%2F101-x004-4903111049271.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/atlife_101-x004-4903111049271"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "みんなのお薬バリュープライス(みんなのお薬)",
           "item_name": "ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9〜14kg 48枚入 2個セット",
           "price": 4216,
@@ -5599,62 +5569,92 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "ケンコーライフ ヤフー店",
-          "item_name": "(送料無料・まとめ買い×4個セット)ユニ・チャーム ムーニー マシュマロ肌ごこち モレ安心 テープ Lサイズ 48枚 おむつ こども用 紙おむつ",
-          "price": 10174,
+          "shop": "NetBabyWorld(ネットベビー)",
+          "item_name": "ムーニー マシュマロ肌ごこち モレ安心 L 9kg〜14kg 紙おむつ テープ ( 48枚 )/ ムーニー",
+          "price": 1828,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 2628,
+          "sheets": 48,
+          "per_sheet": 54.75,
+          "point_rate": 1,
+          "per_sheet_after_points": 54.37,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fnetbaby%2F4903111049271.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/netbaby_4903111049271"
+        },
+        {
+          "mall": "楽天",
+          "shop": "カマクラストアー",
+          "item_name": "【送料無料！（地域限定）】ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9～14kg 48枚入 2個セット",
+          "price": 4987,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5787,
+          "sheets": 96,
+          "per_sheet": 60.28,
+          "point_rate": 1,
+          "per_sheet_after_points": 59.76,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ul5w5.soi1661e.g00ul5w5.soi171a3/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsinca-ism%2F1758977215-2-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsinca-ism%2Fi%2F10308700%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinca-ism/cabinet/10667123/1758977215-2-a.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "キノタカ屋",
+          "item_name": "ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9～14kg 48枚入 2個セット",
+          "price": 4987,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5787,
+          "sheets": 96,
+          "per_sheet": 60.28,
+          "point_rate": 1,
+          "per_sheet_after_points": 59.76,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00utua5.soi16e3a.g00utua5.soi17bc8/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmorion-store%2F1758977215-2-a%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmorion-store%2Fi%2F10005291%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/morion-store/cabinet/12573238/1758977215-2-a.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "みんなのお薬MAX(みんなのお薬)",
+          "item_name": "2980円以上で注文可能  ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9〜14kg 48枚入 (1個)",
+          "price": 2936,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 10174,
-          "sheets": 192,
-          "per_sheet": 52.99,
+          "total": 2936,
+          "sheets": 48,
+          "per_sheet": 61.17,
           "point_rate": 1,
-          "per_sheet_after_points": 52.46,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkenkoo-life%2F101-x004-4903111049271.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kenkoo-life_101-x004-4903111049271"
+          "per_sheet_after_points": 60.55,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fminoku-max%2F1758977215-1-b.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/minoku-max_1758977215-1-b"
         },
         {
           "mall": "楽天",
-          "shop": "姫路流通センター",
-          "item_name": "【送料込・まとめ買い×4個セット】ユニ・チャーム ムーニー マシュマロ肌ごこち モレ安心 テープ Lサイズ 48枚 おむつ こども用 紙おむつ",
-          "price": 9951,
+          "shop": "カマクラストアー おまとめ館",
+          "item_name": "【3980円以上で注文可能】ムーニー マシュマロ肌ごこちモレ安心 おむつ テープ Lサイズ 9～14kg 48枚入",
+          "price": 2299,
           "postage_separate": true,
           "shipping_estimate": 800,
-          "total": 10751,
-          "sheets": 192,
-          "per_sheet": 55.99,
+          "total": 3099,
+          "sheets": 48,
+          "per_sheet": 64.56,
           "point_rate": 1,
-          "per_sheet_after_points": 55.48,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ru0o5.soi163e6.g00ru0o5.soi179fa/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-life%2F4903111049271-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-life%2Fi%2F12665280%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-life/cabinet/2025b/4903111049271.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ケンコウlife",
-          "item_name": "【送料込・まとめ買い×4個セット】ユニ・チャーム ムーニー マシュマロ肌ごこち モレ安心 テープ Lサイズ 48枚 おむつ こども用 紙おむつ",
-          "price": 10066,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 10866,
-          "sheets": 192,
-          "per_sheet": 56.59,
-          "point_rate": 1,
-          "per_sheet_after_points": 56.07,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00sxal5.soi1647c.g00sxal5.soi17ffd/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyoikenkou%2F4903111049271-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyoikenkou%2Fi%2F10647181%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yoikenkou/cabinet/2025b/4903111049271.jpg?_ex=128x128"
+          "per_sheet_after_points": 64.08,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ur6s5.soi1606b.g00ur6s5.soi17b5a/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsinca-ism-2%2F1758977215-1-b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsinca-ism-2%2Fi%2F10049399%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sinca-ism-2/cabinet/11836381/1758977215-1-a.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 203,
-        "除外ワード": 25,
+        "fetched": 190,
+        "除外ワード": 21,
         "タイプ違い": 1,
-        "サイズ違い・複数": 47,
+        "サイズ違い・複数": 45,
         "単価が不自然": 4,
-        "条件の言葉なし": 78,
-        "安すぎて除外": 0,
-        "使えた件数": 24,
+        "条件の言葉なし": 84,
+        "安すぎて除外": 1,
+        "使えた件数": 19,
         "malls": {
-          "Yahoo!": 7,
-          "楽天": 3
+          "Yahoo!": 6,
+          "楽天": 4
         }
       }
     },
@@ -5725,21 +5725,6 @@
           "per_sheet_after_points": 39.12,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fxn20718%2F",
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_xn20718"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ Mサイズ 男女共用 (6~12kg)144枚(48枚×3)ケース品 オムツ",
-          "price": 5742,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5742,
-          "sheets": 144,
-          "per_sheet": 39.88,
-          "point_rate": 1,
-          "per_sheet_after_points": 39.48,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00172.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00172"
         },
         {
           "mall": "Yahoo!",
@@ -5815,11 +5800,26 @@
           "per_sheet_after_points": 43.73,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhinaharu%2F20241006214554-00881.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/hinaharu_20241006214554-00881"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "Y&Ks",
+          "item_name": "パンツ Mサイズムーニーマン 汗スッキリ 男女共用 オムツ(6~12kg)144枚(48枚×3)ケース品",
+          "price": 6361,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6361,
+          "sheets": 144,
+          "per_sheet": 44.17,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.73,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-ks%2F20241205230138-00114.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/y-ks_20241205230138-00114"
         }
       ],
       "stats": {
         "fetched": 71,
-        "サイズ違い・複数": 7,
+        "サイズ違い・複数": 8,
         "条件の言葉なし": 7,
         "安すぎて除外": 0,
         "使えた件数": 44,
@@ -5899,21 +5899,6 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_xn20723"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ Lサイズ 男女共用 (9~14kg)160枚(40枚×4)ケース品 オムツ",
-          "price": 7620,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7620,
-          "sheets": 160,
-          "per_sheet": 47.62,
-          "point_rate": 1,
-          "per_sheet_after_points": 47.15,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00124.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00124"
-        },
-        {
           "mall": "楽天",
           "shop": "【ライフケアエキスパート】BLOOM",
           "item_name": "【ケース販売】ムーニーマン 汗スッキリ パンツ Lサイズ 男女共用 (9~14kg) 160枚 (40枚×4個)",
@@ -5987,18 +5972,33 @@
           "per_sheet_after_points": 52.22,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwakeari%2Fcase4903111127986.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111127986"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Care-Life 楽天市場店",
+          "item_name": "ムーニーマン 汗スッキリ パンツ Lサイズ 40枚×4パック 男女共用 160枚 ユニ・チャーム moony おむつ オムツ 紙おむつ ベビー 大容量 ケース販売 9〜14kg",
+          "price": 8680,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8680,
+          "sheets": 160,
+          "per_sheet": 54.25,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.71,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00un1d5.soi161cd.g00un1d5.soi1721a/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffragrance-fukuyama%2F4903111127986%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffragrance-fukuyama%2Fi%2F10000512%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/fragrance-fukuyama/cabinet/4903111127986544625.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 78,
+        "fetched": 76,
         "サイズ違い・複数": 7,
-        "条件の言葉なし": 6,
+        "条件の言葉なし": 7,
         "安すぎて除外": 0,
-        "使えた件数": 46,
+        "使えた件数": 44,
         "malls": {
           "Amazon": 1,
-          "Yahoo!": 7,
-          "楽天": 2
+          "Yahoo!": 6,
+          "楽天": 3
         }
       }
     },
@@ -6101,21 +6101,6 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/up-shop/cabinet/imgrc0189227579.jpg?_ex=128x128"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "あせもの一因からお肌を守る ムーニーマン 汗スッキリ パンツ ビッグサイズ 男女共用 (12~22kg)144枚(36枚×4)ケース品 オム",
-          "price": 7620,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7620,
-          "sheets": 144,
-          "per_sheet": 52.92,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.39,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00126.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00126"
-        },
-        {
           "mall": "楽天",
           "shop": "【ライフケアエキスパート】BLOOM",
           "item_name": "【ケース販売】あせもの一因からお肌を守る! ムーニーマン 汗スッキリ パンツ ビッグサイズ 男女共用 (12~22kg) 36枚×4個(144枚)",
@@ -6159,13 +6144,28 @@
           "per_sheet_after_points": 53.08,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsundrugec%2F4903111128327x4.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4903111128327x4"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニーマン おむつ パンツ ビッグ（12kg〜22kg）1セット（36枚×4パック）汗スッキリ 男女共用 ユニ・チャーム",
+          "price": 7780,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7780,
+          "sheets": 144,
+          "per_sheet": 54.03,
+          "point_rate": 1,
+          "per_sheet_after_points": 53.49,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fxn20724%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_xn20724"
         }
       ],
       "stats": {
-        "fetched": 123,
-        "サイズ違い・複数": 5,
-        "条件の言葉なし": 20,
-        "枚数が読めない": 3,
+        "fetched": 121,
+        "サイズ違い・複数": 6,
+        "条件の言葉なし": 19,
+        "枚数が読めない": 4,
         "除外ワード": 2,
         "安すぎて除外": 1,
         "使えた件数": 61,
@@ -6185,9 +6185,9 @@
       "size": "ビッグより大きい",
       "offers": [],
       "stats": {
-        "fetched": 14,
-        "条件の言葉なし": 10,
-        "サイズ違い・複数": 4,
+        "fetched": 15,
+        "条件の言葉なし": 9,
+        "サイズ違い・複数": 6,
         "使えた件数": 0,
         "malls": {}
       }
@@ -6200,21 +6200,6 @@
       "type": "パンツ",
       "size": "M",
       "offers": [
-        {
-          "mall": "Yahoo!",
-          "shop": "LOHACO by アスクル",
-          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ たっち Mサイズ（6〜12kg）1セット（52枚×3） 男女共用ユニ・チャーム",
-          "price": 4884,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 4884,
-          "sheets": 156,
-          "per_sheet": 31.31,
-          "point_rate": 1,
-          "per_sheet_after_points": 30.99,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp648079%2F",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p648079"
-        },
         {
           "mall": "Yahoo!",
           "shop": "爽快ドラッグ",
@@ -6244,6 +6229,36 @@
           "per_sheet_after_points": 33.72,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Funicharm-yp%2F100652.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100652"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "hoshi to mori shop",
+          "item_name": "【パンツ Mたっち】 ムーニーマン マシュマロ肌ごこち モレ安心 Mたっち おむつ (6~12kg)204枚(68枚×3) [ケース品] 【Am",
+          "price": 7246,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7246,
+          "sheets": 204,
+          "per_sheet": 35.52,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.16,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhoshitomori%2Fhoshimori3bc31eb0fb.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hoshitomori_hoshimori3bc31eb0fb"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニーマン マシュマロ肌ごこち おむつ パンツ たっち Mサイズ（6〜12kg）1セット（52枚×2） 男女共用 ユニ・チャーム",
+          "price": 3980,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 3980,
+          "sheets": 104,
+          "per_sheet": 38.27,
+          "point_rate": 1,
+          "per_sheet_after_points": 37.89,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp648078%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p648078"
         },
         {
           "mall": "Amazon",
@@ -6323,7 +6338,7 @@
         {
           "mall": "楽天",
           "shop": "ウエルシア楽天市場支店",
-          "item_name": "ユニ・チャーム　ム−ニ−マン　マシュマロ肌ごこちモレ安心　Mサイズ　たっち　52枚×3個セット",
+          "item_name": "【エントリーP5倍】ユニ・チャーム　ム−ニ−マン　マシュマロ肌ごこちモレ安心　Mサイズ　たっち　52枚×3個セット",
           "price": 6215,
           "postage_separate": true,
           "shipping_estimate": 800,
@@ -6334,27 +6349,12 @@
           "per_sheet_after_points": 44.57,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00r4525.soi16582.g00r4525.soi1766e/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fehac%2F4903111152360-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fehac%2Fi%2F10199319%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ehac/cabinet/gazo92/4903111152360.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "セイムスオンラインYahoo!店",
-          "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心Ｍたっち 52枚×3パック(1ケース)(PP) 爆買",
-          "price": 6237,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 7037,
-          "sheets": 156,
-          "per_sheet": 45.11,
-          "point_rate": 1,
-          "per_sheet_after_points": 44.71,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiyaku%2F4903111152360-3.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/fujiyaku_4903111152360-3"
         }
       ],
       "stats": {
-        "fetched": 101,
-        "除外ワード": 5,
-        "条件の言葉なし": 36,
+        "fetched": 91,
+        "除外ワード": 4,
+        "条件の言葉なし": 28,
         "枚数が読めない": 5,
         "サイズ違い・複数": 1,
         "安すぎて除外": 2,
@@ -6392,7 +6392,7 @@
         {
           "mall": "Yahoo!",
           "shop": "爽快ドラッグ",
-          "item_name": "ムーニーマン マシュマロ肌ごこち 男の子 L 9〜14kg ( Lサイズ*44枚入*4コセット )/ ムーニーマン ( おむつ トイレ ケアグッズ オムツ )",
+          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 女の子Ｌ 9kg〜14kg  紙おむつ パンツ ( Lサイズ*44枚入*4袋セット )/ ムーニーマン",
           "price": 6881,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -6401,13 +6401,13 @@
           "per_sheet": 39.1,
           "point_rate": 1,
           "per_sheet_after_points": 38.71,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F24113.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_24113"
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F24114.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/soukai_24114"
         },
         {
           "mall": "Yahoo!",
           "shop": "ユニ・チャームダイレクトショップ",
-          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 L 女の子 パンツ型ベビー用紙オムツ ムーニーマン 9kg〜14kg 44枚×4 ユニ・チャーム公式ショップ",
+          "item_name": "moony パンツ ムーニー マシュマロ肌ごこち モレ安心 L 男の子 パンツ型ベビー用紙オムツ ムーニーマン 9kg〜14kg 44枚×4 ユニ・チャーム公式ショップ",
           "price": 7084,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -6416,8 +6416,38 @@
           "per_sheet": 40.25,
           "point_rate": 1,
           "per_sheet_after_points": 39.85,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Funicharm-yp%2F100656.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100656"
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Funicharm-yp%2F100654.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100654"
+        },
+        {
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ おむつ(9~14kg)208枚(52枚×4) [ケース品]",
+          "price": 8430,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8430,
+          "sheets": 208,
+          "per_sheet": 40.53,
+          "point_rate": 1,
+          "per_sheet_after_points": 40.12,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton264c11f54f13%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025130%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton264c11f54f13_0.jpg?_ex=128x128"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "hoshi to mori shop",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 Lサイズ おむつ (9-14kg)208枚(52枚×4) [ケース品] 【A",
+          "price": 8675,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8675,
+          "sheets": 208,
+          "per_sheet": 41.71,
+          "point_rate": 1,
+          "per_sheet_after_points": 41.29,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhoshitomori%2Fhoshimori7ff5693516.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/hoshitomori_hoshimori7ff5693516"
         },
         {
           "mall": "Amazon",
@@ -6435,19 +6465,49 @@
           "image": "https://m.media-amazon.com/images/I/41XjicvCUqL._SL160_.jpg"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "パンツ L ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ おむつ(9~14kg)208枚(52枚×4) ケース品 Amazo",
-          "price": 9010,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9010,
+          "mall": "楽天",
+          "shop": "ユナイテッドショップ",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ オムツ 9~14kg 208枚",
+          "price": 8300,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 9100,
           "sheets": 208,
-          "per_sheet": 43.32,
+          "per_sheet": 43.75,
           "point_rate": 1,
-          "per_sheet_after_points": 42.88,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00017.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00017"
+          "per_sheet_after_points": 43.35,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00urly5.soi16ecd.g00urly5.soi17ed6/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funited-shop01%2F57wj26hbkgrmqyilnscnl7xfim%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funited-shop01%2Fi%2F10562947%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/united-shop01/cabinet/13742233/37356474_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ぴっぴストア 楽天市場店",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ オムツ 9~14kg 208枚",
+          "price": 8400,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 9200,
+          "sheets": 208,
+          "per_sheet": 44.23,
+          "point_rate": 1,
+          "per_sheet_after_points": 43.83,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u86d5.soi164ac.g00u86d5.soi17dec/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpippi-store%2Fzfhji5b3nou5ogsaczgbbeceia%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fpippi-store%2Fi%2F10805006%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/pippi-store/cabinet/12170060/37316413_1.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "シオカゼ商店",
+          "item_name": "【パンツ L】 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ オムツ 9~14kg 208枚",
+          "price": 8500,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 9300,
+          "sheets": 208,
+          "per_sheet": 44.71,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.3,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00unb15.soi1650e.g00unb15.soi17127/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fomichi-store%2Fqof6oswszp2mtnvrm3jdlmbcry%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fomichi-store%2Fi%2F10648649%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/omichi-store/cabinet/13710943/37325048_1.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -6463,81 +6523,21 @@
           "per_sheet_after_points": 44.39,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00q2155.soi160b4.g00q2155.soi17f63/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Funicharm%2F100656%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Funicharm%2Fi%2F10001870%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/100656.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
-          "shop": "かがやきECOショップ",
-          "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 男の子 Lサイズ 44枚入 × 4袋セット 赤ちゃんのおむつ 子供おむつ 子供のオムツ",
-          "price": 7088,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 7888,
-          "sheets": 176,
-          "per_sheet": 44.82,
-          "point_rate": 1,
-          "per_sheet_after_points": 44.42,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqjb5.soi16113.g00uqjb5.soi1752c/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagayaki-ecoshop%2Fn4903111206155-cs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkagayaki-ecoshop%2Fi%2F10000327%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kagayaki-ecoshop/cabinet/13454918/imgrc0111178956.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "堂本商事",
-          "item_name": "パンツ L ムーニーマン マシュマロ肌ごこち モレ安心 女の子 Lサイズ おむつ(9~14kg)208枚(52枚×4) ケース品 Amazo",
-          "price": 9747,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9747,
-          "sheets": 208,
-          "per_sheet": 46.86,
-          "point_rate": 1,
-          "per_sheet_after_points": 46.39,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbrisk-online%2F20251011134714-01486.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011134714-01486"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "セイムスオンラインYahoo!店",
-          "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心女の子パンツL 44枚×4パック(1ケース)(PP) 爆買",
-          "price": 8316,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8316,
-          "sheets": 176,
-          "per_sheet": 47.25,
-          "point_rate": 1,
-          "per_sheet_after_points": 46.78,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiyaku%2F4903111206438-4.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/fujiyaku_4903111206438-4"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "春かぜ千里 日用良品",
-          "item_name": "（1ケース販売）「ムーニーマン　マシュマロ肌ごこち女の子Ｌ　４４枚」　4個の詰合せ",
-          "price": 8440,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8440,
-          "sheets": 176,
-          "per_sheet": 47.95,
-          "point_rate": 1,
-          "per_sheet_after_points": 47.48,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwakeari%2Fcase4903111206438.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111206438"
         }
       ],
       "stats": {
-        "fetched": 157,
+        "fetched": 153,
         "除外ワード": 6,
-        "単価が不自然": 3,
+        "単価が不自然": 2,
         "枚数が読めない": 2,
         "条件の言葉なし": 13,
-        "サイズ違い・複数": 6,
+        "サイズ違い・複数": 5,
         "安すぎて除外": 2,
         "使えた件数": 49,
         "malls": {
-          "Yahoo!": 7,
-          "Amazon": 1,
-          "楽天": 2
+          "Yahoo!": 4,
+          "楽天": 5,
+          "Amazon": 1
         }
       }
     },
@@ -6549,21 +6549,6 @@
       "type": "パンツ",
       "size": "ビッグ",
       "offers": [
-        {
-          "mall": "Yahoo!",
-          "shop": "LOHACO by アスクル",
-          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグ（12〜22kg） 1ケース（38枚入×4パック）女の子用ユニ・チャーム",
-          "price": 6512,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 6512,
-          "sheets": 152,
-          "per_sheet": 42.84,
-          "point_rate": 1,
-          "per_sheet_after_points": 42.41,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp236264%2F",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p236264"
-        },
         {
           "mall": "Yahoo!",
           "shop": "爽快ドラッグ",
@@ -6625,21 +6610,6 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/up-shop/cabinet/imgrc0183018611.jpg?_ex=128x128"
         },
         {
-          "mall": "Yahoo!",
-          "shop": "鈴木物産",
-          "item_name": "パンツ BIG ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグサイズ おむつ (12~22kg)76枚 (38枚×2)",
-          "price": 3848,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 3848,
-          "sheets": 76,
-          "per_sheet": 50.63,
-          "point_rate": 1,
-          "per_sheet_after_points": 50.13,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkenzusutor%2F20260624145403-01985.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kenzusutor_20260624145403-01985"
-        },
-        {
           "mall": "楽天",
           "shop": "かがやきECOショップ",
           "item_name": "ムーニーマン マシュマロ肌ごこちモレ安心 男の子 パンツタイプ ビッグサイズ 38枚 【4個セット】",
@@ -6670,6 +6640,21 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/unicharm/cabinet/baby/moonyman/100658.jpg?_ex=128x128"
         },
         {
+          "mall": "Yahoo!",
+          "shop": "LOHACO by アスクル",
+          "item_name": "ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグ（12〜22kg） 1セット（38枚入×2パック）女の子用 ユニ・チャーム",
+          "price": 3980,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 3980,
+          "sheets": 76,
+          "per_sheet": 52.37,
+          "point_rate": 1,
+          "per_sheet_after_points": 51.84,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp300322%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p300322"
+        },
+        {
           "mall": "楽天",
           "shop": "Care-Life 楽天市場店",
           "item_name": "ムーニーマン マシュマロ肌ごこち モレ安心 女の子パンツ ビッグ 38枚×4袋",
@@ -6698,17 +6683,32 @@
           "per_sheet_after_points": 54.16,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiyaku%2F4903111208098-4.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/fujiyaku_4903111208098-4"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "春かぜ千里 日用良品",
+          "item_name": "（1ケース販売）「ムーニーマン　マシュマロ肌ごこち男の子ビッグ　３８枚」　4個の詰合せ",
+          "price": 8440,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8440,
+          "sheets": 152,
+          "per_sheet": 55.53,
+          "point_rate": 1,
+          "per_sheet_after_points": 54.97,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwakeari%2Fcase4903111207671.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/wakeari_case4903111207671"
         }
       ],
       "stats": {
-        "fetched": 207,
-        "除外ワード": 13,
-        "サイズ違い・複数": 82,
-        "単価が不自然": 2,
-        "枚数が読めない": 2,
-        "条件の言葉なし": 6,
+        "fetched": 209,
+        "除外ワード": 12,
+        "サイズ違い・複数": 81,
+        "枚数が読めない": 3,
+        "単価が不自然": 3,
+        "条件の言葉なし": 8,
         "安すぎて除外": 2,
-        "使えた件数": 43,
+        "使えた件数": 42,
         "malls": {
           "Yahoo!": 5,
           "Amazon": 1,
@@ -6742,7 +6742,7 @@
         {
           "mall": "楽天",
           "shop": "アット通販west",
-          "item_name": "【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心女の子ビッグ大 26枚　※メーカー都合によりパッケージ、デザインが変更となる場合がございます",
+          "item_name": "【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心男の子ビッグ大 26枚",
           "price": 4884,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -6751,13 +6751,13 @@
           "per_sheet": 62.62,
           "point_rate": 1,
           "per_sheet_after_points": 61.99,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uo865.soi16f89.g00uo865.soi17c3d/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-tsuhan-west%2F1017-4903111211654-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-tsuhan-west%2Fi%2F10000294%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-tsuhan-west/cabinet/1654.jpg?_ex=128x128"
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uo865.soi16f89.g00uo865.soi17c3d/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-tsuhan-west%2F1017-4903111211098-3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-tsuhan-west%2Fi%2F10000299%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-tsuhan-west/cabinet/1098.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
           "shop": "LOHACO by アスクル",
-          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグより大きい（13〜28kg）1ケース（26枚入×3パック）女の子用",
+          "item_name": "（セール）ムーニーマン マシュマロ肌ごこち おむつ パンツ ビッグより大きい（13〜28kg）1ケース（26枚入×3パック）男の子用",
           "price": 4884,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -6766,23 +6766,8 @@
           "per_sheet": 62.62,
           "point_rate": 1,
           "per_sheet_after_points": 61.99,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp247669%2F",
-          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p247669"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
-          "price": 7329,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7329,
-          "sheets": 114,
-          "per_sheet": 64.29,
-          "point_rate": 1,
-          "per_sheet_after_points": 63.65,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00101.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00101"
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fp247668%2F",
+          "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_p247668"
         },
         {
           "mall": "Yahoo!",
@@ -6798,36 +6783,6 @@
           "per_sheet_after_points": 67.43,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Funicharm-yp%2F100662.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/unicharm-yp_100662"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "上田生活",
-          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)38枚",
-          "price": 2617,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2617,
-          "sheets": 38,
-          "per_sheet": 68.87,
-          "point_rate": 1,
-          "per_sheet_after_points": 68.18,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fworldglobal%2F20250906021321-00010.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/worldglobal_20250906021321-00010"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "堂本商事",
-          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ (13~28kg)114枚(38枚×3",
-          "price": 7928,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7928,
-          "sheets": 114,
-          "per_sheet": 69.54,
-          "point_rate": 1,
-          "per_sheet_after_points": 68.85,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbrisk-online%2F20251011130727-03012.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/brisk-online_20251011130727-03012"
         },
         {
           "mall": "楽天",
@@ -6847,7 +6802,7 @@
         {
           "mall": "楽天",
           "shop": "アット通販",
-          "item_name": "【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心女の子ビッグ大 26枚",
+          "item_name": "【全品さらにポイント10倍！要エントリー11月11日01:59まで】【3個セット】ユニ・チャーム〔パンツ ビッグより大きいサイズ〕ムーニーマンマシュマロ肌ごこちモレ安心女の子ビッグ大 26枚",
           "price": 4884,
           "postage_separate": true,
           "shipping_estimate": 800,
@@ -6873,20 +6828,65 @@
           "per_sheet_after_points": 72.14,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhoshitomori%2Fhoshimori8ea699c261.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/hoshitomori_hoshimori8ea699c261"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "キリン堂通販SHOPヤフー店",
+          "item_name": "送料無料 ケース販売 ムーニーマン マシュマロ肌ごこち モレ安心 女の子 ビッグより大きい (13〜28kg) 26枚 ×3個",
+          "price": 5771,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5771,
+          "sheets": 78,
+          "per_sheet": 73.99,
+          "point_rate": 1,
+          "per_sheet_after_points": 73.25,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkirindo%2F4903111211654.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kirindo_4903111211654"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "シャイニングONE",
+          "item_name": "パンツ BIG大 ムーニーマン マシュマロ肌ごこち モレ安心 男の子 ビッグより大きいサイズ おむつ 13~28kg38枚",
+          "price": 2828,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 2828,
+          "sheets": 38,
+          "per_sheet": 74.42,
+          "point_rate": 1,
+          "per_sheet_after_points": 73.68,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshiningone23%2Fp9cab347386.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/shiningone23_p9cab347386"
+        },
+        {
+          "mall": "楽天",
+          "shop": "かがやきECOショップ",
+          "item_name": "【3個セット】ムーニーマン マシュマロ肌ごこち モレ安心 女の子 ビッグより大 ビッグより大きいサイズ 13kg-28kg 26枚入 紙おむつ パンツ おむつ トイレ ケアグッズ オムツ",
+          "price": 5100,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 5900,
+          "sheets": 78,
+          "per_sheet": 75.64,
+          "point_rate": 1,
+          "per_sheet_after_points": 74.99,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uqjb5.soi16113.g00uqjb5.soi1752c/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkagayaki-ecoshop%2Fn4903111211654-cs%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkagayaki-ecoshop%2Fi%2F10002004%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kagayaki-ecoshop/cabinet/12373966/n4903111211654-cs.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 120,
+        "fetched": 113,
         "除外ワード": 10,
-        "単価が不自然": 25,
-        "サイズ違い・複数": 15,
-        "条件の言葉なし": 5,
+        "単価が不自然": 24,
+        "サイズ違い・複数": 18,
+        "条件の言葉なし": 4,
         "安すぎて除外": 0,
-        "使えた件数": 30,
+        "使えた件数": 27,
         "malls": {
           "Amazon": 1,
-          "楽天": 3,
-          "Yahoo!": 6
+          "楽天": 4,
+          "Yahoo!": 5
         }
       }
     },
@@ -6960,11 +6960,10 @@
         }
       ],
       "stats": {
-        "fetched": 74,
+        "fetched": 76,
         "サイズ違い・複数": 42,
-        "除外ワード": 3,
-        "条件の言葉なし": 23,
-        "タイプ違い": 1,
+        "除外ワード": 4,
+        "条件の言葉なし": 25,
         "安すぎて除外": 0,
         "使えた件数": 4,
         "malls": {
@@ -6982,21 +6981,6 @@
       "type": "テープ",
       "size": "S",
       "offers": [
-        {
-          "mall": "Amazon",
-          "shop": "Amazon.co.jp",
-          "item_name": "【テープ Sサイズ】 グーンプラス 敏感肌にやわらかタッチ おむつ (4~8kg) 58枚 (ディズニーデザイン) 【Amazon.co.jp限定】",
-          "price": 1578,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1578,
-          "sheets": 58,
-          "per_sheet": 27.21,
-          "point_rate": 1,
-          "per_sheet_after_points": 26.93,
-          "url": "https://www.amazon.co.jp/dp/B0DK3N1MDZ?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/417XSMNJIrL._SL160_.jpg"
-        },
         {
           "mall": "Amazon",
           "shop": "ままぞうストア",
@@ -7026,21 +7010,6 @@
           "per_sheet_after_points": 32.65,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ridc5.soi16009.g00ridc5.soi17e9f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcloudnetshop%2Fon2608806%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcloudnetshop%2Fi%2F10027064%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cloudnetshop/cabinet/2024/2608806_01.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "グーンプラス テープ 敏感肌設計 Sサイズ70枚",
-          "price": 2331,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 2331,
-          "sheets": 70,
-          "per_sheet": 33.3,
-          "point_rate": 1,
-          "per_sheet_after_points": 32.97,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00500.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00500"
         },
         {
           "mall": "楽天",
@@ -7089,21 +7058,6 @@
         },
         {
           "mall": "楽天",
-          "shop": "NO1元気爽快",
-          "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
-          "price": 1877,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 2677,
-          "sheets": 62,
-          "per_sheet": 43.18,
-          "point_rate": 1,
-          "per_sheet_after_points": 42.87,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u7v65.soi16f2a.g00u7v65.soi1711f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgenki-sokai%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgenki-sokai%2Fi%2F10065944%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/genki-sokai/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
-        },
-        {
-          "mall": "楽天",
           "shop": "介護の三ツ矢天狗",
           "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
           "price": 1877,
@@ -7116,6 +7070,21 @@
           "per_sheet_after_points": 42.87,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00rd925.soi16e82.g00rd925.soi17ea7/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyuzawakikaku%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyuzawakikaku%2Fi%2F10144834%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/yuzawakikaku/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "NO1元気爽快",
+          "item_name": "グーンプラステープ 敏感肌にやわらかタッチ Sサイズ 1パック(62枚) 21001249 大王製紙#",
+          "price": 1877,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 2677,
+          "sheets": 62,
+          "per_sheet": 43.18,
+          "point_rate": 1,
+          "per_sheet_after_points": 42.87,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u7v65.soi16f2a.g00u7v65.soi1711f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgenki-sokai%2Fy126600-000-000%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgenki-sokai%2Fi%2F10065944%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/genki-sokai/cabinet/m_y125000-y129999/s_6600/y126600-000-000.jpg?_ex=128x128"
         },
         {
           "mall": "Amazon",
@@ -7131,19 +7100,51 @@
           "per_sheet_after_points": 44.04,
           "url": "https://www.amazon.co.jp/dp/B0G1Z77HY5?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
           "image": "https://m.media-amazon.com/images/I/417XLDZqEGL._SL160_.jpg"
+        },
+        {
+          "mall": "Amazon",
+          "shop": "Amazon.co.jp",
+          "item_name": "【テープ Sサイズ】グーンプラス 敏感肌にやわらかタッチ おむつ (4~8kg) 2枚",
+          "price": 89,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 89,
+          "sheets": 2,
+          "per_sheet": 44.5,
+          "point_rate": 1,
+          "per_sheet_after_points": 44.05,
+          "url": "https://www.amazon.co.jp/dp/B09RYV2R8Z?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/41mu18pj3PL._SL160_.jpg"
+        },
+        {
+          "mall": "楽天",
+          "shop": "ciel-sora",
+          "item_name": "グーンプラス テープ 敏感肌設計 Sサイズ70枚",
+          "price": 2600,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 3400,
+          "sheets": 70,
+          "per_sheet": 48.57,
+          "point_rate": 1,
+          "per_sheet_after_points": 48.2,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00usr55.soi16fd5.g00usr55.soi17022/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fciel-sora%2Flbn7c4qftr6j3qigrgmh453xpa%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fciel-sora%2Fi%2F10268068%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ciel-sora/cabinet/13158008/34378437_1.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 100,
+        "fetched": 98,
         "サイズ違い・複数": 38,
         "除外ワード": 3,
-        "条件の言葉なし": 41,
+        "単価が不自然": 2,
+        "条件の言葉なし": 37,
+        "タイプ違い": 2,
         "安すぎて除外": 0,
-        "使えた件数": 16,
+        "使えた件数": 15,
         "malls": {
           "Amazon": 4,
-          "楽天": 4,
-          "Yahoo!": 2
+          "楽天": 5,
+          "Yahoo!": 1
         }
       }
     },
@@ -7157,18 +7158,18 @@
       "offers": [
         {
           "mall": "Amazon",
-          "shop": "Amazon.co.jp",
-          "item_name": "【テープ Mサイズ】 グーンプラス 敏感肌にやわらかタッチ おむつ (6~11kg) 54枚 (ディズニーデザイン) 【Amazon.co.jp限定】",
-          "price": 1693,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1693,
-          "sheets": 54,
-          "per_sheet": 31.35,
+          "shop": "総合販売 じんべえ ３番館",
+          "item_name": "【テープ Mサイズ】 グーンプラス 敏感肌にやわらかタッチ おむつ (6~11kg) 216枚(54枚×4) [ケース販売] (ディズニーデザイン) 【Amazon.co.jp限定】",
+          "price": 6400,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 7200,
+          "sheets": 216,
+          "per_sheet": 33.33,
           "point_rate": 1,
-          "per_sheet_after_points": 31.04,
-          "url": "https://www.amazon.co.jp/dp/B0DK3P5CMB?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
-          "image": "https://m.media-amazon.com/images/I/41QucUXj54L._SL160_.jpg"
+          "per_sheet_after_points": 33.04,
+          "url": "https://www.amazon.co.jp/dp/B0DK3NPDF2?tag=omutsu-tanka-22&linkCode=osi&th=1&psc=1",
+          "image": "https://m.media-amazon.com/images/I/519YIjTB2hL._SL160_.jpg"
         },
         {
           "mall": "楽天",
@@ -7184,6 +7185,21 @@
           "per_sheet_after_points": 38.93,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ridc5.soi16009.g00ridc5.soi17e9f/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcloudnetshop%2Fon2608813%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcloudnetshop%2Fi%2F10027061%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cloudnetshop/cabinet/2024/2608813_01.jpg?_ex=128x128"
+        },
+        {
+          "mall": "楽天",
+          "shop": "Ciel de neige",
+          "item_name": "【テープ Mサイズ】グーンプラス 敏感肌にやわらかタッチ (6~11kg) 216枚(54枚×4) [ケース販売] (ディズニーデザイン)",
+          "price": 8636,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 8636,
+          "sheets": 216,
+          "per_sheet": 39.98,
+          "point_rate": 1,
+          "per_sheet_after_points": 39.58,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uoo15.soi16c1d.g00uoo15.soi171c0/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcieldeneige%2Fcl18a9e6bf38%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcieldeneige%2Fi%2F10005308%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/cieldeneige/cabinet/onesell058/cl18a9e6bf38.jpg?_ex=128x128"
         },
         {
           "mall": "楽天",
@@ -7278,7 +7294,7 @@
         {
           "mall": "楽天",
           "shop": "freiheit楽天市場店",
-          "item_name": "グーンプラス 敏感肌設計 テープ Mサイズ 56枚入り",
+          "item_name": "【マラソンセール中 P10倍!】 グーンプラス 敏感肌設計 テープ Mサイズ 56枚入り",
           "price": 3052,
           "postage_separate": false,
           "shipping_estimate": 0,
@@ -7289,35 +7305,20 @@
           "per_sheet_after_points": 53.95,
           "url": "https://hb.afl.rakuten.co.jp/hgc/g00ujg85.soi16b66.g00ujg85.soi17238/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreiheit-cars%2Fft-kzder-11%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffreiheit-cars%2Fi%2F10001328%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/freiheit-cars/cabinet/kz/kzder/kzder-11.jpg?_ex=128x128"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "マイドラ生活総合館",
-          "item_name": "グーンプラス 敏感肌にやわらかタッチ Mサイズ52枚［ベビー テープ］ × 4個 赤ちゃん 通気性シート",
-          "price": 12452,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 12452,
-          "sheets": 208,
-          "per_sheet": 59.87,
-          "point_rate": 1,
-          "per_sheet_after_points": 59.27,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaidora%2F4902011115505-4set.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/maidora_4902011115505-4set"
         }
       ],
       "stats": {
-        "fetched": 89,
+        "fetched": 90,
         "サイズ違い・複数": 41,
-        "タイプ違い": 7,
+        "タイプ違い": 6,
         "単価が不自然": 1,
-        "条件の言葉なし": 25,
+        "条件の言葉なし": 27,
         "安すぎて除外": 1,
-        "使えた件数": 10,
+        "使えた件数": 11,
         "malls": {
           "Amazon": 1,
-          "楽天": 7,
-          "Yahoo!": 2
+          "楽天": 8,
+          "Yahoo!": 1
         }
       }
     },
@@ -7329,21 +7330,6 @@
       "type": "テープ",
       "size": "L",
       "offers": [
-        {
-          "mall": "楽天",
-          "shop": "Rafinagift楽天市場店",
-          "item_name": "【テープ Lサイズ】グーンプラス 敏感肌にやわらかタッチ (9~14kg) 176枚(44枚×4) [ケース販売] (ディズニーデザイン 送料無料",
-          "price": 9046,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 9046,
-          "sheets": 176,
-          "per_sheet": 51.4,
-          "point_rate": 1,
-          "per_sheet_after_points": 50.88,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq6j5.soi16c17.g00uq6j5.soi17d34/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frafinagift%2Fha08177e4a7c%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frafinagift%2Fi%2F10008624%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/rafinagift/cabinet/onesell043/ha08177e4a7c_0.jpg?_ex=128x128"
-        },
         {
           "mall": "Yahoo!",
           "shop": "雑貨屋",
@@ -7436,15 +7422,15 @@
         }
       ],
       "stats": {
-        "fetched": 59,
-        "サイズ違い・複数": 41,
+        "fetched": 55,
+        "サイズ違い・複数": 39,
         "条件の言葉なし": 9,
-        "タイプ違い": 2,
+        "タイプ違い": 1,
         "安すぎて除外": 0,
-        "使えた件数": 7,
+        "使えた件数": 6,
         "malls": {
-          "楽天": 4,
           "Yahoo!": 2,
+          "楽天": 3,
           "Amazon": 1
         }
       }
@@ -7609,11 +7595,11 @@
         }
       ],
       "stats": {
-        "fetched": 95,
+        "fetched": 96,
         "サイズ違い・複数": 50,
         "条件の言葉なし": 26,
         "単価が不自然": 2,
-        "タイプ違い": 1,
+        "タイプ違い": 2,
         "安すぎて除外": 0,
         "使えた件数": 13,
         "malls": {
@@ -7782,13 +7768,13 @@
         }
       ],
       "stats": {
-        "fetched": 105,
-        "サイズ違い・複数": 63,
-        "除外ワード": 4,
-        "条件の言葉なし": 13,
+        "fetched": 104,
+        "サイズ違い・複数": 64,
+        "除外ワード": 5,
+        "条件の言葉なし": 12,
         "単価が不自然": 1,
         "安すぎて除外": 0,
-        "使えた件数": 17,
+        "使えた件数": 16,
         "malls": {
           "Yahoo!": 4,
           "Amazon": 1,
@@ -7958,8 +7944,9 @@
       "stats": {
         "fetched": 102,
         "サイズ違い・複数": 45,
-        "条件の言葉なし": 21,
+        "条件の言葉なし": 19,
         "枚数が読めない": 3,
+        "タイプ違い": 2,
         "安すぎて除外": 0,
         "使えた件数": 21,
         "malls": {
@@ -8009,10 +7996,10 @@
         }
       ],
       "stats": {
-        "fetched": 21,
-        "サイズ違い・複数": 3,
+        "fetched": 27,
+        "サイズ違い・複数": 4,
         "枚数が読めない": 1,
-        "条件の言葉なし": 13,
+        "条件の言葉なし": 18,
         "タイプ違い": 2,
         "使えた件数": 2,
         "malls": {
@@ -8180,14 +8167,13 @@
         }
       ],
       "stats": {
-        "fetched": 211,
-        "サイズ違い・複数": 20,
-        "単価が不自然": 23,
-        "枚数が読めない": 4,
-        "条件の言葉なし": 5,
+        "fetched": 209,
+        "サイズ違い・複数": 19,
+        "単価が不自然": 26,
+        "条件の言葉なし": 3,
         "除外ワード": 1,
         "安すぎて除外": 2,
-        "使えた件数": 79,
+        "使えた件数": 81,
         "malls": {
           "楽天": 2,
           "Yahoo!": 7,
@@ -8294,6 +8280,21 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/hayatokushoten/cabinet/amayahoo/13214593/4279-000041.jpg?_ex=128x128"
         },
         {
+          "mall": "楽天",
+          "shop": "actonlineshop",
+          "item_name": "【パンツ Lサイズ】グーン ぐんぐん吸収パンツ おむつ (9~14kg) 174枚(58枚×3) [ケース販売] ≪ディズニーデザイン≫",
+          "price": 5634,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5634,
+          "sheets": 174,
+          "per_sheet": 32.38,
+          "point_rate": 1,
+          "per_sheet_after_points": 32.06,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00uq9u5.soi165d3.g00uq9u5.soi17a17/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Factonlineshop%2Facton26648a39bc04%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Factonlineshop%2Fi%2F10025271%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/actonlineshop/cabinet/onesell027/acton26648a39bc04_0.jpg?_ex=128x128"
+        },
+        {
           "mall": "Yahoo!",
           "shop": "LOHACO by アスクル",
           "item_name": "グーン おむつ パンツ L（9〜14kg） 1セット（56枚入×3パック） 男女共用 ぐんぐん吸収パンツ 大容量セット 大王製紙",
@@ -8337,32 +8338,16 @@
           "per_sheet_after_points": 32.57,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fladydrugheartshop-pl%2F4902011116564.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop-pl_4902011116564"
-        },
-        {
-          "mall": "楽天",
-          "shop": "ぱーそなるたのめーる",
-          "item_name": "大王製紙　グーン　ぐんぐん吸収パンツ　Lサイズ（9−14kg）　1セット（168枚：56枚×3パック） 【送料無料】",
-          "price": 5544,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5544,
-          "sheets": 168,
-          "per_sheet": 33.0,
-          "point_rate": 1,
-          "per_sheet_after_points": 32.67,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qpdq5.soi16d0f.g00qpdq5.soi171ed/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fp-tano%2F962-0111%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fp-tano%2Fi%2F10646452%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/p-tano/cabinet/shohin900_07/962-0111.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 215,
-        "サイズ違い・複数": 20,
+        "fetched": 217,
+        "サイズ違い・複数": 19,
         "除外ワード": 2,
-        "枚数が読めない": 13,
-        "単価が不自然": 1,
-        "条件の言葉なし": 7,
+        "枚数が読めない": 11,
+        "条件の言葉なし": 9,
         "安すぎて除外": 1,
-        "使えた件数": 97,
+        "使えた件数": 99,
         "malls": {
           "楽天": 4,
           "Yahoo!": 5,
@@ -8424,6 +8409,21 @@
           "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop_4902011116571"
         },
         {
+          "mall": "楽天",
+          "shop": "くすりのレデイハートショップ",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
+          "price": 6861,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6861,
+          "sheets": 192,
+          "per_sheet": 35.73,
+          "point_rate": 1,
+          "per_sheet_after_points": 35.38,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qob65.soi1667f.g00qob65.soi175cb/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fladydrug%2F4902011116571%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fladydrug%2Fi%2F10363732%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/ladydrug/cabinet/pic2769/4902011116571_2.jpg?_ex=128x128"
+        },
+        {
           "mall": "Yahoo!",
           "shop": "LOHACO by アスクル",
           "item_name": "グーン おむつ パンツ BIG（12〜22kg） 1セット（50枚入×3パック） 男女共用 ぐんぐん吸収パンツ 大容量セット 大王製紙",
@@ -8437,6 +8437,21 @@
           "per_sheet_after_points": 35.9,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Flohaco.yahoo.co.jp%2Fstore%2Fh-lohaco%2Fitem%2Fu175569%2F",
           "image": "https://item-shopping.c.yimg.jp/i/g/rd-lohaco_u175569"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりのレデイハートショップnice",
+          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
+          "price": 7064,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 7064,
+          "sheets": 192,
+          "per_sheet": 36.79,
+          "point_rate": 1,
+          "per_sheet_after_points": 36.42,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fladydrugheartshop-ni%2F4902011116571.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop-ni_4902011116571"
         },
         {
           "mall": "楽天",
@@ -8497,50 +8512,20 @@
           "per_sheet_after_points": 37.2,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkusurinofukutaro%2F10147142.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/kusurinofukutaro_10147142"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "くすりのレデイハートショップplus",
-          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
-          "price": 7297,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7297,
-          "sheets": 192,
-          "per_sheet": 38.01,
-          "point_rate": 1,
-          "per_sheet_after_points": 37.63,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fladydrugheartshop-pl%2F4902011116571.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop-pl_4902011116571"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "くすりのレデイハートショップnice",
-          "item_name": "グーン　ぐんぐん吸収パンツ　男女共用　ビッグ　超たっぷり　64枚×3個",
-          "price": 7316,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 7316,
-          "sheets": 192,
-          "per_sheet": 38.1,
-          "point_rate": 1,
-          "per_sheet_after_points": 37.72,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fladydrugheartshop-ni%2F4902011116571.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/ladydrugheartshop-ni_4902011116571"
         }
       ],
       "stats": {
-        "fetched": 215,
-        "サイズ違い・複数": 95,
-        "条件の言葉なし": 13,
-        "除外ワード": 2,
+        "fetched": 216,
+        "サイズ違い・複数": 93,
+        "条件の言葉なし": 14,
+        "除外ワード": 3,
         "枚数が読めない": 1,
         "安すぎて除外": 0,
-        "使えた件数": 63,
+        "使えた件数": 65,
         "malls": {
           "Amazon": 1,
-          "Yahoo!": 8,
-          "楽天": 1
+          "Yahoo!": 7,
+          "楽天": 2
         }
       }
     },
@@ -8566,21 +8551,6 @@
           "per_sheet_after_points": 49.4,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsundrugec%2F4902011842913x3.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/sundrugec_4902011842913x3"
-        },
-        {
-          "mall": "楽天",
-          "shop": "価額の王様楽天市場店",
-          "item_name": "【パンツ BIGより大きいサイズ】グーン ぐんぐん吸収パンツ おむつ (まっさらさら通気) (13~28kg) 108枚(36枚×3) [ケース販売]",
-          "price": 4880,
-          "postage_separate": true,
-          "shipping_estimate": 800,
-          "total": 5680,
-          "sheets": 108,
-          "per_sheet": 52.59,
-          "point_rate": 1,
-          "per_sheet_after_points": 52.14,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00u73v5.soi16c54.g00u73v5.soi17748/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fboundless%2F4902011843644%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fboundless%2Fi%2F10002702%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/boundless/cabinet/10359033/11276475/4902011843644.jpg?_ex=128x128"
         },
         {
           "mall": "Yahoo!",
@@ -8644,21 +8614,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "キムラヤテック ヤフー店",
-          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
-          "price": 5874,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5874,
-          "sheets": 102,
-          "per_sheet": 57.59,
-          "point_rate": 1,
-          "per_sheet_after_points": 57.01,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-wellness%2F2873269010.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/e-wellness_2873269010"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "ベスト電器Yahoo!店",
           "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
           "price": 5874,
@@ -8671,6 +8626,21 @@
           "per_sheet_after_points": 57.01,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbest-denki%2F2873269010.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/best-denki_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "キムラヤテック ヤフー店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-wellness%2F2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/e-wellness_2873269010"
         },
         {
           "mall": "Yahoo!",
@@ -8701,19 +8671,34 @@
           "per_sheet_after_points": 57.01,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkimuraya-select%2F2873269010.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/kimuraya-select_2873269010"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "ツクモYahoo!店",
+          "item_name": "大王製紙 グ―ン ぐんぐん吸収パンツ BIGより大きいサイズ 男女共用 34枚【3個セット販売】",
+          "price": 5874,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5874,
+          "sheets": 102,
+          "per_sheet": 57.59,
+          "point_rate": 1,
+          "per_sheet_after_points": 57.01,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsukumo-y2%2F2873269010.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsukumo-y2_2873269010"
         }
       ],
       "stats": {
-        "fetched": 217,
-        "サイズ違い・複数": 31,
-        "単価が不自然": 3,
-        "条件の言葉なし": 86,
+        "fetched": 219,
+        "サイズ違い・複数": 26,
+        "条件の言葉なし": 94,
+        "単価が不自然": 4,
         "タイプ違い": 1,
         "安すぎて除外": 1,
-        "使えた件数": 59,
+        "使えた件数": 60,
         "malls": {
-          "Yahoo!": 7,
-          "楽天": 2,
+          "Yahoo!": 8,
+          "楽天": 1,
           "Amazon": 1
         }
       }
@@ -8803,6 +8788,21 @@
         },
         {
           "mall": "Yahoo!",
+          "shop": "通販できるみんなのお薬(みんなのお薬)",
+          "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ 新生児用 〜5kgまで  68枚入  10個セット",
+          "price": 20272,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 20272,
+          "sheets": 680,
+          "per_sheet": 29.81,
+          "point_rate": 1,
+          "per_sheet_after_points": 29.51,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758980302-10-d.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758980302-10-d"
+        },
+        {
+          "mall": "Yahoo!",
           "shop": "日用品・生活雑貨の店 カットコ",
           "item_name": "(送料無料・まとめ買い×4個セット)グーン ゆるうんちモレ0へ 新生児用 大容量 テープ 82枚 こども用紙おむつ",
           "price": 9847,
@@ -8815,21 +8815,6 @@
           "per_sheet_after_points": 29.72,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fatlife%2F101-x004-4902011124378.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/atlife_101-x004-4902011124378"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "通販できるみんなのお薬(みんなのお薬)",
-          "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ 新生児用 〜5kgまで  大容量 82枚入  10個セット",
-          "price": 25025,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 25025,
-          "sheets": 820,
-          "per_sheet": 30.52,
-          "point_rate": 1,
-          "per_sheet_after_points": 30.21,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758980303-10-d.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758980303-10-d"
         },
         {
           "mall": "Yahoo!",
@@ -8848,21 +8833,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "テープ 新生児 グーン ゆるうんちモレ0へ おむつ (~5kg) 64枚",
-          "price": 1953,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 1953,
-          "sheets": 64,
-          "per_sheet": 30.52,
-          "point_rate": 1,
-          "per_sheet_after_points": 30.21,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00147.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00147"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "みんなのお薬バリュープライス(みんなのお薬)",
           "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ 新生児用 〜5kgまで  68枚入 2個セット",
           "price": 3503,
@@ -8875,17 +8845,32 @@
           "per_sheet_after_points": 31.38,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fminoku-value%2F1758980302-2-e.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/minoku-value_1758980302-2-e"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "みんなのお薬ビューティ&コスメ店(みんなのお薬)",
+          "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ 新生児用 〜5kgまで  大容量 82枚入 5個セット",
+          "price": 13012,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 13012,
+          "sheets": 410,
+          "per_sheet": 31.74,
+          "point_rate": 1,
+          "per_sheet_after_points": 31.42,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fminoku-beauty%2F1758980303-5-b.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/minoku-beauty_1758980303-5-b"
         }
       ],
       "stats": {
         "fetched": 156,
-        "除外ワード": 8,
+        "除外ワード": 7,
         "単価が不自然": 23,
         "条件の言葉なし": 15,
-        "サイズ違い・複数": 3,
-        "タイプ違い": 11,
+        "サイズ違い・複数": 2,
+        "タイプ違い": 13,
         "安すぎて除外": 0,
-        "使えた件数": 29,
+        "使えた件数": 28,
         "malls": {
           "楽天": 2,
           "Yahoo!": 7,
@@ -8978,6 +8963,21 @@
         },
         {
           "mall": "Yahoo!",
+          "shop": "通販できるみんなのお薬(みんなのお薬)",
+          "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ Sサイズ 4〜8kg  62枚入  3個セット",
+          "price": 6208,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 6208,
+          "sheets": 186,
+          "per_sheet": 33.38,
+          "point_rate": 1,
+          "per_sheet_after_points": 33.04,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758980299-3-d.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758980299-3-d"
+        },
+        {
+          "mall": "Yahoo!",
           "shop": "ケンコーライフ ヤフー店",
           "item_name": "(送料無料・まとめ買い×4個セット)グーン ゆるうんちモレ0へ Sサイズ 大容量 テープ 74枚 こども用紙おむつ",
           "price": 10011,
@@ -8990,21 +8990,6 @@
           "per_sheet_after_points": 33.48,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkenkoo-life%2F101-x004-4902011124385.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/kenkoo-life_101-x004-4902011124385"
-        },
-        {
-          "mall": "Yahoo!",
-          "shop": "通販できるみんなのお薬(みんなのお薬)",
-          "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ Sサイズ 4〜8kg  62枚入  3個セット",
-          "price": 6360,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 6360,
-          "sheets": 186,
-          "per_sheet": 34.19,
-          "point_rate": 1,
-          "per_sheet_after_points": 33.85,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758980299-3-d.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758980299-3-d"
         },
         {
           "mall": "Yahoo!",
@@ -9053,12 +9038,12 @@
         }
       ],
       "stats": {
-        "fetched": 125,
+        "fetched": 123,
         "除外ワード": 3,
-        "単価が不自然": 12,
-        "サイズ違い・複数": 4,
-        "条件の言葉なし": 13,
-        "タイプ違い": 11,
+        "単価が不自然": 13,
+        "条件の言葉なし": 9,
+        "サイズ違い・複数": 5,
+        "タイプ違い": 12,
         "安すぎて除外": 0,
         "使えた件数": 23,
         "malls": {
@@ -9153,21 +9138,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "斉藤工芸",
-          "item_name": "テープ Mサイズ グーン ゆるうんちモレ0へ おむつ (6~11kg) 216枚(54枚×4) ケース販売",
-          "price": 8228,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 8228,
-          "sheets": 216,
-          "per_sheet": 38.09,
-          "point_rate": 1,
-          "per_sheet_after_points": 37.71,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseikatu-zakka%2F20260619101720-00175.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/seikatu-zakka_20260619101720-00175"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "日用品・生活雑貨の店 カットコ",
           "item_name": "(送料無料・まとめ買い×4個セット)グーン ゆるうんちモレ0へ Mサイズ 大容量 テープ 64枚 こども用紙おむつ",
           "price": 9847,
@@ -9215,30 +9185,44 @@
           "mall": "Yahoo!",
           "shop": "通販できるみんなのお薬(みんなのお薬)",
           "item_name": "グーン GOO.N ゆるうんちモレ0へ テープ Mサイズ 6kg〜11kg 52枚入  3個セット",
-          "price": 6360,
+          "price": 6208,
           "postage_separate": false,
           "shipping_estimate": 0,
-          "total": 6360,
+          "total": 6208,
           "sheets": 156,
-          "per_sheet": 40.77,
+          "per_sheet": 39.79,
           "point_rate": 1,
-          "per_sheet_after_points": 40.36,
+          "per_sheet_after_points": 39.4,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsuhan-okusuri%2F1758980292-3-d.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/tsuhan-okusuri_1758980292-3-d"
+        },
+        {
+          "mall": "楽天",
+          "shop": "姫路流通センター",
+          "item_name": "【送料込・まとめ買い×4個セット】グーン ゆるうんちモレ0へ Mサイズ 大容量 テープ 64枚 こども用紙おむつ",
+          "price": 9792,
+          "postage_separate": true,
+          "shipping_estimate": 800,
+          "total": 10592,
+          "sheets": 256,
+          "per_sheet": 41.38,
+          "point_rate": 1,
+          "per_sheet_after_points": 40.99,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00ru0o5.soi163e6.g00ru0o5.soi179fa/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-life%2F4902011124392-4%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-life%2Fi%2F12715316%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/at-life/cabinet/2025b/4902011124392.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 139,
-        "単価が不自然": 16,
+        "fetched": 126,
+        "単価が不自然": 15,
         "タイプ違い": 23,
         "除外ワード": 1,
-        "条件の言葉なし": 16,
-        "サイズ違い・複数": 2,
+        "条件の言葉なし": 9,
         "安すぎて除外": 0,
-        "使えた件数": 25,
+        "使えた件数": 23,
         "malls": {
-          "楽天": 2,
-          "Yahoo!": 7,
+          "楽天": 3,
+          "Yahoo!": 6,
           "Amazon": 1
         }
       }
@@ -9343,21 +9327,6 @@
         },
         {
           "mall": "Yahoo!",
-          "shop": "くすりの福太郎",
-          "item_name": "《セット販売》　ユニチャーム マミーポコパンツ ドラえもん M (50枚)×3個セット 男女共用 6kg-13kg パンツタイプ 紙おむつ　送料無料",
-          "price": 3951,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 3951,
-          "sheets": 150,
-          "per_sheet": 26.34,
-          "point_rate": 1,
-          "per_sheet_after_points": 26.08,
-          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkusurinofukutaro%2F10167803.html",
-          "image": "https://item-shopping.c.yimg.jp/i/g/kusurinofukutaro_10167803"
-        },
-        {
-          "mall": "Yahoo!",
           "shop": "ドラッグストアウェルネス",
           "item_name": "《セット販売》　ユニチャーム マミーポコパンツ ドラえもん M (50枚)×3個セット 男女共用 6kg-13kg パンツタイプ 紙おむつ　送料無料",
           "price": 3951,
@@ -9370,6 +9339,21 @@
           "per_sheet_after_points": 26.08,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwellness-web%2F10167803.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/wellness-web_10167803"
+        },
+        {
+          "mall": "Yahoo!",
+          "shop": "くすりの福太郎",
+          "item_name": "《セット販売》　ユニチャーム マミーポコパンツ ドラえもん M (50枚)×3個セット 男女共用 6kg-13kg パンツタイプ 紙おむつ　送料無料",
+          "price": 3951,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 3951,
+          "sheets": 150,
+          "per_sheet": 26.34,
+          "point_rate": 1,
+          "per_sheet_after_points": 26.08,
+          "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkusurinofukutaro%2F10167803.html",
+          "image": "https://item-shopping.c.yimg.jp/i/g/kusurinofukutaro_10167803"
         },
         {
           "mall": "Yahoo!",
@@ -9403,14 +9387,14 @@
         }
       ],
       "stats": {
-        "fetched": 187,
-        "除外ワード": 20,
+        "fetched": 188,
+        "除外ワード": 21,
         "単価が不自然": 1,
         "枚数が読めない": 2,
         "条件の言葉なし": 24,
         "サイズ違い・複数": 4,
         "安すぎて除外": 0,
-        "使えた件数": 61,
+        "使えた件数": 60,
         "malls": {
           "Yahoo!": 7,
           "Amazon": 1,
@@ -9578,11 +9562,11 @@
         }
       ],
       "stats": {
-        "fetched": 215,
+        "fetched": 217,
         "除外ワード": 38,
         "サイズ違い・複数": 18,
         "枚数が読めない": 1,
-        "条件の言葉なし": 15,
+        "条件の言葉なし": 18,
         "タイプ違い": 1,
         "安すぎて除外": 0,
         "使えた件数": 70,
@@ -9755,11 +9739,11 @@
       "stats": {
         "fetched": 215,
         "除外ワード": 51,
-        "サイズ違い・複数": 61,
+        "サイズ違い・複数": 62,
         "単価が不自然": 8,
-        "条件の言葉なし": 8,
+        "条件の言葉なし": 10,
         "安すぎて除外": 0,
-        "使えた件数": 47,
+        "使えた件数": 51,
         "malls": {
           "Amazon": 1,
           "Yahoo!": 9
@@ -9865,21 +9849,6 @@
           "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/kusurinofukutaro/cabinet/shouhin78/10167811.jpg?_ex=128x128"
         },
         {
-          "mall": "楽天",
-          "shop": "ドラッグストアウェルネス",
-          "item_name": "《セット販売》　ユニチャーム マミーポコパンツ ドラえもん ビッグより大きい (36枚)×3個セット 男女共用 13kg-28kg パンツタイプ 紙おむつ　【送料無料】　【smtb-s】",
-          "price": 5580,
-          "postage_separate": false,
-          "shipping_estimate": 0,
-          "total": 5580,
-          "sheets": 108,
-          "per_sheet": 51.67,
-          "point_rate": 1,
-          "per_sheet_after_points": 51.15,
-          "url": "https://hb.afl.rakuten.co.jp/hgc/g00pp255.soi162ca.g00pp255.soi17716/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwellness-web%2F10167811%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fwellness-web%2Fi%2F10158227%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
-          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/wellness-web/cabinet/shouhin78/10167811.jpg?_ex=128x128"
-        },
-        {
           "mall": "Yahoo!",
           "shop": "くすりの福太郎",
           "item_name": "《セット販売》　ユニチャーム マミーポコパンツ ドラえもん ビッグより大きい (36枚)×3個セット 男女共用 13kg-28kg パンツタイプ 紙おむつ　送料無料",
@@ -9923,17 +9892,32 @@
           "per_sheet_after_points": 51.15,
           "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3784952&pid=892737497&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fwellness-web%2F10167811.html",
           "image": "https://item-shopping.c.yimg.jp/i/g/wellness-web_10167811"
+        },
+        {
+          "mall": "楽天",
+          "shop": "サンドラッグe-shop",
+          "item_name": "マミーポコパンツ ビッグより大きい 大容量 ドラえもん 36枚 【3個セット】",
+          "price": 5610,
+          "postage_separate": false,
+          "shipping_estimate": 0,
+          "total": 5610,
+          "sheets": 108,
+          "per_sheet": 51.94,
+          "point_rate": 1,
+          "per_sheet_after_points": 51.42,
+          "url": "https://hb.afl.rakuten.co.jp/hgc/g00qvyf5.soi16683.g00qvyf5.soi17fc3/_RTLink150941?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsundrug%2F4903111131884x3%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsundrug%2Fi%2F10130551%2F&rafcid=wsc_i_is_1887390d-49e9-41c9-ba20-547b227f2509",
+          "image": "https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/202603_4/4903111131884.jpg?_ex=128x128"
         }
       ],
       "stats": {
-        "fetched": 218,
-        "除外ワード": 45,
+        "fetched": 217,
+        "除外ワード": 46,
         "サイズ違い・複数": 13,
         "タイプ違い": 1,
-        "単価が不自然": 3,
-        "条件の言葉なし": 21,
+        "単価が不自然": 1,
+        "条件の言葉なし": 20,
         "安すぎて除外": 0,
-        "使えた件数": 81,
+        "使えた件数": 80,
         "malls": {
           "Yahoo!": 6,
           "Amazon": 1,
