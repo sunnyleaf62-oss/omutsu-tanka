@@ -10065,5 +10065,18 @@
     }
   ],
   "deals": [],
-  "events": []
+  "events": [
+    {
+      "start": "2026-11-26T10:00+09:00",
+      "end": "2026-12-07T23:59+09:00",
+      "title": "Amazon ブラックフライデー",
+      "text": "先行セール11/27（金）〜11/29（日）、本番11/30（月）〜12/7（月）。エントリーして合計1万円以上でポイントアップ。",
+      "note": "Amazonのセール・ポイントアップの条件は特設ページでご確認ください",
+      "url": "https://www.amazon.co.jp/blackfriday?tag=omutsu-tanka-22",
+      "image": "img/blackfriday-banner.jpg",
+      "w": 640,
+      "h": 360,
+      "short": "Amazon"
+    }
+  ]
 }
